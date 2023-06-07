@@ -1,0 +1,18 @@
+The first line of the file contains the number of words in the vocabulary and the size of the vectors.
+
+Each line contains a word followed by its vectors
+
+The regular models are trained using the procedure described in [1].
+    They can be reproduced using the classification-results.sh script within our github repository.
+    
+    The quantized models are build by using the respective supervised settings and adding the following flags to the quantize subcommand.
+
+$$$ How 
+
+For Kannada there are two types of word vectors from fastText
+    https://fasttext.cc/docs/en/crawl-vectors.html
+
+fastText also has some "Supervised Models" for classification
+
+fastText has 1million English word's embeddings
+
