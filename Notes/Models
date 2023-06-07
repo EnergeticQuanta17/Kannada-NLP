@@ -1,0 +1,23 @@
+INTRODUCTION
+	Conditional random fields (CRFs)
+		Lafferty, J., McCallum, A., Pereira, F.C.: Conditional random fields: Probabilistic models for segmenting and labeling sequence data. Proceedings of the 18th International Conference on Machine Learning, ICML-2001 pp. 282–289 (2001)
+
+	SVM
+		Devadath, V., Sharma, D.M.: Significance of an accurate sandhi-splitter in shallow parsing of dravidian languages. In: Proceedings of the ACL 2016 Student Research Workshop. pp. 37–42 (2016)
+
+
+	Structured Perceptron
+		StructPercept
+
+		Collins, M.: Discriminative training methods for hidden markov models: Theoryand experiments with perceptron algorithms. In: Proceedings of the ACL-02 conference on Empirical methods in natural language processing-Volume 10. pp. 1–8. Association for Computational Linguistics (2002)
+
+
+PREVIOUS WORK
+	1. Morphological features with TNT HMM tagger
+		Gadde, P., Yeleti, M.V.: Improving statistical pos tagging using linguistic feature for hindi and telugu. Proc. of ICON (2008)
+
+		Brants, T.: Tnt: a statistical part-of-speech tagger. In: Proceedings of the sixth conference on Applied natural language processing. pp. 224–231. Association for Computational Linguistics (2000)
+
+
+As POS tagging is sequence labeling task, we modeled it as a sequence-tosequence learner. We started with the Vanilla RNN network, which gave an output POS tag for every input word. The vanilla learning model where the lengths of input and output sequences are same is the perfect architecture for POS Tagging. We used just the word as an input and passed the entire sentence to the neural network and we used the FastText [3] Kannada word embeddings and used a random initialization for unknown words. We used different recurrent architectures LSTM and bi-directional LSTM (biLSTM) [13] . These all experiments were carried out with the help of pre-trained Kannada embeddings
+	
