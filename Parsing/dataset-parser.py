@@ -1,44 +1,21 @@
-from typing import List
 import re
+import time
 
-word_attributes = [
-    'word_id',
-]
+from language_elements import Word, Chunk, Sentence
 
-class Word:
-    word_id: float
-    kannada_word: str
-    pos: str
+word_attributes = vars(Word)['__annotations__']
+chunk_attributes = vars(Chunk)['__annotations__']
+sentence_attributes = vars(Sentence)['__annotations__']
 
-    rootword: str
-    lexical_category: str
-    gender: str
-    number: str
-    person: str
-    mode: str
-    suffixes: str
-
-    # wx format
-    #     tha -> d
-    #     dha -> x
-
-class Chunk:
-    chunk_id: int
-    chunk_group: str
-    list_of_words: List[Word]
-
-class Sentence:
-    id: int
-    list_of_chunks = List[Chunk]
-
-    
+print(word_attributes, chunk_attributes, sentence_attributes, sep='\n\n\n')
+time.sleep(1)
 
 list_of_sentences = []
 s = None
 c = None
 w = None
 
-with open(r"C:\Users\student\Desktop\200905138\Kannada-NLP\Parsing\Dataset\DL-DL MT\DL-DL MT\Set1_governance_translated_part1_00001-00050.txt", mode='r',  encoding='utf-8') as f:
+with open(r".\Dataset\DL-DL MT\DL-DL MT\Set1_governance_translated_part1_00001-00050.txt", mode='r',  encoding='utf-8') as f:
     for line_number, line in enumerate(f):
         # print(line)
         if line_number < 4:
@@ -74,10 +51,6 @@ with open(r"C:\Users\student\Desktop\200905138\Kannada-NLP\Parsing\Dataset\DL-DL
             c.chunk_group = tab_sep[2]
             continue
     
-        
-    
-            
-        
 
         w = Word()
 
@@ -100,23 +73,36 @@ with open(r"C:\Users\student\Desktop\200905138\Kannada-NLP\Parsing\Dataset\DL-DL
         fsaf = fsaf[index_of_start+1: -2]
 
         fsaf_words = fsaf.split(',')
-        rootword = fsaf_words[0]
-        lexical_category = fsaf_words[1]
-        gender = fsaf_words[2]
-        number = fsaf_words[3]
-        person = fsaf_words[4]
-        mode = fsaf_words[5]
-        suffixes = fsaf_words[6]
+        w.rootword = fsaf_words[0]
+        w.lexical_category = fsaf_words[1]
+        w.gender = fsaf_words[2]
+        w.number = fsaf_words[3]
+        w.person = fsaf_words[4]
+        w.mode = fsaf_words[5]
+        w.suffixes = fsaf_words[6]
 
         c.list_of_words.append(w)
 
-for sentence in list_of_sentences:
-    print(sentence.id)
+def test_parsing():
+    for sentence in list_of_sentences:
+        print("------SENTENCE START-------")
+        print("| Sentence ID:", sentence.id)
 
-    for chunk in sentence.list_of_chunks:
-        print(chunk.chunk_id)
-        print(chunk.chunk_group)
-        for word in chunk.list_of_words:
-            print(word.kannada_word)
+        for chunk in sentence.list_of_chunks:
+            print("| \t------CHUNK START-------")
+            print("| \t| Chunk ID:", chunk.chunk_id)
+            print("| \t| Chunk Group:", chunk.chunk_group)
 
-    break
+            for word in chunk.list_of_words:
+                print("| \t| \t------WORD START-------")
+                for attr in word_attributes:
+                    print('| \t|\t|', attr, getattr(word, attr))
+                print("| \t|\t------WORD END-------\n|\t|")
+            
+            print("| \t------CHUNK END-------\n|")
+        print("------SENTENCE END-------\n\n\n")
+
+        print("=========================================================")
+        input()
+
+test_parsing()

@@ -1,0 +1,7 @@
+digraph "classes_output_directory" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Chunk|chunk_group : str\lchunk_id : int\llist_of_words : List[Word]\l|}", shape="record"];
+"1" [label="{Sentence|id : int\llist_of_chunks : List[Chunk]\l|}", shape="record"];
+"2" [label="{Word|gender : str\lkannada_word : str\llexical_category : str\lmode : str\lnumber : str\lperson : str\lpos : str\lrootword : str\lsuffixes : str\lword_id : float\l|}", shape="record"];
+}
