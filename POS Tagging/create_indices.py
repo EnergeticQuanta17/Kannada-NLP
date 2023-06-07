@@ -1,7 +1,6 @@
 """Create index to character and index to pos, chunk label dictionaries and save them as pickle files."""
 from argparse import ArgumentParser
 from pickle import dump
-import pickle
 
 
 def read_lines_from_file(file_path):
@@ -44,7 +43,7 @@ def dump_object_into_pickle_file(data_object, pickle_file):
     print(type(data_object), type(pickle_file))
     """Dump an object into a pickle file."""
     with open(pickle_file, 'wb') as pickle_dump:
-        dump(data_object, pickle_dump, protocol=pickle.HIGHEST_PROTOCOL, encoding='utf-8')
+        dump(data_object, pickle_dump)
 
 
 def main():
