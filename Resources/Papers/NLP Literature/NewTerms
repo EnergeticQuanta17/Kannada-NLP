@@ -1,0 +1,14 @@
+Sequence Transduction Models
+
+RNNs with encoder and decoder
+
+What does
+	dispensing with recurrence and convolutions entirely mean?
+
+BLEU
+
+How impactful is improving by 2 BLEU
+
+Recurrent models typically factor computation along the symbol positions of the input and output
+sequences
+
