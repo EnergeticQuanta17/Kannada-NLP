@@ -1,0 +1,36 @@
+http://ltrc.iiit.ac.in/showfile.php?filename=downloads/kolhi/
+
+http://ltrc.iiit.ac.in/downloads/kolhi/entry.php?val=4
+
+http://ltrc.iiit.ac.in/downloads/kolhi/data/kannada-word-frequency-list-v3.txt
+
+https://ltrc.iiit.ac.in/treebank_H2014/
+
+CRF++ toolkit
+	https://taku910.github.io/crfpp/
+
+BIS Tagset
+	http://tdil-dc.in/tdildcMain/articles/134692Draft%20POS%20Tag%20standard.pdf
+
+1. Prefixes upto length 3 and Suffixes upto length 4 ???
+2. Additional binary feature --> MORE or LESS --> word length 3 cutoff
+	How much % are MORE or LESS?
+
+Yacha SVM
+	http://chasen.org/ taku/software/yamcha/
+
+Last 2 words? 
+	PAGE 4
+
+Structured Perceptron library
+	https://github.com/larsmans/seqlearn
+
+Why encoder-decoder did not work?
+
+https://paperswithcode.com/task/part-of-speech-tagging
+
+https://paperswithcode.com/sota
+
+https://www.youtube.com/watch?v=rI3DQS0P2fk&ab_channel=ritvikmath
+
+https://arxiv.org/search/?searchtype=all&query=POS+tagger&abstracts=show&size=200&order=
