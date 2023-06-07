@@ -12,7 +12,8 @@ class Word:
     number: str
     person: str
     mode: str
-    suffixes: str
+    k_suffix: str
+    e_suffix: str
 
     # wx format
     #     tha -> d
