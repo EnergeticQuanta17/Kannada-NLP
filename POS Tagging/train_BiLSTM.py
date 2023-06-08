@@ -222,6 +222,11 @@ def main():
         print("Finished loading wordEmbeddings model. Time taken:", time.time()-start)
 
         print("Beginning to load train.data")
+        wordEmbeddings = fasttext.load_model(args.embed, limit=1000)
+        print(type(wordEmbeddings), len(wordEmbeddings))
+        exit()
+        wordEmbeddings = wordEmbeddings[:1_00_000]
+
         trainFileDesc = open(args.tr, 'r', encoding='utf-8')
         trainData = trainFileDesc.read().strip()
         print("Finished loading train.data - Time taken:", time.time()-start)
