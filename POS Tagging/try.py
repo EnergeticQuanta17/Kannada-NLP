@@ -1,10 +1,2 @@
-import subprocess
-
-# Command to execute
-command = 'dir'
-
-# Run the command and display the output
-result = subprocess.run(command, shell=True, capture_output=False)
-
-# Print the output
-print(result.stdout.decode())
+inp = 'python predict_tags_using_model_and_generators.py --test test.data --embed fastTextVectorFile --lang eng --model weight-eng-bilstm-c2w --output output_file.txt'
+print(inp.split(' '))

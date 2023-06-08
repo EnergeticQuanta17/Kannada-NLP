@@ -7,7 +7,7 @@ from pickle import load
 from tensorflow.keras.callbacks import ModelCheckpoint
 import numpy as np
 import tensorflow as tf
-import fasttext
+# import fasttext
 from re import findall
 from re import S
 
@@ -206,9 +206,9 @@ def main():
         print("Passed Arguments are not correct")
         exit(1)
     else:
-        index2Char =loadObjectFromPickleFile(args.lang + '-index-to-char.pickle') 
-        index2POS = loadObjectFromPickleFile(args.lang + '-index-to-pos.pickle')
-        index2Chunk = loadObjectFromPickleFile(args.lang + '-index-to-chunk.pickle')
+        index2Char =loadObjectFromPickleFile(args.lang + '-index-to-char.pkl') 
+        index2POS = loadObjectFromPickleFile(args.lang + '-index-to-pos.pkl')
+        index2Chunk = loadObjectFromPickleFile(args.lang + '-index-to-chunk.pkl')
         char2Index = createReverseIndex(index2Char)
         pos2Index = createReverseIndex(index2POS)
         chunk2Index = createReverseIndex(index2Chunk)
