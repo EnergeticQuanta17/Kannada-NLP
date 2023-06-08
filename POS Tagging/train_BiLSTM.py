@@ -220,13 +220,10 @@ def main():
         start = time.time()
         wordEmbeddings = fasttext.load_model(args.embed)
         print("Finished loading wordEmbeddings model. Time taken:", time.time()-start)
+        print(type(wordEmbeddings), len(wordEmbeddings))
 
         print("Beginning to load train.data")
-        wordEmbeddings = fasttext.load_model(args.embed, limit=1000)
-        print(type(wordEmbeddings), len(wordEmbeddings))
-        exit()
-        wordEmbeddings = wordEmbeddings[:1_00_000]
-
+        start = time.time()
         trainFileDesc = open(args.tr, 'r', encoding='utf-8')
         trainData = trainFileDesc.read().strip()
         print("Finished loading train.data - Time taken:", time.time()-start)
@@ -246,35 +243,50 @@ def main():
         valFileDesc = open(args.val, 'r', encoding='utf-8')
         valData = valFileDesc.read().strip() + '\n\n'
         valFileDesc.close()
+
         totalValSamples = len(findall('\n\n', valData, S))
+
         print('Total Val Samples', totalValSamples)
         valLines = valData.split('\n')
+
         if totalValSamples % batchSize == 0:
             valSteps = totalValSamples // batchSize
         else:
             valSteps = totalValSamples // batchSize + 1
+
         print('--VAL GEN--')
         testFileDesc = open(args.test, 'r', encoding='utf-8')
-        testData = testFileDesc.read().strip() + '\n\n'
+        testData = testFileDesc.read().strip() + '\n'
         testFileDesc.close()
         testLines = testData.split('\n')
-        totalTestSamples = len(findall('\n\n', testData, S))
+        totalTestSamples = len(findall('\n', testData, S))
+
         if totalTestSamples % batchSize == 0:
             testSteps = totalTestSamples // batchSize
         else:
             testSteps = totalTestSamples // batchSize + 1
+
         maxWordLength, maxSentenceLength = 30, 150
+
         trainGen = createVectors(
             trainLines, wordEmbeddings, char2Index, pos2Index, chunk2Index)
+        
         valGen = createVectors(
             valLines, wordEmbeddings, char2Index, pos2Index, chunk2Index)
+        
         print('MAX word, max Sent', maxWordLength, maxSentenceLength)
+
         biLSTM, history = trainModelUsingBiLSTM(maxWordLength, maxSentenceLength, trainGen, valGen, steps, valSteps,
                                        len(char2Index), len(pos2Index), len(chunk2Index), args.wt, args.epoch)
+        
         valGen = createVectorsForTest(valLines, wordEmbeddings, char2Index)
+
         predictedDevTags = predictTags(biLSTM, valGen, valLines, index2POS, index2Chunk, totalValSamples, 1)
+
         writeDataToFile(predictedDevTags, args.lang + '-dev-predicted-bilstm-epoch' + str(args.epoch) + '.txt')
+
         testGen = createVectorsForTest(testLines, wordEmbeddings, char2Index)
+
         predictedTestTags = predictTags(biLSTM, testGen, testLines, index2POS, index2Chunk, totalTestSamples, 1)
         writeDataToFile(predictedTestTags, args.lang + '-test-predicted-bilstm-epoch' + str(args.epoch) + '.txt')
 
