@@ -10,6 +10,7 @@ import tensorflow as tf
 import fasttext
 from re import findall
 from re import S
+import time
 
 
 # set a random seed
@@ -214,17 +215,27 @@ def main():
         chunk2Index = createReverseIndex(index2Chunk)
         print(pos2Index)
         print(chunk2Index)
+
+        print("Beginning to load wordEmbeddings model")
+        start = time.time()
         wordEmbeddings = fasttext.load_model(args.embed)
+        print("Finished loading wordEmbeddings model. Time taken:", time.time()-start)
+
+        print("Beginning to load train.data")
         trainFileDesc = open(args.tr, 'r', encoding='utf-8')
-        trainData = trainFileDesc.read().strip() + '\n\n'
+        trainData = trainFileDesc.read().strip()
+        print("Finished loading train.data - Time taken:", time.time()-start)
         trainFileDesc.close()
-        totalSamples = len(findall('\n\n', trainData, S))
+
+        totalSamples = len(findall('\n', trainData, S))
         print('Total Samples', totalSamples)
+
         batchSize = 16
         if totalSamples % batchSize == 0:
             steps = totalSamples // batchSize
         else:
             steps = totalSamples // batchSize + 1
+        
         print('--TRAIN GEN--')
         trainLines = trainData.split('\n')
         valFileDesc = open(args.val, 'r', encoding='utf-8')
