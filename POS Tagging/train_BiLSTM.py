@@ -7,7 +7,7 @@ from pickle import load
 from tensorflow.keras.callbacks import ModelCheckpoint
 import numpy as np
 import tensorflow as tf
-# import fasttext
+import fasttext
 from re import findall
 from re import S
 
