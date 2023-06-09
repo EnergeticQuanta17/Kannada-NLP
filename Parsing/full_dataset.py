@@ -3,7 +3,7 @@ import pickle
 
 from dataset_parser import extract_list_of_sentences
 
-file_names = os.listdir(r'.\Dataset\DL-DL MT\DL-DL MT')
+file_names = os.listdir(r'..\Dataset\DL-DL MT\DL-DL MT')
 
 # for i in file_names:
 #     print(i)

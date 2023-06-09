@@ -118,7 +118,7 @@ model.fit_generator(train_generator,
                      steps_per_epoch=n_train_samples//BATCH_SIZE,
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
-                     epochs=10,
+                     epochs=1,
                      verbose=1,)
 
 if not os.path.exists('Models/'):
@@ -136,4 +136,25 @@ else:
 
 y_test = to_categorical(y_test, num_classes=n_tags+1)
 test_results = model.evaluate(X_test, y_test, verbose=0)
+
+X_test
+
 print('TEST LOSS %f \nTEST ACCURACY: %f' % (test_results[0], test_results[1]))
+
+print("X_test: ", X_test.shape)
+y_pred = model.predict(X_test)
+
+print("Type of y-pred: ", type(y_pred), y_pred.shape)
+
+# print()
+# print(y_pred[:20])
+
+for y in y_pred[:20]:
+    print(np.argmax(y))
+
+
+print("Type of y-test: ", type(y_test), y_test.shape)
+
+# print(y_test[:20])
+for y in y_test[:20]:
+    print(np.argmax(y))
