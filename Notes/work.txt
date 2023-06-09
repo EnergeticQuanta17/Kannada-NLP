@@ -1,0 +1,32 @@
+Bi-LSTM
+	His code is not working
+
+	We have
+		Embeddings for each word - in pickle
+		We know the model architecture --> design 
+
+
+Minimum Edit Distance
+	1 hour research
+
+	New things that we can do for Kannada language
+		1. Suggestions for word correction
+		2. 
+
+iNLTK
+	Implement functions
+
+Transformers
+	Implement functions
+
+Data Analysis
+	Dataset
+	Word Embeddings
+
+	Checking the effectiveness of word embeddings
+		Cosine Similarity
+		Plotting similar words
+		PCA to 2 and 3 dimensions
+
+	Cooccurance Matrix
+		SVD on co-occurence matrix
