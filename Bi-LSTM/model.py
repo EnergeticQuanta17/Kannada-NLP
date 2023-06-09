@@ -168,16 +168,24 @@ print('\n\n\n-------------------------------------------------------------------
 y_pred = y_pred.reshape(-1, 73)
 y_test = y_test.reshape(-1, 73)
 
-for k in range(X_test.shape[0]):
-    print(np.argmax(y_pred[k]))
-    
-    if(np.argmax(y_pred[k]) != 0):
-        for index, y in enumerate(zip(y_pred[k], y_test[k])):
-            print(index, '-->', y[0], '\t', y[1])
-        break
+if(False):
+    for k in range(X_test.shape[0]):
+        print(np.argmax(y_pred[k]))
+        
+        if(np.argmax(y_pred[k]) != 0):
+            for index, y in enumerate(zip(y_pred[k], y_test[k])):
+                print(index, '-->', y[0], '\t', y[1])
+            break
 
-    # for i, j in zip(y_pred[k], y_test[k]):
-    #     print(i, '\t', j)
+        # for i, j in zip(y_pred[k], y_test[k]):
+        #     print(i, '\t', j)
+    
+if(True):
+    for k in range(X_test.shape[0]):
+        if(np.argmax(y_pred[k]) == np.argmax(y_test[k])):
+            for i, j in zip(y_pred[k], y_test[k]):
+                print(i, '\t', j)
+            break
 
 print()
 print()

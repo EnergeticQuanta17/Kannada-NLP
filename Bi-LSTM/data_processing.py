@@ -91,8 +91,6 @@ Y_train_numberised = np.asarray(Y_train_numberised)
 
 pickle_files = [X_train_numberised, Y_train_numberised, word2int, int2word, tag2int, int2tag]
 
-
-
 with open('all_data.pkl', 'wb') as f:
     pickle.dump(pickle_files, f)
 
