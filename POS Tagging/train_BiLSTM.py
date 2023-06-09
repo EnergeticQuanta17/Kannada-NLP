@@ -177,8 +177,11 @@ def trainModelUsingBiLSTM(maxWordLen, maxSentLen, trainGen, valGen, steps, valSt
                        loss=dictLosses,
                        metrics=['accuracy'])
     print(finalModel.summary())
-    history = finalModel.fit(trainGen,
-                       steps_per_epoch=steps, epochs=epochs, callbacks=[checkpointCallback], validation_data=valGen, validation_steps=valSteps)
+    # history = finalModel.fit(trainGen,
+    #                    steps_per_epoch=steps, epochs=epochs, callbacks=[checkpointCallback], validation_data=valGen, validation_steps=valSteps)
+    
+    history = finalModel.fit(trainGen, steps_per_epoch=steps, epochs=epochs, callbacks=[checkpointCallback], validation_data=valGen, validation_steps=valSteps, verbose=1)
+
     return finalModel, history
 
 
