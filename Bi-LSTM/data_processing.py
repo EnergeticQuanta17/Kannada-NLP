@@ -78,8 +78,8 @@ for tags in Y_train:
 print('sample X_train_numberised: ', X_train_numberised[42], '\n')
 print('sample Y_train_numberised: ', Y_train_numberised[42], '\n')
 
-print('X_train shape:', np.array(X_train_numberised).shape)
-print('Y_train shape:', np.array(Y_train_numberised).shape)
+print('X_train_numberised shape:', np.array(X_train_numberised).shape)
+print('Y_train_numberised shape:', np.array(Y_train_numberised).shape)
 
 X_train_numberised = np.asarray(X_train_numberised)
 Y_train_numberised = np.asarray(Y_train_numberised)
