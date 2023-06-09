@@ -118,7 +118,7 @@ model.fit_generator(train_generator,
                      steps_per_epoch=n_train_samples//BATCH_SIZE,
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
-                     epochs=1,
+                     epochs=10,
                      verbose=1,)
 
 if not os.path.exists('Models/'):
@@ -192,7 +192,7 @@ if(True):
             count+=1
 print()
 print()
-print(count)
+print(count, X_test.shape[0])
 
 # for i, j in zip(y_pred[10], y_test[10]):
 #     print(i, '\t', j)
