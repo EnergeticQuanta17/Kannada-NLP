@@ -171,13 +171,17 @@ y_test = y_test.reshape(-1, 73)
 
 for k in range(X_test.shape[0]):
     print(np.argmax(y_pred[k]))
-    break
-    for i, j in zip(y_pred[k], y_test[k]):
-        print(i, '\t', j)
+    
+    if(np.argmax(y_pred[k]) != 0):
+        for i, j in zip(y_pred[k], y_test[k]):
+            print(i, '\t', j)
+
+    # for i, j in zip(y_pred[k], y_test[k]):
+    #     print(i, '\t', j)
 
 print()
 print()
 print()
 
-for i, j in zip(y_pred[10], y_test[10]):
-    print(i, '\t', j)
+# for i, j in zip(y_pred[10], y_test[10]):
+#     print(i, '\t', j)
