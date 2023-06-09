@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 
 NO_OF_EMBEDDINGS = 10000
-MAX_SEQUENCE_LENGTH = 40
+MAX_SEQUENCE_LENGTH = 60
 EMBEDDING_DIM = 300
 TEST_SPLIT = 0.1
 VALIDATION_SPLIT = 0.1
