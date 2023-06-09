@@ -180,17 +180,19 @@ if(False):
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
     
+
+count = 0
 if(True):
     for k in range(X_test.shape[0]):
         if(np.argmax(y_pred[k]) == np.argmax(y_test[k])):
-            if(np.argmax(y_pred[k])!=0):
-                for i, j in zip(y_pred[k], y_test[k]):
-                    print(i, '\t', j)
-                break
-
+            # if(np.argmax(y_pred[k])!=0):
+            #     for i, j in zip(y_pred[k], y_test[k]):
+            #         print(i, '\t', j)
+            #     break
+            count+=1
 print()
 print()
-print()
+print(count)
 
 # for i, j in zip(y_pred[10], y_test[10]):
 #     print(i, '\t', j)
