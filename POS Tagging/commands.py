@@ -11,7 +11,7 @@ elif(args==2):
         '--train', 'train.data', 
         '--val', 'validation.data', 
         '--test', 'test.data', 
-        '--embed', "/home/student/Desktop/fastText/cc.kn.300.bin", 
+        '--embed', "../../fastText/cc.kn.300.bin", 
         '--lang', 'kan', 
         '--wt', 'weight-kan-bilstm-c2w', 
         '--epoch', '1']
@@ -19,7 +19,7 @@ elif(args==2):
 elif(args==3):
     subprocess.run(['python3', 'predict_tags_using_model_and_generators.py', 
         '--test', 'test.data', 
-        '--embed', "/home/student/Desktop/fastText/cc.kn.300.bin", 
+        '--embed', "../../fastText/cc.kn.300.bin", 
         '--lang', 'kan', 
         '--model', 'weight-kan-bilstm-c2w', 
         '--output', 'output_file.txt']

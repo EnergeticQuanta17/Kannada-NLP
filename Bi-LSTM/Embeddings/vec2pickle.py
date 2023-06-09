@@ -7,7 +7,7 @@ embeddings_index = {}
 words = []
 
 start = time.time()
-with open(r'D:\cc.kn.300.vec\cc.kn.300.vec', 'r', encoding='utf-8') as file:
+with open(r'..\..\..\fastText\cc.kn.300.bin', 'r', encoding='utf-8') as file:
     for index, line in enumerate(file):
         # print(line.strip())
 
