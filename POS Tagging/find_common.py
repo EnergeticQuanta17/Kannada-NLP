@@ -38,6 +38,9 @@ def binary_search(arr, target):
     return False
 
 summer = 0
+
+
+
 with open('Embeddings/all_embeddings.pickle', 'rb') as file:
     all_embeddings = pickle.load(file)
 

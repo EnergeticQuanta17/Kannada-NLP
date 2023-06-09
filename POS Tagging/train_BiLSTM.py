@@ -11,7 +11,7 @@ import fasttext
 from re import findall
 from re import S
 import time
-
+import pickle
 
 # set a random seed
 np.random.seed(1337)
@@ -45,8 +45,20 @@ def createVectors(lines, wordEmbeddings, char2Index, pos2Index, chunk2Index):
                     char2Index) + 1 for char in word]
                 charSequencesForWords.append(charSequenceForWord)
                 charSequenceForWord = []
-                sentenceVectors.append(
-                    wordEmbeddings.get_word_vector(word).tolist())
+
+                #######################################################################
+                # sentenceVectors.append(
+                    # wordEmbeddings.get_word_vector(word).tolist())
+
+                # run the vec2pickle file, after that wordEmbeddings will be sorted
+                # Use binary search
+
+                # Using brute (for now)
+                for w, emb in wordEmbeddings:
+                    if(w==word):        
+                        sentenceVectors.append(emb)
+                #######################################################################
+                
                 posTagsForSent.append(pos2Index[posTag])
                 chunkTagsForSent.append(chunk2Index[chunkTag])
             else:
@@ -93,8 +105,19 @@ def createVectorsForTest(lines, wordEmbeddings, char2Index):
                     char2Index) + 1 for char in word]
                 charSequencesForWords.append(charSequenceForWord)
                 charSequenceForWord = []
-                sentenceVectors.append(
-                    wordEmbeddings.get_word_vector(word).tolist())
+
+                ############################################################################
+                # sentenceVectors.append(
+                #     wordEmbeddings.get_word_vector(word).tolist())
+
+                # same as above
+                for w, emb in wordEmbeddings:
+                    if(w==word):        
+                        sentenceVectors.append(emb)
+                
+                ############################################################################
+
+
             else:
                 if len(sentenceVectors) > 0:
                     allsentenceVectors.append(sentenceVectors)
@@ -218,7 +241,13 @@ def main():
 
         print("Beginning to load wordEmbeddings model")
         start = time.time()
-        wordEmbeddings = fasttext.load_model(args.embed)
+
+        ### Loading from Embeddings/embeddings_1_00_000.pickle
+        # wordEmbeddings = fasttext.load_model(args.embed)
+        with open('Embeddings/embeddings_1_00_000.pickle', 'rb') as file:
+            all_embeddings = pickle.load(file)
+        wordEmbeddings = all_embeddings
+        ### Loading from Embeddings/embeddings_1_00_000.pickle
         print("Finished loading wordEmbeddings model. Time taken:", time.time()-start)
         print(type(wordEmbeddings), len(wordEmbeddings))
 
