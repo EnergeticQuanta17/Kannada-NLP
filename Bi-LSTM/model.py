@@ -13,12 +13,13 @@ from keras.models import Model
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 
-
+NO_OF_EMBEDDINGS = 10000
 MAX_SEQUENCE_LENGTH = 40
 EMBEDDING_DIM = 300
 TEST_SPLIT = 0.1
 VALIDATION_SPLIT = 0.1
 BATCH_SIZE = 32
+UNITS_IN_LSTM_LAYER = 64
 
 
 with open('all_data.pkl', 'rb') as f:
@@ -102,7 +103,7 @@ embedding_layer = Embedding(len(word2int) + 1,
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
 
-l_lstm = Bidirectional(LSTM(64, return_sequences=True))(embedded_sequences)
+l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
 preds = TimeDistributed(Dense(n_tags + 1, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
 
