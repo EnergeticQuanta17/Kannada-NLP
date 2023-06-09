@@ -234,13 +234,13 @@ data = {
 
 file_path = "results.json" 
 
-if os.path.exists(file_path):    
+if os.path.exists(file_path):
     with open(file_path, "r") as file:
         json_data = json.load(file)
 else:
-    json_data = {}
+    json_data = []
 
-json_data.update(data)
+json_data.append(data)
 
 with open(file_path, "w") as file:
     json.dump(json_data, file, indent=4)
