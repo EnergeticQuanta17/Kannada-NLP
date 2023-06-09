@@ -37,6 +37,11 @@ print('Y_train shape:', np.array(Y_train).shape)
 words = set(words)
 tags = set(tags)
 
+print("\n\n--------------PART OF SPEECH TAGS--------------")
+for tag in tags:
+    print(tag)
+print("\n\n-----------------------------------------------")
+
 print("First 10 words:")
 for word in list(words)[:10]:
     print(word)
