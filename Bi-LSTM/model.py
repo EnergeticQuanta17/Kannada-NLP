@@ -202,21 +202,6 @@ print("Accuracy: ", ACCURACY)
 #     print(i, '\t', j)
 
 
-
-NO_OF_EMBEDDINGS = 10000
-MAX_SEQUENCE_LENGTH = 40
-EMBEDDING_DIM = 300
-TEST_SPLIT = 0.1
-VALIDATION_SPLIT = 0.1
-n_train_samples = X_train.shape[0]
-n_val_samples = X_val.shape[0]
-n_test_samples = X_test.shape[0]
-BATCH_SIZE = 32
-UNITS_IN_LSTM_LAYER = 64
-EMB = "Embeddings/embeddings_dict_10_000.pickle"
-ACCURACY
-
-
 data = {
     "Number of Embeddings used": NO_OF_EMBEDDINGS,
     "Max Sequence Length": MAX_SEQUENCE_LENGTH,
