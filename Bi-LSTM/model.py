@@ -17,7 +17,7 @@ from sklearn.utils import shuffle
 MAX_SEQUENCE_LENGTH = 100
 EMBEDDING_DIM = 300
 TEST_SPLIT = 0.3
-VALIDATION_SPLIT = 0.1
+VALIDATION_SPLIT = 0.2
 BATCH_SIZE = 32
 
 
@@ -193,6 +193,7 @@ if(True):
 print()
 print()
 print(count, X_test.shape[0])
+print("Accuracy: ", 100* count/X_test.shape[0])
 
 # for i, j in zip(y_pred[10], y_test[10]):
 #     print(i, '\t', j)
