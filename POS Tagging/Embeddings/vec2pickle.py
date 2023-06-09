@@ -22,7 +22,7 @@ with open(r'C:\Users\student\Downloads\cc.kn.300.vec\cc.kn.300.vec', 'r', encodi
         all_embeddings.append(embedding)
 
         if(index%200_000==0):
-            print(time.time()-start)
+            print(index, time.time()-start)
             start = time.time()
             if(index==200_000):
                 all_embeddings.sort()

@@ -57,6 +57,7 @@ def createVectors(lines, wordEmbeddings, char2Index, pos2Index, chunk2Index):
                 for w, emb in wordEmbeddings:
                     if(w==word):        
                         sentenceVectors.append(emb)
+                        break
                 #######################################################################
                 
                 posTagsForSent.append(pos2Index[posTag])
