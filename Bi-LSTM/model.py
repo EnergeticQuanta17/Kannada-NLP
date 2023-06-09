@@ -165,7 +165,6 @@ print('\n\n\n-------------------------------------------------------------------
 
 
 
-from sklearn.metrics import accuracy_score
 
 y_pred = y_pred.reshape(-1, 73)
 y_test = y_test.reshape(-1, 73)
