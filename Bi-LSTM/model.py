@@ -123,7 +123,7 @@ history  = model.fit_generator(train_generator,
                      epochs=10,
                      verbose=1,)
 
-training_accuracy = history.history['accuracy']
+training_accuracy = history.history['acc']
 print("Training Accuracy:", training_accuracy)
 
 if not os.path.exists('Models/'):
