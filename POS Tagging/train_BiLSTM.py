@@ -47,17 +47,17 @@ def createVectors(lines, wordEmbeddings, char2Index, pos2Index, chunk2Index):
                 charSequenceForWord = []
 
                 #######################################################################
-                # sentenceVectors.append(
-                    # wordEmbeddings.get_word_vector(word).tolist())
+                sentenceVectors.append(
+                    wordEmbeddings.get_word_vector(word).tolist())
 
                 # run the vec2pickle file, after that wordEmbeddings will be sorted
                 # Use binary search
 
                 # Using brute (for now)
-                for w, emb in wordEmbeddings:
-                    if(w==word):        
-                        sentenceVectors.append(emb)
-                        break
+                # for w, emb in wordEmbeddings:
+                #     if(w==word):        
+                #         sentenceVectors.append(emb)
+                #         break
                 #######################################################################
                 
                 posTagsForSent.append(pos2Index[posTag])
@@ -108,13 +108,13 @@ def createVectorsForTest(lines, wordEmbeddings, char2Index):
                 charSequenceForWord = []
 
                 ############################################################################
-                # sentenceVectors.append(
-                #     wordEmbeddings.get_word_vector(word).tolist())
+                sentenceVectors.append(
+                    wordEmbeddings.get_word_vector(word).tolist())
 
                 # same as above
-                for w, emb in wordEmbeddings:
-                    if(w==word):        
-                        sentenceVectors.append(emb)
+                # for w, emb in wordEmbeddings:
+                #     if(w==word):        
+                #         sentenceVectors.append(emb)
                 
                 ############################################################################
 
@@ -244,10 +244,10 @@ def main():
         start = time.time()
 
         ### Loading from Embeddings/embeddings_1_00_000.pickle
-        # wordEmbeddings = fasttext.load_model(args.embed)
-        with open('Embeddings/embeddings_1_00_000.pickle', 'rb') as file:
-            all_embeddings = pickle.load(file)
-        wordEmbeddings = all_embeddings
+        wordEmbeddings = fasttext.load_model(args.embed)
+        # with open('Embeddings/embeddings_1_00_000.pickle', 'rb') as file:
+        #     all_embeddings = pickle.load(file)
+        # wordEmbeddings = all_embeddings
         ### Loading from Embeddings/embeddings_1_00_000.pickle
         print("Finished loading wordEmbeddings model. Time taken:", time.time()-start)
         print(type(wordEmbeddings), len(wordEmbeddings))
