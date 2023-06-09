@@ -183,9 +183,10 @@ if(False):
 if(True):
     for k in range(X_test.shape[0]):
         if(np.argmax(y_pred[k]) == np.argmax(y_test[k])):
-            for i, j in zip(y_pred[k], y_test[k]):
-                print(i, '\t', j)
-            break
+            if(np.argmax(y_pred[k])!=0):
+                for i, j in zip(y_pred[k], y_test[k]):
+                    print(i, '\t', j)
+                break
 
 print()
 print()
