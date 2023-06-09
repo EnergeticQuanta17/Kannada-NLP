@@ -223,7 +223,7 @@ data = {
     'Accuracy': ACCURACY
 }
 
-file_path = "results.json" 
+file_path = "../../results.json" 
 
 if os.path.exists(file_path):
     with open(file_path, "r") as file:
