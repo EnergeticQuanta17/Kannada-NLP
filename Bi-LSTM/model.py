@@ -1,3 +1,4 @@
+import json
 import numpy as np
 import pickle, sys, os
 
@@ -194,7 +195,52 @@ if(True):
 print()
 print()
 print(count, X_test.shape[0])
-print("Accuracy: ", 100* count/X_test.shape[0])
+ACCURACY = 100* count/X_test.shape[0]
+print("Accuracy: ", ACCURACY)
 
 # for i, j in zip(y_pred[10], y_test[10]):
 #     print(i, '\t', j)
+
+
+
+NO_OF_EMBEDDINGS = 10000
+MAX_SEQUENCE_LENGTH = 40
+EMBEDDING_DIM = 300
+TEST_SPLIT = 0.1
+VALIDATION_SPLIT = 0.1
+n_train_samples = X_train.shape[0]
+n_val_samples = X_val.shape[0]
+n_test_samples = X_test.shape[0]
+BATCH_SIZE = 32
+UNITS_IN_LSTM_LAYER = 64
+EMB = "Embeddings/embeddings_dict_10_000.pickle"
+ACCURACY
+
+
+data = {
+    "Number of Embeddings used": NO_OF_EMBEDDINGS,
+    "Max Sequence Length": MAX_SEQUENCE_LENGTH,
+    "Embedding Dimension": EMBEDDING_DIM,
+    "Test split": TEST_SPLIT,
+    "Validation split": VALIDATION_SPLIT,
+    "Number of train samples": n_train_samples,
+    "Number of validation samples": n_val_samples,
+    "Number of test samples": n_test_samples,
+    "Batch Size": BATCH_SIZE,
+    "Number of units in LSTM Layer": UNITS_IN_LSTM_LAYER,
+    "Embeddings File" : "Embeddings/embeddings_dict_10_000.pickle",
+    'Accuracy': ACCURACY
+}
+
+file_path = "results.json" 
+
+if os.path.exists(file_path):    
+    with open(file_path, "r") as file:
+        json_data = json.load(file)
+else:
+    json_data = {}
+
+json_data.update(data)
+
+with open(file_path, "w") as file:
+    json.dump(json_data, file, indent=4)
