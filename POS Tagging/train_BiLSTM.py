@@ -250,7 +250,7 @@ def main():
         # wordEmbeddings = all_embeddings
         ### Loading from Embeddings/embeddings_1_00_000.pickle
         print("Finished loading wordEmbeddings model. Time taken:", time.time()-start)
-        print(type(wordEmbeddings), len(wordEmbeddings))
+        print(type(wordEmbeddings))
 
         print("Beginning to load train.data")
         start = time.time()
