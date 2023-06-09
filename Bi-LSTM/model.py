@@ -167,14 +167,15 @@ print('\n\n\n-------------------------------------------------------------------
 
 from sklearn.metrics import accuracy_score
 
-y_pred = np.random.randint(0, 2, size=(1626, 100, 73))
-y_test = np.random.randint(0, 2, size=(1626, 100, 73))
+y_pred = y_pred.reshape(-1, 73)
+y_test = y_test.reshape(-1, 73)
 
-# Flatten the arrays to compare element-wise
-y_pred_flat = y_pred.flatten()
-y_test_flat = y_test.flatten()
+for i, j in zip(y_pred[0], y_test[0]):
+    print(i, '\t', j)
 
-# Compare the values using the accuracy_score function
-accuracy = accuracy_score(y_test_flat, y_pred_flat)
+print()
+print()
+print()
 
-print("Accuracy:", accuracy)
+for i, j in zip(y_pred[10], y_test[10]):
+    print(i, '\t', j)
