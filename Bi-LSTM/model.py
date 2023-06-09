@@ -116,12 +116,15 @@ model.compile(loss='categorical_crossentropy',
 print("model fitting - Bidirectional LSTM")
 model.summary()
 
-model.fit_generator(train_generator, 
+history  = model.fit_generator(train_generator, 
                      steps_per_epoch=n_train_samples//BATCH_SIZE,
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
                      epochs=10,
                      verbose=1,)
+
+training_accuracy = history.history['accuracy']
+print("Training Accuracy:", training_accuracy)
 
 if not os.path.exists('Models/'):
     print('MAKING DIRECTORY Models/ to save model file')
@@ -214,6 +217,9 @@ data = {
     "Batch Size": BATCH_SIZE,
     "Number of units in LSTM Layer": UNITS_IN_LSTM_LAYER,
     "Embeddings File" : "Embeddings/embeddings_dict_10_000.pickle",
+    "Test Loss": test_results[0],
+    "Test Accuracy": test_results[1],
+    "Training Accuracy": training_accuracy,
     'Accuracy': ACCURACY
 }
 
