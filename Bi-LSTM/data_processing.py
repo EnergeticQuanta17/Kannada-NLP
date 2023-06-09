@@ -31,8 +31,8 @@ for sentence in retrieved_sentences:
     X_train.append(tempX)
     Y_train.append(tempY)
 
-print('X_train shape:', X_train.shape)
-print('Y_train shape:', Y_train.shape)
+print('X_train shape:', np.array(X_train).shape)
+print('Y_train shape:', np.array(Y_train).shape)
 
 words = set(words)
 tags = set(tags)
