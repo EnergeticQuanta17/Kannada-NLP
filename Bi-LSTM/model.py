@@ -169,8 +169,11 @@ print('\n\n\n-------------------------------------------------------------------
 y_pred = y_pred.reshape(-1, 73)
 y_test = y_test.reshape(-1, 73)
 
-for i, j in zip(y_pred[0], y_test[0]):
-    print(i, '\t', j)
+for k in range(X_test.shape[0]):
+    print(type(y_pred[k]))
+    break
+    for i, j in zip(y_pred[k], y_test[k]):
+        print(i, '\t', j)
 
 print()
 print()
