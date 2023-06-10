@@ -44,6 +44,8 @@ print('Y_train shape:', np.array(Y_train).shape)
 print('X_predict shape:', np.array(X_predict).shape)
 print('Y_predict shape:', np.array(Y_predict).shape)
 
+print("Checking: ", np.array(X_train)[0].shape)
+
 words = set(words)
 tags = set(tags)
 
