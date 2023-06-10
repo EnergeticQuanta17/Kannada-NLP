@@ -179,11 +179,16 @@ y_test = y_test.reshape(-1, 73)
 if(True):
     for k in range(X_test.shape[0]):
         print(np.argmax(y_pred[k]))
-        
+        print('Word vector -->')
+        print(X_test[k])
         if(np.argmax(y_pred[k]) != 0):
             for index, y in enumerate(zip(y_pred[k], y_test[k])):
                 print(index, '-->', y[0], '\t', y[1])
+                print(int2tag[index])
             break
+        
+        with open('find_this_sentence.txt') as f:
+            f.write(X_test[k])
 
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
