@@ -1,3 +1,10 @@
+import pickle
+import sys
+import numpy as np
+
+sys.path.append('../Parsing/')
+from language_elements import Sentence, Chunk, Word
+
 sentence_id = input("Enter the sentence id: ")
 
 with open('../Parsing/full_dataset_113.pickle', 'rb') as file:
@@ -5,9 +12,15 @@ with open('../Parsing/full_dataset_113.pickle', 'rb') as file:
 
 print("Number of sentences retrieved: ", len(retrieved_sentences))
 
+words = []
+tags = []
 
 X_predict = []
 Y_predict = []
+
+X_train = []
+Y_train = []
+
 for sentence in retrieved_sentences:
     tempX = []
     tempY = []
@@ -25,6 +38,9 @@ for sentence in retrieved_sentences:
     if(sentence.id == sentence_id):
         X_predict.append(tempX)
         Y_predict.append(tempY)
+
+print('X_train shape:', np.array(X_train).shape)
+print('Y_train shape:', np.array(Y_train).shape)
 
 words = set(words)
 tags = set(tags)
@@ -73,6 +89,12 @@ for tags in Y_train:
         tempY.append(tag2int[tag])
     Y_train_numberised.append(tempY)
 
+print('sample X_train_numberised: ', X_train_numberised[42], '\n')
+print('sample Y_train_numberised: ', Y_train_numberised[42], '\n')
+
+print('X_train_numberised shape:', np.array(X_train_numberised).shape)
+print('Y_train_numberised shape:', np.array(Y_train_numberised).shape)
+
 X_train_numberised = np.asarray(X_train_numberised)
 Y_train_numberised = np.asarray(Y_train_numberised)
 
@@ -92,3 +114,8 @@ y_test = Y_predict
 
 print("Shape of Y-pred: ", y_pred.shape)
 print("Shape of y_test: ", y_test.shape)
+
+tag2int = {}
+int2tag = {}
+
+print('Index of the predicted tag: ', np.argmax(y_pred[0]))     
