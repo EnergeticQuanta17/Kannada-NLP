@@ -181,11 +181,11 @@ count = 0
 if(True):
     for k in range(X_test.shape[0]):
         print(np.argmax(y_pred[k]))
-        print('Word vector -->')
-        print(X_test[k])
-        print()
-        for i, j in zip(y_pred[k], y_test[k]):
-            print(i, '\t', j)
+        # print('Word vector -->')
+        # print(X_test[k])
+        # print()
+        # for i, j in zip(y_pred[k], y_test[k]):
+        #     print(i, '\t', j)
         if(np.argmax(y_test[k]) != 0):
             # for index, y in enumerate(zip(y_pred[k], y_test[k])):
             #     print(index, '-->', y[0], '\t', y[1])
@@ -198,7 +198,7 @@ if(True):
         print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
         print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
         
-        break
+        
 
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
