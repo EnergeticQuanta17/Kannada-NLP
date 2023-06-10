@@ -100,16 +100,37 @@ Y_train_numberised = np.asarray(Y_train_numberised)
 
 pickle_files = [X_train_numberised, Y_train_numberised, word2int, int2word, tag2int, int2tag]
 
+###################################################################
+X_predict_numberised = []
+Y_predict_numberised = []
+
+for sentence in X_predict:
+    tempX = []
+    for word in sentence:        
+        tempX.append(word2int[word])
+    X_predict_numberised.append(tempX)
+
+for tags in Y_predict:
+    tempY = []
+    for tag in tags:
+        tempY.append(tag2int[tag])
+    Y_predict_numberised.append(tempY)
+
+X_predict_numberised = np.asarray(X_predict_numberised)
+Y_predict_numberised = np.asarray(Y_predict_numberised)
+
+print("-----------------------------------------------------------")
+print("Shape of X_predict_numberised: ", X_predict_numberised.shape)
+print("Shape of Y_predict_numberised: ", Y_predict_numberised.shape)
 
 # Loading the model
-
 from keras.models import load_model
 model = load_model('Models/model.h5')
 
 test_results = model.evaluate(X_predict, Y_predict, verbose=10)
 print('TEST LOSS %f \nTEST ACCURACY: %f' % (test_results[0], test_results[1]))
 
-y_pred = model.predict(X_predict)
+y_pred = model.predict(X_predict_numberised)
 y_test = Y_predict
 
 print("Shape of Y-pred: ", y_pred.shape)
