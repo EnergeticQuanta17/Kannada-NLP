@@ -123,7 +123,7 @@ history  = model.fit_generator(train_generator,
                      steps_per_epoch=n_train_samples//BATCH_SIZE,
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
-                     epochs=10,
+                     epochs=1,
                      verbose=1,)
 
 training_accuracy = history.history['acc']
