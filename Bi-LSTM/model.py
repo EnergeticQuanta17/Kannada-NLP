@@ -201,7 +201,7 @@ if(True):
 
 with open('index_to_word.txt', 'w') as f:
     for i in int2word:
-        f.write(i + '-->' + int2word[i] + '\n')
+        f.write(str(i) + '-->' + int2word[i] + '\n')
 
 count = 0
 if(True):
