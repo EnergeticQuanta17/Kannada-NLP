@@ -24,7 +24,7 @@ TEST_SPLIT = 0.1
 VALIDATION_SPLIT = 0.1
 BATCH_SIZE = 32
 UNITS_IN_LSTM_LAYER = 64
-EPOCHS = 1
+EPOCHS = 10
 
 
 with open('all_data.pkl', 'rb') as f:
@@ -177,6 +177,7 @@ print('\n\n\n-------------------------------------------------------------------
 y_pred = y_pred.reshape(-1, 73)
 y_test = y_test.reshape(-1, 73)
 
+count = 0
 if(True):
     for k in range(X_test.shape[0]):
         print(np.argmax(y_pred[k]))
@@ -185,11 +186,11 @@ if(True):
         print()
         for i, j in zip(y_pred[k], y_test[k]):
             print(i, '\t', j)
-        # if(np.argmax(y_pred[k]) != 0):
-        #     for index, y in enumerate(zip(y_pred[k], y_test[k])):
-        #         print(index, '-->', y[0], '\t', y[1])
-        #         print(int2tag[index])
-        #     break
+        if(np.argmax(y_pred[k]) != 0):
+            # for index, y in enumerate(zip(y_pred[k], y_test[k])):
+            #     print(index, '-->', y[0], '\t', y[1])
+            #     print(int2tag[index])
+            count+=1
     
 
         with open('find_this_sentence.pkl', 'wb') as file:
@@ -201,6 +202,8 @@ if(True):
 
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
+
+print("Number of non-zero indexed tags: ", count)
 
 with open('index_to_word.txt', 'w') as f:
     for i in int2word:

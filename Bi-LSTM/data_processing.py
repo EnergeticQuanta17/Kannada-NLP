@@ -24,6 +24,7 @@ for sentence in retrieved_sentences:
         for word in chunk.list_of_words:
             words.append(word.kannada_word)
             tags.append(word.pos)
+            print("tags", word.pos)
 
             tempX.append(word.kannada_word)
             tempY.append(word.pos)
@@ -36,6 +37,8 @@ print('Y_train shape:', np.array(Y_train).shape)
 
 words = set(words)
 tags = set(tags)
+
+
 
 print("\n\n--------------PART OF SPEECH TAGS--------------")
 for index, tag in enumerate(tags):
@@ -64,6 +67,11 @@ int2tag = {}
 for i, tag in enumerate(tags):
     tag2int[tag] = i+1
     int2tag[i+1] = tag
+
+    if(tag=='UNK'):
+        print("FOUND UNK------------------------------------------------------------------------------------------")
+
+print("Seee this", int2tag[1])
 
 X_train_numberised = []
 Y_train_numberised = []
