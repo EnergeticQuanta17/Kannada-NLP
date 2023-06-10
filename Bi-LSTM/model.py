@@ -192,7 +192,7 @@ if(True):
             pickle.dump(X_test[k], file)
         print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
         print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
-            break
+        
 
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
