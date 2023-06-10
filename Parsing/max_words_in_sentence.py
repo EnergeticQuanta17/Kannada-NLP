@@ -16,7 +16,7 @@ with open(file_name, 'rb') as file:
             for word in chunk.list_of_words:
                 count += 1
                 if(sentence.id=="1897"):
-                    print(word)
+                    print(word.kannada_word)
         if(count>max_words):
             max_words = count
             print(sentence.id, type(sentence.id))
