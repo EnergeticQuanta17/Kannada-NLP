@@ -176,7 +176,7 @@ print('\n\n\n-------------------------------------------------------------------
 y_pred = y_pred.reshape(-1, 73)
 y_test = y_test.reshape(-1, 73)
 
-if(False):
+if(True):
     for k in range(X_test.shape[0]):
         print(np.argmax(y_pred[k]))
         
