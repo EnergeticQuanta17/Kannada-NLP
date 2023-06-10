@@ -41,6 +41,8 @@ for sentence in retrieved_sentences:
 
 print('X_train shape:', np.array(X_train).shape)
 print('Y_train shape:', np.array(Y_train).shape)
+print('X_predict shape:', np.array(X_predict).shape)
+print('Y_predict shape:', np.array(Y_predict).shape)
 
 words = set(words)
 tags = set(tags)
