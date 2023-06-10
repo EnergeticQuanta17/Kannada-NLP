@@ -190,8 +190,8 @@ if(True):
 
         with open('find_this_sentence.pkl', 'wb') as file:
             pickle.dump(X_test[k], file)
-            print(int2tag[np.argmax(y_pred[k])+1])
-            print(int2tag[np.argmax(y_test[k])+1])
+        print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
+        print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
             break
 
         # for i, j in zip(y_pred[k], y_test[k]):
