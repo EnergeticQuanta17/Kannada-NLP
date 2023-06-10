@@ -186,9 +186,10 @@ if(True):
                 print(index, '-->', y[0], '\t', y[1])
                 print(int2tag[index])
             break
-        
-        with open('find_this_sentence.txt', 'w') as f:
-            f.write(X_test[k])
+    
+
+        with open('find_this_sentence.pkl', 'wb') as file:
+            pickle.dump(X_test[k], file)
 
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
