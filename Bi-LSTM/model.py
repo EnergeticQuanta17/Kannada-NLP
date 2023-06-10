@@ -132,12 +132,12 @@ if not os.path.exists('Models/'):
 
 train = True
 
-if train:
-    model.save('Models/model.h5')
-    print('MODEL SAVED in Models/ as model.h5')
-else:
-    from keras.models import load_model
-    model = load_model('Models/model.h5')
+# if train:
+#     model.save('Models/model.h5')
+#     print('MODEL SAVED in Models/ as model.h5')
+# else:
+#     from keras.models import load_model
+#     model = load_model('Models/model.h5')
 
 y_test = to_categorical(y_test, num_classes=n_tags+1)
 test_results = model.evaluate(X_test, y_test, verbose=0)
@@ -230,6 +230,8 @@ if os.path.exists(file_path):
         json_data = json.load(file)
 else:
     json_data = []
+
+model.save(f'Models/model{len(json_data)}.h5')
 
 json_data.append(data)
 
