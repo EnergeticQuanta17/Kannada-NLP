@@ -24,6 +24,7 @@ TEST_SPLIT = 0.1
 VALIDATION_SPLIT = 0.1
 BATCH_SIZE = 32
 UNITS_IN_LSTM_LAYER = 64
+EPOCHS = 1
 
 
 with open('all_data.pkl', 'rb') as f:
@@ -123,7 +124,7 @@ history  = model.fit_generator(train_generator,
                      steps_per_epoch=n_train_samples//BATCH_SIZE,
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
-                     epochs=1,
+                     epochs=EPOCHS,
                      verbose=1,)
 
 training_accuracy = history.history['acc']
@@ -181,11 +182,11 @@ if(True):
         print(np.argmax(y_pred[k]))
         print('Word vector -->')
         print(X_test[k])
-        if(np.argmax(y_pred[k]) != 0):
-            for index, y in enumerate(zip(y_pred[k], y_test[k])):
-                print(index, '-->', y[0], '\t', y[1])
-                print(int2tag[index])
-            break
+        # if(np.argmax(y_pred[k]) != 0):
+        #     for index, y in enumerate(zip(y_pred[k], y_test[k])):
+        #         print(index, '-->', y[0], '\t', y[1])
+        #         print(int2tag[index])
+        #     break
     
 
         with open('find_this_sentence.pkl', 'wb') as file:
@@ -197,7 +198,9 @@ if(True):
 
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
-    
+
+for i in int2word:
+    print(i, '-->', int2word[i])
 
 count = 0
 if(True):
@@ -219,6 +222,7 @@ print("Accuracy: ", ACCURACY)
 
 
 data = {
+    "Epochs": EPOCHS,
     "Number of Embeddings used": NO_OF_EMBEDDINGS,
     "Max Sequence Length": MAX_SEQUENCE_LENGTH,
     "Embedding Dimension": EMBEDDING_DIM,
