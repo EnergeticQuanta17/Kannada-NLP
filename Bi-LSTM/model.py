@@ -186,7 +186,7 @@ if(True):
         print()
         for i, j in zip(y_pred[k], y_test[k]):
             print(i, '\t', j)
-        if(np.argmax(y_pred[k]) != 0):
+        if(np.argmax(y_test[k]) != 0):
             # for index, y in enumerate(zip(y_pred[k], y_test[k])):
             #     print(index, '-->', y[0], '\t', y[1])
             #     print(int2tag[index])
