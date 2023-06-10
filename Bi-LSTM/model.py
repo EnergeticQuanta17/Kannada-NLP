@@ -199,8 +199,9 @@ if(True):
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
 
-for i in int2word:
-    print(i, '-->', int2word[i])
+with open('index_to_word.txt', 'w') as f:
+    for i in int2word:
+        f.write(i + '-->' + int2word[i] + '\n')
 
 count = 0
 if(True):
