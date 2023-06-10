@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 
 import tensorflow as tf
-tf.get_logger().setLevel('NONE')
+tf.get_logger().setLevel('ERROR')
 
 NO_OF_EMBEDDINGS = 10000
 MAX_SEQUENCE_LENGTH = 140
