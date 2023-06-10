@@ -19,7 +19,7 @@ with open(file_name, 'rb') as file:
                     print(word)
         if(count>max_words):
             max_words = count
-            print(sentence.id)
+            print(sentence.id, type(sentence.id))
         
 
 print(max_words)
