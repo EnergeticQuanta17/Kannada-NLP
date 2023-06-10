@@ -187,7 +187,7 @@ if(True):
                 print(int2tag[index])
             break
         
-        with open('find_this_sentence.txt') as f:
+        with open('find_this_sentence.txt', 'w') as f:
             f.write(X_test[k])
 
         # for i, j in zip(y_pred[k], y_test[k]):
