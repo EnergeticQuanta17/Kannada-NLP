@@ -190,6 +190,9 @@ if(True):
 
         with open('find_this_sentence.pkl', 'wb') as file:
             pickle.dump(X_test[k], file)
+            print(int2tag[np.argmax(y_pred[k])])
+            print(int2tag[np.argmax(y_test[k])])
+            break
 
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
