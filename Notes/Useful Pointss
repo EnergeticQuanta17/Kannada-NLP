@@ -8,3 +8,16 @@ Are all the sentences IID?
 
     Else we have to make validation and test set, separately contiguous
 
+BLEU (Bilingual Evaluation Understudy) is a metric used to evaluate the quality of machine-generated translations by comparing them to one or more reference translations. It measures the similarity between the generated translation and the reference translations based on n-gram precision and brevity penalty.
+
+Having high n-gram precision means that the generated translation contains a significant number of n-grams (contiguous sequences of n words) that exactly match those in the reference translation.
+
+The hidden state acts as a memory that encodes information about the sequence seen so far.
+
+Information Propagation: As the model processes each symbol, the hidden state is updated and carries information from previous time steps to the current time step. This allows the model to capture dependencies and contextual information across different positions or time steps in the sequence.
+
+Bi-LSTM
+
+Anaphora resolution
+    which entity is being referred to
+
