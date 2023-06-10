@@ -182,6 +182,9 @@ if(True):
         print(np.argmax(y_pred[k]))
         print('Word vector -->')
         print(X_test[k])
+        print()
+        for i, j in zip(y_pred[k], y_test[k]):
+            print(i, '\t', j)
         # if(np.argmax(y_pred[k]) != 0):
         #     for index, y in enumerate(zip(y_pred[k], y_test[k])):
         #         print(index, '-->', y[0], '\t', y[1])
@@ -202,6 +205,10 @@ if(True):
 with open('index_to_word.txt', 'w') as f:
     for i in int2word:
         f.write(str(i) + '-->' + int2word[i] + '\n')
+    
+with open('index_to_tag.txt', 'w') as f:
+    for i in int2tag:
+        f.write(str(i) + '-->' + int2tag[i] + '\n')
 
 count = 0
 if(True):
