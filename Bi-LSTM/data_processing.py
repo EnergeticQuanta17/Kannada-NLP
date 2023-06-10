@@ -38,8 +38,8 @@ words = set(words)
 tags = set(tags)
 
 print("\n\n--------------PART OF SPEECH TAGS--------------")
-for tag in tags:
-    print(tag)
+for index, tag in enumerate(tags):
+    print(index, '\t', tag)
 print("\n\n-----------------------------------------------")
 
 print("First 10 words:")
