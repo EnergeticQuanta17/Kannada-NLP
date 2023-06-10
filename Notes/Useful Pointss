@@ -1,2 +1,10 @@
 The term "Dravidian" refers to a group of languages that share a common linguistic and cultural heritage. 
 
+It also matters what probability prefers that POS tag
+    And also compare with the 2nd best
+
+Are all the sentences IID?
+    If they are IID, then it is okay to shuffle
+
+    Else we have to make validation and test set, separately contiguous
+

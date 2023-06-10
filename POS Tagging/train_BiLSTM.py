@@ -11,7 +11,7 @@ import fasttext
 from re import findall
 from re import S
 import time
-
+import pickle
 
 # set a random seed
 np.random.seed(1337)
@@ -45,8 +45,21 @@ def createVectors(lines, wordEmbeddings, char2Index, pos2Index, chunk2Index):
                     char2Index) + 1 for char in word]
                 charSequencesForWords.append(charSequenceForWord)
                 charSequenceForWord = []
+
+                #######################################################################
                 sentenceVectors.append(
                     wordEmbeddings.get_word_vector(word).tolist())
+
+                # run the vec2pickle file, after that wordEmbeddings will be sorted
+                # Use binary search
+
+                # Using brute (for now)
+                # for w, emb in wordEmbeddings:
+                #     if(w==word):        
+                #         sentenceVectors.append(emb)
+                #         break
+                #######################################################################
+                
                 posTagsForSent.append(pos2Index[posTag])
                 chunkTagsForSent.append(chunk2Index[chunkTag])
             else:
@@ -93,8 +106,19 @@ def createVectorsForTest(lines, wordEmbeddings, char2Index):
                     char2Index) + 1 for char in word]
                 charSequencesForWords.append(charSequenceForWord)
                 charSequenceForWord = []
+
+                ############################################################################
                 sentenceVectors.append(
                     wordEmbeddings.get_word_vector(word).tolist())
+
+                # same as above
+                # for w, emb in wordEmbeddings:
+                #     if(w==word):        
+                #         sentenceVectors.append(emb)
+                
+                ############################################################################
+
+
             else:
                 if len(sentenceVectors) > 0:
                     allsentenceVectors.append(sentenceVectors)
@@ -153,8 +177,11 @@ def trainModelUsingBiLSTM(maxWordLen, maxSentLen, trainGen, valGen, steps, valSt
                        loss=dictLosses,
                        metrics=['accuracy'])
     print(finalModel.summary())
-    history = finalModel.fit(trainGen,
-                       steps_per_epoch=steps, epochs=epochs, callbacks=[checkpointCallback], validation_data=valGen, validation_steps=valSteps)
+    # history = finalModel.fit(trainGen,
+    #                    steps_per_epoch=steps, epochs=epochs, callbacks=[checkpointCallback], validation_data=valGen, validation_steps=valSteps)
+    
+    history = finalModel.fit(trainGen, steps_per_epoch=steps, epochs=epochs, callbacks=[checkpointCallback], validation_data=valGen, validation_steps=valSteps, verbose=1)
+
     return finalModel, history
 
 
@@ -218,10 +245,18 @@ def main():
 
         print("Beginning to load wordEmbeddings model")
         start = time.time()
+
+        ### Loading from Embeddings/embeddings_1_00_000.pickle
         wordEmbeddings = fasttext.load_model(args.embed)
+        # with open('Embeddings/embeddings_1_00_000.pickle', 'rb') as file:
+        #     all_embeddings = pickle.load(file)
+        # wordEmbeddings = all_embeddings
+        ### Loading from Embeddings/embeddings_1_00_000.pickle
         print("Finished loading wordEmbeddings model. Time taken:", time.time()-start)
+        print(type(wordEmbeddings))
 
         print("Beginning to load train.data")
+        start = time.time()
         trainFileDesc = open(args.tr, 'r', encoding='utf-8')
         trainData = trainFileDesc.read().strip()
         print("Finished loading train.data - Time taken:", time.time()-start)
@@ -241,35 +276,50 @@ def main():
         valFileDesc = open(args.val, 'r', encoding='utf-8')
         valData = valFileDesc.read().strip() + '\n\n'
         valFileDesc.close()
+
         totalValSamples = len(findall('\n\n', valData, S))
+
         print('Total Val Samples', totalValSamples)
         valLines = valData.split('\n')
+
         if totalValSamples % batchSize == 0:
             valSteps = totalValSamples // batchSize
         else:
             valSteps = totalValSamples // batchSize + 1
+
         print('--VAL GEN--')
         testFileDesc = open(args.test, 'r', encoding='utf-8')
-        testData = testFileDesc.read().strip() + '\n\n'
+        testData = testFileDesc.read().strip() + '\n'
         testFileDesc.close()
         testLines = testData.split('\n')
-        totalTestSamples = len(findall('\n\n', testData, S))
+        totalTestSamples = len(findall('\n', testData, S))
+
         if totalTestSamples % batchSize == 0:
             testSteps = totalTestSamples // batchSize
         else:
             testSteps = totalTestSamples // batchSize + 1
+
         maxWordLength, maxSentenceLength = 30, 150
+
         trainGen = createVectors(
             trainLines, wordEmbeddings, char2Index, pos2Index, chunk2Index)
+        
         valGen = createVectors(
             valLines, wordEmbeddings, char2Index, pos2Index, chunk2Index)
+        
         print('MAX word, max Sent', maxWordLength, maxSentenceLength)
+
         biLSTM, history = trainModelUsingBiLSTM(maxWordLength, maxSentenceLength, trainGen, valGen, steps, valSteps,
                                        len(char2Index), len(pos2Index), len(chunk2Index), args.wt, args.epoch)
+        
         valGen = createVectorsForTest(valLines, wordEmbeddings, char2Index)
+
         predictedDevTags = predictTags(biLSTM, valGen, valLines, index2POS, index2Chunk, totalValSamples, 1)
+
         writeDataToFile(predictedDevTags, args.lang + '-dev-predicted-bilstm-epoch' + str(args.epoch) + '.txt')
+
         testGen = createVectorsForTest(testLines, wordEmbeddings, char2Index)
+
         predictedTestTags = predictTags(biLSTM, testGen, testLines, index2POS, index2Chunk, totalTestSamples, 1)
         writeDataToFile(predictedTestTags, args.lang + '-test-predicted-bilstm-epoch' + str(args.epoch) + '.txt')
 

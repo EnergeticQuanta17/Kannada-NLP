@@ -1,2 +1,13 @@
-inp = 'python predict_tags_using_model_and_generators.py --test test.data --embed fastTextVectorFile --lang eng --model weight-eng-bilstm-c2w --output output_file.txt'
-print(inp.split(' '))
+def get_function(n):
+    if(n==1):
+        def f1(n1):
+            return (n1+1)
+        return f1
+    
+    if(n==2):
+        def f2(n1):
+            return (n1+2)
+        
+        return f2
+
+print(get_function(2)(2))

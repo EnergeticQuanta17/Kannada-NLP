@@ -21,7 +21,7 @@ block1_start = random.randint(0, 5418 - validation_size)
 block2_start = random.randint(0, 5418 - test_size)
 
 while block2_start >= block1_start and block2_start <= block1_start + 542:
-    block2_start = random.randint(0, len(sentences) - 542)
+    block2_start = random.randint(0, 5418 - 542)
 
 validation_range = range(block1_start, block1_start + 542)
 test_range = range(block2_start, block2_start + 542)
