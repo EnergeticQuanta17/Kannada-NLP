@@ -15,6 +15,9 @@ with open(file_name, 'rb') as file:
         for chunk in sentence.list_of_chunks:
             for word in chunk.list_of_words:
                 count += 1
-        max_words = max(max_words, count)
+        if(count>max_words):
+            max_words = count
+            print(sentence.id)
+        
 
 print(max_words)
