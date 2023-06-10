@@ -100,7 +100,7 @@ for word, i in word2int.items():
 print('Embedding matrix shape', embedding_matrix.shape)
 print('X_train shape', X_train.shape)
 
-embedding_layer = Embedding(len(word2int) + 1,
+embedding_layer = Embedding(len(word2int),
                             EMBEDDING_DIM,
                             weights=[embedding_matrix],
                             input_length=MAX_SEQUENCE_LENGTH,
