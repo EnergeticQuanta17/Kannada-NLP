@@ -207,11 +207,12 @@ train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
 train_iter = data.DataLoader(dataset=train_dataset,
-                             batch_size=4,
+                             batch_size=1,
                              shuffle=True,
                              collate_fn=pad)
+
 test_iter = data.DataLoader(dataset=eval_dataset,
-                             batch_size=4,
+                             batch_size=1,
                              shuffle=False,
                              collate_fn=pad)
 
