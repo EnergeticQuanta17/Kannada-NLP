@@ -24,7 +24,7 @@ for sentence in retrieved_sentences:
     temp = []
     for chunk in sentence.list_of_chunks:
         for word in chunk.list_of_words:
-            temp.append((word.kannda_word, word.pos))
+            temp.append((word.kannada_word, word.pos))
     tagged_sentences.append(temp)
 
 tags = list(set(word_pos[1] for sentence in tagged_sentences for word_pos in sentence))
