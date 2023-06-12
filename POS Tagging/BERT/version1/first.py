@@ -190,7 +190,7 @@ def eval(model, iterator):
 
     print("acc=%.2f"%acc)
 
-model = Net(vocab_size=len(tag2idx))
+model = Net(vocab_size=len(tag2index))
 model.to(device)
 model = nn.DataParallel(model)
 
