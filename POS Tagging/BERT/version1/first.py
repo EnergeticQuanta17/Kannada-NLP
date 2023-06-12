@@ -36,8 +36,8 @@ index2tag = {idx:tag for tag, idx in enumerate(tags)}
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
-# device = 'cpu'
+# device = 'cuda' if torch.cuda.is_available() else 'cpu'
+device = 'cpu'
 
 # How to use tokenizer for this
     # especially for Kannada
