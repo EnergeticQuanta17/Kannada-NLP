@@ -1,0 +1,35 @@
+------------------nlp_made_easy/Pos-tagging with Bert Fine-tuning-------------------
+
+1. torch.utils.data.Dataset --> class PosDataset(data.Dataset)
+
+2. Inside __init__ --> Sentences are padded with [CLS] in front and [SEP] at end.
+    Tags are appended with <tag> at front and at the end
+
+    Look into this in deep
+
+3. torch.nn.Module --> to create the Network
+    __init__(vocab_size=None)
+    forward(x, y)
+
+4. Validation set not used
+
+5. Why len(tokens)-1
+
+6. What is is_heads() doing
+
+7. 
+
+
+------------------------                        --------------------------------
+
+
+------------------------                        --------------------------------
+
+
+------------------------                        --------------------------------
+
+
+------------------------                        --------------------------------
+
+
+------------------------                        --------------------------------
