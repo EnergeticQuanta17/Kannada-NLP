@@ -49,7 +49,7 @@ class PosDataset(data.Dataset):
 
         for sentence in tagged_sentences:
             words, tags = zip(*sentence)
-            words, tags = list(word), list(tags)
+            words, tags = list(words), list(tags)
 
             self.list_of_sentences.append(["[CLS]"] + words + ["[SEP]"])
             self.list_of_tags.append(["<pad>"] + tags + ["<pad>"])
