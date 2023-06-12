@@ -301,12 +301,10 @@ eval_dataset = PosDataset(test_data)
 train_iter = data.DataLoader(dataset=train_dataset,
                              batch_size=8,
                              shuffle=True,
-                             num_workers=1,
                              collate_fn=pad)
 test_iter = data.DataLoader(dataset=eval_dataset,
                              batch_size=8,
                              shuffle=False,
-                             num_workers=1,
                              collate_fn=pad)
 
 optimizer = optim.Adam(model.parameters(), lr = 0.0001)
