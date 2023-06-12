@@ -36,7 +36,8 @@ index2tag = {idx:tag for tag, idx in enumerate(tags)}
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
+# device = 'cuda' if torch.cuda.is_available() else 'cpu'
+device = 'cuda'
 
 # How to use tokenizer for this
     # especially for Kannada
@@ -206,14 +207,13 @@ train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
 train_iter = data.DataLoader(dataset=train_dataset,
-                             batch_size=2,
+                             batch_size=1,
                              shuffle=True,
-                             num_workers=1,
                              collate_fn=pad)
+
 test_iter = data.DataLoader(dataset=eval_dataset,
-                             batch_size=2,
+                             batch_size=1,
                              shuffle=False,
-                             num_workers=1,
                              collate_fn=pad)
 
 optimizer = optim.Adam(model.parameters(), lr = 0.0001)
