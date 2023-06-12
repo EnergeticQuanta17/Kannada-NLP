@@ -90,6 +90,7 @@ class PosDataset(data.Dataset):
         return words, tags
     
 def pad(batch):
+    print(batch)
     f = lambda x: [sample[x] for sample in batch]
     words = f(0)
     is_heads = f(2)
