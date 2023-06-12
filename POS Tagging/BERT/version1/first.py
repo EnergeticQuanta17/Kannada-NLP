@@ -105,7 +105,7 @@ def pad(batch):
     maxlen = np.array(seqlens).max()
 
     f = lambda x, seqlen: [sample[x] + [0] * (seqlen - len(sample[x])) for sample in batch] # 0: <pad>
-    x = f(1, maxlen)
+    x = f(2, maxlen)
     y = f(-2, maxlen)
 
 
