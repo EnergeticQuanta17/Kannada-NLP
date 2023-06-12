@@ -11,10 +11,11 @@ from pytorch_pretrained_bert import BertTokenizer, BertModel
 import os
 import sys
 
-sys.path.append('../Parsing/')
+sys.path.append('../../../Parsing/')
+print(os.getcwd())
 from language_elements import Sentence, Word, Chunk
 
-with open('../Parsing/full_dataset_113.pickle', 'rb') as file:
+with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
 
 tagged_sentences = []
