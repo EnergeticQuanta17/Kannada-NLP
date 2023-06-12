@@ -87,10 +87,16 @@ class PosDataset(data.Dataset):
         words = " ".join(words)
         tags = " ".join(tags)
 
-        return words, tags
+        return words, tags, is_heads, tags, y, seqlen
     
 def pad(batch):
-    print(batch)
+    print("=================================")
+    for i in batch:
+        print(i)
+        print("=================================")
+    print(len(batch))
+
+    print("=================================")
     f = lambda x: [sample[x] for sample in batch]
     words = f(0)
     is_heads = f(2)
@@ -99,7 +105,7 @@ def pad(batch):
     maxlen = np.array(seqlens).max()
 
     f = lambda x, seqlen: [sample[x] + [0] * (seqlen - len(sample[x])) for sample in batch] # 0: <pad>
-    x = f(1, maxlen)
+    x = f(2, maxlen)
     y = f(-2, maxlen)
 
 
@@ -200,12 +206,12 @@ train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
 train_iter = data.DataLoader(dataset=train_dataset,
-                             batch_size=8,
+                             batch_size=2,
                              shuffle=True,
                              num_workers=1,
                              collate_fn=pad)
 test_iter = data.DataLoader(dataset=eval_dataset,
-                             batch_size=8,
+                             batch_size=2,
                              shuffle=False,
                              num_workers=1,
                              collate_fn=pad)
