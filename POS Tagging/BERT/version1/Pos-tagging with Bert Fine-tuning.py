@@ -86,8 +86,12 @@ len(train_data), len(test_data)
 
 # In[43]:
 
+print("===================================================================================")
+print(torch.cuda.is_available())
+print("===================================================================================")
 
-# device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 
 # # Data loader
@@ -162,7 +166,7 @@ def pad(batch):
     seqlens = f(-1)
     maxlen = np.array(seqlens).max()
     
-    
+    print(type(sample[x]))
     f = lambda x, seqlen: [sample[x] + [0] * (seqlen - len(sample[x])) for sample in batch] # 0: <pad>
     x = f(1, maxlen)
     y = f(-2, maxlen)
@@ -190,15 +194,15 @@ class Net(nn.Module):
         self.bert = BertModel.from_pretrained('bert-base-cased')
 
         self.fc = nn.Linear(768, vocab_size)
-        # self.device = device
+        self.device = device
 
     def forward(self, x, y):
         '''
         x: (N, T). int64
         y: (N, T). int64
         '''
-        # x = x.to(device)
-        # y = y.to(device)
+        x = x.to(device)
+        y = y.to(device)
         
         if self.training:
             self.bert.train()
@@ -284,7 +288,7 @@ def eval(model, iterator):
 
 
 model = Net(vocab_size=len(tag2idx))
-# model.to(device)
+model.to(device)
 model = nn.DataParallel(model)
 
 
