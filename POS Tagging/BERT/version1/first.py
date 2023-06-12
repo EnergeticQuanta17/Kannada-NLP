@@ -75,6 +75,7 @@ class PosDataset(data.Dataset):
 
             x.extend(token_ids)
             is_heads.extend(is_head)
+            y.extend(y_ids)
 
         assert len(x)==len(y)==len(is_heads)
         print("Length of x: ", len(x))
