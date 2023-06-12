@@ -87,7 +87,7 @@ class PosDataset(data.Dataset):
         words = " ".join(words)
         tags = " ".join(tags)
 
-        return words, tags
+        return words, tags, is_heads, tags, y, seqlen
     
 def pad(batch):
     print("=================================")
