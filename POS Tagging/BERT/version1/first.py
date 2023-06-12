@@ -93,7 +93,7 @@ def pad(batch):
     print("=================================")
     print(batch)
     print(len(batch))
-    print([len(b[0] for b in batch)])
+
     print("=================================")
     f = lambda x: [sample[x] for sample in batch]
     words = f(0)
