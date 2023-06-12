@@ -48,7 +48,7 @@ class PosDataset(data.Dataset):
         self.list_of_tags  = []
 
         for sentence in tagged_sentences:
-            words, tags = zip((sentence))
+            words, tags = zip(*sentence)
             words, tags = list(word), list(tags)
 
             self.list_of_sentences.append(["[CLS]"] + words + ["[SEP]"])
