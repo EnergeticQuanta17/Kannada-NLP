@@ -16,11 +16,151 @@ Questions:-
     4. "demonstrate"
         We can demonstrate for other Indian Languages which have morph features
     
-    5. 
+    5. "uniformly"
+        Why -0.1 to 0.1 ?
+    
+    6. It is given that the obtained probability is independent of each other????
 
-Bidirectional Long Short-Term Memory
-Recurrent Neural Network (BLSTMRNN)
-has been shown to be very effective
-for tagging sequential data
+    7. Should we also train the word embeddings using Bi-LSTM?
+        What are shortcomings of using NN trained embeddings in Bi-LSTM?
 
-FROM UNDERLINED POINTS EXTRACT THE IMPORTANT POINTS
+    8. LLaMA model explore
+
+    9. Compare the quality of Bi-LSTM model generated Embeddings vs fastText generated embeddings
+        ALso check what method they used to train "kannada" embeddings
+
+    10. They have used sequential splitting of train, validation and test data
+
+    11. How to consider the extra effects of Kannada letters
+        Why is it giving such high accuracy even after not considering that
+
+    12. How to choose our baselines?
+
+    13. The paper says that without Morphological features the model falls back
+        How does this compare with Bi-LSTM
+
+        Effect of Morphological features on both models
+    
+    14. Comparision of different word embeddings
+
+    15. Effect of more data on both the models
+
+    16. How to use the metadata of the dataset efficiently to produce better results?
+        Maybe we can give weights to metadata signifying the importance just like BERT
+
+    17. How to make the POS tagger independent of the morph features
+
+    18. In inference, we can see what weights are activated for that tag output
+
+    19. Effect of increasing the number of word embeddings?
+        It might be increasing, decreasing with increaseing n-word-embeddings
+
+
+Bidirectional Long Short-Term Memory Recurrent Neural Network (BLSTMRNN)
+    very effective --> for tagging sequential data
+
+Word embeddings
+    powerful representation for characterizing the statistical properties of natural language.
+
+Without ising Morphological Features
+
+(BLSTM) is a type of recurrent neural network (RNN) that can incorporate contextual information from long period of fore-and-aft inputs
+    sequence labelling tasks
+
+awkward
+for BLSTM RNN to make use of conventional
+NLP features, such as morphological features.
+    discrete
+
+    one-hot
+
+    too large input
+
+Word embeddings
+    Syntactic and Semantic information
+
+    Check if this is true for fastText embeddings
+
+    However, these embeddings are trained by neural networks that are very different from BLSTM RNN.
+    This inconsistency is supposed as an shortcoming to make the most of these trained word embeddings.
+    To conquer this shortcoming, we also propose a novel method to train word embedding on unlabeled data with BLSTM RNN.
+
+    This paper has used Bi-LSTM to do Word Embeddings also
+
+The main contributions of this work include:
+First, it shows an effective way to use BLSTM
+RNN for POS tagging task and achieves a state-ofthe-
+art tagging accuracy. Second, a novel method
+for training word embedding is proposed. Finally,
+we demonstrate that competitive tagging accuracy
+can be obtained without using morphological features,
+which makes this approach more practical to
+tag a language that lacks of necessary morphological
+knowledge.
+
+Bi-LSTM RNN is used to predic the tag probability distribution of each word
+
+Input is embeddings and f(w_i) --> three dimensional to tell w_i is full lowercase, full uppercase or leading with a capital letters
+
+Word embedding
+    Implemented as lookup table
+
+    For words without corresponding external embeddings, their word embeddings are initialized with uniformly distributed randomvalues, ranging from -0.1 to 0.1. 
+
+Implementation of BLSTM is detail descripted in 
+    Graves(2012)
+    This layer incorporates information from the past and future histories when making prediction for current word and is updated as a function of theentire input sentence. 
+
+Output --> softmax
+
+Backpropagation and Gradient Descent Algorithm --> to maximize the likelihood on training data
+
+The obtained probability distribution of each step
+is supposed independent with each other. The utilization
+of contextual information strictly comes
+from the BLSTM layer
+
+2.2 Word Embedding
+    In this section, we propose a novel method to train
+    word embedding on unlabeled data with BLSTM
+    RNN. In this approach, BLSTMRNN is also used
+    to do a tagging task,
+
+    The input is
+    a sequence of words which is a normal sentence
+    with some words replaced by randomly chosen
+    words.
+
+        For those replaced words, their tags are
+    0 (incorrect) and for those that are not replaced,
+    their tags are 1 (correct). Although it is possible
+    that some replaced words are also reasonable
+    in the sentence, they are still considered “incorrect”.
+
+    Then BLSTM RNN is trained to minimize
+    the binary classification error on the training corpus.
+
+The activation function of input layer is identity
+function, hidden layer is logistic function, while
+the output layer uses softmax function for multiclass
+classification.
+
+Constant learning rate is used
+
+To train word embedding --> 536 million words
+Best hidden layer size was chosen from 
+    10, 20, 50, 100, 200, .., 500
+
+    See the knee point
+
+POS Tagging Accuracies
+    Baseline systems
+        Stanford tagger
+
+    BLSTM-RNN
+    BLSTM-RNN + WE
+    BLSTM-RNN + WE(all)
+
+Six word embeddings tested
+
+
