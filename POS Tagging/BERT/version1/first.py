@@ -91,7 +91,9 @@ class PosDataset(data.Dataset):
     
 def pad(batch):
     print("=================================")
-    print(batch)
+    for i in batch:
+        print(i)
+        print("=================================")
     print(len(batch))
 
     print("=================================")
