@@ -154,7 +154,10 @@ class PosDataset(data.Dataset):
 
 
 def pad(batch):
-    for b in bat?
+    # for b in batch:
+    #     print("-------------------------------------------------------------")
+    #     print(b)
+    #     print("-------------------------------------------------------------")
     
     '''Pads to the longest sample'''
     f = lambda x: [sample[x] for sample in batch]
