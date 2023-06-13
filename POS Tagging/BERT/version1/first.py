@@ -9,6 +9,7 @@ from torch.utils import data
 from pytorch_pretrained_bert import BertTokenizer, BertModel
 
 import os
+os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 import sys
 
 sys.path.append('../../../Parsing/')
