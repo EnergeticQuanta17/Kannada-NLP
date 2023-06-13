@@ -191,6 +191,7 @@ def eval(model, iterator):
 
     ## gets results and save
     with open("result", 'w') as fout:
+        count = 0
         for words, is_heads, tags, y_hat in zip(Words, Is_heads, Tags, Y_hat):
             try:
                 y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
@@ -200,7 +201,9 @@ def eval(model, iterator):
                     fout.write("{} {} {}\n".format(w, t, p))
                 fout.write("\n")
             except:
-                print("Skipped one!--------------------")
+                count+=1
+        print("Count of errors:", count)
+
             
     ## calc metric
     y_true =  np.array([index2tag[line.split()[1]] for line in open('result', 'r').read().splitlines() if len(line) > 0])

@@ -247,7 +247,7 @@ def train(model, iterator, optimizer, criterion):
 
         optimizer.step()
 
-        if i%10==0: # monitoring
+        if i%100==0:
             print("step: {}, loss: {}".format(i, loss.item()))
 
 
