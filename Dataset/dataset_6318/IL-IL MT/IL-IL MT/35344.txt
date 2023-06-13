@@ -1,0 +1,570 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='1'>
+1	((	NP	
+1.1	ಇಂಡೋ	N__NNP	<fs af='ಇಂಡೋ,n,,sg,3,d,0,0'>
+1.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+1.3	ಪೆಸಿಫಿಕ್	N__NNP	<fs af='ಪೆಸಿಫಿಕ್,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಆರ್ಥಿಕ	JJ	<fs af='ಅರ್ಥ,adj,,,,o,ಇಕ,ika'>
+2.2	ಚೌಕಟ್ಟಿನ	N__NN	<fs af='ಚೌಕಟ್ಟು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+	))
+3	((	NP	
+3.1	ಘೋಷಣೆಯ	N__NNV	<fs af='ಘೋಷಿಸು,n,,sg,3,o,ಅಣೆ+ಯ+ಅ,aNeV+ya+a'>
+	))
+4	((	NP	
+4.1	ಸಂದರ್ಭದಲ್ಲಿ	N__NN	<fs af='ಸಂದರ್ಭ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+5	((	NP	
+5.1	ಪ್ರಧಾನಿ	JJ	<fs af='ಪ್ರಧಾನ,adj,m,sg,3,o,ಇ,i'>
+5.2	ನರೇಂದ್ರ	N__NNP	<fs af='ನರೇಂದ್ರ,n,m,sg,3,d,0,0'>
+5.3	ಮೋದಿಯವರ	N__NNP	<fs af='ಮೋದಿ,n,m,sg,3,o,ಯ+ಅವರು+ಅ,ya+avaru+a'>
+	))
+6	((	NP	
+6.1	ಭಾಷಣ	N__NN	<fs af='ಭಾಷಣ,n,,sg,3,d,0,0'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='2'>
+1	((	NP	
+1.1	ಮೇ	N__NNP	<fs af='ಮೇ,n,,sg,3,d,0,0'>
+	))
+2	((	JJP	
+2.1	23	QT__QTC	<fs af='23,num,,,3,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	JJP	
+3.1	2022	QT__QTC	<fs af='2022,num,,,3,d,0,0'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='3'>
+1	((	NP	
+1.1	ರಾಷ್ಟ್ರಪತಿ	N__NN	<fs af='ರಾಷ್ಟ್ರಪತಿ,n,m,sg,3,d,0,0'>
+1.2	ಬಿಡೆನ್	N__NN	<fs af='ಬಿಡೆನ್,n,m,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಪ್ರಧಾನ	JJ	<fs af='ಪ್ರಧಾನ,adj,,,,d,0,0'>
+3.2	ಮಂತ್ರಿ	N__NN	<fs af='ಮಂತ್ರಿ,n,m,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ಕಿಶಿದಾ	N__NN	<fs af='ಕಿಶಿದಾ,n,m,sg,3,d,0,0'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='4'>
+1	((	NP	
+1.1	ವರ್ಚುವಲ್	JJ	<fs af='ವರ್ಚುವಲ್,adj,,,,d,0,0'>
+1.2	ಮಾಧ್ಯಮದಿಂದ	N__NN	<fs af='ಮಾಧ್ಯಮ,n,,sg,3,o,ದ+ಇಂದ,xa+iMxa'>
+	))
+2	((	NP	
+2.1	ಸಂಪರ್ಕ	N__NN	<fs af='ಸಂಪರ್ಕ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಹೊಂದಿರುವ	V__VM__VNG	<fs af='ಹೊಂದು,v,,,,o,ಇರು+ವ+ಅ,iru+va+a'>
+	))
+4	((	NP	
+4.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+5	((	NP	
+5.1	ಎಲ್ಲಾ	JJ	<fs af='ಎಲ್ಲ,adj,,,,o,ಆ,A'>
+5.2	ನಾಯಕರು	N__NN	<fs af='ನಾಯಕ,n,any,pl,3,o,ಅರು+ಉ,aru+u'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5'>
+1	((	NP	
+1.1	ಎಕ್ಸೆಲೆನ್ಸೀಸ್	N__NN	<fs af='ಎಕ್ಸೆಲೆನ್ಸೀಸ್,n,,,3,d,0,0'>
+	))
+2	((	BLK	
+2.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='6'>
+1	((	NP	
+1.1	ಇಂದಿನ	N__NST	<fs af='ಇಂದು,nst,,,3,o,ಇನ+ಅ,ina+a'>
+	))
+2	((	NP	
+2.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+2.2	ಮಹತ್ವಪೂರ್ಣ	JJ	<fs af='ಮಹ,adj,,,,o,ತ್ವ+ಪೂರ್ಣ,wva+pUrNa'>
+2.3	ಸಮಾರೋಪದಲ್ಲಿ	N__NN	<fs af='ಸಮಾರೋಪ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+3	((	NP	
+3.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+3.2	ಜೊತೆ	RP__RPD	<fs af='ಜೊತೆ,avy,,,,d,0,0'>
+	))
+4	((	VGNN	
+4.1	ಸೇರಿರುವುದು	V__VM__VNG	<fs af='ಸೇರು,v,,,,o,ಇರು+ವ+ಉದು+ಉ,iru+va+uxu+u'>
+	))
+5	((	NP	
+5.1	ನನಗೆ	PR__PRP	<fs af='ನಾನು,pn,any,sg,1,o,ನ+ಗೆ,na+geV'>
+	))
+6	((	NP	
+6.1	ಸಂತೋಷ	N__NN	<fs af='ಸಂತೋಷ,n,,,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಆಗುತ್ತಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,,3,,ಉತ್ತ+ಇದೆ,uwwa+ixeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='7'>
+1	((	NP	
+1.1	ಇಂಡೋ	N__NNP	<fs af='ಇಂಡೋ,n,,sg,3,d,0,0'>
+1.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+1.3	ಪೆಸಿಫಿಕ್	N__NNP	<fs af='ಪೆಸಿಫಿಕ್,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಆರ್ಥಿಕ	JJ	<fs af='ಅರ್ಥ,adj,,,,o,ಇಕ,ika'>
+2.2	ಚೌಕಟ್ಟು	N__NN	<fs af='ಚೌಕಟ್ಟು,n,,sg,3,o,ಉ,u'>
+	))
+3	((	NP	
+3.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+3.2	ಕ್ಷೇತ್ರವನ್ನು	N__NN	<fs af='ಕ್ಷೇತ್ರ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+4	((	JJP	
+4.1	ಜಾಗತಿಕ	JJ	<fs af='ಜಗತ್ತು,adj,,,,o,ಇಕ,ika'>
+	))
+5	((	NP	
+5.1	ಆರ್ಥಿಕ	JJ	<fs af='ಅರ್ಥ,adj,,,,o,ಇಕ,ika'>
+5.2	ಬೆಳವಣಿಗೆಯ	N__NNV	<fs af='ಬೆಳೆ,n,,sg,3,o,ವಣಿಗೆ+ಯ+ಅ,vaNigeV+ya+a'>
+	))
+6	((	NP	
+6.1	ಯಂತ್ರ	N__NN	<fs af='ಯಂತ್ರ,n,,sg,3,d,0,0'>
+	))
+7	((	VGNN	
+7.1	ಮಾಡುವುದು	V__VM__VNG	<fs af='ಮಾಡು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+8	((	NP	
+8.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+9	((	NP	
+9.1	ಸಾಮೂಹಿಕ	JJ	<fs af='ಸಮೂಹ,adj,,,,o,ಇಕ,ika'>
+9.2	ಇಚ್ಚಾ	N__NN	<fs af='ಇಚ್ಚೆ,n,,sg,3,o,ಆ,A'>
+9.3	ಶಕ್ತಿಯ	N__NN	<fs af='ಶಕ್ತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+10	((	NP	
+10.1	ಘೋಷಣೆ	N__NNV	<fs af='ಘೋಷಿಸು,n,,sg,3,o,ಅಣೆ,aNeV'>
+	))
+11	((	VGF	
+11.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='8'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ಪ್ರಮುಖ	JJ	<fs af='ಪ್ರಮುಖ,adj,,,,d,0,0'>
+1.3	ಉಪಕ್ರಮಕ್ಕೆ	N__NN	<fs af='ಉಪಕ್ರಮ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+2	((	NP	
+2.1	ನಾನು	PR__PRP	<fs af='ನಾನು,pn,any,sg,1,o,ಉ,u'>
+	))
+3	((	NP	
+3.1	ರಾಷ್ಟ್ರಪತಿ	N__NN	<fs af='ರಾಷ್ಟ್ರಪತಿ,n,m,sg,3,d,0,0'>
+3.2	ಬಿಡೆನ್	N__NN	<fs af='ಬಿಡೆನ್,n,m,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ಅವರಿಗೆ	PR__PRP	<fs af='ಅವರು,pn,any,sg,3h,o,ಇಗೆ,igeV'>
+	))
+5	((	NP	
+5.1	ತುಂಬಾ	JJ	<fs af='ತುಂಬ,adj,,,,o,ಆ,A'>
+5.2	ಧನ್ಯವಾದ	N__NN	<fs af='ಧನ್ಯವಾದ,n,,sg,3,d,0,0'>
+	))
+6	((	VGF	
+6.1	ಅರ್ಪಿಸುತ್ತೇನೆ	V__VM__VF	<fs af='ಅರ್ಪಿಸು,v,any,sg,1,,ಉತ್ತ+ಏನೆ,uwwa+eneV'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='9'>
+1	((	NP	
+1.1	ಇಂಡೋ	N__NNP	<fs af='ಇಂಡೋ,n,,sg,3,d,0,0'>
+1.2	ಪೆಸಿಫಿಕ್	N__NNP	<fs af='ಪೆಸಿಫಿಕ್,n,,sg,3,d,0,0'>
+1.3	ಪ್ರದೇಶವು	N__NN	<fs af='ಪ್ರದೇಶ,n,,sg,3,o,ವ+ಉ,va+u'>
+	))
+2	((	NP	
+2.1	ಉತ್ಪಾದನೆ	N__NN	<fs af='ಉತ್ಪಾದನೆ,n,,sg,3,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಆರ್ಥಿಕ	JJ	<fs af='ಅರ್ಥ,adj,,,,o,ಇಕ,ika'>
+3.2	ಚಟುವಟಿಕೆ	N__NN	<fs af='ಚಟುವಟಿಕೆ,n,,sg,3,d,0,0'>
+3.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಜಾಗತಿಕ	JJ	<fs af='ಜಗತ್ತು,adj,,,,o,ಇಕ,ika'>
+4.2	ವ್ಯಾಪಾರ	N__NN	<fs af='ವ್ಯಾಪಾರ,n,,sg,3,d,0,0'>
+	))
+5	((	CCP	
+5.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ಹೂಡಿಕೆಯ	JJ	<fs af='ಹೂಡು,adj,,sg,3,o,ಇಕೆ+ಯ+ಅ,ikeV+ya+a'>
+6.2	ಕೇಂದ್ರ	N__NN	<fs af='ಕೇಂದ್ರ,n,,sg,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='10'>
+1	((	NP	
+1.1	ಇಂಡೋ	N__NNP	<fs af='ಇಂಡೋ,n,,sg,3,d,0,0'>
+1.2	ಪೆಸಿಫಿಕ್	N__NNP	<fs af='ಪೆಸಿಫಿಕ್,n,,sg,3,d,0,0'>
+1.3	ಪ್ರದೇಶದ	N__NN	<fs af='ಪ್ರದೇಶ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+2	((	NP	
+2.1	ವ್ಯಾಪಾರದ	N__NN	<fs af='ವ್ಯಾಪಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+3	((	NP	
+3.1	ಹರಿವುಗಳಲ್ಲಿ	N__NNV	<fs af='ಹರಿ,n,,pl,3,o,ವು+ಗಳು+ಅಲ್ಲಿ,vu+galYu+alli'>
+	))
+4	((	NP	
+4.1	ಭಾರತವು	N__NNP	<fs af='ಭಾರತ,n,,sg,3,o,ವ+ಉ,va+u'>
+	))
+5	((	NP	
+5.1	ಶತಮಾನಗಳಿಂದ	N__NN	<fs af='ಶತ,n,,pl,3,o,ಮಾನ+ಗಳು+ಇಂದ,mAna+galYu+iMxa'>
+	))
+6	((	NP	
+6.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+6.2	ಪ್ರಮುಖ	JJ	<fs af='ಪ್ರಮುಖ,adj,,,,d,0,0'>
+6.3	ಕೇಂದ್ರ	N__NN	<fs af='ಕೇಂದ್ರ,n,,sg,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,,3,,ಇದೆ,ixeV'>
+	))
+8	((	CCP	
+8.1	ಎಂಬುದಕ್ಕೆ	CC__CCS	<fs af='ಎಂಬುದಕ್ಕೆ,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ಇತಿಹಾಸ	N__NN	<fs af='ಇತಿಹಾಸ,n,,,3,d,0,0'>
+	))
+10	((	NP	
+10.1	ಸಾಕ್ಷಿ	N__NN	<fs af='ಸಾಕ್ಷಿ,n,,sg,3,d,0,0'>
+	))
+11	((	VGF	
+11.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,,3,,ಇದೆ,ixeV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='11'>
+1	((	NP	
+1.1	ಪ್ರಪಂಚದ	N__NN	<fs af='ಪ್ರಪಂಚ,n,,,3,o,ದ+ಅ,xa+a'>
+	))
+2	((	NP	
+2.1	ಅತ್ಯಂತ	RP__INTF	<fs af='ಅತ್ಯಂತ,adj,,,,d,0,0'>
+2.2	ಪ್ರಾಚೀನ	JJ	<fs af='ಪ್ರಾಚೀನ,adj,,,,d,0,0'>
+2.3	ವಾಣಿಜ್ಯ	N__NN	<fs af='ವಾಣಿಜ್ಯ,n,,sg,3,d,0,0'>
+2.4	ಬಂದರು	N__NN	<fs af='ಬಂದರು,n,,sg,3,o,ಉ,u'>
+	))
+3	((	NP	
+3.1	ಭಾರತದಲ್ಲಿ	N__NNP	<fs af='ಭಾರತ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+4	((	NP	
+4.1	ನನ್ನ	PR__PRP	<fs af='ನಾನು,pn,any,sg,1,o,ನ+ನ+ಅ,na+na+a'>
+	))
+5	((	NP	
+5.1	ತವರು	JJ	<fs af='ತವರು,adj,,,,d,0,0'>
+5.2	ರಾಜ್ಯ	N__NN	<fs af='ರಾಜ್ಯ,n,,sg,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ಗುಜರಾತ್‌ನ	N__NNP	<fs af='ಗುಜರಾತ್‌,n,,sg,3,o,ನ+ಅ,na+a'>
+	))
+7	((	NP	
+7.1	ಲೋಥಾಲ್‌ನಲ್ಲಿ	N__NNP	<fs af='ಲೋಥಾಲ್‌,n,,sg,3,o,ನ+ಅಲ್ಲಿ,na+alli'>
+	))
+8	((	VGF	
+8.1	ಇತ್ತು	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ತ+ತ+ಉ,wa+wa+u'>
+	))
+9	((	CCP	
+9.1	ಎಂಬುದು	CC__CCS	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಉಲ್ಲೇಖನೀಯ	N__NN	<fs af='ಉಲ್ಲೇಖನ,n,,sg,3,o,ಈಯ,Iya'>
+	))
+11	((	VGF	
+11.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='12'>
+1	((	CCP	
+1.1	ಆದ್ದರಿಂದ	CC__CCS	<fs af='ಆದ್ದರಿಂದ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ನಾವು	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ವು+ಉ,vu+u'>
+	))
+3	((	NP	
+3.1	ಕ್ಷೇತ್ರದ	N__NN	<fs af='ಕ್ಷೇತ್ರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+4	((	NP	
+4.1	ಆರ್ಥಿಕ	JJ	<fs af='ಅರ್ಥ,adj,,,,o,ಇಕ,ika'>
+4.2	ಸವಾಲುಗಳಿಗೆ	N__NN	<fs af='ಸವಾಲು,n,,pl,3,o,ಗಳು+ಇಗೆ,galYu+igeV'>
+	))
+5	((	NP	
+5.1	ಸಾಮಾನ್ಯ	JJ	<fs af='ಸಾಮಾನ್ಯ,adj,,,,d,0,0'>
+5.2	ಪರಿಹಾರಗಳನ್ನು	N__NN	<fs af='ಪರಿಹಾರ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+6	((	VGNN	
+6.1	ಕಂಡುಕೊಳ್ಳುವುದು	V__VM__VNG	<fs af='ಕಾಣು,v,,,,o,ಅಂ+ಡ+ಉ+ಕೊಳ್ಳು+ವ+ಉದು+ಉ,aM+da+u+koVlYlYu+va+uxu+u'>
+	))
+7	((	BLK	
+7.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+8	((	NP	
+8.1	ರಚನಾತ್ಮಕ	JJ	<fs af='ರಚನೆ,adj,,,,o,ಆತ್ಮಕ,Awmaka'>
+8.2	ವ್ಯವಸ್ಥೆಗಳನ್ನು	N__NN	<fs af='ವ್ಯವಸ್ಥೆ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+9	((	VGNN	
+9.1	ರಚಿಸುವುದು	V__VM__VNG	<fs af='ರಚಿಸು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+10	((	NP	
+10.1	ಅವಶ್ಯಕ	N__NN	<fs af='ಅವಶ್ಯಕ,n,,,3,d,0,0'>
+	))
+11	((	VGF	
+11.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='13'>
+1	((	NP	
+1.1	ಎಕ್ಸೆಲೆನ್ಸೀಸ್	N__NN	<fs af='ಎಕ್ಸೆಲೆನ್ಸೀಸ್,n,,,3,d,0,0'>
+	))
+2	((	BLK	
+2.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='14'>
+1	((	JJP	
+1.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+	))
+2	((	JJP	
+2.1	ಅಂತರ್ಗತ	JJ	<fs af='ಅಂತರ್ಗತ,adj,,,,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	JJP	
+4.1	ಹೊಂದಿಕೊಳ್ಳುವ	JJ	<fs af='ಹೊಂದು,adj,,,,o,ಇ+ಕೊಳ್ಳು+ವ,i+koVlYlYu+va'>
+	))
+5	((	NP	
+5.1	ಇಂಡೋ	N__NNP	<fs af='ಇಂಡೋ,n,,sg,3,d,0,0'>
+5.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+5.3	ಪೆಸಿಫಿಕ್	N__NNP	<fs af='ಪೆಸಿಫಿಕ್,n,,sg,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ಆರ್ಥಿಕ	JJ	<fs af='ಅರ್ಥ,adj,,,,o,ಇಕ,ika'>
+6.2	ಚೌಕಟ್ಟನ್ನು	N__NN	<fs af='ಚೌಕಟ್ಟು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+7	((	VGINF	
+7.1	ನಿರ್ಮಿಸಲು	V__VM__VINF	<fs af='ನಿರ್ಮಿಸು,v,,,,,ಅಲು,alu'>
+	))
+8	((	NP	
+8.1	ಭಾರತವು	N__NNP	<fs af='ಭಾರತ,n,,sg,3,o,ವ+ಉ,va+u'>
+	))
+9	((	NP	
+9.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+9.2	ಜೊತೆ	RP__RPD	<fs af='ಜೊತೆ,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಕೆಲಸ	N__NN	<fs af='ಕೆಲಸ,n,,sg,3,d,0,0'>
+	))
+11	((	VGF	
+11.1	ಮಾಡುತ್ತದೆ	V__VM__VF	<fs af='ಮಾಡು,v,,,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='15'>
+1	((	NP	
+1.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+1.2	ನಡುವೆ	RP__RPD	<fs af='ನಡುವೆ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಸ್ಥಿತಿಸ್ಥಾಪಕ	JJ	<fs af='ಸ್ಥಿತಿಸ್ಥಾಪಕ,adj,,,,d,0,0'>
+2.2	ಪೂರೈಕೆ	N__NNV	<fs af='ಪೂರೈಸು,n,,sg,3,o,ಇಕೆ,ikeV'>
+2.3	ಸರಪಳಿಗಳ	N__NN	<fs af='ಸರಪಳಿ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+3	((	NP	
+3.1	ಮೂರು	QT__QTC	<fs af='ಮೂರು,num,,pl,3,o,ಉ,u'>
+3.2	ಮುಖ್ಯ	JJ	<fs af='ಮುಖ್ಯ,adj,,,,d,0,0'>
+3.3	ಆಧಾರಗಳು	N__NN	<fs af='ಆಧಾರ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+4	((	VGF	
+4.1	ಇರಬೇಕು	V__VM__VF	<fs af='ಇರು,v,,,,,ಅ+ಬೇಕು,a+beku'>
+	))
+5	((	CCP	
+5.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ನಾನು	PR__PRP	<fs af='ನಾನು,pn,any,sg,1,o,ಉ,u'>
+	))
+7	((	VGF	
+7.1	ನಂಬುತ್ತೇನೆ	V__VM__VF	<fs af='ನಂಬು,v,any,sg,1,,ಉತ್ತ+ಏನೆ,uwwa+eneV'>
+	))
+8	((	BLK	
+8.1	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+	))
+9	((	NP	
+9.1	ನಂಬಿಕೆ	N__NNV	<fs af='ನಂಬು,n,,sg,3,o,ಇಕೆ,ikeV'>
+9.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+10	((	NP	
+10.1	ಪಾರದರ್ಶಕತೆ	N__NN	<fs af='ಪಾರದರ್ಶಕ,n,,sg,3,o,ತೆ,weV'>
+	))
+11	((	CCP	
+11.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+12	((	NP	
+12.1	ಸಮಯಪ್ರಜ್ಞೆ	N__NN	<fs af='ಸಮಯ,n,,sg,3,o,ಪ್ರಜ್ಞೆ,prajFeV'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='16'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ಚೌಕಟ್ಟು	N__NN	<fs af='ಚೌಕಟ್ಟು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+2.2	ಮೂರು	QT__QTC	<fs af='ಮೂರು,num,,pl,3,o,ಉ,u'>
+2.3	ಸ್ತಂಭಗಳನ್ನು	N__NN	<fs af='ಸ್ತಂಭ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+3	((	VGINF	
+3.1	ಬಲಪಡಿಸಲು	V__VM__VINF	<fs af='ಬಲಪಡು,v,,,,,ಇಸು+ಅಲು,isu+alu'>
+	))
+4	((	NP	
+4.1	ಸಹಾಯ	N__NN	<fs af='ಸಹಾಯ,n,,sg,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+6	((	CCP	
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಇಂಡೋ	N__NNP	<fs af='ಇಂಡೋ,n,,sg,3,d,0,0'>
+7.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+7.3	ಪೆಸಿಫಿಕ್	N__NNP	<fs af='ಪೆಸಿಫಿಕ್,n,,sg,3,d,0,0'>
+7.4	ಕ್ಷೇತ್ರದಲ್ಲಿ	N__NN	<fs af='ಕ್ಷೇತ್ರ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+8	((	NP	
+8.1	ಅಭಿವೃದ್ಧಿ	N__NN	<fs af='ಅಭಿವೃದ್ಧಿ,n,,sg,3,d,0,0'>
+8.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+9	((	NP	
+9.1	ಶಾಂತಿ	N__NN	<fs af='ಶಾಂತ,n,,,3,o,ಇ,i'>
+	))
+10	((	CCP	
+10.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಸಮೃದ್ಧಿಗೆ	N__NN	<fs af='ಸಮೃದ್ಧ,n,,sg,3,o,ಇಗೆ,igeV'>
+	))
+12	((	NP	
+12.1	ದಾರಿ	N__NN	<fs af='ದಾರಿ,n,,sg,3,d,0,0'>
+	))
+13	((	NP	
+13.1	ಪ್ರಶಸ್ತ	N__NN	<fs af='ಪ್ರಶಸ್ತ,n,,,3,d,0,0'>
+	))
+14	((	VGF	
+14.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+15	((	CCP	
+15.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+16	((	NP	
+16.1	ನನಗೆ	PR__PRP	<fs af='ನಾನು,pn,any,sg,1,o,ನ+ಗೆ,na+geV'>
+	))
+17	((	NP	
+17.1	ವಿಶ್ವಾಸ	N__NN	<fs af='ವಿಶ್ವಾಸ,n,,,3,d,0,0'>
+	))
+18	((	VGF	
+18.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ+ಎ,xa+eV'>
+	))
+19	((	BLK	
+19.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='17'>
+1	((	NP	
+1.1	ತುಂಬಾ	JJ	<fs af='ತುಂಬ,adj,,,,o,ಆ,A'>
+1.2	ಧನ್ಯವಾದಗಳು	N__NN	<fs af='ಧನ್ಯವಾದ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+2	((	BLK	
+2.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='18'>
+1	((	NP	
+1.1	ಟೋಕಿಯೋ	N__NNP	<fs af='ಟೋಕಿಯೋ,n,,sg,3,d,0,0'>
+	))
+2	((	BLK	
+2.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='19'>
+1	((	NP	
+1.1	ಮೇ	N__NNP	<fs af='ಮೇ,n,,sg,3,d,0,0'>
+	))
+2	((	JJP	
+2.1	23	QT__QTC	<fs af='23,num,,,3,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	JJP	
+3.1	2022	QT__QTC	<fs af='2022,num,,,3,d,0,0'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+</document>

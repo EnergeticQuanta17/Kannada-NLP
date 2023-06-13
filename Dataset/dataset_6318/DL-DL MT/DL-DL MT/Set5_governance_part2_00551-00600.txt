@@ -1,0 +1,2430 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='551'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+1.2	ಆದೇಶವನ್ನು	N__NN	<fs af='ಆದೇಶ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+2	((	NP	
+2.1	ಆರ್ಥಿಕ	JJ	<fs af='ಅರ್ಥ,adj,,,,o,ಇಕ,ika'>
+2.2	ಇಲಾಖೆಯ	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+3	((	NP	
+3.1	ತನ್ನ	PR__PRF	<fs af='ತಾನು,pn,any,sg,1,o,ನ+ನ+ಅ,na+na+a'>
+	))
+4	((	NP	
+4.1	ಹಿಂಬರಹ	JJ	<fs af='ಹಿಂಬರೆ,adj,,,,o,ಅ+ಹ,a+ha'>
+4.2	ಸಂಖ್ಯೆ	N__NN	<fs af='ಸಂಖ್ಯೆ,n,,sg,3,d,0,0'>
+4.3	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+4.4	ಆಇ	N__NNP	<fs af='ಆಇ,n,,sg,3,d,0,0'>
+4.5	844	QT__QTC	<fs af='844,num,,sg,,d,0,0'>
+4.6	ವೆಚ್ಚ	N__NN	<fs af='ವೆಚ್ಚ,n,,sg,3,d,0,0'>
+4.7	-	RD__SYM	<fs af='-,punc,,,,,,'>
+4.8	9	QT__QTC	<fs af='9,num,,sg,,d,0,0'>
+4.9	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+4.10	2022	QT__QTC	<fs af='2022,num,,,,d,0,0'>
+4.11	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ದಿನಾಂಕ	N__NN	<fs af='ದಿನಾಂಕ,n,,sg,3,d,0,0'>
+5.2	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+5.3	15-11-2022ರಲ್ಲಿ	N__NNP	<fs af='15-11-2022,n,,,,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+6	((	VGNF	
+6.1	ನೀಡಿ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+6.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+7	((	NP	
+7.1	ಸಹಮತಿಯ	N__NN	<fs af='ಸಹಮತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+7.2	ಅನ್ವಯ	RP__RPD	<fs af='ಅನ್ವಯ,avy,,,,d,0,0'>
+	))
+8	((	VGF	
+8.1	ಹೊರಪಡಿಸಲು	V__VM__VF	<fs af='ಹೊರಪಡು,v,,,,,ಇಸು+ಅಲು,isu+alu'>
+8.2	ಆಗಿದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='552'>
+1	((	NP	
+1.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+1.2	ರಾಜ್ಯಪಾಲರ	N__NN	<fs af='ರಾಜ್ಯಪಾಲ,n,m,sg,3h,o,ಅರು+ಅ,aru+a'>
+	))
+2	((	NP	
+2.1	ಆದೇಶ	N__NN	<fs af='ಆದೇಶ,n,,sg,3,d,0,0'>
+2.2	ಅನುಸಾರ	RP__RPD	<fs af='ಅನುಸಾರ,avy,,,,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಅವರ	PR__PRP	<fs af='ಅವರು,pn,m,sg,3h,o,ಅ,a'>
+	))
+5	((	NP	
+5.1	ಹೆಸರಿನಲ್ಲಿ	N__NN	<fs af='ಹೆಸರು,n,,sg,3,o,ಇನ+ಅಲ್ಲಿ,ina+alli'>
+5.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+6.2	ಲಕ್ಷ್ಮೀಸಾಗರ್‌.	N__NNP	<fs af='ಲಕ್ಷ್ಮೀಸಾಗರ್.,n,m,sg,3,d,0,0'>
+6.3	ಎನ್‌.	N__NNP	<fs af='ಎನ್.,n,m,sg,3,d,0,0'>
+6.4	ಕೆ	N__NNP	<fs af='ಕೆ,n,m,sg,3,d,0,0'>
+6.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+6.6	ಸರ್ಕಾರದ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+7	((	NP	
+7.1	ಅಧೀನ	JJ	<fs af='ಅಧೀನ,adj,,,,d,0,0'>
+7.2	ಕಾರ್ಯದರ್ಶಿ	N__NN	<fs af='ಕಾರ್ಯದರ್ಶಿ,n,m,sg,3,d,0,0'>
+7.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+8	((	NP	
+8.1	ನಗರ	JJ	<fs af='ನಗರ,adj,,,,d,0,0'>
+8.2	ಅಭಿವೃದ್ಧಿ	JJ	<fs af='ಅಭಿವೃದ್ಧಿ,adj,,,,d,0,0'>
+8.3	ಇಲಾಖೆ	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,d,0,0'>
+8.4	(	RD__SYM	<fs af='(,punc,,,,,,'>
+8.5	ಬಿ.	N__NNP	<fs af='ಬಿ.,n,,sg,3,d,0,0'>
+8.6	ಬಿ.	N__NNP	<fs af='ಬಿ.,n,,sg,3,d,0,0'>
+8.7	ಎಂ.	N__NNP	<fs af='ಎಂ.,n,,sg,3,d,0,0'>
+8.8	ಪಿ	N__NNP	<fs af='ಪಿ,n,,sg,3,d,0,0'>
+8.9	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='553'>
+1	((	NP	
+1.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+1.2	ಸರ್ಕಾರದ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+2	((	NP	
+2.1	ನಡೆವಳಿಗಳು	N__NNV	<fs af='ನಡೆ,n,,pl,3,o,ವಳಿ+ಗಳು+ಉ,valYi+galYu+u'>
+	))
+3	((	NP	
+3.1	ವಿಷಯ	N__NN	<fs af='ವಿಷಯ,n,,sg,3,d,0,0'>
+3.2	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='554'>
+1	((	NP	
+1.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+1.2	ಜಿಲ್ಲೆ	N__NN	<fs af='ಜಿಲ್ಲೆ,n,,sg,3,d,0,0'>
+1.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+2.2	ತಾಲ್ಲೂಕು	N__NN	<fs af='ತಾಲ್ಲೂಕು,n,,sg,3,o,ಉ,u'>
+2.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಕಸಬಾ	N__NNP	<fs af='ಕಸಬಾ,n,,sg,3,d,0,0'>
+3.2	ಹೋಬಳಿ	N__NN	<fs af='ಹೋಬಳಿ,n,,sg,3,d,0,0'>
+3.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಹಿರೇಮಗಳೂರು	N__NNP	<fs af='ಹಿರೇಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+4.2	ಗ್ರಾಮದ	N__NN	<fs af='ಗ್ರಾಮ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+5	((	NP	
+5.1	ಸ.	N__NN	<fs af='ಸ.,n,,sg,3,d,0,0'>
+5.2	ನಂ.	N__NN	<fs af='ನಂ.,n,,sg,3,d,0,0'>
+5.3	544ರಲ್ಲಿ	N__NN	<fs af='544,n,,sg,,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+6	((	NP	
+6.1	600	QT__QTC	<fs af='600,num,,pl,,d,0,0'>
+6.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+6.3	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+7	((	NP	
+7.1	ಶೈಕ್ಷಣಿಕ	JJ	<fs af='ಶಿಕ್ಷಣ,adj,,,,o,ಇಕ,ika'>
+7.2	ಉದ್ದೇಶಕ್ಕೆ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+8	((	NP	
+8.1	ರಾಷ್ಟ್ರೋತ್ಥಾನ	N__NNP	<fs af='ರಾಷ್ಟ್ರೋತ್ಥಾನ,n,,sg,3,d,0,0'>
+8.2	ಪರಿಷತ್ತಿಗೆ	N__NNP	<fs af='ಪರಿಷತ್ತು,n,,sg,3,o,ಇಗೆ,igeV'>
+	))
+9	((	NP	
+9.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+9.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+9.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+10	((	VGNN	
+10.1	ನೀಡುವ	V__VM__VNG	<fs af='ನೀಡು,v,,,,o,ವ+ಅ,va+a'>
+10.2	ಬಗ್ಗೆ	RP__RPD	<fs af='ಬಗ್ಗೆ,avy,,,,d,0,0'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='555'>
+1	((	NP	
+1.1	ಮೇಲೆ	N__NST	<fs af='ಮೇಲು,nst,,,,o,ಎ,eV'>
+	))
+2	((	VGINF	
+2.1	ಓದಲು	V__VM__VINF	<fs af='ಓದು,v,,,,,ಅಲು,alu'>
+2.2	ಆದ	V__VAUX	<fs af='ಆಗು,v,,,,,ದ,xa'>
+	))
+3	((	NP	
+3.1	ಪತ್ರದಲ್ಲಿ	N__NN	<fs af='ಪತ್ರ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಪ್ರಾದೇಶಿಕ	JJ	<fs af='ಪ್ರದೇಶ,adj,,,,o,ಇಕ,ika'>
+4.2	ಆಯುಕ್ತರು	N__NN	<fs af='ಆಯುಕ್ತ,n,any,sg,3h,o,ಅರು+ಉ,aru+u'>
+4.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಮೈಸೂರು	N__NNP	<fs af='ಮೈಸೂರು,n,,sg,3,o,ಉ,u'>
+5.2	ವಿಭಾಗ	N__NN	<fs af='ವಿಭಾಗ,n,,sg,3,d,0,0'>
+5.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಇವರ	PR__PRP	<fs af='ಇವರು,pn,any,sg,3h,o,ಅ,a'>
+	))
+7	((	NP	
+7.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+7.2	ಜಿಲ್ಲೆ	N__NN	<fs af='ಜಿಲ್ಲೆ,n,,sg,3,d,0,0'>
+7.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+8	((	NP	
+8.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+8.2	ತಾಲ್ಲೂಕು	N__NN	<fs af='ತಾಲ್ಲೂಕು,n,,sg,3,o,ಉ,u'>
+8.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+9	((	NP	
+9.1	ಕಸಬಾ	N__NNP	<fs af='ಕಸಬಾ,n,,sg,3,d,0,0'>
+9.2	ಹೋಬಳಿ	N__NN	<fs af='ಹೋಬಳಿ,n,,sg,3,d,0,0'>
+9.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+10	((	NP	
+10.1	ಹಿರೇಮಗಳೂರು	N__NNP	<fs af='ಹಿರೇಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+10.2	ಗ್ರಾಮದ	N__NN	<fs af='ಗ್ರಾಮ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+11	((	NP	
+11.1	ಸ.	N__NN	<fs af='ಸ.,n,,sg,3,d,0,0'>
+11.2	ನಂ.	N__NN	<fs af='ನಂ.,n,,sg,3,d,0,0'>
+11.3	544ರಲ್ಲಿನ	N__NN	<fs af='544,n,,sg,,o,ರ+ಅಲ್ಲಿ+ನ,ra+alli+na'>
+	))
+12	((	NP	
+12.1	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+13	((	NP	
+13.1	“	RD__PUNC	<fs af='“,punc,,,,,,'>
+13.2	ಸರ್ಕಾರಿ	JJ	<fs af='ಸರ್ಕಾರ,adj,,,,o,ಇ,i'>
+13.3	”	RD__PUNC	<fs af='”,punc,,,,,,'>
+13.4	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+14	((	VGF	
+14.1	ಆಗಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+14.2	ಇರುತ್ತದೆ	V__VAUX	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+15	((	BLK	
+15.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='556'>
+1	((	NP	
+1.1	ಕುಮ್ಕಿ	N__NN	<fs af='ಕುಮ್ಕಿ,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಅರಣ್ಯ	JJ	<fs af='ಅರಣ್ಯ,adj,,,,d,0,0'>
+3.2	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+4	((	VGF	
+4.1	ಆಗಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+4.2	ಇರುವುದಿಲ್ಲ	V__VAUX	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+5	((	BLK	
+5.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='557'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ನಗರಸಭೆಯ	N__NN	<fs af='ನಗರಸಭೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+3	((	NP	
+3.1	ವ್ಯಾಪ್ತಿಗೆ	N__NN	<fs af='ವ್ಯಾಪ್ತಿ,n,,sg,3,o,ಗೆ,geV'>
+	))
+4	((	VGNN	
+4.1	ಒಳಪಟ್ಟು	V__VM__VNG	<fs af='ಒಳಪಡು,v,,,,o,ಟ+ಟ+ಉ+ಉ,ta+ta+u+u'>
+4.2	ಇದ್ದು	V__VAUX	<fs af='ಇರು,v,,,,o,ದ+ದು+ಉ,xa+xu+u'>
+	))
+5	((	NP	
+5.1	ನಗರಸಭೆಯವರು	N__NN	<fs af='ನಗರಸಭೆ,n,any,sg,3h,o,ಯ+ಅವರು+ಉ,ya+avaru+u'>
+	))
+6	((	NP	
+6.1	ನಿರಾಕ್ಷೇಪಣಾ	JJ	<fs af='ನಿರಾಕ್ಷೇಪಿಸು,adj,,,,o,ಅಣೆ+ಆ,aNeV+A'>
+6.2	ಪತ್ರವನ್ನು	N__NN	<fs af='ಪತ್ರ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+7	((	VGF	
+7.1	ನೀಡಿ	V__VM__VF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+7.2	ಇರುವುದಿಲ್ಲ	V__VAUX	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+8	((	BLK	
+8.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='558'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+2	((	NP	
+2.1	ಸಕ್ರಮಾತಿ	N__NN	<fs af='ಸಕ್ರಮ,n,,sg,3,o,ಆತಿ,Awi'>
+	))
+3	((	VGNF	
+3.1	ಕೋರಿ	V__VM__VNF	<fs af='ಕೋರು,v,,,,,ಇ,i'>
+	))
+4	((	NP	
+4.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+4.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+4.3	ಕಂದಾಯ	N__NN	<fs af='ಕಂದಾಯ,n,,sg,3,d,0,0'>
+4.4	ಕಾಯ್ದೆ	N__NN	<fs af='ಕಾಯ್ದೆ,n,,sg,3,d,0,0'>
+4.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	1964ರ	N__NN	<fs af='1964,n,,,,o,ರ+ಅ,ra+a'>
+	))
+6	((	NP	
+6.1	ಕಲಂ	N__NN	<fs af='ಕಲಂ,n,,sg,3,d,0,0'>
+6.2	94ಎ	N__NNP	<fs af='94ಎ,n,,sg,3,d,0,0'>
+6.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	94ಬಿ	N__NNP	<fs af='94ಬಿ,n,,sg,3,d,0,0'>
+7.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+8	((	NP	
+8.1	94ಸಿ	N__NNP	<fs af='94ಸಿ,n,,sg,3,d,0,0'>
+	))
+9	((	CCP	
+9.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	94ಸಿಸಿಗಳ	N__NNP	<fs af='94ಸಿಸಿ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+10.2	ಅಡಿಯಲ್ಲಿ	RP__RPD	<fs af='ಅಡಿಯಲ್ಲಿ,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಸಲ್ಲಿಕೆ	N__NNV	<fs af='ಸಲ್ಲು,n,,sg,3,o,ಇಕೆ,ikeV'>
+	))
+12	((	VGNF	
+12.1	ಆಗಿ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+12.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+13	((	NP	
+13.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+14	((	NP	
+14.1	ಅರ್ಜಿಗಳು	N__NN	<fs af='ಅರ್ಜಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+15	((	NP	
+15.1	ಬಾಕಿ	N__NN	<fs af='ಬಾಕಿ,n,,sg,3,d,0,0'>
+	))
+16	((	VGF	
+16.1	ಇರುವುದಿಲ್ಲ	V__VM__VF	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+17	((	BLK	
+17.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='559'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನಿನ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+	))
+2	((	NP	
+2.1	ಮಾರುಕಟ್ಟೆ	JJ	<fs af='ಮಾರುಕಟ್ಟೆ,adj,,,,d,0,0'>
+2.2	ಮೌಲ್ಯವು	N__NN	<fs af='ಮೌಲ್ಯ,n,,sg,3,o,ವ+ಉ,va+u'>
+	))
+3	((	NP	
+3.1	ಎಕರೆ	N__NN	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+3.2	ಒಂದಕ್ಕೆ	N__NN	<fs af='ಒಂದು,n,,sg,3,o,ಅಕ್ಕೆ,akkeV'>
+	))
+4	((	NP	
+4.1	ರೂ.	N__NN	<fs af='ರೂ.,n,,sg,3,d,0,0'>
+4.2	55.00	QT__QTC	<fs af='55.00,num,,pl,,d,0,0'>
+4.3	ಲಕ್ಷಗಳು	N__NN	<fs af='ಲಕ್ಷ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+5	((	VGF	
+5.1	ಆಗಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+5.2	ಇರುತ್ತದೆ	V__VAUX	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+6	((	BLK	
+6.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='560'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನಿನ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+1.3	ಕುರಿತಾಗಿ	RP__RPD	<fs af='ಕುರಿತಾಗಿ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ನ್ಯಾಯಾಲಯದಲ್ಲಿ	N__NN	<fs af='ನ್ಯಾಯಾಲಯ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+3	((	NP	
+3.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+4	((	NP	
+4.1	ಪ್ರಕರಣಗಳು	N__NN	<fs af='ಪ್ರಕರಣ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+5	((	NP	
+5.1	ಬಾಕಿ	N__NN	<fs af='ಬಾಕಿ,n,,sg,3,d,0,0'>
+	))
+6	((	VGF	
+6.1	ಇರುವುದಿಲ್ಲ	V__VM__VF	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+</Sentence>
+
+<Sentence id='561'>
+1	((	NP	
+1.1	ಸದರಿ	JJ	<fs af='ಸದರಿ,adj,,,,d,0,0'>
+1.2	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+2.2	ಸ್ವಾಧೀನ	N__NN	<fs af='ಸ್ವಾಧೀನ,n,,sg,3,d,0,0'>
+2.3	ಪ್ರಕ್ರಿಯೆಗೆ	N__NN	<fs af='ಪ್ರಕ್ರಿಯೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+3	((	VGF	
+3.1	ಒಳಪಟ್ಟು	V__VM__VF	<fs af='ಒಳಪಡು,v,,,,,ಟ+ಟ+ಉ,ta+ta+u'>
+3.2	ಇರುವುದಿಲ್ಲ	V__VAUX	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='562'>
+1	((	NP	
+1.1	ರಾಷ್ಟ್ರೋತ್ಥಾನ	N__NNP	<fs af='ರಾಷ್ಟ್ರೋತ್ಥಾನ,n,,sg,3,d,0,0'>
+1.2	ಪರಿಷತ್ತು	N__NNP	<fs af='ಪರಿಷತ್ತು,n,,sg,3,o,ಉ,u'>
+1.3	ಮೈಸೂರು	N__NNP	<fs af='ಮೈಸೂರು,n,,sg,3,o,ಉ,u'>
+1.4	ಸೊಸೈಟೀಸ್‌	N__NNP	<fs af='ಸೊಸೈಟೀಸ್,n,,sg,3,d,0,0'>
+1.5	ರಿಜಿಸ್ಟೇಷನ್‌	N__NNP	<fs af='ರಿಜಿಸ್ಟೇಷನ್,n,,sg,3,d,0,0'>
+1.6	ಆಕ್ಟ್‌	N__NNP	<fs af='ಆಕ್ಟ್,n,,sg,3,d,0,0'>
+1.7	1960ರ	N__NN	<fs af='1960,n,,,,o,ರ+ಅ,ra+a'>
+1.8	ಅನ್ವಯ	RP__RPD	<fs af='ಅನ್ವಯ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ದಿನಾಂಕ	N__NN	<fs af='ದಿನಾಂಕ,n,,sg,3,d,0,0'>
+2.2	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+2.3	17.02.1965ರಂದು	N__NNP	<fs af='17.02.1965,n,,,,o,ರ+ಅಂದು,ra+aMxu'>
+	))
+3	((	NP	
+3.1	ನೋಂದಣಿ	N__NN	<fs af='ನೋಂದಣಿ,n,,sg,3,d,0,0'>
+	))
+4	((	VGF	
+4.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+5	((	BLK	
+5.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='563'>
+1	((	NP	
+1.1	ರಾಷ್ಟ್ರೋತ್ಥಾನ	N__NNP	<fs af='ರಾಷ್ಟ್ರೋತ್ಥಾನ,n,,sg,3,d,0,0'>
+1.2	ಪರಿಷತ್ತಿನ	N__NNP	<fs af='ಪರಿಷತ್ತು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+1.3	2016	QT__QTC	<fs af='2016,num,,,,d,0,0'>
+1.4	-	RD__SYM	<fs af='-,punc,,,,,,'>
+1.5	17ರಿಂದ	N__NN	<fs af='17,n,,,,o,ರ+ಇಂದ,ra+iMxa'>
+	))
+2	((	NP	
+2.1	2020	QT__QTC	<fs af='2020,num,,,,d,0,0'>
+2.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+2.3	21ರವರೆಗಿನ	N__NN	<fs af='21,n,,,,o,ರ+ವರೆಗೆ+ಇನ+ಅ,ra+vareVgeV+ina+a'>
+	))
+3	((	NP	
+3.1	ಆಡಿಟ್‌	JJ	<fs af='ಆಡಿಟ್,adj,,,,d,0,0'>
+3.2	ವರದಿಗಳು	N__NN	<fs af='ವರದಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+4	((	NP	
+4.1	ಲಭ್ಯ	N__NN	<fs af='ಲಭ್ಯ,n,,sg,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ+ಎ,xa+eV'>
+	))
+6	((	BLK	
+6.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='564'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+2.2	ನಗರಸಭಾ	JJ	<fs af='ನಗರಸಭೆ,adj,,,,o,ಆ,A'>
+2.3	ವ್ಯಾಪ್ತಿಯ	N__NN	<fs af='ವ್ಯಾಪ್ತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+2.4	ಒಳಗೆ	N__NST	<fs af='ಒಳಗು,nst,,,,o,ಎ,eV'>
+	))
+3	((	VGF	
+3.1	ಇರುತ್ತದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+4	((	BLK	
+4.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='565'>
+1	((	NP	
+1.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+1.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+1.3	ಮಂಜೂರಾತಿ	JJ	<fs af='ಮಂಜೂರು,adj,,,,o,ಆತಿ,Awi'>
+1.4	ನಿಯಮಗಳು	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+1.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	1969ರ	N__NN	<fs af='1969,n,,,,o,ರ+ಅ,ra+a'>
+	))
+3	((	NP	
+3.1	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+3.2	22ಎ	N__NNP	<fs af='22ಎ,n,,sg,3,d,0,0'>
+3.3	(	RD__SYM	<fs af='(,punc,,,,,,'>
+3.4	2	QT__QTC	<fs af='2,num,,sg,,d,0,0'>
+3.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+3.6	ರನ್ವಯ	RP__RPD	<fs af='ರನ್ವಯ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ನಗರ	N__NN	<fs af='ನಗರ,n,,sg,3,d,0,0'>
+4.2	ವ್ಯಾಪ್ತಿಯ	N__NN	<fs af='ವ್ಯಾಪ್ತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+4.3	ಒಳಗಿನ	N__NST	<fs af='ಒಳಗು,nst,,,,o,ಇನ+ಅ,ina+a'>
+	))
+5	((	NP	
+5.1	ಜಮೀನುಗಳನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+6	((	NP	
+6.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+7	((	NP	
+7.1	ಸರ್ಕಾರಿ	JJ	<fs af='ಸರ್ಕಾರ,adj,,,,o,ಇ,i'>
+7.2	ಜಮೀನುಗಳನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+8	((	NP	
+8.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+9	((	NP	
+9.1	ವ್ಯಕ್ತಿ	N__NN	<fs af='ವ್ಯಕ್ತಿ,n,any,sg,3,d,0,0'>
+	))
+10	((	CCP	
+10.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಖಾಸಗಿ	JJ	<fs af='ಖಾಸಗಿ,adj,,,,d,0,0'>
+11.2	ಸಂಘ	N__NN	<fs af='ಸಂಘ,n,,sg,3,d,0,0'>
+11.3	ಸಂಸ್ಥೆಗಳಿಗೆ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,pl,3,o,ಗಳು+ಇಗೆ,galYu+igeV'>
+	))
+12	((	NP	
+12.1	ಮಂಜೂರು	N__NN	<fs af='ಮಂಜೂರು,n,,sg,3,o,ಉ,u'>
+	))
+13	((	VGINF	
+13.1	ಮಾಡಲು	V__VM__VINF	<fs af='ಮಾಡು,v,,,,,ಅಲು,alu'>
+	))
+14	((	CCP	
+14.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+15	((	NP	
+15.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+15.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+15.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+16	((	VGINF	
+16.1	ನೀಡಲು	V__VM__VINF	<fs af='ನೀಡು,v,,,,,ಅಲು,alu'>
+	))
+17	((	NP	
+17.1	ಅವಕಾಶ	N__NN	<fs af='ಅವಕಾಶ,n,,sg,3,d,0,0'>
+	))
+18	((	VGF	
+18.1	ಇರುವುದಿಲ್ಲ	V__VM__VF	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+19	((	BLK	
+19.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='566'>
+1	((	CCP	
+1.1	ಆದರೆ	CC__CCS	<fs af='ಆದರೆ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+2.2	ಸಂಸ್ಥೆಯು	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಯ+ಉ,ya+u'>
+	))
+3	((	NP	
+3.1	ಸಾರ್ವಜನಿಕ	JJ	<fs af='ಸರ್ವಜನ,adj,,pl,,o,ಇಕ,ika'>
+3.2	ಉದ್ದೇಶವನ್ನು	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+4	((	VGNF	
+4.1	ಹೊಂದಿ	V__VM__VNF	<fs af='ಹೊಂದು,v,,,,,ಇ,i'>
+4.2	ಇರುವುದರಿಂದ	V__VAUX	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಅರ+ಇಂದ,va+uxu+ara+iMxa'>
+	))
+5	((	NP	
+5.1	ಸರ್ಕಾರದ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+6	((	NP	
+6.1	ಮಟ್ಟದಲ್ಲಿ	N__NN	<fs af='ಮಟ್ಟ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+7	((	NP	
+7.1	ಸೂಕ್ತ	JJ	<fs af='ಸೂಕ್ತ,adj,,,,d,0,0'>
+7.2	ತೀರ್ಮಾನವನ್ನು	N__NN	<fs af='ತೀರ್ಮಾನ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+8	((	VGF	
+8.1	ಕೈಗೊಳ್ಳಬಹುದು	V__VM__VF	<fs af='ಕೈಗೊಳ್ಳು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+8.2	ಆಗಿದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+9	((	CCP	
+9.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಜಿಲ್ಲಾಧಿಕಾರಿಯವರು	N__NN	<fs af='ಜಿಲ್ಲಾಧಿಕಾರ,n,any,sg,3h,o,ಇ+ಯ+ಅವರು+ಉ,i+ya+avaru+u'>
+	))
+11	((	VGF	
+11.1	ತಿಳಿಸಿ	V__VM__VF	<fs af='ತಿಳಿ,v,,,,,ಇಸು+ಇ,isu+i'>
+11.2	ಇರುತ್ತಾರೆ	V__VAUX	<fs af='ಇರು,v,any,sg,3h,,ಉತ್ತ+ಆರೆ,uwwa+AreV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='567'>
+1	((	NP	
+1.1	ವರದಿಯೊಂದಿಗೆ	N__NN	<fs af='ವರದಿ,n,,sg,3,o,ಯ+ಒಂದಿಗೆ,ya+oVMxigeV'>
+	))
+2	((	NP	
+2.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+2.2	ಜಿಲ್ಲೆ	N__NN	<fs af='ಜಿಲ್ಲೆ,n,,sg,3,d,0,0'>
+2.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+3.2	ತಾಲ್ಲೂಕು	N__NN	<fs af='ತಾಲ್ಲೂಕು,n,,sg,3,o,ಉ,u'>
+3.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಕಸಬಾ	N__NNP	<fs af='ಕಸಬಾ,n,,sg,3,d,0,0'>
+4.2	ಹೋಬಳಿ	N__NN	<fs af='ಹೋಬಳಿ,n,,sg,3,d,0,0'>
+4.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಹಿರೇಮಗಳೂರು	N__NNP	<fs af='ಹಿರೇಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+5.2	ಗ್ರಾಮದ	N__NN	<fs af='ಗ್ರಾಮ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+6	((	NP	
+6.1	ಸ.	N__NN	<fs af='ಸ.,n,,sg,3,d,0,0'>
+6.2	ನಂ.	N__NN	<fs af='ನಂ.,n,,sg,3,d,0,0'>
+6.3	544ರಲ್ಲಿ	N__NN	<fs af='544,n,,sg,,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+7	((	NP	
+7.1	600	QT__QTC	<fs af='600,num,,pl,,d,0,0'>
+7.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+7.3	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+8	((	NP	
+8.1	ಶೈಕ್ಷಣಿಕ	JJ	<fs af='ಶಿಕ್ಷಣ,adj,,,,o,ಇಕ,ika'>
+8.2	ಉದ್ದೇಶಕ್ಕೆ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+8.3	ಆಗಿ	RP__RPD	<fs af='ಆಗಿ,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ರಾಷ್ಟ್ರೋತ್ಥಾನ	N__NNP	<fs af='ರಾಷ್ಟ್ರೋತ್ಥಾನ,n,,sg,3,d,0,0'>
+9.2	ಪರಿಷತ್ತು	N__NNP	<fs af='ಪರಿಷತ್ತು,n,,sg,3,o,ಉ,u'>
+9.3	ಸಂಸ್ಥೆ	N__NNP	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,d,0,0'>
+9.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+10	((	NP	
+10.1	ಬೆಂಗಳೂರು	N__NNP	<fs af='ಬೆಂಗಳೂರು,n,,sg,3,o,ಉ,u'>
+	))
+11	((	NP	
+11.1	ಇವರಿಗೆ	PR__PRP	<fs af='ಇವರು,pn,any,sg,3h,o,ಇಗೆ,igeV'>
+	))
+12	((	NP	
+12.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+12.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+12.3	ಮಂಜೂರಾತಿ	JJ	<fs af='ಮಂಜೂರು,adj,,,,o,ಆತಿ,Awi'>
+12.4	ನಿಯಮಗಳ	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+12.5	ಅನ್ವಯ	RP__RPD	<fs af='ಅನ್ವಯ,avy,,,,d,0,0'>
+	))
+13	((	NP	
+13.1	ಶೈಕ್ಷಣಿಕ	JJ	<fs af='ಶಿಕ್ಷಣ,adj,,,,o,ಇಕ,ika'>
+13.2	ಉದ್ದೇಶಕ್ಕೆ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+13.3	ಆಗಿ	RP__RPD	<fs af='ಆಗಿ,avy,,,,d,0,0'>
+	))
+14	((	NP	
+14.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+	))
+15	((	VGNN	
+15.1	ನೀಡುವ	V__VM__VNG	<fs af='ನೀಡು,v,,,,o,ವ+ಅ,va+a'>
+	))
+16	((	NP	
+16.1	ಪ್ರಸ್ತಾವನೆಯನ್ನು	N__NNV	<fs af='ಪ್ರಸ್ತಾವಿಸು,n,,sg,3,o,ಅನೆ+ಯ+ಅನ್ನು,aneV+ya+annu'>
+	))
+17	((	NP	
+17.1	ಸರ್ಕಾರದ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+18	((	NP	
+18.1	ಸೂಕ್ತ	JJ	<fs af='ಸೂಕ್ತ,adj,,,,d,0,0'>
+18.2	ಆದೇಶಕ್ಕೆ	N__NN	<fs af='ಆದೇಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+18.3	ಆಗಿ	RP__RPD	<fs af='ಆಗಿ,avy,,,,d,0,0'>
+	))
+19	((	VGF	
+19.1	ಸಲ್ಲಿಸಿ	V__VM__VF	<fs af='ಸಲ್ಲು,v,,,,,ಇಸು+ಇ,isu+i'>
+19.2	ಇರುತ್ತಾರೆ	V__VAUX	<fs af='ಇರು,v,any,sg,3h,,ಉತ್ತ+ಆರೆ,uwwa+AreV'>
+	))
+20	((	BLK	
+20.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='568'>
+1	((	NP	
+1.1	ಪ್ರಾದೇಶಿಕ	JJ	<fs af='ಪ್ರದೇಶ,adj,,,,o,ಇಕ,ika'>
+1.2	ಆಯುಕ್ತರ	N__NN	<fs af='ಆಯುಕ್ತ,n,any,sg,3h,o,ಅರು+ಅ,aru+a'>
+	))
+2	((	NP	
+2.1	ಪ್ರಸ್ತಾವನೆಯನ್ನು	N__NNV	<fs af='ಪ್ರಸ್ತಾವಿಸು,n,,sg,3,o,ಅನೆ+ಯ+ಅನ್ನು,aneV+ya+annu'>
+	))
+3	((	RBP	
+3.1	ಸಮಗ್ರವಾಗಿ	RB	<fs af='ಸಮಗ್ರ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+4	((	VGNN	
+4.1	ಪರಿಶೀಲಿಸಿದ	V__VM__VNG	<fs af='ಪರಿಶೀಲಿಸು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+5	((	NP	
+5.1	ಸರ್ಕಾರವು	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ವ+ಉ,va+u'>
+	))
+6	((	NP	
+6.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+6.2	ಕೆಳಗಿನಂತೆ	N__NST	<fs af='ಕೆಳಗು,nst,,,,o,ಇನ+ಅಂತೆ,ina+aMweV'>
+	))
+7	((	VGF	
+7.1	ಆದೇಶಿಸಿದೆ	V__VM__VF	<fs af='ಆದೇಶಿಸು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='569'>
+1	((	NP	
+1.1	ರಾಷ್ಟ್ರೋತ್ಥಾನ	N__NNP	<fs af='ರಾಷ್ಟ್ರೋತ್ಥಾನ,n,,sg,3,d,0,0'>
+1.2	ಪರಿಷತ್ತು	N__NNP	<fs af='ಪರಿಷತ್ತು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಶೈಕ್ಷಣಿಕ	JJ	<fs af='ಶಿಕ್ಷಣ,adj,,,,o,ಇಕ,ika'>
+2.2	ಉದ್ದೇಶಕ್ಕೆ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+2.3	ಆಗಿ	RP__RPD	<fs af='ಆಗಿ,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+4	((	VGNF	
+4.1	ಕೋರಿ	V__VM__VNF	<fs af='ಕೋರು,v,,,,,ಇ,i'>
+4.2	ಇರುವುದರಿಂದ	V__VAUX	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಅರ+ಇಂದ,va+uxu+ara+iMxa'>
+	))
+5	((	NP	
+5.1	ಸುತ್ತ	N__NN	<fs af='ಸುತ್ತ,n,,sg,3,d,0,0'>
+5.2	ಮುತ್ತಲ	RD__ECH	<fs af='ಮುತ್ತಲು,n,,sg,3,o,ಅ,a'>
+5.3	ಗ್ರಾಮಗಳ	N__NN	<fs af='ಗ್ರಾಮ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+6	((	NP	
+6.1	ಮಕ್ಕಳ	N__NN	<fs af='ಮಗು,n,any,pl,3,o,ಕ+ಕಳು+ಅ,ka+kalYu+a'>
+	))
+7	((	NP	
+7.1	ವಿದ್ಯಾಭ್ಯಾಸದ	N__NN	<fs af='ವಿದ್ಯಾಭ್ಯಾಸ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+8	((	NP	
+8.1	ಹಿತದೃಷ್ಟಿಯಿಂದ	N__NN	<fs af='ಹಿತದೃಷ್ಟಿ,n,,sg,3,o,ಯ+ಇಂದ,ya+iMxa'>
+	))
+9	((	NP	
+9.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+9.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+9.3	ಮಂಜೂರಾತಿ	JJ	<fs af='ಮಂಜೂರು,adj,,,,o,ಆತಿ,Awi'>
+9.4	ನಿಯಮಗಳು	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+9.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+10	((	NP	
+10.1	1969ರ	N__NN	<fs af='1969,n,,,,o,ರ+ಅ,ra+a'>
+	))
+11	((	NP	
+11.1	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+11.2	27ರಲ್ಲಿ	N__NN	<fs af='27,n,,sg,,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+12	((	NP	
+12.1	ಸರ್ಕಾರಕ್ಕೆ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+13	((	NP	
+13.1	ಪ್ರದತ್ತವಾದ	JJ	<fs af='ಪ್ರದತ್ತ,adj,,,,o,ವ+ಆದ,va+Axa'>
+13.2	ಅಧಿಕಾರವನ್ನು	N__NN	<fs af='ಅಧಿಕಾರ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+14	((	VGNF	
+14.1	ಚಲಾಯಿಸಿ	V__VM__VNF	<fs af='ಚಲಾಯಿಸು,v,,,,,ಇ,i'>
+14.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+15	((	NP	
+15.1	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+15.2	22ಎಯನ್ನು	N__NNP	<fs af='22ಎ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+15.3	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+15.4	2	QT__QTC	<fs af='2,num,,sg,,d,0,0'>
+15.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+16	((	VGNF	
+16.1	ಸಡಿಲಿಸಿ	V__VM__VNF	<fs af='ಸಡಿಲಿಸು,v,,,,,ಇ,i'>
+16.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+17	((	NP	
+17.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+17.2	ಜಿಲ್ಲೆ	N__NN	<fs af='ಜಿಲ್ಲೆ,n,,sg,3,d,0,0'>
+17.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+18	((	NP	
+18.1	ಚಿಕ್ಕಮಗಳೂರು	N__NNP	<fs af='ಚಿಕ್ಕಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+18.2	ತಾಲ್ಲೂಕು	N__NN	<fs af='ತಾಲ್ಲೂಕು,n,,sg,3,o,ಉ,u'>
+18.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+19	((	NP	
+19.1	ಕಸಬಾ	N__NNP	<fs af='ಕಸಬಾ,n,,sg,3,d,0,0'>
+19.2	ಹೋಬಳಿ	N__NN	<fs af='ಹೋಬಳಿ,n,,sg,3,d,0,0'>
+19.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+20	((	NP	
+20.1	ಹಿರೇಮಗಳೂರು	N__NNP	<fs af='ಹಿರೇಮಗಳೂರು,n,,sg,3,o,ಉ,u'>
+20.2	ಗ್ರಾಮದ	N__NN	<fs af='ಗ್ರಾಮ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+21	((	NP	
+21.1	ಸ.	N__NN	<fs af='ಸ.,n,,sg,3,d,0,0'>
+21.2	ನಂ.	N__NN	<fs af='ನಂ.,n,,sg,3,d,0,0'>
+21.3	544ರಲ್ಲಿ	N__NN	<fs af='544,n,,sg,,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+22	((	NP	
+22.1	600	QT__QTC	<fs af='600,num,,pl,,d,0,0'>
+22.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+22.3	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+23	((	NP	
+23.1	ಶೈಕ್ಷಣಿಕ	JJ	<fs af='ಶಿಕ್ಷಣ,adj,,,,o,ಇಕ,ika'>
+23.2	ಉದ್ದೇಶಕ್ಕೆ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+23.3	ಆಗಿ	RP__RPD	<fs af='ಆಗಿ,avy,,,,d,0,0'>
+	))
+24	((	NP	
+24.1	ಪ್ರಧಾನ	JJ	<fs af='ಪ್ರಧಾನ,adj,,,,d,0,0'>
+24.2	ಕಾರ್ಯದರ್ಶಿ	N__NN	<fs af='ಕಾರ್ಯದರ್ಶಿ,n,any,sg,3,d,0,0'>
+24.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+25	((	NP	
+25.1	ರಾಷ್ಟ್ರೋತ್ಥಾನ	N__NNP	<fs af='ರಾಷ್ಟ್ರೋತ್ಥಾನ,n,,sg,3,d,0,0'>
+25.2	ಪರಿಷತ್ತು	N__NNP	<fs af='ಪರಿಷತ್ತು,n,,sg,3,o,ಉ,u'>
+25.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+26	((	NP	
+26.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+26.2	ಕೇಶವ	N__NNP	<fs af='ಕೇಶವ,n,,sg,3,d,0,0'>
+26.3	ಶಿಲ್ಪ	N__NNP	<fs af='ಶಿಲ್ಪ,n,,sg,3,d,0,0'>
+26.4	”	RD__PUNC	<fs af='”,punc,,,,,,'>
+26.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+27	((	NP	
+27.1	ಕೆಂಪೇಗೌಡ	N__NNP	<fs af='ಕೆಂಪೇಗೌಡ,n,,sg,3,d,0,0'>
+27.2	ನಗರ	N__NN	<fs af='ನಗರ,n,,sg,3,d,0,0'>
+27.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+28	((	NP	
+28.1	ಬೆಂಗಳೂರು	N__NNP	<fs af='ಬೆಂಗಳೂರು,n,,sg,3,o,ಉ,u'>
+	))
+29	((	NP	
+29.1	ಇವರಿಗೆ	PR__PRP	<fs af='ಇವರು,pn,any,sg,3h,o,ಇಗೆ,igeV'>
+	))
+30	((	NP	
+30.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+30.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+30.3	ಮಂಜೂರಾತಿ	JJ	<fs af='ಮಂಜೂರು,adj,,,,o,ಆತಿ,Awi'>
+30.4	ನಿಯಮಗಳು	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+30.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+31	((	NP	
+31.1	1969ರ	N__NN	<fs af='1969,n,,,,o,ರ+ಅ,ra+a'>
+	))
+32	((	NP	
+32.1	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+32.2	22ಎ1	N__NNP	<fs af='22ಎ1,n,,sg,3,d,0,0'>
+32.3	(	RD__SYM	<fs af='(,punc,,,,,,'>
+32.4	i	QT__QTC	<fs af='i,num,,sg,,d,0,0'>
+32.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+32.6	(	RD__SYM	<fs af='(,punc,,,,,,'>
+32.7	2	QT__QTC	<fs af='2,num,,sg,,d,0,0'>
+32.8	)	RD__SYM	<fs af='),punc,,,,,,'>
+32.9	ರನ್ವಯ	RP__RPD	<fs af='ರನ್ವಯ,avy,,,,d,0,0'>
+	))
+33	((	NP	
+33.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+33.2	ಜಮೀನಿನ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+	))
+34	((	NP	
+34.1	ಪ್ರಚಲಿತ	JJ	<fs af='ಪ್ರಚಲಿಸು,adj,,,,o,ಇತ,iwa'>
+34.2	ಕೃಷಿ	N__NN	<fs af='ಕೃಷಿ,n,,sg,3,d,0,0'>
+	))
+35	((	NEGP	
+35.1	ಏತರ	RP__NEG	<fs af='ಏತರ,avy,,,,d,0,0'>
+	))
+36	((	NP	
+36.1	ಮಾರುಕಟ್ಟೆ	JJ	<fs af='ಮಾರುಕಟ್ಟೆ,adj,,,,d,0,0'>
+36.2	ಬೆಲೆಯ	N__NN	<fs af='ಬೆಲೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+37	((	NP	
+37.1	ಶೇಕಡಾ	N__NN	<fs af='ಶೇಕಡಾ,n,,sg,3,d,0,0'>
+37.2	2.50ರಷ್ಟು	N__NN	<fs af='2.50,n,,pl,,o,ರ+ಅಷ್ಟು+ಉ,ra+aRtu+u'>
+	))
+38	((	NP	
+38.1	ವಾರ್ಷಿಕ	JJ	<fs af='ವರ್ಷ,adj,,,,o,ಇಕ,ika'>
+38.2	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+38.3	ಮೊತ್ತವನ್ನು	N__NN	<fs af='ಮೊತ್ತ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+39	((	CCP	
+39.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+40	((	NP	
+40.1	ಇನ್ನೂ	JJ	<fs af='ಇನ್ನು,adj,,,,o,ಊ,U'>
+40.2	ಇತರ	JJ	<fs af='ಇತರ,adj,,pl,,d,0,0'>
+40.3	ಶಾಸನಬದ್ಧ	N__NN	<fs af='ಶಾಸನಬದ್ಧ,n,,sg,3,d,0,0'>
+40.4	ಶುಲ್ಕಗಳನ್ನು	N__NN	<fs af='ಶುಲ್ಕ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+41	((	VGNF	
+41.1	ವಿಧಿಸಿ	V__VM__VNF	<fs af='ವಿಧಿಸು,v,,,,,ಇ,i'>
+41.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+42	((	NP	
+42.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+42.2	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+42.3	ಮೊತ್ತವನ್ನು	N__NN	<fs af='ಮೊತ್ತ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+43	((	NP	
+43.1	ಎರಡು	QT__QTC	<fs af='ಎರಡು,num,,pl,,o,ಉ,u'>
+43.2	ವರ್ಷಗಳಿಗೆ	N__NN	<fs af='ವರ್ಷ,n,,pl,3,o,ಗಳು+ಇಗೆ,galYu+igeV'>
+43.3	ಒಮ್ಮೆ	RP__RPD	<fs af='ಒಮ್ಮೆ,avy,,,,d,0,0'>
+	))
+44	((	NP	
+44.1	ಶೇಕಡಾ	N__NN	<fs af='ಶೇಕಡಾ,n,,sg,3,d,0,0'>
+44.2	10ರಷ್ಟು	N__NN	<fs af='10,n,,pl,,o,ರ+ಅಷ್ಟು+ಉ,ra+aRtu+u'>
+	))
+45	((	VGNN	
+45.1	ಹೆಚ್ಚಿಸುವ	V__VM__VNG	<fs af='ಹೆಚ್ಚು,v,,,,o,ಇಸು+ವ+ಅ,isu+va+a'>
+	))
+46	((	NP	
+46.1	ಷರತ್ತಿಗೆ	N__NN	<fs af='ಷರತ್ತು,n,,sg,3,o,ಇಗೆ,igeV'>
+	))
+47	((	VGNN	
+47.1	ಒಳಪಟ್ಟು	V__VM__VNG	<fs af='ಒಳಪಡು,v,,,,o,ಟ+ಟ+ಉ+ಉ,ta+ta+u+u'>
+	))
+48	((	NP	
+48.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+48.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+48.3	ಮಂಜೂರಾತಿ	N__NN	<fs af='ಮಂಜೂರು,n,,,,o,ಆತಿ,Awi'>
+48.4	ನಿಯಮಗಳು	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+48.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+49	((	NP	
+49.1	1969ರ	N__NN	<fs af='1969,n,,,,o,ರ+ಅ,ra+a'>
+	))
+50	((	NP	
+50.1	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+50.2	196	QT__QTC	<fs af='196,num,,sg,,d,0,0'>
+50.3	(	RD__SYM	<fs af='(,punc,,,,,,'>
+50.4	ಬಿ	N__NNP	<fs af='ಬಿ,n,,sg,3,d,0,0'>
+50.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+50.6	ರನ್ವಯ	RP__RPD	<fs af='ರನ್ವಯ,avy,,,,d,0,0'>
+	))
+51	((	NP	
+51.1	30	QT__QTC	<fs af='30,num,,pl,,d,0,0'>
+51.2	ವರ್ಷಗಳ	N__NN	<fs af='ವರ್ಷ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+52	((	NP	
+52.1	ಅವಧಿಗೆ	N__NN	<fs af='ಅವಧಿ,n,,sg,3,o,ಗೆ,geV'>
+	))
+53	((	NP	
+53.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+53.2	ಕೆಳಗಿನ	N__NST	<fs af='ಕೆಳಗು,nst,,,,o,ಇನ+ಅ,ina+a'>
+53.3	ಷರತ್ತುಗಳೊಂದಿಗೆ	N__NN	<fs af='ಷರತ್ತು,n,,pl,3,o,ಗಳು+ಒಂದಿಗೆ,galYu+oVMxigeV'>
+	))
+54	((	NP	
+54.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+54.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+54.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+55	((	VGF	
+55.1	ನೀಡಿದೆ	V__VM__VF	<fs af='ನೀಡು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+56	((	BLK	
+56.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='570'>
+1	((	NP	
+1.1	ಷರತ್ತುಗಳು	N__NN	<fs af='ಷರತ್ತು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+1.2	:-	RD__PUNC	<fs af=':-,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='571'>
+1	((	BLK	
+1.1	1	RD__BUL	<fs af='1,unk,,,,d,0,0'>
+1.2	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+2.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+2.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ನೀಡಿ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+3.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+4	((	NP	
+4.1	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಯಾವ	PR__PRQ	<fs af='ಯಾವ,pn,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ಉದ್ದೇಶಕ್ಕೆ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+6.2	ಆಗಿ	RP__RPD	<fs af='ಆಗಿ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+	))
+8	((	VGINF	
+8.1	ನೀಡಲು	V__VM__VINF	<fs af='ನೀಡು,v,,,,,ಅಲು,alu'>
+8.2	ಆಗಿ	V__VAUX	<fs af='ಆಗು,v,,,,,ಇ,i'>
+8.3	ಇದೆಯೋ	V__VAUX	<fs af='ಇರು,v,,,,,ದ+ಎ+ಯ+ಓ,xa+eV+ya+o'>
+	))
+9	((	NP	
+9.1	ಅದೇ	DM__DMD	<fs af='ಅದು,pn,,sg,3,o,ಏ,e'>
+9.2	ಉದ್ದೇಶಕ್ಕೆ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+9.3	ಆಗಿ	RP__RPD	<fs af='ಆಗಿ,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಎರಡು	QT__QTC	<fs af='ಎರಡು,num,,pl,,o,ಉ,u'>
+10.2	ವರ್ಷಗಳ	N__NN	<fs af='ವರ್ಷ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+10.3	ಒಳಗಾಗಿ	RP__RPD	<fs af='ಒಳಗಾಗಿ,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಉಪಯೋಗ	N__NN	<fs af='ಉಪಯೋಗ,n,,sg,3,d,0,0'>
+	))
+12	((	VGF	
+12.1	ಮಾಡಬೇಕು	V__VM__VF	<fs af='ಮಾಡು,v,,,,,ಅ+ಬೇಕು,a+beku'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='572'>
+1	((	BLK	
+1.1	2	RD__BUL	<fs af='2,unk,,,,d,0,0'>
+1.2	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+2.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+2.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ನೀಡಿ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+3.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+4	((	NP	
+4.1	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+5	((	RBP	
+5.1	ವಿನಾಶಕಾರಿಯಾದ	RB	<fs af='ವಿನಾಶ,adv,,,,o,ಕಾರಿ+ಯ+ಆದ,kAri+ya+Axa'>
+	))
+6	((	CCP	
+6.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+7	((	RBP	
+7.1	ಶಾಶ್ವತವಾಗಿ	RB	<fs af='ಶಾಶ್ವತ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+8	((	NP	
+8.1	ಹಾನಿಕಾರಕ	N__NN	<fs af='ಹಾನಿ,n,,sg,3,o,ಕಾರಕ,kAraka'>
+	))
+9	((	VGNN	
+9.1	ಆಗುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ವ+ಅ,va+a'>
+	))
+10	((	NP	
+10.1	ರೀತಿಯಲ್ಲಿ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+11	((	VGF	
+11.1	ಬಳಸಬಾರದು	V__VM__VF	<fs af='ಬಳಸು,v,,,,,ಅ+ಬಾರದು,a+bAraxu'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='573'>
+1	((	BLK	
+1.1	3	RD__BUL	<fs af='3,unk,,,,d,0,0'>
+1.2	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+2.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+2.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ನೀಡಿ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+3.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+4	((	NP	
+4.1	ಜಮೀನಿನಲ್ಲಿ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅಲ್ಲಿ,ina+alli'>
+	))
+5	((	NP	
+5.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+6	((	NP	
+6.1	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+7	((	NP	
+7.1	ಅತಿಕ್ರಮಣ	N__NNV	<fs af='ಅತಿಕ್ರಮಿಸು,n,,sg,3,o,ಅಣ,aNa'>
+	))
+8	((	VGNF	
+8.1	ಆಗದಂತೆ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ಅದೆ+ಅಂತೆ,axeV+aMweV'>
+	))
+9	((	NP	
+9.1	ಕ್ರಮ	N__NN	<fs af='ಕ್ರಮ,n,,sg,3,d,0,0'>
+	))
+10	((	VGF	
+10.1	ವಹಿಸಬೇಕು	V__VM__VF	<fs af='ವಹಿಸು,v,,,,,ಅ+ಬೇಕು,a+beku'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='574'>
+1	((	BLK	
+1.1	4	RD__BUL	<fs af='4,unk,,,,d,0,0'>
+1.2	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+2.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+2.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ನೀಡಿ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+3.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+4	((	NP	
+4.1	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+5	((	NP	
+5.1	ಕಂದಾಯ	JJ	<fs af='ಕಂದಾಯ,adj,,,,d,0,0'>
+5.2	ಇಲಾಖೆಯ	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+6	((	NP	
+6.1	ಅನುಮತಿ	N__NN	<fs af='ಅನುಮತಿ,n,,sg,3,d,0,0'>
+	))
+7	((	VGNF	
+7.1	ಇಲ್ಲದೆ	V__VM__VNF	<fs af='ಇಲ್ಲ,v,,,,,ಅದೆ,axeV'>
+	))
+8	((	NP	
+8.1	ಮಾರಾಟ	N__NNV	<fs af='ಮಾರು,n,,sg,3,o,ಆಟ,Ata'>
+	))
+9	((	VGNN	
+9.1	ಮಾಡುವುದು	V__VM__VNG	<fs af='ಮಾಡು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+9.2	ಆಗಲೀ	V__VAUX	<fs af='ಆಗು,v,,,,o,ಅಲಿ+ಈ,ali+I'>
+	))
+10	((	NP	
+10.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+10.2	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+	))
+11	((	NP	
+11.1	ಉಪಗುತ್ತಿಗೆ	N__NN	<fs af='ಉಪಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+	))
+12	((	VGNN	
+12.1	ನೀಡುವುದು	V__VM__VNG	<fs af='ನೀಡು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+12.2	ಆಗಲೀ	V__VAUX	<fs af='ಆಗು,v,,,,o,ಅಲಿ+ಈ,ali+I'>
+12.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+13	((	NP	
+13.1	ಅಡಮಾನ	N__NN	<fs af='ಅಡಮಾನ,n,,sg,3,d,0,0'>
+13.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+14	((	NP	
+14.1	ವರ್ಗಾವಣೆ	N__NNV	<fs af='ವರ್ಗಾಯಿಸು,n,,sg,3,o,ವ+ಅಣೆ,va+aNeV'>
+14.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+15	((	NP	
+15.1	ದಾನ	N__NN	<fs af='ದಾನ,n,,sg,3,d,0,0'>
+15.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+16	((	NP	
+16.1	ಇತರ	N__NN	<fs af='ಇತರ,n,,pl,3,d,0,0'>
+	))
+17	((	NP	
+17.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+18	((	NP	
+18.1	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+19	((	NP	
+19.1	ಪರಭಾರೆಯನ್ನು	N__NN	<fs af='ಪರಭಾರೆ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+20	((	VGF	
+20.1	ಮಾಡಬಾರದು	V__VM__VF	<fs af='ಮಾಡು,v,,,,,ಅ+ಬಾರದು,a+bAraxu'>
+	))
+21	((	BLK	
+21.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='575'>
+1	((	BLK	
+1.1	5	RD__BUL	<fs af='5,unk,,,,d,0,0'>
+1.2	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+2.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+2.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ನೀಡಿ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+3.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+4	((	NP	
+4.1	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+5	((	NP	
+5.1	ಸಂಸ್ಥೆಗೆ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+6	((	NP	
+6.1	ಅವಶ್ಯ	N__NN	<fs af='ಅವಶ್ಯ,n,,sg,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಇಲ್ಲ	V__VM__VF	<fs af='ಇಲ್ಲ,v,,,,,0,0'>
+	))
+8	((	CCP	
+8.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+9	((	VGNN	
+9.1	ಕಂಡು	V__VM__VNG	<fs af='ಕಾಣು,v,,,,o,ಅಂ+ಡ+ಉ+ಉ,aM+da+u+u'>
+9.2	ಬಂದಲ್ಲಿ	V__VAUX	<fs af='ಬರು,v,,,,o,ಅಂ+ದ+ಅಲ್ಲಿ,aM+xa+alli'>
+	))
+10	((	NP	
+10.1	ಕಂದಾಯ	JJ	<fs af='ಕಂದಾಯ,adj,,,,d,0,0'>
+10.2	ಇಲಾಖೆಗೆ	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+11	((	VGF	
+11.1	ಹಿಂತಿರುಗಿಸಬೇಕು	V__VM__VF	<fs af='ಹಿಂತಿರುಗು,v,,,,,ಇಸು+ಅ+ಬೇಕು,isu+a+beku'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='576'>
+1	((	BLK	
+1.1	6	RD__BUL	<fs af='6,unk,,,,d,0,0'>
+1.2	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+2.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+2.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ನೀಡಿ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+3.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+4	((	NP	
+4.1	ಜಮೀನಿನಲ್ಲಿ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅಲ್ಲಿ,ina+alli'>
+	))
+5	((	NP	
+5.1	ಅಭಿವೃದ್ಧಿ	JJ	<fs af='ಅಭಿವೃದ್ಧಿ,adj,,,,d,0,0'>
+5.2	ಕಾರ್ಯಗಳನ್ನು	N__NN	<fs af='ಕಾರ್ಯ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+6	((	VGNN	
+6.1	ಪ್ರಾರಂಭಿಸುವ	V__VM__VNG	<fs af='ಪ್ರಾರಂಭಿಸು,v,,,,o,ವ+ಅ,va+a'>
+	))
+7	((	NP	
+7.1	ಪೂರ್ವದಲ್ಲಿ	N__NN	<fs af='ಪೂರ್ವ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+8	((	RBP	
+8.1	ಶಾಸನಬದ್ಧವಾಗಿ	RB	<fs af='ಶಾಸನಬದ್ಧ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+9	((	VGNN	
+9.1	ಪಡೆಯಬೇಕಾದ	V__VM__VNG	<fs af='ಪಡೆ,v,,,,o,ಯ+ಬೇಕು+ಆದ+ಅ,ya+beku+Axa+a'>
+	))
+10	((	NP	
+10.1	ಪರವಾನಿಗೆಗಳನ್ನು	N__NN	<fs af='ಪರವಾನಿಗೆ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+11	((	NP	
+11.1	ಸಂಬಂಧಿತ	JJ	<fs af='ಸಂಬಂಧಿಸು,adj,,,,o,ಇತ,iwa'>
+11.2	ಪ್ರಾಧಿಕಾರಗಳಿಂದ	N__NN	<fs af='ಪ್ರಾಧಿಕಾರ,n,,pl,3,o,ಗಳು+ಇಂದ,galYu+iMxa'>
+	))
+12	((	VGF	
+12.1	ಪಡೆಯಬೇಕು	V__VM__VF	<fs af='ಪಡೆ,v,,,,,ಯ+ಬೇಕು,ya+beku'>
+	))
+13	((	CCP	
+13.1	ಹಾಗೂ	CC__CCS	<fs af='ಹಾಗೂ,avy,,,,d,0,0'>
+	))
+14	((	NP	
+14.1	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+14.2	ಅನುಸಾರ	RP__RPD	<fs af='ಅನುಸಾರ,avy,,,,d,0,0'>
+	))
+15	((	VGNN	
+15.1	ಪಾವತಿಸಬೇಕಾದ	V__VM__VNG	<fs af='ಪಾವತಿಸು,v,,,,o,ಅ+ಬೇಕು+ಆದ+ಅ,a+beku+Axa+a'>
+	))
+16	((	NP	
+16.1	ಎಲ್ಲಾ	JJ	<fs af='ಎಲ್ಲ,adj,,pl,,o,ಆ,A'>
+16.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+17	((	NP	
+17.1	ಶುಲ್ಕಗಳನ್ನು	N__NN	<fs af='ಶುಲ್ಕ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+18	((	RBP	
+18.1	ಕಡ್ಡಾಯವಾಗಿ	RB	<fs af='ಕಡ್ಡಾಯ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+19	((	VGF	
+19.1	ಪಾವತಿಸಬೇಕು	V__VM__VF	<fs af='ಪಾವತಿಸು,v,,,,,ಅ+ಬೇಕು,a+beku'>
+	))
+20	((	BLK	
+20.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='577'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+1.2	ಆದೇಶವು	N__NN	<fs af='ಆದೇಶ,n,,sg,3,o,ವ+ಉ,va+u'>
+	))
+2	((	NP	
+2.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+2.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+2.3	ಮಂಜೂರಾತಿ	JJ	<fs af='ಮಂಜೂರು,adj,,,,o,ಆತಿ,Awi'>
+2.4	ನಿಯಮಗಳು	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+2.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	1969ರ	N__NN	<fs af='1969,n,,,,o,ರ+ಅ,ra+a'>
+	))
+4	((	NP	
+4.1	ನಿಯಮಗಳಿಗೆ	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಇಗೆ,galYu+igeV'>
+	))
+5	((	NP	
+5.1	ಬದ್ಧ	N__NN	<fs af='ಬದ್ಧ,n,,sg,3,d,0,0'>
+	))
+6	((	VGNF	
+6.1	ಆಗಿ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+6.2	ಇದ್ದು	V__VAUX	<fs af='ಇರು,v,,,,,ದ+ದು,xa+xu'>
+6.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ಸದರಿ	JJ	<fs af='ಸದರಿ,adj,,,,d,0,0'>
+7.2	ನಿಯಮಗಳ	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+8	((	NP	
+8.1	ಉಲ್ಲಂಘನೆ	N__NNV	<fs af='ಉಲ್ಲಂಘಿಸು,n,,sg,3,o,ಅನೆ,aneV'>
+	))
+9	((	VGNN	
+9.1	ಆದಲ್ಲಿ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+10	((	NP	
+10.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+10.2	ಆದೇಶವನ್ನು	N__NN	<fs af='ಆದೇಶ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+11	((	NP	
+11.1	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+11.2	ಅನುಸಾರ	RP__RPD	<fs af='ಅನುಸಾರ,avy,,,,d,0,0'>
+	))
+12	((	VGF	
+12.1	ರದ್ದುಗೊಳಿಸಲು	V__VM__VF	<fs af='ರದ್ದುಗೊಳ್ಳು,v,,,,,ಇಸು+ಅಲು,isu+alu'>
+12.2	ಆಗುವುದು	V__VAUX	<fs af='ಆಗು,v,,,,,ವ+ಉದು,va+uxu'>
+	))
+13	((	CCP	
+13.1	ಹಾಗೂ	CC__CCS	<fs af='ಹಾಗೂ,avy,,,,d,0,0'>
+	))
+14	((	NP	
+14.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+15	((	NP	
+15.1	ಪರಿಹಾರ	N__NN	<fs af='ಪರಿಹಾರ,n,,sg,3,d,0,0'>
+	))
+16	((	VGNF	
+16.1	ನೀಡದೇ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಅದೆ+ಏ,axeV+e'>
+	))
+17	((	NP	
+17.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+17.2	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+18	((	NP	
+18.1	ಸರ್ಕಾರದ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+19	((	NP	
+19.1	ವಶಕ್ಕೆ	N__NN	<fs af='ವಶ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+20	((	VGF	
+20.1	ಪಡೆಯಲು	V__VM__VF	<fs af='ಪಡೆ,v,,,,,ಯ+ಅಲು,ya+alu'>
+20.2	ಆಗುವುದು	V__VAUX	<fs af='ಆಗು,v,,,,,ವ+ಉದು,va+uxu'>
+	))
+21	((	BLK	
+21.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='578'>
+1	((	BLK	
+1.1	8	RD__BUL	<fs af='8,unk,,,,d,0,0'>
+1.2	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗುತ್ತಿಗೆ	N__NN	<fs af='ಗುತ್ತಿಗೆ,n,,sg,3,d,0,0'>
+2.2	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+2.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ನೀಡಿ	V__VM__VNF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+3.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+4	((	NP	
+4.1	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+5	((	NP	
+5.1	ಸಂಸ್ಥೆಗೆ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+6	((	VGNN	
+6.1	ಹಸ್ತಾಂತರಿಸುವ	V__VM__VNG	<fs af='ಹಸ್ತಾಂತರಿಸು,v,,,,o,ವ+ಅ,va+a'>
+	))
+7	((	NP	
+7.1	ಸಂದರ್ಭದಲ್ಲಿ	N__NN	<fs af='ಸಂದರ್ಭ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+8	((	NP	
+8.1	ಸದರಿ	JJ	<fs af='ಸದರಿ,adj,,,,d,0,0'>
+8.2	ಪ್ರದೇಶದ	N__NN	<fs af='ಪ್ರದೇಶ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+9	((	NP	
+9.1	ವಾಸ್ತವ	JJ	<fs af='ವಾಸ್ತವ,adj,,,,d,0,0'>
+9.2	ಪರಿಸ್ಥಿತಿಗಳನ್ನು	N__NN	<fs af='ಪರಿಸ್ಥಿತಿ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+10	((	NP	
+10.1	ಗಮನದಲ್ಲಿ	N__NN	<fs af='ಗಮನ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+11	((	VGNN	
+11.1	ಇಟ್ಟು	V__VM__VNG	<fs af='ಇಡು,v,,,,o,ಟ+ಟ+ಉ+ಉ,ta+ta+u+u'>
+11.2	ಕೊಂಡು	V__VAUX	<fs af='ಕೊಳ್ಳು,v,,,,o,ಅಂ+ಡ+ಉ+ಉ,aM+da+u+u'>
+	))
+12	((	NP	
+12.1	ಜಿಲ್ಲಾಧಿಕಾರಿಯವರು	N__NN	<fs af='ಜಿಲ್ಲಾಧಿಕಾರ,n,any,sg,3h,o,ಇ+ಯ+ಅವರು+ಉ,i+ya+avaru+u'>
+	))
+13	((	NP	
+13.1	ಪೂರಕವಾದ	JJ	<fs af='ಪೂರಕ,adj,,,,o,ವ+ಆದ,va+Axa'>
+13.2	ಷರತ್ತುಗಳನ್ನು	N__NN	<fs af='ಷರತ್ತು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+14	((	VGF	
+14.1	ವಿಧಿಸಬಹುದು	V__VM__VF	<fs af='ವಿಧಿಸು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+14.2	ಆಗಿದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+15	((	BLK	
+15.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='579'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+1.2	ಆದೇಶವನ್ನು	N__NN	<fs af='ಆದೇಶ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+2	((	NP	
+2.1	ದಿನಾಂಕ	N__NN	<fs af='ದಿನಾಂಕ,n,,sg,3,d,0,0'>
+2.2	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+2.3	08.12.2022ರಂದು	N__NNP	<fs af='08.12.2022,n,,,,o,ರ+ಅಂದು,ra+aMxu'>
+	))
+3	((	VGNN	
+3.1	ಜರುಗಿದ	V__VM__VNG	<fs af='ಜರುಗು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+4	((	NP	
+4.1	ಸಚಿವ	JJ	<fs af='ಸಚಿವ,adj,,,,d,0,0'>
+4.2	ಸಂಪುಟ	N__NN	<fs af='ಸಂಪುಟ,n,,sg,3,d,0,0'>
+4.3	ಸಭೆಯ	N__NN	<fs af='ಸಭೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+5	((	NP	
+5.1	ನಿರ್ಣಯದ	N__NN	<fs af='ನಿರ್ಣಯ,n,,sg,3,o,ದ+ಅ,xa+a'>
+5.2	ಅನ್ವಯ	RP__RPD	<fs af='ಅನ್ವಯ,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+6.2	ಪ್ರಕರಣ	JJ	<fs af='ಪ್ರಕರಣ,adj,,,,d,0,0'>
+6.3	ಸಂಖ್ಯೆ	N__NN	<fs af='ಸಂಖ್ಯೆ,n,,sg,3,d,0,0'>
+6.4	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+6.5	659	QT__QTC	<fs af='659,num,,sg,,d,0,0'>
+6.6	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+6.7	2022	QT__QTC	<fs af='2022,num,,,,d,0,0'>
+6.8	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+7	((	VGF	
+7.1	ಹೊರಡಿಸಲು	V__VM__VF	<fs af='ಹೊರಡು,v,,,,,ಇಸು+ಅಲು,isu+alu'>
+7.2	ಆಗಿದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='580'>
+1	((	NP	
+1.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+1.2	ರಾಜ್ಯಪಾಲರ	N__NN	<fs af='ರಾಜ್ಯಪಾಲ,n,m,sg,3h,o,ಅರು+ಅ,aru+a'>
+	))
+2	((	NP	
+2.1	ಆಜ್ಞಾ	JJ	<fs af='ಆಜ್ಞೆ,adj,,,,o,ಆ,A'>
+2.2	ಅನುಸಾರ	N__NN	<fs af='ಅನುಸಾರ,n,,sg,3,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಅವರ	PR__PRP	<fs af='ಅವರು,pn,m,sg,3h,o,ಅ,a'>
+	))
+5	((	NP	
+5.1	ಹೆಸರಿನಲ್ಲಿ	N__NN	<fs af='ಹೆಸರು,n,,sg,3,o,ಇನ+ಅಲ್ಲಿ,ina+alli'>
+	))
+6	((	NP	
+6.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+6.2	ಮೊಹಮ್ಮದ್‌	N__NNP	<fs af='ಮೊಹಮ್ಮದ್,n,m,sg,3,d,0,0'>
+6.3	ಸುಲ್ತಾನ್‌	N__NNP	<fs af='ಸುಲ್ತಾನ್,n,m,sg,3,d,0,0'>
+6.4	)	RD__SYM	<fs af='),punc,,,,,,'>
+6.5	ಪೀಠಾಧಿಕಾರಿ	N__NN	<fs af='ಪೀಠಾಧಿಕಾರ,n,m,sg,3h,o,ಇ,i'>
+6.6	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ಕಂದಾಯ	JJ	<fs af='ಕಂದಾಯ,adj,,,,d,0,0'>
+7.2	ಇಲಾಖೆ	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,d,0,0'>
+7.3	(	RD__SYM	<fs af='(,punc,,,,,,'>
+7.4	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+7.5	ಮಂಜೂರಾತಿ	N__NN	<fs af='ಮಂಜೂರು,n,,sg,3,o,ಆತಿ,Awi'>
+7.6	-	RD__SYM	<fs af='-,punc,,,,,,'>
+7.7	2.55	QT__QTC	<fs af='2.55,num,,sg,,d,0,0'>
+7.8	-	RD__SYM	<fs af='-,punc,,,,,,'>
+7.9	02	QT__QTC	<fs af='02,num,,sg,,d,0,0'>
+	))
+8	((	NP	
+8.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+8.2	ಸರ್ಕಾರದ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+9	((	NP	
+9.1	ನಡೆವಳಿಗಳು	N__NNV	<fs af='ನಡೆ,n,,pl,3,o,ವಳಿ+ಗಳು+ಉ,valYi+galYu+u'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='581'>
+1	((	NP	
+1.1	ದಕ್ಷಿಣ	N__NNP	<fs af='ದಕ್ಷಿಣ,n,,sg,3,d,0,0'>
+1.2	ಕನ್ನಡ	N__NNP	<fs af='ಕನ್ನಡ,n,,sg,3,d,0,0'>
+1.3	ಜಿಲ್ಲೆ	N__NN	<fs af='ಜಿಲ್ಲೆ,n,,sg,3,d,0,0'>
+1.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಕಡಬ	N__NNP	<fs af='ಕಡಬ,n,,sg,3,d,0,0'>
+2.2	ತಾಲ್ಲೂಕು	N__NN	<fs af='ತಾಲ್ಲೂಕು,n,,sg,3,o,ಉ,u'>
+2.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಆಲಂಕಾರು	N__NNP	<fs af='ಆಲಂಕಾರು,n,,sg,3,o,ಉ,u'>
+3.2	ಗ್ರಾಮದ	N__NN	<fs af='ಗ್ರಾಮ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+4	((	NP	
+4.1	ಸರ್ವೆ	JJ	<fs af='ಸರ್ವೆ,adj,,,,d,0,0'>
+4.2	ನಂಬರ್‌	N__NN	<fs af='ನಂಬರ್,n,,sg,3,d,0,0'>
+4.3	21	QT__QTC	<fs af='21,num,,sg,,d,0,0'>
+4.4	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+4.5	ಪಿ1ರಲ್ಲಿ	N__NNP	<fs af='ಪಿ1,n,,sg,3,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+5	((	NP	
+5.1	071	QT__QTC	<fs af='071,num,,pl,,d,0,0'>
+5.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+	))
+6	((	CCP	
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಸರ್ವೆ	JJ	<fs af='ಸರ್ವೆ,adj,,,,d,0,0'>
+7.2	ನಂಬರ್‌	N__NN	<fs af='ನಂಬರ್,n,,sg,3,d,0,0'>
+7.3	208	QT__QTC	<fs af='208,num,,sg,,d,0,0'>
+7.4	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+7.5	1ಎ	N__NNP	<fs af='1ಎ,n,,sg,3,d,0,0'>
+7.6	'	RD__PUNC	<fs af='',punc,,,,,,'>
+7.7	ಪಿ1ರಲ್ಲಿ	N__NNP	<fs af='ಪಿ1,n,,sg,3,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+8	((	NP	
+8.1	114	QT__QTC	<fs af='114,num,,pl,,d,0,0'>
+8.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='582'>
+1	((	NP	
+1.1	ಒಟ್ಟು	QT__QTF	<fs af='ಒಟ್ಟು,adj,,pl,,d,0,0'>
+1.2	1.85	QT__QTC	<fs af='1.85,num,,pl,,d,0,0'>
+1.3	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+1.4	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+2	((	NP	
+2.1	ಶ್ರೀ	N__NNP	<fs af='ಶ್ರೀ,n,,sg,3,d,0,0'>
+2.2	ದುರ್ಗಾಂಬಾ	N__NNP	<fs af='ದುರ್ಗಾಂಬಾ,n,,sg,3,d,0,0'>
+2.3	ವಿದ್ಯಾವರ್ಧಕ	N__NNP	<fs af='ವಿದ್ಯಾವರ್ಧಕ,n,,sg,3,d,0,0'>
+2.4	ಸಂಘ	N__NNP	<fs af='ಸಂಘ,n,,sg,3,d,0,0'>
+2.5	(	RD__SYM	<fs af='(,punc,,,,,,'>
+2.6	ರಿ	N__NNP	<fs af='ರಿ,n,,sg,3,d,0,0'>
+2.7	)	RD__SYM	<fs af='),punc,,,,,,'>
+2.8	ಆಲಂಕಾರು	N__NNP	<fs af='ಆಲಂಕಾರು,n,,sg,3,o,ಉ,u'>
+	))
+3	((	NP	
+3.1	ಇವರಿಗೆ	PR__PRP	<fs af='ಇವರು,pn,any,sg,3h,o,ಇಗೆ,igeV'>
+	))
+4	((	NP	
+4.1	ಮಂಜೂರು	N__NN	<fs af='ಮಂಜೂರು,n,,sg,3,o,ಉ,u'>
+	))
+5	((	VGNN	
+5.1	ಮಾಡುವ	V__VM__VNG	<fs af='ಮಾಡು,v,,,,o,ವ+ಅ,va+a'>
+5.2	ಬಗ್ಗೆ	RP__RPD	<fs af='ಬಗ್ಗೆ,avy,,,,d,0,0'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='583'>
+1	((	NP	
+1.1	ಮೇಲೆ	N__NST	<fs af='ಮೇಲು,nst,,,,o,ಎ,eV'>
+	))
+2	((	VGINF	
+2.1	ಓದಲು	V__VM__VINF	<fs af='ಓದು,v,,,,,ಅಲು,alu'>
+2.2	ಆದ	V__VAUX	<fs af='ಆಗು,v,,,,,ದ,xa'>
+	))
+3	((	NP	
+3.1	ಪತ್ರದಲ್ಲಿ	N__NN	<fs af='ಪತ್ರ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಪ್ರಾದೇಶಿಕ	JJ	<fs af='ಪ್ರದೇಶ,adj,,,,o,ಇಕ,ika'>
+4.2	ಆಯುಕ್ತರು	N__NN	<fs af='ಆಯುಕ್ತ,n,any,sg,3h,o,ಅರು+ಉ,aru+u'>
+4.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಮೈಸೂರು	N__NNP	<fs af='ಮೈಸೂರು,n,,sg,3,o,ಉ,u'>
+5.2	ವಿಭಾಗ	N__NN	<fs af='ವಿಭಾಗ,n,,sg,3,d,0,0'>
+5.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಮೈಸೂರು	N__NNP	<fs af='ಮೈಸೂರು,n,,sg,3,o,ಉ,u'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='584'>
+1	((	NP	
+1.1	ಇವರು	PR__PRP	<fs af='ಇವರು,pn,any,sg,3h,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ದಕ್ಷಿಣ	N__NNP	<fs af='ದಕ್ಷಿಣ,n,,sg,3,d,0,0'>
+2.2	ಕನ್ನಡ	N__NNP	<fs af='ಕನ್ನಡ,n,,sg,3,d,0,0'>
+2.3	ಜಿಲ್ಲೆ	N__NN	<fs af='ಜಿಲ್ಲೆ,n,,sg,3,d,0,0'>
+2.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಕಡಬ	N__NNP	<fs af='ಕಡಬ,n,,sg,3,d,0,0'>
+3.2	ತಾಲ್ಲೂಕು	N__NN	<fs af='ತಾಲ್ಲೂಕು,n,,sg,3,o,ಉ,u'>
+3.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಆಲಂಕಾರು	N__NNP	<fs af='ಆಲಂಕಾರು,n,,sg,3,o,ಉ,u'>
+4.2	ಗ್ರಾಮದ	N__NN	<fs af='ಗ್ರಾಮ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+5	((	NP	
+5.1	ಸರ್ವೆ	JJ	<fs af='ಸರ್ವೆ,adj,,,,d,0,0'>
+5.2	ನಂಬರ್‌	N__NN	<fs af='ನಂಬರ್,n,,sg,3,d,0,0'>
+5.3	211	QT__QTC	<fs af='211,num,,sg,,d,0,0'>
+5.4	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+5.5	ಪಿ1ರಲ್ಲಿ	N__NNP	<fs af='ಪಿ1,n,,sg,3,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+6	((	NP	
+6.1	0.71	QT__QTC	<fs af='0.71,num,,pl,,d,0,0'>
+6.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+	))
+7	((	CCP	
+7.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ಸರ್ವೆ	JJ	<fs af='ಸರ್ವೆ,adj,,,,d,0,0'>
+8.2	ನಂಬರ್‌	N__NN	<fs af='ನಂಬರ್,n,,sg,3,d,0,0'>
+8.3	208	QT__QTC	<fs af='208,num,,sg,,d,0,0'>
+8.4	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+8.5	1ಎ1ಪಿ1ರಲ್ಲಿ	N__NNP	<fs af='1ಎ1ಪಿ1,n,,sg,3,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+9	((	NP	
+9.1	114	QT__QTC	<fs af='114,num,,pl,,d,0,0'>
+9.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+	))
+10	((	NP	
+10.1	ಒಟ್ಟು	QT__QTF	<fs af='ಒಟ್ಟು,adj,,pl,,d,0,0'>
+10.2	185	QT__QTC	<fs af='185,num,,pl,,d,0,0'>
+10.3	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+10.4	ಜಮೀನುಗಳು	N__NN	<fs af='ಜಮೀನು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+11	((	NP	
+11.1	ಸರ್ಕಾರಿ	JJ	<fs af='ಸರ್ಕಾರ,adj,,,,o,ಇ,i'>
+11.2	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+12	((	VGF	
+12.1	ಆಗಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+12.2	ಇರುತ್ತದೆ	V__VAUX	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+13	((	BLK	
+13.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='585'>
+1	((	NP	
+1.1	ಕುಮ್ಕಿ	N__NN	<fs af='ಕುಮ್ಕಿ,n,,sg,3,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗೋಮಾಳ	N__NN	<fs af='ಗೋಮಾಳ,n,,sg,3,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಅರಣ್ಯ	JJ	<fs af='ಅರಣ್ಯ,adj,,,,d,0,0'>
+4.2	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+5	((	VGF	
+5.1	ಆಗಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+5.2	ಇರುವುದಿಲ್ಲ	V__VAUX	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+6	((	BLK	
+6.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='586'>
+1	((	NP	
+1.1	ನಮೂನೆ	N__NN	<fs af='ನಮೂನೆ,n,,sg,3,d,0,0'>
+1.2	50	QT__QTC	<fs af='50,num,,sg,,d,0,0'>
+1.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	JJP	
+2.1	53	QT__QTC	<fs af='53,num,,sg,,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	57ರ	N__NN	<fs af='57,n,,sg,,o,ರ+ಅ,ra+a'>
+	))
+4	((	NP	
+4.1	ಅರ್ಜಿಗಳು	N__NN	<fs af='ಅರ್ಜಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+5	((	NP	
+5.1	ಬಾಕಿ	N__NN	<fs af='ಬಾಕಿ,n,,sg,3,d,0,0'>
+	))
+6	((	VGF	
+6.1	ಇರುವುದಿಲ್ಲ	V__VM__VF	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+7	((	BLK	
+7.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='587'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ನಗರ	N__NN	<fs af='ನಗರ,n,,sg,3,d,0,0'>
+2.2	ವ್ಯಾಪ್ತಿಯಿಂದ	N__NN	<fs af='ವ್ಯಾಪ್ತಿ,n,,sg,3,o,ಯ+ಇಂದ,ya+iMxa'>
+	))
+3	((	NP	
+3.1	15	QT__QTC	<fs af='15,num,,pl,,d,0,0'>
+3.2	ಕಿಲೋಮೀಟರ್‌	RP__CL	<fs af='ಕಿಲೋಮೀಟರ್,n,,sg,3,d,0,0'>
+3.3	ದೂರದಲ್ಲಿ	N__NN	<fs af='ದೂರ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+4	((	VGF	
+4.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ+ಎ,xa+eV'>
+	))
+5	((	BLK	
+5.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='588'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಅನುದಾನಿತ	JJ	<fs af='ಅನುದಾನ,adj,,,,o,ಇತ,iwa'>
+2.2	ಸಂಸ್ಥೆ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ಆಗಿ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+3.2	ಇದ್ದು	V__VAUX	<fs af='ಇರು,v,,,,,ದ+ದು,xa+xu'>
+3.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+4.2	ಸಂಘಗಳ	N__NN	<fs af='ಸಂಘ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+5	((	NP	
+5.1	ನೋಂದಣಿ	N__NN	<fs af='ನೋಂದಣಿ,n,,sg,3,d,0,0'>
+5.2	ಅಧಿನಿಯಮ	N__NN	<fs af='ಅಧಿನಿಯಮ,n,,sg,3,d,0,0'>
+5.3	1960ರಂತೆ	N__NN	<fs af='1960,n,,,,o,ರ+ಅಂತೆ,ra+aMweV'>
+	))
+6	((	NP	
+6.1	1980	QT__QTC	<fs af='1980,num,,,,d,0,0'>
+6.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+6.3	81ನೇ	QT__QTO	<fs af='81,num,,sg,,o,ನೇ,ne'>
+6.4	ಸಾಲಿನಲ್ಲಿ	N__NN	<fs af='ಸಾಲು,n,,sg,3,o,ಇನ+ಅಲ್ಲಿ,ina+alli'>
+	))
+7	((	NP	
+7.1	ನೋಂದಣಿ	N__NN	<fs af='ನೋಂದಣಿ,n,,sg,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	ಆಗಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+8.2	ಇರುತ್ತದೆ	V__VAUX	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+9	((	BLK	
+9.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='589'>
+1	((	NP	
+1.1	ಜಮೀನು	JJ	<fs af='ಜಮೀನು,adj,,,,d,0,0'>
+1.2	ಮಂಜೂರಾತಿ	N__NN	<fs af='ಮಂಜೂರು,n,,sg,3,o,ಆತಿ,Awi'>
+	))
+2	((	VGNF	
+2.1	ಕೋರಿ	V__VM__VNF	<fs af='ಕೋರು,v,,,,,ಇ,i'>
+2.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+3	((	NP	
+3.1	ಸಂಸ್ಥೆಯ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+4	((	JJP	
+4.1	2017	QT__QTC	<fs af='2017,num,,,,d,0,0'>
+4.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+4.3	18	QT__QTC	<fs af='18,num,,,,d,0,0'>
+4.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	JJP	
+5.1	2018	QT__QTC	<fs af='2018,num,,,,d,0,0'>
+5.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+5.3	19	QT__QTC	<fs af='19,num,,,,d,0,0'>
+5.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	JJP	
+6.1	2019	QT__QTC	<fs af='2019,num,,,,d,0,0'>
+6.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+6.3	20	QT__QTC	<fs af='20,num,,,,d,0,0'>
+	))
+7	((	CCP	
+7.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	2020	QT__QTC	<fs af='2020,num,,,,d,0,0'>
+8.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+8.3	21ನೇ	QT__QTO	<fs af='21,num,,sg,,o,ನೇ,ne'>
+8.4	ಸಾಲುಗಳ	N__NN	<fs af='ಸಾಲು,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+9	((	NP	
+9.1	ಬ್ಯಾಲೆನ್ಸ್‌	JJ	<fs af='ಬ್ಯಾಲೆನ್ಸ್,adj,,,,d,0,0'>
+9.2	ಶೀಟ್‌	N__NN	<fs af='ಶೀಟ್,n,,sg,3,d,0,0'>
+	))
+10	((	NP	
+10.1	ಲಭ್ಯ	N__NN	<fs af='ಲಭ್ಯ,n,,sg,3,d,0,0'>
+	))
+11	((	VGF	
+11.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ+ಎ,xa+eV'>
+	))
+12	((	BLK	
+12.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='590'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನಿನಲ್ಲಿ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅಲ್ಲಿ,ina+alli'>
+	))
+2	((	RBP	
+2.1	ಈಗಾಗಲೇ	RB	<fs af='ಈಗ,adv,,,,o,ಆಗ+ಲ+ಏ,Aga+la+e'>
+	))
+3	((	NP	
+3.1	ಕಟ್ಟಡಗಳನ್ನು	N__NNV	<fs af='ಕಟ್ಟು,n,,pl,3,o,ಡ+ಗಳು+ಅನ್ನು,da+galYu+annu'>
+	))
+4	((	VGNF	
+4.1	ನಿರ್ಮಿಸಿ	V__VM__VNF	<fs af='ನಿರ್ಮಿಸು,v,,,,,ಇ,i'>
+4.2	ಇದ್ದು	V__VAUX	<fs af='ಇರು,v,,,,,ದ+ದು,xa+xu'>
+4.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಕಟ್ಟಡ	N__NNV	<fs af='ಕಟ್ಟು,n,,sg,3,o,ಡ,da'>
+	))
+6	((	VGNF	
+6.1	ನಿರ್ಮಿಸಿ	V__VM__VNF	<fs af='ನಿರ್ಮಿಸು,v,,,,,ಇ,i'>
+6.2	ಇರುವುದಕ್ಕೆ	V__VAUX	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಅಕ್ಕೆ,va+uxu+akkeV'>
+	))
+7	((	NP	
+7.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+7.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+7.3	ಕಂದಾಯ	N__NN	<fs af='ಕಂದಾಯ,n,,sg,3,d,0,0'>
+7.4	ಕಾಯ್ದೆ	N__NN	<fs af='ಕಾಯ್ದೆ,n,,sg,3,d,0,0'>
+7.5	1964ರ	N__NN	<fs af='1964,n,,,,o,ರ+ಅ,ra+a'>
+	))
+8	((	NP	
+8.1	ಕಲಂ	N__NN	<fs af='ಕಲಂ,n,,sg,3,d,0,0'>
+8.2	94ರಂತೆ	N__NN	<fs af='94,n,,sg,,o,ರ+ಅಂತೆ,ra+aMweV'>
+	))
+9	((	NP	
+9.1	ರೂ.	N__NN	<fs af='ರೂ.,n,,sg,3,d,0,0'>
+9.2	72,176	QT__QTC	<fs af='72176,num,,pl,,d,0,0'>
+9.3	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+9.4	-	RD__SYM	<fs af='-,punc,,,,,,'>
+9.5	ದಂಡವನ್ನು	N__NN	<fs af='ದಂಡ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+10	((	NP	
+10.1	ಸರ್ಕಾರಕ್ಕೆ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+11	((	NP	
+11.1	ಜಮೆ	N__NN	<fs af='ಜಮೆ,n,,sg,3,d,0,0'>
+	))
+</Sentence>
+
+<Sentence id='591'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನಿನ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+	))
+2	((	NP	
+2.1	ಮಾರುಕಟ್ಟೆ	JJ	<fs af='ಮಾರುಕಟ್ಟೆ,adj,,,,d,0,0'>
+2.2	ಬೆಲೆಯು	N__NN	<fs af='ಬೆಲೆ,n,,sg,3,o,ಯ+ಉ,ya+u'>
+	))
+3	((	NP	
+3.1	ಎಕರೆ	N__NN	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+3.2	ಒಂದಕ್ಕೆ	N__NN	<fs af='ಒಂದು,n,,sg,3,o,ಅಕ್ಕೆ,akkeV'>
+	))
+4	((	NP	
+4.1	ರೂ.	N__NN	<fs af='ರೂ.,n,,sg,3,d,0,0'>
+4.2	40,05,500	QT__QTC	<fs af='4005500,num,,pl,,d,0,0'>
+4.3	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+4.4	-	RD__SYM	<fs af='-,punc,,,,,,'>
+	))
+5	((	VGNF	
+5.1	ಆಗಿ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+5.2	ಇದ್ದು	V__VAUX	<fs af='ಇರು,v,,,,,ದ+ದು,xa+xu'>
+5.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	185	QT__QTC	<fs af='185,num,,pl,,d,0,0'>
+6.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+6.3	ಜಮೀನಿನ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+	))
+7	((	NP	
+7.1	ಮೌಲ್ಯವು	N__NN	<fs af='ಮೌಲ್ಯ,n,,sg,3,o,ವ+ಉ,va+u'>
+	))
+8	((	NP	
+8.1	ರೂ.	N__NN	<fs af='ರೂ.,n,,sg,3,d,0,0'>
+8.2	74,17,575	QT__QTC	<fs af='7417575,num,,pl,,d,0,0'>
+8.3	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+8.4	-	RD__SYM	<fs af='-,punc,,,,,,'>
+	))
+9	((	VGF	
+9.1	ಆಗಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+9.2	ಇರುತ್ತದೆ	V__VAUX	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='592'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+2	((	NP	
+2.1	ಶ್ರೀ	N__NNP	<fs af='ಶ್ರೀ,n,,sg,3,d,0,0'>
+2.2	ದುರ್ಗಾಂಬಾ	N__NNP	<fs af='ದುರ್ಗಾಂಬಾ,n,,sg,3,d,0,0'>
+2.3	ವಿದ್ಯಾವರ್ಧಕ	N__NNP	<fs af='ವಿದ್ಯಾವರ್ಧಕ,n,,sg,3,d,0,0'>
+2.4	ಸಂಘ	N__NNP	<fs af='ಸಂಘ,n,,sg,3,d,0,0'>
+2.5	(	RD__SYM	<fs af='(,punc,,,,,,'>
+2.6	ರಿ	N__NNP	<fs af='ರಿ,n,,sg,3,d,0,0'>
+2.7	)	RD__SYM	<fs af='),punc,,,,,,'>
+2.8	ಆಲಂಕಾರು	N__NNP	<fs af='ಆಲಂಕಾರು,n,,sg,3,o,ಉ,u'>
+	))
+3	((	NP	
+3.1	ಇವರಿಗೆ	PR__PRP	<fs af='ಇವರು,pn,any,sg,3h,o,ಇಗೆ,igeV'>
+	))
+4	((	NP	
+4.1	ಮಂಜೂರು	N__NN	<fs af='ಮಂಜೂರು,n,,sg,3,o,ಉ,u'>
+	))
+5	((	VGINF	
+5.1	ಮಾಡಲು	V__VM__VINF	<fs af='ಮಾಡು,v,,,,,ಅಲು,alu'>
+	))
+6	((	NP	
+6.1	ಆಲಂಕಾರು	N__NNP	<fs af='ಆಲಂಕಾರು,n,,sg,3,o,ಉ,u'>
+6.2	ಗ್ರಾಮ	JJ	<fs af='ಗ್ರಾಮ,adj,,,,d,0,0'>
+6.3	ಪಂಚಾಯ್ತಿಯು	N__NN	<fs af='ಪಂಚಾಯ್ತಿ,n,,sg,3,o,ಯ+ಉ,ya+u'>
+	))
+7	((	NP	
+7.1	ನಿರಾಕ್ಷೇಪಣಾ	JJ	<fs af='ನಿರಾಕ್ಷೇಪಿಸು,adj,,,,o,ಅಣೆ+ಆ,aNeV+A'>
+7.2	ಪತ್ರ	N__NN	<fs af='ಪತ್ರ,n,,sg,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	ನೀಡಿ	V__VM__VF	<fs af='ನೀಡು,v,,,,,ಇ,i'>
+8.2	ಇರುತ್ತದೆ	V__VAUX	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+9	((	BLK	
+9.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='593'>
+1	((	NP	
+1.1	ವಿಶೇಷ	JJ	<fs af='ವಿಶೇಷ,adj,,,,d,0,0'>
+1.2	ತಹಶೀಲ್ದಾರು	N__NN	<fs af='ತಹಶೀಲು,n,any,sg,3,o,ದಾರ+ಉ,xAra+u'>
+1.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಕಡಬ	N__NNP	<fs af='ಕಡಬ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಇವರು	PR__PRP	<fs af='ಇವರು,pn,any,sg,3h,o,ಉ,u'>
+	))
+4	((	NP	
+4.1	ದಿನಾಂಕ	N__NN	<fs af='ದಿನಾಂಕ,n,,sg,3,d,0,0'>
+4.2	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+4.3	15.06.2012ರಂದು	N__NNP	<fs af='15.06.2012,n,,,,o,ರ+ಅಂದು,ra+aMxu'>
+	))
+5	((	VGNN	
+5.1	ಕೈಗೊಂಡು	V__VM__VNG	<fs af='ಕೈಗೊಳ್ಳು,v,,,,o,ಅಂ+ಡ+ಉ+ಉ,aM+da+u+u'>
+5.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+6	((	NP	
+6.1	ಸ್ಥಳ	N__NN	<fs af='ಸ್ಥಳ,n,,sg,3,d,0,0'>
+6.2	ತನಿಖಾ	JJ	<fs af='ತನಿಖೆ,adj,,,,o,ಆ,A'>
+6.3	ವರದಿಯಲ್ಲಿ	N__NN	<fs af='ವರದಿ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+7	((	NP	
+7.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+7.2	ಜಮೀನಿನಲ್ಲಿ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇನ+ಅಲ್ಲಿ,ina+alli'>
+	))
+8	((	NP	
+8.1	ಶ್ರೀ	N__NNP	<fs af='ಶ್ರೀ,n,,sg,3,d,0,0'>
+8.2	ದುರ್ಗಾಂಬಾ	N__NNP	<fs af='ದುರ್ಗಾಂಬಾ,n,,sg,3,d,0,0'>
+8.3	ವಿದ್ಯಾವರ್ಧಕ	N__NNP	<fs af='ವಿದ್ಯಾವರ್ಧಕ,n,,sg,3,d,0,0'>
+8.4	ಸಂಘದ	N__NNP	<fs af='ಸಂಘ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+9	((	NP	
+9.1	ಕಟ್ಟಡ	N__NNV	<fs af='ಕಟ್ಟು,n,,sg,3,o,ಡ,da'>
+	))
+10	((	VGNN	
+10.1	ಇದ್ದು	V__VM__VNG	<fs af='ಇರು,v,,,,o,ದ+ದು+ಉ,xa+xu+u'>
+10.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+11	((	NP	
+11.1	ಶಾಲಾ	JJ	<fs af='ಶಾಲೆ,adj,,,,o,ಆ,A'>
+11.2	ಚಟುವಟಿಕೆಗಳು	N__NN	<fs af='ಚಟುವಟಿಕೆ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+12	((	VGNF	
+12.1	ನಡೆಯುತ್ತ	V__VM__VNF	<fs af='ನಡೆ,v,,,,,ಯ+ಉತ್ತ,ya+uwwa'>
+12.2	ಇರುವುದು	V__VAUX	<fs af='ಇರು,v,,,,,ವ+ಉದು,va+uxu'>
+	))
+13	((	VGF	
+13.1	ತಿಳಿದು	V__VM__VF	<fs af='ತಿಳಿ,v,,,,,ದು,xu'>
+13.2	ಬರುತ್ತದೆ	V__VAUX	<fs af='ಬರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+14	((	BLK	
+14.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='594'>
+1	((	NP	
+1.1	ಸದರಿ	JJ	<fs af='ಸದರಿ,adj,,,,d,0,0'>
+1.2	ಸ್ಥಳದಲ್ಲಿ	N__NN	<fs af='ಸ್ಥಳ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+2	((	NP	
+2.1	ಅಕೇಶಿಯ	N__NNP	<fs af='ಅಕೇಶಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+2.2	ಮರಗಳು	N__NN	<fs af='ಮರ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+3	((	CCP	
+3.1	ಅಲ್ಲದೆ	CC__CCS	<fs af='ಅಲ್ಲದೆ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಬೇರೆ	N__NN	<fs af='ಬೇರೆ,n,,sg,3,d,0,0'>
+	))
+5	((	NP	
+5.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+6	((	NP	
+6.1	ಬೆಲೆಬಾಳುವ	JJ	<fs af='ಬೆಲೆಬಾಳು,adj,,,,o,ವ,va'>
+6.2	ಮರಗಳು	N__NN	<fs af='ಮರ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+7	((	VGF	
+7.1	ಇರುವುದಿಲ್ಲ	V__VM__VF	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+8	((	CCP	
+8.1	ಮತ್ತು	CC__CCS	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ಸಾರ್ವಜನಿಕ	JJ	<fs af='ಸರ್ವಜನ,adj,,pl,,o,ಇಕ,ika'>
+9.2	ಆಕ್ಷೇಪಣೆ	N__NNV	<fs af='ಆಕ್ಷೇಪಿಸು,n,,sg,3,o,ಅಣೆ,aNeV'>
+	))
+10	((	VGNN	
+10.1	ಇರುವುದು	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+11	((	VGF	
+11.1	ಕಂಡು	V__VM__VF	<fs af='ಕಾಣು,v,,,,,ಅಂ+ಡ+ಉ,aM+da+u'>
+11.2	ಬರುವುದಿಲ್ಲ	V__VAUX	<fs af='ಬರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+12	((	BLK	
+12.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='595'>
+1	((	CCP	
+1.1	ಆದ್ದರಿಂದ	CC__CCS	<fs af='ಆದ್ದರಿಂದ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+2.2	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+3	((	NP	
+3.1	ಶಾಲೆಯ	N__NN	<fs af='ಶಾಲೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+4	((	NP	
+4.1	ಹಿತದೃಷ್ಟಿಯಿಂದ	N__NN	<fs af='ಹಿತದೃಷ್ಟಿ,n,,sg,3,o,ಯ+ಇಂದ,ya+iMxa'>
+	))
+5	((	RBP	
+5.1	ಈಗಾಗಲೇ	RB	<fs af='ಈಗ,adv,,,,o,ಆಗ+ಲ+ಏ,Aga+la+e'>
+	))
+6	((	NP	
+6.1	ಶಾಲಾ	JJ	<fs af='ಶಾಲೆ,adj,,,,o,ಆ,A'>
+6.2	ಕಟ್ಟಡ	N__NN	<fs af='ಕಟ್ಟು,n,,sg,3,o,ಡ,da'>
+6.3	ಇತ್ಯಾದಿ	RP__RPD	<fs af='ಇತ್ಯಾದಿ,avy,,,,d,0,0'>
+	))
+7	((	VGNN	
+7.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+8	((	NP	
+8.1	ಜಮೀನನ್ನು	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+9	((	NP	
+9.1	ಈಗಿನ	N__NST	<fs af='ಈಗ,nst,,,,o,ಇನ+ಅ,ina+a'>
+9.2	ಮಾರುಕಟ್ಟೆ	JJ	<fs af='ಮಾರುಕಟ್ಟೆ,adj,,,,d,0,0'>
+9.3	ಮೌಲ್ಯ	N__NN	<fs af='ಮೌಲ್ಯ,n,,sg,3,d,0,0'>
+	))
+10	((	VGNF	
+10.1	ವಿಧಿಸಿ	V__VM__VNF	<fs af='ವಿಧಿಸು,v,,,,,ಇ,i'>
+	))
+11	((	NP	
+11.1	ಮಂಜೂರು	N__NN	<fs af='ಮಂಜೂರು,n,,sg,3,o,ಉ,u'>
+	))
+12	((	VGF	
+12.1	ಮಾಡಬಹುದು	V__VM__VF	<fs af='ಮಾಡು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+12.2	ಆಗಿದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+13	((	CCP	
+13.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+14	((	VGF	
+14.1	ತಿಳಿಸಿ	V__VM__VF	<fs af='ತಿಳಿ,v,,,,,ಇಸು+ಇ,isu+i'>
+14.2	ಇರುತ್ತಾರೆ	V__VAUX	<fs af='ಇರು,v,any,sg,3h,,ಉತ್ತ+ಆರೆ,uwwa+AreV'>
+	))
+15	((	BLK	
+15.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='596'>
+1	((	NP	
+1.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+1.2	ಶಾಲೆಯು	N__NN	<fs af='ಶಾಲೆ,n,,sg,3,o,ಯ+ಉ,ya+u'>
+	))
+2	((	NP	
+2.1	ವೇತನ	N__NN	<fs af='ವೇತನ,n,,sg,3,d,0,0'>
+2.2	ಅನುದಾನಕ್ಕೆ	N__NN	<fs af='ಅನುದಾನ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+3	((	VGF	
+3.1	ಒಳಪಟ್ಟು	V__VM__VF	<fs af='ಒಳಪಡು,v,,,,,ಟ+ಟ+ಉ,ta+ta+u'>
+3.2	ಇರುತ್ತದೆ	V__VAUX	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+4	((	BLK	
+4.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='597'>
+1	((	NP	
+1.1	ಶಿಕ್ಷಣ	JJ	<fs af='ಶಿಕ್ಷಣ,adj,,,,d,0,0'>
+1.2	ಇಲಾಖೆಯ	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+2	((	NP	
+2.1	ಆದೇಶ	JJ	<fs af='ಆದೇಶ,adj,,,,d,0,0'>
+2.2	ಸಂಖ್ಯೆ	N__NN	<fs af='ಸಂಖ್ಯೆ,n,,sg,3,d,0,0'>
+2.3	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+2.4	ಇಡಿ	N__NNP	<fs af='ಇಡಿ,n,,sg,3,d,0,0'>
+2.5	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+2.6	74	QT__QTC	<fs af='74,num,,sg,,d,0,0'>
+2.7	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+2.8	ಎಸ್‌	N__NNP	<fs af='ಎಸ್,n,,sg,3,d,0,0'>
+2.9	ಹೆಚ್‌.	N__NNP	<fs af='ಹೆಚ್.,n,,sg,3,d,0,0'>
+2.10	ಹೆಚ್‌	N__NNP	<fs af='ಹೆಚ್,n,,sg,3,d,0,0'>
+2.11	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+2.12	2006	QT__QTC	<fs af='2006,num,,,,d,0,0'>
+2.13	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ದಿನಾಂಕ	N__NN	<fs af='ದಿನಾಂಕ,n,,sg,3,d,0,0'>
+3.2	18.05.2006ರ	N__NNP	<fs af='18.05.2006,n,,,,o,ರ+ಅ,ra+a'>
+3.3	ಅನ್ವಯ	RP__RPD	<fs af='ಅನ್ವಯ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಶ್ರೀ	N__NNP	<fs af='ಶ್ರೀ,n,,sg,3,d,0,0'>
+4.2	ದುರ್ಗಾಂಬಾ	N__NNP	<fs af='ದುರ್ಗಾಂಬಾ,n,,sg,3,d,0,0'>
+4.3	ವಿದ್ಯಾವರ್ಧಕ	N__NNP	<fs af='ವಿದ್ಯಾವರ್ಧಕ,n,,sg,3,d,0,0'>
+4.4	ಸಂಘ	N__NNP	<fs af='ಸಂಘ,n,,sg,3,d,0,0'>
+4.5	(	RD__SYM	<fs af='(,punc,,,,,,'>
+4.6	ರಿ	N__NNP	<fs af='ರಿ,n,,sg,3,d,0,0'>
+4.7	)	RD__SYM	<fs af='),punc,,,,,,'>
+4.8	ಆಲಂಕಾರು	N__NNP	<fs af='ಆಲಂಕಾರು,n,,sg,3,o,ಉ,u'>
+4.9	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಪುತ್ತೂರು	N__NNP	<fs af='ಪುತ್ತೂರು,n,,sg,3,o,ಉ,u'>
+	))
+6	((	NP	
+6.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+6.2	ಸಂಸ್ಥೆಗೆ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+7	((	NP	
+7.1	2006	QT__QTC	<fs af='2006,num,,,,d,0,0'>
+7.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+7.3	07ನೇ	QT__QTO	<fs af='07,num,,,,o,ನೇ,ne'>
+7.4	ಸಾಲಿನಿಂದ	N__NN	<fs af='ಸಾಲು,n,,sg,3,o,ಇನ+ಇಂದ,ina+iMxa'>
+	))
+8	((	NP	
+8.1	ಸ್ವತಂತ್ರ	JJ	<fs af='ಸ್ವತಂತ್ರ,adj,,,,d,0,0'>
+8.2	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+8.3	ಸಂಯುಕ್ತ	JJ	<fs af='ಸಂಯುಕ್ತ,adj,,,,d,0,0'>
+8.4	ಪದವಿ	N__NN	<fs af='ಪದವಿ,n,,sg,3,d,0,0'>
+8.5	ಪೂರ್ವ	N__NN	<fs af='ಪೂರ್ವ,n,,sg,3,d,0,0'>
+8.6	ಕಾಲೇಜನ್ನು	N__NN	<fs af='ಕಾಲೇಜು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+9	((	NP	
+9.1	ಶಾಶ್ವತ	JJ	<fs af='ಶಾಶ್ವತ,adj,,,,d,0,0'>
+9.2	ಅನುದಾನ	N__NN	<fs af='ಅನುದಾನ,n,,sg,3,d,0,0'>
+	))
+10	((	NEGP	
+10.1	ರಹಿತವಾಗಿ	RP__NEG	<fs af='ರಹಿತವಾಗಿ,avy,,,,d,0,0'>
+	))
+11	((	VGINF	
+11.1	ಪ್ರಾರಂಭಿಸಲು	V__VM__VINF	<fs af='ಪ್ರಾರಂಭಿಸು,v,,,,,ಅಲು,alu'>
+	))
+12	((	VGF	
+12.1	ಅನುಮತಿಸಲು	V__VM__VF	<fs af='ಅನುಮತಿಸು,v,,,,,ಅಲು,alu'>
+12.2	ಆಗಿದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+13	((	CCP	
+13.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+14	((	VGNF	
+14.1	ತಿಳಿಸುತ್ತಾ	V__VM__VNF	<fs af='ತಿಳಿ,v,,,,,ಇಸು+ಉತ್ತ+ಆ,isu+uwwa+A'>
+	))
+15	((	NP	
+15.1	ಪ್ರಸ್ತಾಪಿತ	JJ	<fs af='ಪ್ರಸ್ತಾಪಿಸು,adj,,,,o,ಇತ,iwa'>
+15.2	185	QT__QTC	<fs af='185,num,,pl,,d,0,0'>
+15.3	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+15.4	ಜಮೀನಿಗೆ	N__NN	<fs af='ಜಮೀನು,n,,sg,3,o,ಇಗೆ,igeV'>
+	))
+16	((	NP	
+16.1	ರೂ.	N__NN	<fs af='ರೂ.,n,,sg,3,d,0,0'>
+16.2	74,17,575	QT__QTC	<fs af='7417575,num,,pl,,d,0,0'>
+16.3	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+16.4	-	RD__SYM	<fs af='-,punc,,,,,,'>
+	))
+17	((	VGNF	
+17.1	ನಿಗದಿಪಡಿಸಿ	V__VM__VNF	<fs af='ನಿಗದಿಪಡು,v,,,,,ಇಸು+ಇ,isu+i'>
+	))
+18	((	NP	
+18.1	ಕರ್ನಾಟಕ	N__NNP	<fs af='ಕರ್ನಾಟಕ,n,,sg,3,d,0,0'>
+18.2	ಭೂ	JJ	<fs af='ಭೂ,adj,,,,d,0,0'>
+18.3	ಮಂಜೂರಾತಿ	JJ	<fs af='ಮಂಜೂರು,adj,,,,o,ಆತಿ,Awi'>
+18.4	ನಿಯಮಗಳು	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+18.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+19	((	NP	
+19.1	1969ರ	N__NN	<fs af='1969,n,,,,o,ರ+ಅ,ra+a'>
+	))
+20	((	NP	
+20.1	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+20.2	22ಎರಂತೆ	N__NNP	<fs af='22ಎ,n,,sg,3,o,ರ+ಅಂತೆ,ra+aMweV'>
+	))
+21	((	NP	
+21.1	ಮಂಜೂರು	N__NN	<fs af='ಮಂಜೂರು,n,,sg,3,o,ಉ,u'>
+	))
+22	((	VGINF	
+22.1	ಮಾಡಲು	V__VM__VINF	<fs af='ಮಾಡು,v,,,,,ಅಲು,alu'>
+	))
+23	((	NP	
+23.1	ಶಿಫಾರಸ್ಸಿನೊಂದಿಗೆ	N__NN	<fs af='ಶಿಫಾರಸ್ಸು,n,,sg,3,o,ಇನ+ಒಂದಿಗೆ,ina+oVMxigeV'>
+	))
+24	((	NP	
+24.1	ಸರ್ಕಾರಕ್ಕೆ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+25	((	NP	
+25.1	ಪ್ರಸ್ತಾವನೆ	N__NNV	<fs af='ಪ್ರಸ್ತಾವಿಸು,n,,sg,3,o,ಅನೆ,aneV'>
+	))
+26	((	VGF	
+26.1	ಸಲ್ಲಿಸಿ	V__VM__VF	<fs af='ಸಲ್ಲು,v,,,,,ಇಸು+ಇ,isu+i'>
+26.2	ಇರುತ್ತಾರೆ	V__VAUX	<fs af='ಇರು,v,any,sg,3h,,ಉತ್ತ+ಆರೆ,uwwa+AreV'>
+	))
+27	((	BLK	
+27.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='598'>
+1	((	NP	
+1.1	ಪ್ರಾದೇಶಿಕ	JJ	<fs af='ಪ್ರದೇಶ,adj,,,,o,ಇಕ,ika'>
+1.2	ಆಯುಕ್ತರ	N__NN	<fs af='ಆಯುಕ್ತ,n,any,sg,3h,o,ಅರು+ಅ,aru+a'>
+	))
+2	((	NP	
+2.1	ಪ್ರಸ್ತಾವನೆಯನ್ನು	N__NNV	<fs af='ಪ್ರಸ್ತಾವಿಸು,n,,sg,3,o,ಅನೆ+ಯ+ಅನ್ನು,aneV+ya+annu'>
+	))
+3	((	RBP	
+3.1	ಸಮಗ್ರವಾಗಿ	RB	<fs af='ಸಮಗ್ರ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+4	((	VGNN	
+4.1	ಪರಿಶೀಲಿಸಿದ	V__VM__VNG	<fs af='ಪರಿಶೀಲಿಸು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+5	((	NP	
+5.1	ಸರ್ಕಾರವು	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ವ+ಉ,va+u'>
+	))
+6	((	NP	
+6.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+6.2	ಕೆಳಗಿನಂತೆ	N__NST	<fs af='ಕೆಳಗು,nst,,,,o,ಇನ+ಅಂತೆ,ina+aMweV'>
+	))
+7	((	VGF	
+7.1	ಆದೇಶಿಸಿದೆ	V__VM__VF	<fs af='ಆದೇಶಿಸು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='599'>
+1	((	NP	
+1.1	ಸರ್ಕಾರದ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+2	((	NP	
+2.1	ಆದೇಶ	JJ	<fs af='ಆದೇಶ,adj,,,,d,0,0'>
+2.2	ಸಂಖ್ಯೆ	N__NN	<fs af='ಸಂಖ್ಯೆ,n,,sg,3,d,0,0'>
+2.3	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+2.4	ಕಂಇ	N__NNP	<fs af='ಕಂಇ,n,,sg,3,d,0,0'>
+2.5	81	QT__QTC	<fs af='81,num,,sg,,d,0,0'>
+2.6	ಎಲ್‌ಜಿಎ	N__NNP	<fs af='ಎಲ್‌ಜಿಎ,n,,sg,3,d,0,0'>
+2.7	2021	QT__QTC	<fs af='2021,num,,,,d,0,0'>
+2.8	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಬೆಂಗಳೂರು	N__NNP	<fs af='ಬೆಂಗಳೂರು,n,,sg,3,o,ಉ,u'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='600'>
+1	((	NP	
+1.1	ದಕ್ಷಿಣ	N__NNP	<fs af='ದಕ್ಷಿಣ,n,,sg,3,d,0,0'>
+1.2	ಕನ್ನಡ	N__NNP	<fs af='ಕನ್ನಡ,n,,sg,3,d,0,0'>
+1.3	ಜಿಲ್ಲೆ	N__NN	<fs af='ಜಿಲ್ಲೆ,n,,sg,3,d,0,0'>
+1.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಕಡಬ	N__NNP	<fs af='ಕಡಬ,n,,sg,3,d,0,0'>
+2.2	ತಾಲ್ಲೂಕು	N__NN	<fs af='ತಾಲ್ಲೂಕು,n,,sg,3,o,ಉ,u'>
+2.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಆಲಂಕಾರು	N__NNP	<fs af='ಆಲಂಕಾರು,n,,sg,3,o,ಉ,u'>
+3.2	ಗ್ರಾಮದ	N__NN	<fs af='ಗ್ರಾಮ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+4	((	NP	
+4.1	ಸರ್ವೆ	JJ	<fs af='ಸರ್ವೆ,adj,,,,d,0,0'>
+4.2	ನಂಬರ್‌	N__NN	<fs af='ನಂಬರ್,n,,sg,3,d,0,0'>
+4.3	211	QT__QTC	<fs af='211,num,,sg,,d,0,0'>
+4.4	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+4.5	ಪಿ1ರಲ್ಲಿ	N__NNP	<fs af='ಪಿ1,n,,sg,3,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+5	((	NP	
+5.1	0.71	QT__QTC	<fs af='0.71,num,,pl,,d,0,0'>
+5.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+	))
+6	((	CCP	
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಸರ್ವೆ	JJ	<fs af='ಸರ್ವೆ,adj,,,,d,0,0'>
+7.2	ನಂಬರ್‌	N__NN	<fs af='ನಂಬರ್,n,,sg,3,d,0,0'>
+7.3	208	QT__QTC	<fs af='208,num,,sg,,d,0,0'>
+7.4	/	RD__SYM	<fs af='SLASH,punc,,,,,,'>
+7.5	1ಎ	N__NNP	<fs af='1ಎ,n,,sg,3,d,0,0'>
+7.6	'	RD__SYM	<fs af='',punc,,,,,,'>
+7.7	ಪಿ1ರಲ್ಲಿ	N__NNP	<fs af='ಪಿ1,n,,sg,3,o,ರ+ಅಲ್ಲಿ,ra+alli'>
+	))
+8	((	NP	
+8.1	114	QT__QTC	<fs af='114,num,,pl,,d,0,0'>
+8.2	ಎಕರೆ	RP__CL	<fs af='ಎಕರೆ,n,,sg,3,d,0,0'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+</document>

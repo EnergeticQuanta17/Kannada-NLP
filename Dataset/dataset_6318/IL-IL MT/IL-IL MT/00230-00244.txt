@@ -1,0 +1,633 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='1'>
+1	((	NP	
+1.1	ಆರ್ಥೊಡಾಂಟಿಕ್ಸ್	N__NN	<fs af='ಆರ್ಥೊಡಾಂಟಿಕ್ಸ್,n,,,3,d,0,0'>
+1.2	ಇಂದ್ರಜಾಲ	N__NN	<fs af='ಇಂದ್ರಜಾಲ,n,,,3,d,0,0'>
+	))
+2	((	BLK	
+2.1	-	RD__SYM	<fs af='-,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಮುಖದಲ್ಲಿ	N__NN	<fs af='ಮುಖ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+4	((	VGNN	
+4.1	ಅರಳುವ	V__VM__VNG	<fs af='ಅರಳು,v,,,,o,ವ+ಅ,va+a'>
+	))
+5	((	VGF	
+5.1	ನಗು	N__NNV	<fs af='ನಗೆ,n,,,3,o,ಉ,u'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='2'>
+1	((	NP	
+1.1	ಆರ್ಥೊಡಾಂಟಿಕ್ಸ್	N__NNP	<fs af='ಆರ್ಥೊಡಾಂಟಿಕ್ಸ್,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಎಂಬ	CC__CCS	<fs af='ಎಂಬ,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಇಂಗ್ಲೀಷ್	N__NNP	<fs af='ಇಂಗ್ಲೀಷ್,n,,sg,3,d,0,0'>
+3.2	ಪದದ	N__NN	<fs af='ಪದ,n,,sg,3,o,ದ+ಅ,xa+a'>
+3.3	ಮೂಲ	N__NN	<fs af='ಮೂಲ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ಗ್ರೀಕ್	N__NNP	<fs af='ಗ್ರೀಕ್,n,,sg,3,d,0,0'>
+4.2	ಭಾಷೆಯ	N__NN	<fs af='ಭಾಷೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+5	((	NP	
+5.1	'	RD__PUNC	<fs af='',punc,,,,,,'>
+5.2	ಆರ್ಥೊ	N__NNP	<fs af='ಆರ್ಥೊ,n,,sg,3,d,0,0'>
+5.3	'	RD__PUNC	<fs af='',punc,,,,,,'>
+5.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಇದರ	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಅರ+ಅ,ara+a'>
+	))
+7	((	NP	
+7.1	ಅರ್ಥ	N__NN	<fs af='ಅರ್ಥ,n,,sg,3,d,0,0'>
+	))
+8	((	NP	
+8.1	ನೇರ	N__NN	<fs af='ನೇರ,n,,,3,d,0,0'>
+	))
+9	((	CCP	
+9.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಹಲ್ಲು	N__NN	<fs af='ಹಲ್ಲು,n,,sg,3,o,ಉ,u'>
+	))
+11	((	CCP	
+11.1	ಎಂಬ	CC__CCS	<fs af='ಎಂಬ,avy,,,,d,0,0'>
+	))
+12	((	NP	
+12.1	ಅರ್ಥದ	N__NN	<fs af='ಅರ್ಥ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+13	((	NP	
+13.1	'	RD__PUNC	<fs af='',punc,,,,,,'>
+13.2	ಒಡೊಂಟ್	N__NNP	<fs af='ಒಡೊಂಟ್,n,,sg,3,d,0,0'>
+13.3	'	RD__PUNC	<fs af='',punc,,,,,,'>
+	))
+14	((	BLK	
+14.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='3'>
+1	((	NP	
+1.1	ಇವತ್ತು	N__NST	<fs af='ಇವತ್ತು,nst,,,,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಆರ್ಥೊಡಾಂಟಿಕ್ಸನ	N__NNP	<fs af='ಆರ್ಥೊಡಾಂಟಿಕ್ಸ್,n,,sg,3,o,ನ+ಅ,na+a'>
+	))
+3	((	NP	
+3.1	ಅರ್ಥವ್ಯಾಪ್ತಿ	N__NN	<fs af='ಅರ್ಥವ್ಯಾಪ್ತಿ,n,,,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ಹಲ್ಲಿನ	JJ	<fs af='ಹಲ್ಲು,adj,,sg,3,o,ಇನ,ina'>
+4.2	ಸ್ಥಾನಾಂತರ	N__NN	<fs af='ಸ್ಥಾನ,n,,,3,o,ಅಂತರ,aMwara'>
+	))
+5	((	VGNF	
+5.1	ಎನ್ನುದಷ್ಟೇ	V__VM__VNF	<fs af='ಎನ್ನು,v,,,,,ದ+ಅಷ್ಟೇ,xa+aRte'>
+	))
+6	((	CCP	
+6.1	ಅಲ್ಲದೆ	CC__CCS	<fs af='ಅಲ್ಲದೆ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಅದರಿಂದ	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಅರ+ಇಂದ,ara+iMxa'>
+	))
+8	((	NP	
+8.1	ಆಚೆಗೆ	N__NST	<fs af='ಆಚೆ,nst,,,,o,ಗೆ,geV'>
+	))
+9	((	RBP	
+9.1	ಮತ್ತಷ್ಟು	RB	<fs af='ಮತ್ತು,adv,,,,o,ಅಷ್ಟು,aRtu'>
+	))
+10	((	VGF	
+10.1	ವಿಸ್ತಾರಗೊಂಡಿದೆ	V__VM__VF	<fs af='ವಿಸ್ತಾರಗೊಳ್ಳು,v,,sg,3,,ಅಂ+ಡ+ಉ+ಇದೆ,aM+da+u+ixeV'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='4'>
+1	((	NP	
+1.1	'	RD__PUNC	<fs af='',punc,,,,,,'>
+1.2	ಸುದಂತ	JJ	<fs af='ಸುದಂತ,adj,,,,d,0,0'>
+1.3	ಯೋಜನೆ	N__NN	<fs af='ಯೋಜನೆ,n,,sg,3,d,0,0'>
+1.4	'	RD__PUNC	<fs af='',punc,,,,,,'>
+	))
+2	((	CCP	
+2.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಕನ್ನಡದಲ್ಲಿ	N__NNP	<fs af='ಕನ್ನಡ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+4	((	VGNN	
+4.1	ಕರೆಯಬಹುದಾದ	V__VM__VNG	<fs af='ಕರೆ,v,,,,o,ಯ+ಬಹುದು+ಆದ+ಅ,ya+bahuxu+Axa+a'>
+	))
+5	((	NP	
+5.1	ಆರ್ಥೊಡಾಂಟಿಕ್	JJ	<fs af='ಆರ್ಥೊಡಾಂಟಿಕ್,adj,,,,d,0,0'>
+5.2	ಚಿಕಿತ್ಸೆಯ	N__NN	<fs af='ಚಿಕಿತ್ಸೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+6	((	NP	
+6.1	ಮುಖ್ಯ	JJ	<fs af='ಮುಖ್ಯ,adj,,,,d,0,0'>
+6.2	ಗಮನ	N__NN	<fs af='ಗಮನ,n,,,3,d,0,0'>
+	))
+7	((	NP	
+7.1	ಹಲ್ಲುಗಳ	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+8	((	NP	
+8.1	ಅಸಮರ್ಪಕ	JJ	<fs af='ಅಸಮರ್ಪಕ,adj,,,,d,0,0'>
+8.2	ಸ್ಥಾನವನ್ನು	N__NN	<fs af='ಸ್ಥಾನ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+9	((	CCP	
+9.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+10	((	VGNN	
+10.1	ಜಗಿಯುವ	V__VM__VNG	<fs af='ಜಗಿ,v,,,,o,ಯ+ಉವ+ಅ,ya+uva+a'>
+	))
+11	((	NP	
+11.1	ಸ್ಥಾನ	N__NN	<fs af='ಸ್ಥಾನ,n,,sg,3,d,0,0'>
+	))
+12	((	NP	
+12.1	ಸಂಬಂಧಗಳನ್ನು	N__NN	<fs af='ಸಂಬಂಧ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+13	((	NP	
+13.1	ಉತ್ತಮ	N__NN	<fs af='ಉತ್ತಮ,n,,,3,d,0,0'>
+	))
+14	((	VGF	
+14.1	ಪಡಿಸುವುದು	V__VM__VF	<fs af='ಪಡು,v,,,,,ಇಸು+ವ+ಉದು,isu+va+uxu'>
+	))
+15	((	CCP	
+15.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+16	((	NP	
+16.1	ಸರಿ	N__NN	<fs af='ಸರಿ,n,,,3,d,0,0'>
+	))
+17	((	VGNN	
+17.1	ಪಡಿಸುವುದು	V__VM__VNG	<fs af='ಪಡು,v,,,,o,ಇಸು+ವ+ಉದು+ಉ,isu+va+uxu+u'>
+	))
+18	((	VGF	
+18.1	ಆಗಿರಬಹುದು	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇರು+ಅ+ಬಹುದು,iru+a+bahuxu'>
+	))
+19	((	BLK	
+19.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5'>
+1	((	CCP	
+1.1	ಆದರೆ	CC__CCD	<fs af='ಆದರೆ,avy,,,,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಮುಖದ	JJ	<fs af='ಮುಖ,adj,,sg,3,o,ದ,xa'>
+2.2	ಆಕಾರ	N__NN	<fs af='ಆಕಾರ,n,,sg,3,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ರೂಪದ	N__NN	<fs af='ರೂಪ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+5	((	NP	
+5.1	ಮೇಲೆಯೂ	N__NST	<fs af='ಮೇಲು,nst,,,,o,ಎ+ಯ+ಊ,eV+ya+U'>
+	))
+6	((	NP	
+6.1	ಅದು	DM__DMD	<fs af='ಅದು,pn,,sg,3,o,ಉ,u'>
+	))
+7	((	NP	
+7.1	ಕಾಲಾಂತರದಲ್ಲಿ	N__NN	<fs af='ಕಾಲ,n,,sg,3,o,ಅಂತರ+ದ+ಅಲ್ಲಿ,aMwara+xa+alli'>
+	))
+8	((	NP	
+8.1	ಪ್ರಭಾವ	N__NN	<fs af='ಪ್ರಭಾವ,n,,sg,3,d,0,0'>
+	))
+9	((	VGF	
+9.1	ಬೀರಬಲ್ಲುದು	V__VM__VF	<fs af='ಬೀರು,v,,,,,ಅ+ಬಲ್ಲುದು,a+balluxu'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='6'>
+1	((	NP	
+1.1	ವ್ಯಕ್ತಿ	N__NN	<fs af='ವ್ಯಕ್ತಿ,n,any,sg,3,d,0,0'>
+1.2	ಒಬ್ಬನ	N__NN	<fs af='ಒರು,n,m,sg,3,o,ಬ+ಬ+ನ+ಅ,ba+ba+na+a'>
+	))
+2	((	NP	
+2.1	ಹಲ್ಲುಗಳು	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಮುಖದ	N__NN	<fs af='ಮುಖ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+5	((	NP	
+5.1	ಸಾಮಾನ್ಯ	JJ	<fs af='ಸಾಮಾನ್ಯ,adj,,,,d,0,0'>
+5.2	ಸೌಂದರ್ಯವನ್ನು	N__NN	<fs af='ಸೌಂದರ್ಯ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+6	((	NP	
+6.1	ಸುರೂಪಕ್ಕೆ	N__NN	<fs af='ಸುರೂಪ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+7	((	VGNN	
+7.1	ತರುವ	V__VM__VNG	<fs af='ತರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+8	((	NP	
+8.1	ಶುದ್ಧ	JJ	<fs af='ಶುದ್ಧ,adj,,,,d,0,0'>
+8.2	ಸೌಂದರ್ಯವರ್ಧಕ	N__NN	<fs af='ಸೌಂದರ್ಯವರ್ಧಕ,n,,sg,3,d,0,0'>
+8.3	ಉದ್ದೇಶದಿಂದಲೂ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ದ+ಇಂದ+ಲ+ಊ,xa+iMxa+la+U'>
+	))
+9	((	NP	
+9.1	ಆರ್ಥೊಡಾಂಟಿಕ್	N__NNP	<fs af='ಆರ್ಥೊಡಾಂಟಿಕ್,n,,sg,3,d,0,0'>
+9.2	ಚಿಕಿತ್ಸೆಯನ್ನು	N__NN	<fs af='ಚಿಕಿತ್ಸೆ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+10	((	VGF	
+10.1	ಕೈಗೊಳ್ಳಬಹುದು	V__VM__VF	<fs af='ಕೈಗೊಳ್ಳು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='7'>
+1	((	NP	
+1.1	ಇದು	DM__DMD	<fs af='ಇದು,pn,,sg,3,o,ಉ,u'>
+	))
+2	((	CCP	
+2.1	ಅಲ್ಲದೆ	CC__CCS	<fs af='ಅಲ್ಲದೆ,avy,,,,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಹಲ್ಲುಗಳು	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+4	((	VGNN	
+4.1	ಕಚ್ಚಿಕೊಳ್ಳುವುದನ್ನು	V__VM__VNG	<fs af='ಕಚ್ಚು,v,,,,o,ಇ+ಕೊಳ್ಳು+ವ+ಉದು+ಅನ್ನು,i+koVlYlYu+va+uxu+annu'>
+	))
+5	((	NP	
+5.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+5.2	ಮುಚ್ಚಿಕೊಳ್ಳುವಿಕೆ	N__NNV	<fs af='ಮುಚ್ಚು,n,,,3,o,ಇ+ಕೊಳ್ಳು+ವಿಕೆ,i+koVlYlYu+vikeV'>
+5.3	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+6	((	RBP	
+6.1	ಕ್ರಿಯಾತ್ಮಕವಾಗಿ	RB	<fs af='ಕ್ರಿಯೆ,adv,,,,o,ಆತ್ಮಕ+ವ+ಆಗಿ,Awmaka+va+Agi'>
+	))
+7	((	NP	
+7.1	ಉತ್ತಮ	N__NN	<fs af='ಉತ್ತಮ,n,,,3,d,0,0'>
+	))
+8	((	VGNN	
+8.1	ಪಡಿಸುವ	V__VM__VNG	<fs af='ಪಡು,v,,,,,ಇಸು+ವ+ಅ,isu+va+a'>
+	))
+9	((	NP	
+9.1	ಉದ್ದೇಶದಿಂದಲೂ	N__NN	<fs af='ಉದ್ದೇಶ,n,,sg,3,o,ದ+ಇಂದ+ಲ+ಊ,xa+iMxa+la+U'>
+	))
+10	((	NP	
+10.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+10.2	ಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+	))
+11	((	NP	
+11.1	ಅಗತ್ಯ	N__NN	<fs af='ಅಗತ್ಯ,n,,,3,d,0,0'>
+	))
+12	((	VGF	
+12.1	ಆಗಬಹುದು	V__VM__VF	<fs af='ಆಗು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='8'>
+1	((	NP	
+1.1	ಬಹುತೇಕ	JJ	<fs af='ಬಹುತೇಕ,adj,,,,d,0,0'>
+1.2	ಸಂದರ್ಭಗಳಲ್ಲಿ	N__NN	<fs af='ಸಂದರ್ಭ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+2	((	NP	
+2.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+2.2	ಎರಡೂ	QT__QTC	<fs af='ಎರಡು,num,,pl,3,o,ಊ,U'>
+2.3	ಗುರಿಗಳನ್ನು	N__NN	<fs af='ಗುರಿ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+3	((	RBP	
+3.1	ಏಕಕಾಲದಲ್ಲಿ	RB	<fs af='ಏಕಕಾಲ,adv,,,,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+4	((	VGF	
+4.1	ಸಾಧಿಸಬಹುದು	V__VM__VF	<fs af='ಸಾಧಿಸು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='9'>
+1	((	NP	
+1.1	ಮುಖದಲ್ಲಿ	N__NN	<fs af='ಮುಖ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+2	((	VGNN	
+2.1	ಅರಳುವ	V__VM__VNG	<fs af='ಅರಳು,v,,,,o,ವ+ಅ,va+a'>
+	))
+3	((	NP	
+3.1	ನಗುವಿನ	N__NNV	<fs af='ನಗೆ,n,,,3,o,ಉ+ವ+ಇನ+ಅ,u+va+ina+a'>
+	))
+4	((	NP	
+4.1	ವಿನ್ಯಾಸದಲ್ಲಿ	N__NN	<fs af='ವಿನ್ಯಾಸ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+5	((	JJP	
+5.1	ಅತ್ಯಂತ	JJ	<fs af='ಅತ್ಯಂತ,adj,,,,d,0,0'>
+5.2	ಮುಖ್ಯವಾದ	N__NN	<fs af='ಮುಖ್ಯ,n,,,3,o,ವ+ಆದ+ಅ,va+Axa+a'>
+	))
+6	((	CCP	
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+7	((	RBP	
+7.1	ಮೂಲಭೂತವಾಗಿ	RB	<fs af='ಮೂಲಭೂತ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+8	((	NP	
+8.1	ನಿರ್ಣಾಯಕ	N__NN	<fs af='ನಿರ್ಣಾಯಕ,n,,,3,d,0,0'>
+	))
+9	((	VGNN	
+9.1	ಆಗುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ವ+ಅ,va+a'>
+	))
+10	((	NP	
+10.1	ವಿಚಾರ	N__NN	<fs af='ವಿಚಾರ,n,,sg,3,d,0,0'>
+	))
+11	((	NP	
+11.1	ಹಲ್ಲುಗಳ	JJ	<fs af='ಹಲ್ಲು,adj,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+11.2	ರಚನೆ	N__NN	<fs af='ರಚನೆ,n,,,3,d,0,0'>
+	))
+12	((	CCP	
+12.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+13	((	NP	
+13.1	ಸ್ಥಾನ	N__NN	<fs af='ಸ್ಥಾನ,n,,sg,3,d,0,0'>
+	))
+14	((	BLK	
+14.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='10'>
+1	((	CCP	
+1.1	ಅಂದರೆ	CC__CCS	<fs af='ಅಂದರೆ,avy,,,,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಮುಖದ	JJ	<fs af='ಮುಖ,adj,,sg,3,o,ದ,xa'>
+2.2	ಚೌಕಟ್ಟು	N__NN	<fs af='ಚೌಕಟ್ಟು,n,,sg,3,o,ಉ,u'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ದವಡೆಯಲ್ಲಿ	N__NN	<fs af='ದವಡೆ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+5	((	NP	
+5.1	ಹಲ್ಲುಗಳು	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+6	((	NP	
+6.1	ವಸ್ತುಶಃ	N__NN	<fs af='ವಸ್ತುಶಃ,n,,,3,d,0,0'>
+	))
+7	((	NP	
+7.1	ಹೇಗೆ	PR__PRQ	<fs af='ಹೇಗೆ,pn,,,3,d,0,0'>
+	))
+8	((	NP	
+8.1	ಸ್ಥಾಪಿತ	N__NNV	<fs af='ಸ್ಥಾಪಿಸು,n,,,3,o,ಇತ,iwa'>
+	))
+9	((	VGF	
+9.1	ಆಗಿವೆ	V__VM__VF	<fs af='ಆಗು,v,,pl,3,,ಇವೆ,iveV'>
+	))
+10	((	CCP	
+10.1	ಹಾಗೂ	CC__CCD	<fs af='ಹಾಗೂ,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಮೇಲ್ದವಡೆ	N__NN	<fs af='ಮೇಲ್ದವಡೆ,n,,sg,3,d,0,0'>
+	))
+12	((	CCP	
+12.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+13	((	NP	
+13.1	ಕೆಳದವಡೆಗಳು	N__NN	<fs af='ಕೆಳದವಡೆ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+14	((	NP	
+14.1	ಪರಸ್ಪರ	PR__PRC	<fs af='ಪರಸ್ಪರ,pn,,,3,d,0,0'>
+	))
+15	((	NP	
+15.1	ಹೇಗೆ	PR__PRQ	<fs af='ಹೇಗೆ,pn,,,3,d,0,0'>
+	))
+16	((	VGF	
+16.1	ಹೊಂದಿಕೊಳ್ಳುತ್ತಿವೆ	V__VM__VF	<fs af='ಹೊಂದು,v,,pl,3,,ಇ+ಕೊಳ್ಳು+ಉತ್ತ+ಇವೆ,i+koVlYlYu+uwwa+iveV'>
+	))
+17	((	BLK	
+17.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='11'>
+1	((	NP	
+1.1	ಹಲ್ಲುಗಳ	JJ	<fs af='ಹಲ್ಲು,adj,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+1.2	ಚಲನೆ	N__NN	<fs af='ಚಲನೆ,n,,sg,3,d,0,0'>
+1.3	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಹೇಗೆ	PR__PRQ	<fs af='ಹೇಗೆ,pn,,,3,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಯಾಕೆ	PR__PRQ	<fs af='ಯಾಕೆ,pn,,,3,d,0,0'>
+	))
+5	((	BLK	
+5.1	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='12'>
+1	((	NP	
+1.1	ತಮ್ಮ	PR__PRF	<fs af='ತಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+1.2	ನಡುವೆ	RP__RPD	<fs af='ನಡುವೆ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಸ್ಥಿತಿಸ್ಥಾಪಕ	JJ	<fs af='ಸ್ಥಿತಿಸ್ಥಾಪಕ,adj,,,,d,0,0'>
+2.2	ಗುಣ	N__NN	<fs af='ಗುಣ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಹೊಂದಿರುವ	V__VM__VNG	<fs af='ಹೊಂದು,v,,,,o,ಇರು+ವ+ಅ,iru+va+a'>
+	))
+4	((	NP	
+4.1	ಸೂಕ್ಷ್ಮ	JJ	<fs af='ಸೂಕ್ಷ್ಮ,adj,,,,d,0,0'>
+4.2	ತಂತುಗಳನ್ನು	N__NN	<fs af='ತಂತು,n,,pl,,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+5	((	VGNN	
+5.1	ಪೋಣಿಸಿಕೊಂಡಿದ್ದು	V__VM__VNG	<fs af='ಪೋಣಿಸು,v,,,,o,ಇ+ಕೊಂಡು+ಇದ್ದು+ಉ,i+koVMdu+ixxu+u'>
+5.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಹಲ್ಲುಗಳ	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+6.2	ಮೇಲೆ	N__NST	<fs af='ಮೇಲು,nst,,,,o,ಎ,eV'>
+	))
+7	((	VGNN	
+7.1	ಅಳವಡಿಸಲ್ಪಡುವ	V__VM__VNG	<fs af='ಅಳವಡು,v,,,,o,ಇಸು+ಅಲ್ಪಡು+ವ+ಅ,isu+alpadu+va+a'>
+	))
+8	((	NP	
+8.1	ಕಿರು	JJ	<fs af='ಕಿರು,adj,,,,d,0,0'>
+8.2	ಬ್ರಾಕೆಟ್‍ಗಳೇ	N__NN	<fs af='ಬ್ರಾಕೆಟ್‍,n,,pl,3,o,ಗಳು+ಏ,galYu+e'>
+	))
+9	((	RBP	
+9.1	ಸಾಮಾನ್ಯವಾಗಿ	RB	<fs af='ಸಾಮಾನ್ಯ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+10	((	NP	
+10.1	'	RD__PUNC	<fs af='',punc,,,,,,'>
+10.2	ಬ್ರೇಸಸ್	N__NNP	<fs af='ಬ್ರೇಸಸ್,n,,sg,3,d,0,0'>
+10.3	'	RD__PUNC	<fs af='',punc,,,,,,'>
+	))
+11	((	CCP	
+11.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+12	((	VGNN	
+12.1	ಕರೆಯಲ್ಪಡುವ	V__VM__VNG	<fs af='ಕರೆ,v,,,,o,ಯ+ಅಲ್ಪಡು+ವ+ಅ,ya+alpadu+va+a'>
+	))
+13	((	NP	
+13.1	ಆರ್ಥೊಡಾಂಟಿಕ್	JJ	<fs af='ಆರ್ಥೊಡಾಂಟಿಕ್,adj,,,3,d,0,0'>
+13.2	ಪರಿಕರಗಳು	N__NN	<fs af='ಪರಿಕರ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+14	((	BLK	
+14.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='13'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ಸೂಕ್ಷ್ಮ	JJ	<fs af='ಸೂಕ್ಷ್ಮ,adj,,,,d,0,0'>
+1.3	ತಂತುಗಳು	N__NN	<fs af='ತಂತು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+2	((	NP	
+2.1	ಸ್ಥಿತಿಸ್ಥಾಪಕ	JJ	<fs af='ಸ್ಥಿತಿಸ್ಥಾಪಕ,adj,,,,d,0,0'>
+2.2	ಗುಣ	N__NN	<fs af='ಗುಣ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಹೊಂದಿರುವುದರಿಂದ	V__VM__VNG	<fs af='ಹೊಂದು,v,,,,o,ಇರು+ವ+ಉದು+ಅರ+ಇಂದ,iru+va+uxu+ara+iMxa'>
+	))
+4	((	NP	
+4.1	ಅಸಮರ್ಪಕ	JJ	<fs af='ಅಸಮರ್ಪಕ,adj,,,,d,0,0'>
+4.2	ಸ್ಥಾನದಲ್ಲಿ	N__NN	<fs af='ಸ್ಥಾನ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+5	((	VGNN	
+5.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+6	((	NP	
+6.1	ಹಲ್ಲುಗಳ	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+6.2	ಮೇಲೆ	N__NST	<fs af='ಮೇಲು,nst,,,,o,ಎ,eV'>
+	))
+7	((	NP	
+7.1	ಇವು	PR__PRP	<fs af='ಇದು,pn,,pl,3,o,ವು+ಉ,vu+u'>
+	))
+8	((	NP	
+8.1	ಮೃದುವಾದ	JJ	<fs af='ಮೃದು,adj,,,,o,ವ+ಆದ,va+Axa'>
+8.2	ಒತ್ತಡವನ್ನು	N__NN	<fs af='ಒತ್ತಡ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+9	((	VGNF	
+9.1	ಹೇರಿ	V__VM__VNF	<fs af='ಹೇರು,v,,,,,ಇ,i'>
+	))
+10	((	NP	
+10.1	ಹಲ್ಲುಗಳನ್ನು	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+11	((	NP	
+11.1	ಸೂಕ್ತ	JJ	<fs af='ಸೂಕ್ತ,adj,,,,d,0,0'>
+11.2	ಸ್ಥಾನಕ್ಕೆ	N__NN	<fs af='ಸ್ಥಾನ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+12	((	NP	
+12.1	ಸ್ಥಾನಾಂತರ	N__NN	<fs af='ಸ್ಥಾನ,n,,,3,o,ಅಂತರ,aMwara'>
+	))
+13	((	VGNF	
+13.1	ಹೊಂದುವಂತೆ	V__VM__VNF	<fs af='ಹೊಂದು,v,,,,,ವ+ಅಂತೆ,va+aMweV'>
+	))
+14	((	VGF	
+14.1	ಮಾಡುತ್ತವೆ	V__VM__VF	<fs af='ಮಾಡು,v,,pl,3,,ಉತ್ತ+ಅವೆ,uwwa+aveV'>
+	))
+15	((	BLK	
+15.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='14'>
+1	((	NP	
+1.1	ಹಲ್ಲುಗಳನ್ನು	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+2	((	NP	
+2.1	ಎಲುಬಿನ	N__NN	<fs af='ಎಲುಬು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+2.2	ಜೊತೆ	RP__RPD	<fs af='ಜೊತೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಸಂಧಿಸುವ	V__VM__VNG	<fs af='ಸಂಧಿಸು,v,,,,o,ವ+ಅ,va+a'>
+	))
+4	((	NP	
+4.1	ಪರಿದಂತದ	N__NN	<fs af='ಪರಿದಂತ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+5	((	NP	
+5.1	ಮೂಳೆನಾರಿನ	N__NN	<fs af='ಮೂಳೆನಾರು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+5.2	ಗುಣ	N__NN	<fs af='ಗುಣ,n,,sg,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ಹಲ್ಲುಗಳು	N__NN	<fs af='ಹಲ್ಲು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+7	((	NP	
+7.1	ಸಮಸ್ಥಿತಿಗೆ	N__NN	<fs af='ಸಮಸ್ಥಿತಿ,n,,,3,o,ಗೆ,geV'>
+	))
+8	((	VGINF	
+8.1	ಚಲಿಸಲು	V__VM__VINF	<fs af='ಚಲಿಸು,v,,,,,ಅಲು,alu'>
+	))
+9	((	NP	
+9.1	ಕಾರಣ	N__NN	<fs af='ಕಾರಣ,n,,sg,3,d,0,0'>
+	))
+10	((	VGF	
+10.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='15'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ಜೀವಕೋಶಗಳು	N__NN	<fs af='ಜೀವಕೋಶ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+2	((	NP	
+2.1	ಸಜೀವ	N__NN	<fs af='ಸಜೀವ,n,,,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಆಗಿರುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಇರು+ವ+ಅ,iru+va+a'>
+	))
+4	((	NP	
+4.1	ಕಾರಣ	N__NN	<fs af='ಕಾರಣ,n,,sg,3,d,0,0'>
+	))
+5	((	RBP	
+5.1	ಸತತವಾಗಿ	RB	<fs af='ಸತತ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+6	((	NP	
+6.1	ಪರಿವರ್ತನೆ	N__NN	<fs af='ಪರಿವರ್ತನೆ,n,,sg,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಹೊಂದುತ್ತಿರುತ್ತವೆ	V__VM__VF	<fs af='ಹೊಂದು,v,,pl,3,,ಉತ್ತ+ಇರು+ಉತ್ತ+ಅವೆ,uwwa+iru+uwwa+aveV'>
+	))
+8	((	CCP	
+8.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+9	((	RBP	
+9.1	ಪುನರ್	RB	<fs af='ಪುನರ್,v,,,,d,0,0'>
+	))
+10	((	VGF	
+10.1	ರೂಪಿತಗೊಳ್ಳುತ್ತಿರುತ್ತವೆ	V__VM__VF	<fs af='ರೂಪಿತಗೊಳ್ಳು,v,,pl,3,,ಉತ್ತ+ಇರು+ಉತ್ತ+ಅವೆ,uwwa+iru+uwwa+aveV'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+</document>

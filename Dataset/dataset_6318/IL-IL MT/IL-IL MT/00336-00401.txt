@@ -1,0 +1,2262 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='1'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾ	JJ	<fs af='ಹರ್ನಿಯಾ,adj,,,,d,0,0'>
+1.2	ಕಾಯಿಲೆಗೆ	N__NN	<fs af='ಕಾಯಿಲೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+2	((	NP	
+2.1	ಶಸ್ತ್ರ	JJ	<fs af='ಶಸ್ತ್ರ,adj,,,,d,0,0'>
+2.2	ಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಅನಿವಾರ್ಯವೇ	N__NN	<fs af='ಅನಿವಾರ್ಯ,n,,,3,o,ವ+ಏ,va+e'>
+	))
+4	((	BLK	
+4.1	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='2'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಎಂಬುದು	CC__CCS	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಬಹಳ	RP__INTF	<fs af='ಬಹಳ,adj,,,,d,0,0'>
+3.2	ಸಾಮಾನ್ಯವಾದ	JJ	<fs af='ಸಾಮಾನ್ಯ,adj,,,,o,ವ+ಆದ,va+Axa'>
+3.3	ಕಾಯಿಲೆಗಳಲ್ಲಿ	N__NN	<fs af='ಕಾಯಿಲೆ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+4	((	JJP	
+4.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='3'>
+1	((	NP	
+1.1	ಓರ್ವರಿಗೆ	N__NN	<fs af='ಒರು,n,any,sg,3,o,ವ+ಅರು+ಇಗೆ,va+aru+igeV'>
+	))
+2	((	NP	
+2.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+3	((	VGF	
+3.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ+ಎ,xa+eV'>
+	))
+4	((	CCP	
+4.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+5	((	VGNF	
+5.1	ಗೊತ್ತಾದಾಗ	V__VM__VNF	<fs af='ಗೊತ್ತಾಗು,v,,,,,ಆದ+ಆಗ,Axa+Aga'>
+	))
+6	((	NP	
+6.1	ಅವರ	PR__PRP	<fs af='ಅವರು,pn,any,pl,3,o,ಅ,a'>
+6.2	ಬಗ್ಗೆ	RP__RPD	<fs af='ಬಗ್ಗೆ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಹಿತೈಷಿಗಳೂ	N__NN	<fs af='ಹಿತೈಷಿ,n,any,pl,3,o,ಗಳು+ಊ,galYu+U'>
+	))
+8	((	NP	
+8.1	ಕನಿಕರ	N__NN	<fs af='ಕನಿಕರ,n,,sg,3,d,0,0'>
+	))
+9	((	VGNN	
+9.1	ಸೂಚಿಸುವ	V__VM__VNG	<fs af='ಸೂಚಿಸು,v,,,,o,ವ+ಅ,va+a'>
+	))
+10	((	NP	
+10.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+10.2	ಕಾಲ	N__NN	<fs af='ಕಾಲ,n,,sg,3,d,0,0'>
+	))
+11	((	VGF	
+11.1	ಇತ್ತು	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ತ+ತ+ಉ,wa+wa+u'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='4'>
+1	((	NP	
+1.1	ಬಹುಶಃ	N__NN	<fs af='ಬಹುಶಃ,n,,,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ಇದೆ	V__VM__VNF	<fs af='ಇರು,v,,sg,3,,ದ+ಎ,xa+eV'>
+	))
+4	((	VGNF	
+4.1	ಎಂದಾದಲ್ಲಿ	V__VM__VNF	<fs af='ಎಂದು,v,,,,,ಆದ+ಅಲ್ಲಿ,Axa+alli'>
+	))
+5	((	NP	
+5.1	ಒಂದಲ್ಲ	JJ	<fs af='ಒಂದು,adj,,sg,3,o,ಅಲ್ಲ,alla'>
+5.2	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+5.3	ದಿನ	N__NN	<fs af='ದಿನ,n,,sg,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+	))
+7	((	NP	
+7.1	ಅನಿವಾರ್ಯ	N__NN	<fs af='ಅನಿವಾರ್ಯ,n,,,3,d,0,0'>
+	))
+8	((	CCP	
+8.1	ಎಂಬ	CC__CCS	<fs af='ಎಂಬ,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ತಿಳಿವಳಿಕೆಯೇ	N__NNV	<fs af='ತಿಳಿ,n,,sg,3,o,ವಳಿಕೆ+ಯ+ಏ,valYikeV+ya+e'>
+	))
+10	((	NP	
+10.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+10.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+11	((	NP	
+11.1	ಕರುಣೆಗೆ	N__NN	<fs af='ಕರುಣೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+12	((	NP	
+12.1	ಪ್ರೇರಕ	N__NN	<fs af='ಪ್ರೇರಕ,n,,,3,d,0,0'>
+	))
+13	((	VGF	
+13.1	ಆಗಿತ್ತೇನೋ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇತ್ತು+ಏನು+ಓ,iwwu+enu+o'>
+	))
+14	((	BLK	
+14.1	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5'>
+1	((	RBP	
+1.1	ಇಂದಿಗೂ	RB	<fs af='ಇಂದು,adv,,,,o,ಇಗೆ+ಊ,igeV+U'>
+	))
+2	((	NP	
+2.1	ಜನಸಾಮಾನ್ಯರ	N__NN	<fs af='ಜನಸಾಮಾನ್ಯ,n,any,pl,3,o,ಅರು+ಅ,aru+a'>
+	))
+3	((	NP	
+3.1	ಮನಸ್ಸಿನಲ್ಲಿ	N__NN	<fs af='ಮನಸ್ಸು,n,,sg,3,o,ಇನ+ಅಲ್ಲಿ,ina+alli'>
+	))
+4	((	NP	
+4.1	ಹರ್ನಿಯಾ	JJ	<fs af='ಹರ್ನಿಯಾ,adj,,,,d,0,0'>
+4.2	ಕಾಯಿಲೆಯ	N__NN	<fs af='ಕಾಯಿಲೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+4.3	ಬಗ್ಗೆ	RP__RPD	<fs af='ಬಗ್ಗೆ,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಅರೆ	N__NN	<fs af='ಅರೆ,n,,,3,d,0,0'>
+5.2	ಬರೆ	RD__ECH	<fs af='ಬರೆ,n,,,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ಜ್ಞಾನ	N__NN	<fs af='ಜ್ಞಾನ,n,,sg,3,d,0,0'>
+6.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ಸಂದೇಹ	N__NN	<fs af='ಸಂದೇಹ,n,,sg,3,d,0,0'>
+	))
+8	((	CCP	
+8.1	ಹಾಗೂ	CC__CCD	<fs af='ಹಾಗೂ,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ಅನುಮಾನಗಳು	N__NN	<fs af='ಅನುಮಾನ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+10	((	VGF	
+10.1	ಇದ್ದೇ	V__VAUX	<fs af='ಇರು,v,,,,,ದ+ದ+ಏ,xa+xa+e'>
+10.2	ಇವೆ	V__VM__VF	<fs af='ಇರು,v,,pl,3,,ವ+ಎ,va+eV'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='6'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದರೆ,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ನಿಜವಾಗಿಯೂ	N__NN	<fs af='ನಿಜ,n,,,3,o,ವ+ಆಗಿ+ಯ+ಊ,va+Agi+ya+U'>
+	))
+4	((	NP	
+4.1	ಏನು	PR__PRQ	<fs af='ಏನು,pn,,,3,o,ಉ,u'>
+	))
+5	((	BLK	
+5.1	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='7'>
+1	((	NP	
+1.1	ಅದು	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ವ್ಯಕ್ತಿಯ	N__NN	<fs af='ವ್ಯಕ್ತಿ,n,any,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+3	((	NP	
+3.1	ತಪ್ಪಿನಿಂದಾಗಿ	N__NN	<fs af='ತಪ್ಪು,n,,sg,3,o,ಇನ+ಇಂದ+ಆಗಿ,ina+iMxa+Agi'>
+	))
+4	((	VGNN	
+4.1	ಬರುವ	V__VM__VNG	<fs af='ಬರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+5	((	NP	
+5.1	ಕಾಯಿಲೆಯೇ	N__NN	<fs af='ಕಾಯಿಲೆ,n,,sg,3,o,ಯ+ಏ,ya+e'>
+	))
+6	((	BLK	
+6.1	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='8'>
+1	((	NP	
+1.1	ಅದನ್ನು	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಅನ್ನು,annu'>
+	))
+2	((	VGNF	
+2.1	ಬರದಂತೆ	V__VM__VNF	<fs af='ಬರು,v,,,,,ಅದೆ+ಅಂತೆ,axeV+aMweV'>
+	))
+3	((	VGNN	
+3.1	ತಡೆಯುವುದು	V__VM__VNG	<fs af='ತಡೆ,v,,,,o,ಯ+ಉವ+ಉದು+ಉ,ya+uva+uxu+u'>
+	))
+4	((	NP	
+4.1	ಸಾಧ್ಯವೇ	N__NN	<fs af='ಸಾಧ್ಯ,n,,,3,o,ವ+ಏ,va+e'>
+	))
+5	((	BLK	
+5.1	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='9'>
+1	((	VGNN	
+1.1	ಬಂದ	V__VM__VNG	<fs af='ಬರು,v,,,,o,ಅಂ+ದ+ಅ,aM+xa+a'>
+	))
+2	((	NP	
+2.1	ನಂತರದಲ್ಲಿ	N__NST	<fs af='ನಂತರ,nst,,,,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+3	((	NP	
+3.1	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+	))
+4	((	VGNF	
+4.1	ಇಲ್ಲದೇ	V__VM__VNF	<fs af='ಇಲ್ಲ,v,,,,,ಅದೆ+ಏ,axeV+e'>
+	))
+5	((	NP	
+5.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ವಾಸಿ	N__NN	<fs af='ವಾಸಿ,n,,,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಆಗಬಲ್ಲುದೇ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಅ+ಬಲ್ಲ+ಉದು+ಏ,a+balla+uxu+e'>
+	))
+8	((	BLK	
+8.1	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='10'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+2	((	NP	
+2.1	ಹಲವು	QT__QTF	<fs af='ಹಲವು,adj,,pl,3,o,ಉ,u'>
+2.2	ಸಂದೇಹಗಳು	N__NN	<fs af='ಸಂದೇಹ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+3	((	NP	
+3.1	ಜನಮಾನಸದಲ್ಲಿ	N__NN	<fs af='ಜನಮಾನಸ,n,,,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+4	((	VGF	
+4.1	ಇವೆ	V__VM__VF	<fs af='ಇರು,v,,pl,3,,ವ+ಎ,va+eV'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='11'>
+1	((	NP	
+1.1	ಇಲ್ಲಿ	PR__PRP	<fs af='ಇಲ್ಲಿ,pn,,,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+2.2	ಬಗ್ಗೆ	RP__RPD	<fs af='ಬಗ್ಗೆ,avy,,,,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+4	((	NP	
+4.1	ಅಜ್ಞಾನಕ್ಕಿಂತ	N__NN	<fs af='ಅಜ್ಞಾನ,n,,sg,3,o,ಕ್ಕೆ+ಇಂತ,kkeV+iMwa'>
+	))
+5	((	NP	
+5.1	ಶಸ್ತ್ರ	JJ	<fs af='ಶಸ್ತ್ರ,adj,,,,d,0,0'>
+5.2	ಕ್ರಿಯೆಯ	N__NN	<fs af='ಕ್ರಿಯೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+5.3	ಬಗೆಗಿನ	RP__RPD	<fs af='ಬಗೆಗಿನ,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ಅವ್ಯಕ್ತ	JJ	<fs af='ಅವ್ಯಕ್ತ,adj,,,,d,0,0'>
+6.2	ಭಯ	N__NN	<fs af='ಭಯ,n,,,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಎದ್ದು	V__VAUX	<fs af='ಏಳು,v,,,,,ದ+ದ+ಉ,xa+xa+u'>
+7.2	ಕಾಣಿಸುತ್ತದೆ	V__VM__VF	<fs af='ಕಾಣು,v,,sg,3,,ಇಸು+ಉತ್ತ+ಅದೆ,isu+uwwa+axeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='12'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದರೆ,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+3.2	ಭಿತ್ತಿ	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+4.2	ಉದರದ	JJ	<fs af='ಉದರ,adj,,,,o,ದ,xa'>
+4.3	ಹೊರಪದರ	N__NN	<fs af='ಹೊರಪದರ,n,,sg,3,d,0,0'>
+4.4	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+5.2	ನಿರ್ದಿಷ್ಟ	JJ	<fs af='ನಿರ್ದಿಷ್ಟ,adj,,,,d,0,0'>
+5.3	ಜಾಗದಲ್ಲಿ	N__NN	<fs af='ಜಾಗ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+6	((	VGNN	
+6.1	ಶಿಥಿಲಗೊಂಡು	V__VM__VNG	<fs af='ಶಿಥಿಲಗೊಳ್ಳು,v,,,,o,ಅಂ+ಡ+ಉ+ಉ,aM+da+u+u'>
+	))
+7	((	NP	
+7.1	ಅಲ್ಲಿ	DM__DMD	<fs af='ಅಲ್ಲಿ,pn,,,3,d,0,0'>
+	))
+8	((	NP	
+8.1	ಉದರದ	N__NN	<fs af='ಉದರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+8.2	ಒಳಗಿನ	N__NST	<fs af='ಒಳಗು,nst,,,3,o,ಇನ+ಅ,ina+a'>
+	))
+9	((	NP	
+9.1	ಅಂಗಗಳು	N__NN	<fs af='ಅಂಗ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+10	((	NP	
+10.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+11	((	VGF	
+11.1	ಜಾರುವುದು	V__VM__VF	<fs af='ಜಾರು,v,,,,,ವ+ಉದು,va+uxu'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='13'>
+1	((	NP	
+1.1	ಇಲ್ಲಿ	DM__DMD	<fs af='ಇಲ್ಲಿ,pn,,,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+2.2	ಭಿತ್ತಿ	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಶಿಥಿಲ	N__NN	<fs af='ಶಿಥಿಲ,n,,,3,d,0,0'>
+	))
+4	((	CCP	
+4.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+5	((	VGINF	
+5.1	ದುರ್ಬಲಗೊಳ್ಳಲು	V__VM__VINF	<fs af='ದುರ್ಬಲಗೊಳ್ಳು,v,,,,,ಅಲು,alu'>
+	))
+6	((	NP	
+6.1	ಕಾರಣಗಳು	N__NN	<fs af='ಕಾರಣ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+7	((	JJP	
+7.1	ಹಲವು	QT__QTF	<fs af='ಹಲವು,adj,,pl,3,o,ಉ,u'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='14'>
+1	((	NP	
+1.1	ಗಂಡಸರಲ್ಲಿ	N__NN	<fs af='ಗಂಡಸು,n,m,pl,3,o,ಅರು+ಅಲ್ಲಿ,aru+alli'>
+	))
+2	((	NP	
+2.1	ತೊಡೆಸಂಧಿಯಲ್ಲಿನ	N__NN	<fs af='ತೊಡೆಸಂಧಿ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ+ನ+ಅ,ya+alli+na+a'>
+	))
+3	((	NP	
+3.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ಹುಟ್ಟಿದ	JJ	<fs af='ಹುಟ್ಟು,adj,,,,o,ಇದ,ixa'>
+4.2	ಆರಂಭದಿಂದ	N__NN	<fs af='ಆರಂಭ,n,,,3,o,ದ+ಇಂದ,xa+iMxa'>
+	))
+5	((	VGF	
+5.1	ಇರುತ್ತದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='15'>
+1	((	NP	
+1.1	ಪುರುಷರಲ್ಲಿ	N__NN	<fs af='ಪುರುಷ,n,m,pl,3,o,ಅರು+ಅಲ್ಲಿ,aru+alli'>
+	))
+2	((	NP	
+2.1	ವರ‍್ಯನಾಳ	N__NN	<fs af='ವರ‍್ಯನಾಳ,n,,sg,3,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ವೃಷಣದಿಂದ	N__NN	<fs af='ವೃಷಣ,n,,sg,3,o,ದ+ಇಂದ,xa+iMxa'>
+	))
+4	((	VGNN	
+4.1	ಆರಂಭಗೊಂಡು	V__VM__VNG	<fs af='ಆರಂಭಗೊಳ್ಳು,v,,,,o,ಅಂ+ಡ+ಉ+ಉ,aM+da+u+u'>
+	))
+5	((	NP	
+5.1	ತೊಡೆ	JJ	<fs af='ತೊಡೆ,adj,,sg,3,d,0,0'>
+5.2	ಸಂಧಿಯ	N__NN	<fs af='ಸಂಧಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+6	((	NP	
+6.1	ಭಾಗದಲ್ಲಿ	N__NN	<fs af='ಭಾಗ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+7	((	NP	
+7.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+7.2	ಭಿತ್ತಿಯನ್ನು	N__NN	<fs af='ಉದರಭಿತ್ತಿ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+8	((	VGNF	
+8.1	ಛೇದಿಸಿ	V__VM__VNF	<fs af='ಛೇದಿಸು,v,,,,,ಇ,i'>
+	))
+9	((	NP	
+9.1	ಉದರದ	N__NN	<fs af='ಉದರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+9.2	ಒಳಕ್ಕೆ	N__NST	<fs af='ಒಳ,nst,,,3,o,ಕ್ಕೆ,kkeV'>
+	))
+10	((	VGF	
+10.1	ಹೋಗುತ್ತದೆ	V__VM__VF	<fs af='ಹೋಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='16'>
+1	((	CCP	
+1.1	ಇದರಿಂದಾಗಿ	CC__CCS	<fs af='ಇದರಿಂದಾಗಿ,avy,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಆ	DM__DMD	<fs af='ಆ,pn,,,3,d,0,0'>
+2.2	ಭಾಗದಲ್ಲಿ	N__NN	<fs af='ಭಾಗ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+3	((	NP	
+3.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+3.2	ಭಿತ್ತಿ	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ತುಸು	JJ	<fs af='ತುಸು,adj,,,,d,0,0'>
+4.2	ದುರ್ಬಲ	N__NN	<fs af='ದುರ್ಬಲ,n,,,3,d,0,0'>
+	))
+5	((	VGNN	
+5.1	ಆಗಿರುವುದು	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಇರು+ವ+ಉದು+ಉ,iru+va+uxu+u'>
+	))
+6	((	NP	
+6.1	ಸಹಜ	N__NN	<fs af='ಸಹಜ,n,,,3,d,0,0'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='17'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ದುರ್ಬಲತೆಯನ್ನು	N__NN	<fs af='ದುರ್ಬಲ,n,,sg,3,o,ತೆ+ಯ+ಅನ್ನು,weV+ya+annu'>
+	))
+2	((	NP	
+2.1	ಹನಿಕಾಯಾ	N__NN	<fs af='ಹನಿಕಾಯಾ,n,,,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+4	((	VGINF	
+4.1	ಚಾಚಲು	V__VM__VINF	<fs af='ಚಾಚು,v,,,,,ಅಲು,alu'>
+	))
+5	((	NP	
+5.1	ಮೂಲ	N__NN	<fs af='ಮೂಲ,n,,sg,3,d,0,0'>
+	))
+6	((	VGF	
+6.1	ಆಗಬಹುದು	V__VM__VF	<fs af='ಆಗು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='18'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+2	((	NP	
+2.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಚಾಚುವಿಕೆ	N__NNV	<fs af='ಚಾಚು,n,,sg,3,o,ವಿಕೆ,vikeV'>
+	))
+4	((	VGNN	
+4.1	ಹುಟ್ಟಿದ	V__VM__VNG	<fs af='ಹುಟ್ಟು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+5	((	NP	
+5.1	ಮಗುವಿನಿಂದ	N__NN	<fs af='ಮಗು,n,any,sg,3,o,ವ+ಇನ+ಇಂದ,va+ina+iMxa'>
+	))
+6	((	NP	
+6.1	ಸಾಧಾರಣ	N__NN	<fs af='ಸಾಧಾರಣ,n,,,3,d,0,0'>
+	))
+7	((	NP	
+7.1	ಮಧ್ಯವಯಸ್ಕ	JJ	<fs af='ಮಧ್ಯವಯಸ್ಕ,adj,,,,d,0,0'>
+7.2	ಪುರುಷರಿಗೂ	N__NN	<fs af='ಪುರುಷ,n,m,pl,3,o,ಅರು+ಇಗೆ+ಊ,aru+igeV+U'>
+	))
+8	((	VGF	
+8.1	ಕಾಣಬಹುದು	V__VM__VF	<fs af='ಕಾಣು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+9	((	CCP	
+9.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಹೆಂಗಸರಲ್ಲಿ	N__NN	<fs af='ಹೆಂಗಸು,n,f,pl,3,o,ಅರು+ಅಲ್ಲಿ,aru+alli'>
+	))
+11	((	NP	
+11.1	ಸಹಜವಾಗಿಯೇ	N__NN	<fs af='ಸಹಜ,n,,,3,o,ವ+ಆಗಿ+ಯ+ಏ,va+Agi+ya+e'>
+	))
+12	((	NP	
+12.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+12.2	ಭಾಗದ	N__NN	<fs af='ಭಾಗ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+13	((	NP	
+13.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+14	((	NP	
+14.1	ಬಹಳ	JJ	<fs af='ಬಹಳ,adj,,,,d,0,0'>
+14.2	ಅಪರೂಪ	N__NN	<fs af='ಅಪರೂಪ,n,,,3,d,0,0'>
+	))
+15	((	BLK	
+15.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='19'>
+1	((	NP	
+1.1	ಇನ್ನು	JJ	<fs af='ಇನ್ನು,adj,,,,d,0,0'>
+1.2	ಮಧ್ಯವಯಸ್ಸು	N__NN	<fs af='ಮಧ್ಯವಯಸ್ಸು,n,,,3,o,ಉ,u'>
+	))
+2	((	VGNN	
+2.1	ದಾಟಿದ	V__VM__VNG	<fs af='ದಾಟು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+3	((	NP	
+3.1	ನಂತರ	N__NST	<fs af='ನಂತರ,nst,,,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ವಯೋಸಹಜ	JJ	<fs af='ವಯೋಸಹಜ,adj,,,,d,0,0'>
+4.2	ಕಾರಣಗಳಿಂದಲೂ	N__NN	<fs af='ಕಾರಣ,n,,pl,3,o,ಗಳು+ಇಂದ+ಲ+ಊ,galYu+iMxa+la+U'>
+	))
+5	((	NP	
+5.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+5.2	ಭಿತ್ತಿ	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ದುರ್ಬಲ	N__NN	<fs af='ದುರ್ಬಲ,n,,,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='20'>
+1	((	NP	
+1.1	ಆಗಲೂ	N__NST	<fs af='ಆಗ,nst,,,,o,ಲ+ಊ,la+U'>
+	))
+2	((	NP	
+2.1	ತೊಡೆ	JJ	<fs af='ತೊಡೆ,adj,,sg,3,d,0,0'>
+2.2	ಸಂಧಿಯಲ್ಲಿಯೇ	N__NN	<fs af='ಸಂಧಿ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ+ಯ+ಏ,ya+alli+ya+e'>
+	))
+3	((	RBP	
+3.1	ಹೆಚ್ಚಾಗಿ	RB	<fs af='ಹೆಚ್ಚು,adv,,,,o,ಆಗಿ,Agi'>
+	))
+4	((	NP	
+4.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+5	((	NP	
+5.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+6.1	ಚಾಚುವುದು	V__VM__VF	<fs af='ಚಾಚು,v,,,,,ವ+ಉದು,va+uxu'>
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='21'>
+1	((	CCP	
+1.1	ಆದರೆ	CC__CCS	<fs af='ಆದರೆ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಇಂತಹ	DM__DMD	<fs af='ಇಂತಹ,pn,,,3,d,0,0'>
+2.2	ಸಂದರ್ಭಗಳಲ್ಲಿ	N__NN	<fs af='ಸಂದರ್ಭ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+3	((	NP	
+3.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ದೇಹದ	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+5	((	NP	
+5.1	ಎಡ	N__NST	<fs af='ಎಡ,nst,,,3,d,0,0'>
+	))
+6	((	CCP	
+6.1	ಹಾಗೂ	CC__CCD	<fs af='ಹಾಗೂ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಬಲ	N__NST	<fs af='ಬಲ,nst,,,3,d,0,0'>
+	))
+8	((	NP	
+8.1	ಎರಡೂ	JJ	<fs af='ಎರಡು,adj,,,,o,ಊ,U'>
+8.2	ಭಾಗಗಳಲ್ಲಿ	N__NN	<fs af='ಭಾಗ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+9	((	VGNN	
+9.1	ಕಾಣುವ	V__VM__VNG	<fs af='ಕಾಣು,v,,,,o,ವ+ಅ,va+a'>
+	))
+10	((	NP	
+10.1	ಸಾಧ್ಯತೆ	N__NN	<fs af='ಸಾಧ್ಯ,n,,sg,3,o,ತೆ,weV'>
+	))
+11	((	NP	
+11.1	ಹೆಚ್ಚು	N__NN	<fs af='ಹೆಚ್ಚು,n,,,3,o,ಉ,u'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='22'>
+1	((	NP	
+1.1	ಉದಾಹರಣೆಗೆ	N__NNV	<fs af='ಉದಾಹರಿಸು,n,,,3,o,ಅಣೆ+ಗೆ,aNeV+geV'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ದಿನನಿತ್ಯದ	N__NN	<fs af='ದಿನನಿತ್ಯ,n,,,3,o,ದ+ಅ,xa+a'>
+	))
+3	((	NP	
+3.1	ಕೆಮ್ಮು	N__NN	<fs af='ಕೆಮ್ಮು,n,,,3,o,ಉ,u'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಮೂತ್ರ	JJ	<fs af='ಮೂತ್ರ,adj,,,,d,0,0'>
+4.2	ವಿಸರ್ಜನೆ	N__NN	<fs af='ವಿಸರ್ಜನೆ,n,,sg,3,d,0,0'>
+	))
+5	((	VGNF	
+5.1	ಮಾಡುವಾಗ	V__VM__VNF	<fs af='ಮಾಡು,v,,,,,ವ+ಆಗ,va+Aga'>
+	))
+6	((	NP	
+6.1	ಹೆಚ್ಚಿನ	JJ	<fs af='ಹೆಚ್ಚು,adj,,,,o,ಇನ,ina'>
+6.2	ಒತ್ತಡದ	N__NN	<fs af='ಒತ್ತಡ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+7	((	NP	
+7.1	ಅಗತ್ಯ	N__NN	<fs af='ಅಗತ್ಯ,n,,sg,3,d,0,0'>
+	))
+8	((	NP	
+8.1	ಮಲಬದ್ಧತೆ	N__NN	<fs af='ಮಲಬದ್ಧ,n,,sg,3,o,ತೆ,weV'>
+8.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+9	((	NP	
+9.1	ಅತಿಯಾದ	RP__INTF	<fs af='ಅತಿ,adj,,,,o,ಯ+ಆದ,ya+Axa'>
+9.2	ದೈಹಿಕ	JJ	<fs af='ದೇಹ,adj,,,,o,ಇಕ,ika'>
+9.3	ಶ್ರಮ	N__NN	<fs af='ಶ್ರಮ,n,,sg,3,d,0,0'>
+9.4	ಇತ್ಯಾದಿ	RP__RPD	<fs af='ಇತ್ಯಾದಿ,avy,,,,d,0,0'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='23'>
+1	((	NP	
+1.1	ಉದರದ	N__NN	<fs af='ಉದರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+1.2	ಒಳಗಿನ	N__NST	<fs af='ಒಳಗು,nst,,,,o,ಇನ+ಅ,ina+a'>
+	))
+2	((	NP	
+2.1	ಒತ್ತಡ	N__NN	<fs af='ಒತ್ತಡ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ಹೆಚ್ಚಿಸಿ	V__VM__VNF	<fs af='ಹೆಚ್ಚಿಸು,v,,,,,ಇ,i'>
+	))
+4	((	NP	
+4.1	ವಯೋಧರ್ಮದಿಂದ	N__NN	<fs af='ವಯೋಧರ್ಮ,n,,sg,3,o,ದ+ಇಂದ,xa+iMxa'>
+	))
+5	((	VGNN	
+5.1	ದುರ್ಬಲಗೊಂಡಿರುವ	V__VM__VNG	<fs af='ದುರ್ಬಲಗೊಳ್ಳು,v,,,,o,ಅಂ+ಡ+ಉ+ಇರು+ವ+ಅ,aM+da+u+iru+va+a'>
+	))
+6	((	NP	
+6.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+6.2	ಭಿತ್ತಿಯನ್ನು	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+7	((	VGNF	
+7.1	ಭೇದಿಸಿ	V__VM__VNF	<fs af='ಭೇದಿಸು,v,,,,,ಇ,i'>
+	))
+8	((	NP	
+8.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+9	((	NP	
+9.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+10	((	VGINF	
+10.1	ಚಾಚಲು	V__VM__VINF	<fs af='ಚಾಚು,v,,,,,ಅಲು,alu'>
+	))
+11	((	NP	
+11.1	ಕಾರಣ	N__NN	<fs af='ಕಾರಣ,n,,sg,3,d,0,0'>
+	))
+12	((	VGF	
+12.1	ಆಗುತ್ತವೆ	V__VM__VF	<fs af='ಆಗು,v,,pl,3,,ಉತ್ತ+ಅವೆ,uwwa+aveV'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='24'>
+1	((	NP	
+1.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+1.2	ಭಿತ್ತಿ	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,d,0,0'>
+	))
+2	((	VGNN	
+2.1	ಶಿಥಿಲಗೊಳ್ಳುವ	V__VM__VNG	<fs af='ಶಿಥಿಲಗೊಳ್ಳು,v,,,,o,ವ+ಅ,va+a'>
+	))
+3	((	NP	
+3.1	ದೈಹಿಕ	JJ	<fs af='ದೇಹ,adj,,,,o,ಇಕ,ika'>
+3.2	ಪ್ರಕ್ರಿಯೆ	N__NN	<fs af='ಪ್ರಕ್ರಿಯೆ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ಮಹಿಳೆಯರಲ್ಲೂ	N__NN	<fs af='ಮಹಿಳೆ,n,f,pl,3,o,ಯ+ಅರು+ಅಲ್ಲಿ+ಊ,ya+aru+alli+U'>
+	))
+5	((	VGF	
+5.1	ಇರುತ್ತದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+6	((	CCP	
+6.1	ಆದರೂ	CC__CCS	<fs af='ಆದರೂ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+7.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+8	((	NP	
+8.1	ಹರ್ನಿಯಾವೂ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ವ+ಊ,va+U'>
+	))
+9	((	NP	
+9.1	ಮಹಿಳೆಯರಲ್ಲಿ	N__NN	<fs af='ಮಹಿಳೆ,n,f,pl,3,o,ಯ+ಅರು+ಅಲ್ಲಿ,ya+aru+alli'>
+	))
+10	((	NP	
+10.1	ವಿರಳ	N__NN	<fs af='ವಿರಳ,n,,,3,d,0,0'>
+	))
+11	((	CCP	
+11.1	ಎಂಬುದು	CC__CCS	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+12	((	NP	
+12.1	ಕುತೂಹಲಕರ	N__NN	<fs af='ಕುತೂಹಲ,n,,,3,o,ಕರ,kara'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='25'>
+1	((	NP	
+1.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+1.2	ಭಿತ್ತಿ	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ತುಸು	JJ	<fs af='ತುಸು,adj,,,,d,0,0'>
+2.2	ದುರ್ಬಲ	N__NN	<fs af='ದುರ್ಬಲ,n,,,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಆಗಿರುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಇರು+ವ+ಅ,iru+va+a'>
+	))
+4	((	NP	
+4.1	ಉದರದ	N__NN	<fs af='ಉದರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+5	((	NP	
+5.1	ಇನ್ನೂ	JJ	<fs af='ಇನ್ನು,adj,,,,o,ಊ,U'>
+5.2	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+5.3	ಭಾಗ	N__NN	<fs af='ಭಾಗ,n,,sg,3,d,0,0'>
+	))
+6	((	CCP	
+6.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದರೆ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಹೊಕ್ಕುಳು	N__NN	<fs af='ಹೊಕ್ಕುಳು,n,,sg,3,o,ಉ,u'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='26'>
+1	((	NP	
+1.1	ಶೈಶವದಲ್ಲಿ	N__NNP	<fs af='ಶೈಶವ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+2	((	NP	
+2.1	ಕರುಳು	JJ	<fs af='ಕರುಳು,adj,,,,d,0,0'>
+2.2	ಬಳ್ಳಿ	N__NN	<fs af='ಬಳ್ಳಿ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಅಂಟಿಕೊಂಡಿರುವ	V__VM__VNG	<fs af='ಅಂಟು,v,,,,o,ಇ+ಕೊಂಡು+ಇರು+ವ+ಅ,i+koVMdu+iru+va+a'>
+	))
+4	((	NP	
+4.1	ಭಾಗ	N__NN	<fs af='ಭಾಗ,n,,sg,3,d,0,0'>
+	))
+5	((	VGNN	
+5.1	ಆದ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ದ+ಅ,xa+a'>
+	))
+6	((	NP	
+6.1	ಹೊಕ್ಕುಳು	N__NN	<fs af='ಹೊಕ್ಕುಳು,n,,sg,3,o,ಉ,u'>
+	))
+7	((	NP	
+7.1	ಕರುಳು	JJ	<fs af='ಕರುಳು,adj,,,,d,0,0'>
+7.2	ಬಳ್ಳಿ	N__NN	<fs af='ಬಳ್ಳಿ,n,,sg,3,d,0,0'>
+	))
+8	((	VGNN	
+8.1	ಬಿದ್ದು	V__VAUX	<fs af='ಬೀಳು,v,,,,,ದ+ದ+ಉ,xa+xa+u'>
+8.2	ಹೋದ	V__VM__VNG	<fs af='ಹೋಗು,v,,,,o,ದ+ಅ,xa+a'>
+	))
+9	((	NP	
+9.1	ನಂತರದಲ್ಲಿ	N__NST	<fs af='ನಂತರ,nst,,,,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+10	((	NP	
+10.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+10.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+11	((	NP	
+11.1	ಗಾಯದ	JJ	<fs af='ಗಾಯ,adj,,sg,3,o,ದ,xa'>
+11.2	ಗುರುತಾಗಿ	N__NN	<fs af='ಗುರುತು,n,,sg,3,o,ಆಗಿ,Agi'>
+	))
+12	((	VGF	
+12.1	ಉಳಿದುಕೊಳ್ಳುತ್ತದೆ	V__VM__VF	<fs af='ಉಳಿ,v,,sg,3,,ದು+ಕೊಳ್ಳು+ಉತ್ತ+ಅದೆ,xu+koVlYlYu+uwwa+axeV'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='27'>
+1	((	NP	
+1.1	ಗಾಯ	N__NN	<fs af='ಗಾಯ,n,,sg,3,d,0,0'>
+	))
+2	((	RBP	
+2.1	ಎಷ್ಟೇ	RP__INTF	<fs af='ಎಷ್ಟು,adv,,,,o,ಏ,e'>
+2.2	ಚೆನ್ನಾಗಿ	RB	<fs af='ಚೆನ್ನ,adv,,,,o,ಆಗಿ,Agi'>
+	))
+3	((	NP	
+3.1	ವಾಸಿ	N__NN	<fs af='ವಾಸಿ,n,,,3,d,0,0'>
+	))
+4	((	VGNF	
+4.1	ಆದರೂ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ದ+ಅರೆ+ಊ,xa+areV+U'>
+	))
+5	((	NP	
+5.1	ಗಾಯ	N__NN	<fs af='ಗಾಯ,n,,sg,3,d,0,0'>
+	))
+6	((	VGNN	
+6.1	ಆಗದಿರುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಅದೆ+ಇರು+ವ+ಅ,axeV+iru+va+a'>
+	))
+7	((	NP	
+7.1	ಅಂಗಾಂಶದಷ್ಟು	N__NN	<fs af='ಅಂಗಾಂಶ,n,,sg,3,o,ದ+ಅಷ್ಟು+ಉ,xa+aRtu+u'>
+	))
+8	((	NP	
+8.1	ಗಟ್ಟಿ	N__NN	<fs af='ಗಟ್ಟಿ,n,,,3,d,0,0'>
+	))
+9	((	VGF	
+9.1	ಆಗಿರದು	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇರು+ಅದು,iru+axu'>
+	))
+10	((	CCP	
+10.1	ಎಂಬುದು	CC__CCS	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಪ್ರಕೃತಿ	JJ	<fs af='ಪ್ರಕೃತಿ,adj,,,,d,0,0'>
+11.2	ನಿಯಮ	N__NN	<fs af='ನಿಯಮ,n,,sg,3,d,0,0'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='28'>
+1	((	CCP	
+1.1	ಆದ್ದರಿಂದಲೇ	CC__CCS	<fs af='ಆದ್ದರಿಂದಲೇ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹೊಕ್ಕುಳಿನ	JJ	<fs af='ಹೊಕ್ಕುಳು,adj,,,,o,ಇನ,ina'>
+2.2	ಹರ್ನಿಯಾವೂ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ವ+ಊ,va+U'>
+	))
+3	((	NP	
+3.1	ಮಕ್ಕಳಿಂದ	N__NN	<fs af='ಮಗು,n,any,pl,3,o,ಕ+ಕಳು+ಇಂದ,ka+kalYu+iMxa'>
+	))
+4	((	NP	
+4.1	ವೃದ್ಧರವರೆಗೆ	N__NN	<fs af='ವೃದ್ಧ,n,any,pl,3,o,ಅರು+ಅ+ವರೆಗೆ,aru+a+vareVgeV'>
+	))
+5	((	NP	
+5.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+5.2	ಸಾಧ್ಯತೆ	N__NN	<fs af='ಸಾಧ್ಯ,n,,sg,3,o,ತೆ,weV'>
+5.3	ಆಗಿಯೇ	RP__RPD	<fs af='ಆಗಿಯೇ,avy,,,,d,0,0'>
+	))
+6	((	VGF	
+6.1	ಉಳಿಯುತ್ತದೆ	V__VM__VF	<fs af='ಉಳಿ,v,,sg,3,,ಯ+ಉತ್ತ+ಅದೆ,ya+uwwa+axeV'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='29'>
+1	((	NP	
+1.1	ಇದರಲ್ಲಿ	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಅರ+ಅಲ್ಲಿ,ara+alli'>
+	))
+2	((	NP	
+2.1	ಗಂಡು	N__NN	<fs af='ಗಂಡು,n,m,sg,3,o,ಉ,u'>
+2.2	-	RD__SYM	<fs af='-,punc,,,,,,'>
+2.3	ಹೆಣ್ಣು	N__NN	<fs af='ಹೆಣ್ಣು,n,f,sg,3,o,ಉ,u'>
+	))
+3	((	CCP	
+3.1	ಎಂಬ	CC__CCS	<fs af='ಎಂಬ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಭೇದ	N__NN	<fs af='ಭೇದ,n,,sg,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಇಲ್ಲ	V__VM__VF	<fs af='ಇಲ್ಲ,v,,,,,0,0'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='30'>
+1	((	NP	
+1.1	ಅದೇ	DM__DMD	<fs af='ಅದು,pn,,sg,3,o,ಏ,e'>
+1.2	ರೀತಿ	N__NN	<fs af='ರೀತಿ,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹಳೆಯ	JJ	<fs af='ಹಳೆಯ,adj,,,,d,0,0'>
+2.2	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಆದ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ದ+ಅ,xa+a'>
+	))
+4	((	NP	
+4.1	ಗಾಯ	N__NN	<fs af='ಗಾಯ,n,,sg,3,d,0,0'>
+	))
+5	((	VGNF	
+5.1	ಇರುವಲ್ಲಿಯೂ	V__VM__VNF	<fs af='ಇರು,v,,,,,ವ+ಅಲ್ಲಿ+ಯ+ಊ,va+alli+ya+U'>
+	))
+6	((	NP	
+6.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+7	((	NP	
+7.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	ಚಾಚಬಹುದು	V__VM__VF	<fs af='ಚಾಚು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='31'>
+1	((	NP	
+1.1	ಶಸ್ತ್ರ	JJ	<fs af='ಶಸ್ತ್ರ,adj,,sg,3,d,0,0'>
+1.2	ಚಿಕಿತ್ಸೆಯ	N__NN	<fs af='ಚಿಕಿತ್ಸೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+2	((	NP	
+2.1	ಗಾಯ	N__NN	<fs af='ಗಾಯ,n,,sg,3,d,0,0'>
+	))
+3	((	RBP	
+3.1	ಸಮರ್ಪಕವಾಗಿ	RB	<fs af='ಸಮರ್ಪಕ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+4	((	NP	
+4.1	ವಾಸಿ	N__NN	<fs af='ವಾಸಿ,n,,,3,d,0,0'>
+	))
+5	((	VGNN	
+5.1	ಆಗದಿರುವುದು	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಅದೆ+ಇರು+ವ+ಉದು+ಉ,axeV+iru+va+uxu+u'>
+	))
+6	((	NP	
+6.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+6.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+7	((	NP	
+7.1	ಹರ್ನಿಯಾಕ್ಕೆ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+8	((	NP	
+8.1	ಮುಖ್ಯ	JJ	<fs af='ಮುಖ್ಯ,adj,,,,d,0,0'>
+8.2	ಕಾರಣ	N__NN	<fs af='ಕಾರಣ,n,,sg,3,d,0,0'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='32'>
+1	((	NP	
+1.1	ಇದಕ್ಕೆ	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಅಕ್ಕೆ,akkeV'>
+	))
+2	((	NP	
+2.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+2.2	ಇನ್‌ಸಿಶನಲ್	N__NNP	<fs af='ಇನ್‌ಸಿಶನಲ್,n,,sg,3,d,0,0'>
+2.3	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+2.4	"	RD__PUNC	<fs af='",punc,,,,,,'>
+	))
+3	((	VGF	
+3.1	ಎನ್ನುತ್ತಾರೆ	V__VM__VF	<fs af='ಎನ್ನು,v,any,pl,3,,ಉತ್ತ+ಆರೆ,uwwa+AreV'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='33'>
+1	((	NP	
+1.1	ಇತ್ತೀಚೆಯ	JJ	<fs af='ಇತ್ತೀಚೆ,adj,,,,o,ಯ,ya'>
+1.2	ದಶಕಗಳಲ್ಲಿ	N__NN	<fs af='ದಶಕ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+2	((	NP	
+2.1	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆಗೆ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+3	((	VGNN	
+3.1	ಒಳಪಡುವ	V__VM__VNG	<fs af='ಒಳಪಡು,v,,,,o,ವ+ಅ,va+a'>
+	))
+4	((	NP	
+4.1	ಅವರ	PR__PRP	<fs af='ಅವರು,pn,any,pl,3,o,ಅ,a'>
+	))
+5	((	NP	
+5.1	ಸಂಖ್ಯೆ	N__NN	<fs af='ಸಂಖ್ಯೆ,n,,sg,3,d,0,0'>
+	))
+6	((	RBP	
+6.1	ಹೆಚ್ಚು	RB	<fs af='ಹೆಚ್ಚು,adv,,,,o,ಉ,u'>
+	))
+7	((	VGNN	
+7.1	ಆಗುತ್ತಿರುವುದರಿಂದ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಉತ್ತ+ಇರು+ವ+ಉದು+ಅರ+ಇಂದ,uwwa+iru+va+uxu+ara+iMxa'>
+	))
+8	((	NP	
+8.1	ಸಹಜವಾಗಿಯೇ	N__NN	<fs af='ಸಹಜ,n,,,3,o,ವ+ಆಗಿ+ಯ+ಏ,va+Agi+ya+e'>
+	))
+9	((	NP	
+9.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+9.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+10	((	NP	
+10.1	ಹನಿಕಾಯವೂ	N__NN	<fs af='ಹನಿಕಾಯ,n,,,3,o,ವ+ಊ,va+U'>
+	))
+11	((	VGF	
+11.1	ಹೆಚ್ಚುತ್ತಿದೆ	V__VM__VF	<fs af='ಹೆಚ್ಚು,v,,sg,3,,ಉತ್ತ+ಇದೆ,uwwa+ixeV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='34'>
+1	((	NP	
+1.1	ಉದರದ	JJ	<fs af='ಉದರ,adj,,,,o,ದ,xa'>
+1.2	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+2	((	VGINF	
+2.1	ಉಂಟಾಗಲು	V__VM__VINF	<fs af='ಉಂಟು,v,,,,,ಆಗು+ಅಲು,Agu+alu'>
+	))
+3	((	NP	
+3.1	ಹಲವು	QT__QTF	<fs af='ಹಲವು,adj,,pl,3,o,ಉ,u'>
+3.2	ಕಾರಣಗಳನ್ನು	N__NN	<fs af='ಕಾರಣ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+4	((	VGF	
+4.1	ಚರ್ಚಿಸಿದೆವು	V__VM__VF	<fs af='ಚರ್ಚಿಸು,v,any,pl,1,,ಇದ+ಎವು,ixa+eVvu'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='35'>
+1	((	CCP	
+1.1	ಅಲ್ಲದೆ	CC__CCS	<fs af='ಅಲ್ಲದೆ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಇನ್ನು	JJ	<fs af='ಇನ್ನು,adj,,,,d,0,0'>
+2.2	ಕೆಲವು	QT__QTF	<fs af='ಕೆಲವು,adj,,pl,3,o,ಉ,u'>
+2.3	ಕಾರಣಗಳು	N__NN	<fs af='ಕಾರಣ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+3	((	NP	
+3.1	ಅಪರೂಪಕ್ಕೆ	N__NN	<fs af='ಅಪರೂಪ,n,,,3,o,ಕ್ಕೆ,kkeV'>
+	))
+4	((	NP	
+4.1	ಏಕೆ	PR__PRQ	<fs af='ಏಕೆ,pn,,,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಬರುತ್ತದೆ	V__VM__VF	<fs af='ಬರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+6	((	CCP	
+6.1	ಎಂಬ	CC__CCS	<fs af='ಎಂಬ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಪ್ರಶ್ನೆಗಿಂತ	N__NN	<fs af='ಪ್ರಶ್ನೆ,n,,sg,3,o,ಗೆ+ಇಂತ,geV+iMwa'>
+	))
+8	((	VGNN	
+8.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+8.2	ಬಂದ	V__VM__VNG	<fs af='ಬರು,v,,,,o,ಅಂ+ದ+ಅ,aM+xa+a'>
+8.3	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ಏನು	PR__PRQ	<fs af='ಏನು,pn,,,3,o,ಉ,u'>
+	))
+10	((	VGF	
+10.1	ಮಾಡಬೇಕು	V__VM__VF	<fs af='ಮಾಡು,v,,,,,ಅ+ಬೇಕು,a+beku'>
+10.2	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+10.3	"	RD__PUNC	<fs af='",punc,,,,,,'>
+	))
+11	((	CCP	
+11.1	ಎಂಬುದು	CC__CCS__UT	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+12	((	NP	
+12.1	ಹೆಚ್ಚು	RP__INTF	<fs af='ಹೆಚ್ಚು,adj,,,,d,0,0'>
+12.2	ಪ್ರಸ್ತುತ	JJ	<fs af='ಪ್ರಸ್ತುತ,adj,,,,d,0,0'>
+12.3	ಪ್ರಶ್ನೆ	N__NN	<fs af='ಪ್ರಶ್ನೆ,n,,sg,3,d,0,0'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='36'>
+1	((	NP	
+1.1	ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ	JJ	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,adj,,sg,3,o,ಆ,A'>
+1.2	ತಜ್ಞರನ್ನು	N__NN	<fs af='ತಜ್ಞ,n,any,pl,3,o,ಅರು+ಅನ್ನು,aru+annu'>
+	))
+2	((	VGNF	
+2.1	ಕೇಳಿದಲ್ಲಿ	V__VM__VNF	<fs af='ಕೇಳು,v,,,,,ಇದ+ಅಲ್ಲಿ,ixa+alli'>
+	))
+3	((	NP	
+3.1	ಅವರು	PR__PRP	<fs af='ಅವರು,pn,any,pl,3,o,ಉ,u'>
+	))
+4	((	RBP	
+4.1	ಕೆಲವೊಮ್ಮೆ	RP__INTF	<fs af='ಕೆಲವು,adv,,,,o,ಒಮ್ಮೆ,oVmmeV'>
+4.2	ಹಿಂದೆ	RB	<fs af='ಹಿಂದು,adv,,,,o,ಎ,eV'>
+4.3	ಮುಂದೆ	RB	<fs af='ಮುಂದು,adv,,,,o,ಎ,eV'>
+	))
+5	((	VGNF	
+5.1	ನೋಡದೆ	V__VM__VNF	<fs af='ನೋಡು,v,,,,,ಅದೆ,axeV'>
+	))
+6	((	NP	
+6.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+6.2	ಶಸ್ತ್ರಕ್ರಿಯೆ	N__NN	<fs af='ಶಸ್ತ್ರಕ್ರಿಯೆ,n,,sg,3,d,0,0'>
+6.3	ಅಲ್ಲದೆ	RP__RPD	<fs af='ಅಲ್ಲದೆ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಇದಕ್ಕೆ	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಅಕ್ಕೆ,akkeV'>
+	))
+8	((	NP	
+8.1	ಬೇರೆ	JJ	<fs af='ಬೇರೆ,adj,,,,d,0,0'>
+8.2	ಪರಿಹಾರ	N__NN	<fs af='ಪರಿಹಾರ,n,,sg,3,d,0,0'>
+	))
+9	((	VGF	
+9.1	ಇಲ್ಲ	V__VM__VF	<fs af='ಇಲ್ಲ,v,,,,,0,0'>
+9.2	"	RD__PUNC	<fs af='",punc,,,,,,'>
+	))
+10	((	VGF	
+10.1	ಎನ್ನುತ್ತಾರೆ	V__VM__VF	<fs af='ಎನ್ನು,v,any,pl,3,,ಉತ್ತ+ಆರೆ,uwwa+AreV'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='37'>
+1	((	NP	
+1.1	ಅದರಲ್ಲೂ	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಅರ+ಅಲ್ಲಿ+ಊ,ara+alli+U'>
+	))
+2	((	NP	
+2.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+3	((	NP	
+3.1	ಹೆಚ್ಚಿನ	JJ	<fs af='ಹೆಚ್ಚು,adj,,,,o,ಇನ,ina'>
+3.2	ತಪಾಸಣೆ	N__NNV	<fs af='ತಪಾಸಿಸು,n,,sg,3,o,ಅಣೆ,aNeV'>
+	))
+4	((	CCP	
+4.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಸ್ಕ್ಯಾನ್	N__NN	<fs af='ಸ್ಕ್ಯಾನ್,n,,sg,3,d,0,0'>
+	))
+6	((	VGNN	
+6.1	ಮಾಡಿಸದ	V__VM__VNG	<fs af='ಮಾಡು,v,,,,o,ಇಸು+ಅದೆ+ಅ,isu+axeV+a'>
+	))
+7	((	NP	
+7.1	ರೋಗಿಗೆ	N__NN	<fs af='ರೋಗ,n,any,sg,3,o,ಇಗೆ,igeV'>
+	))
+8	((	NP	
+8.1	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+	))
+9	((	NP	
+9.1	ಅನಿವಾರ್ಯ	N__NN	<fs af='ಅನಿವಾರ್ಯ,n,,,3,d,0,0'>
+	))
+10	((	CCP	
+10.1	ಎಂಬಂತೆ	CC__CCS	<fs af='ಎಂಬಂತೆ,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ವೈದ್ಯರು	N__NN	<fs af='ವೈದ್ಯ,n,any,pl,3,o,ಅರು+ಉ,aru+u'>
+	))
+12	((	VGNF	
+12.1	ಸೂಚಿಸಿದಾಗ	V__VM__VNF	<fs af='ಸೂಚಿಸು,v,,,,,ಇದ+ಆಗ,ixa+Aga'>
+	))
+13	((	VGNN	
+13.1	ಗಲಿಬಿಲಿಗೊಳ್ಳುವುದು	V__VM__VNG	<fs af='ಗಲಿಬಿಲಿಗೊಳ್ಳು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+14	((	NP	
+14.1	ಸಹಜ	N__NN	<fs af='ಸಹಜ,n,,,3,d,0,0'>
+	))
+15	((	BLK	
+15.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='38'>
+1	((	CCP	
+1.1	ಹಾಗಿದ್ದಲ್ಲಿ	CC__CCS	<fs af='ಹಾಗಿದ್ದಲ್ಲಿ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ತಜ್ಞರ	N__NN	<fs af='ತಜ್ಞ,n,any,pl,3,o,ಅರು+ಅ,aru+a'>
+	))
+3	((	NP	
+3.1	ಸಲಹೆ	N__NN	<fs af='ಸಲಹೆ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ತಪ್ಪೇ	N__NN	<fs af='ತಪ್ಪು,n,,sg,3,o,ಏ,e'>
+	))
+5	((	BLK	
+5.1	?	RD__PUNC	<fs af='?,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='39'>
+1	((	RBP	
+1.1	ವಿವರವಾಗಿ	RB	<fs af='ವಿವರ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+2	((	VGNF	
+2.1	ತಿಳಿಯೋಣ	V__VM__VNF	<fs af='ತಿಳಿ,v,any,pl,1,,ಯ+ಓಣ,ya+oNa'>
+	))
+3	((	VGF	
+3.1	ಬನ್ನಿ	V__VM__VF	<fs af='ಬರು,v,any,pl,2,,ನ+ನ+ಇ,na+na+i'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='40'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದರೆ,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಉದರದ	JJ	<fs af='ಉದರ,adj,,,,o,ದ,xa'>
+3.2	ಗೋಡೆ	N__NN	<fs af='ಗೋಡೆ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ಅಥವಾ	N__NN	<fs af='ಅಥವಾ,n,,,3,d,0,0'>
+	))
+5	((	NP	
+5.1	ಭಿತ್ತಿಯನ್ನು	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+6	((	VGNF	
+6.1	ಭೇದಿಸಿ	V__VM__VNF	<fs af='ಭೇದಿಸು,v,,,,,ಇ,i'>
+	))
+7	((	NP	
+7.1	ಒಳಗಿನ	N__NST	<fs af='ಒಳಗು,nst,,,,o,ಇನ+ಅ,ina+a'>
+7.2	ಅಂಗಗಳು	N__NN	<fs af='ಅಂಗ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+8	((	NP	
+8.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+9	((	VGNN	
+9.1	ಚಾಚುವುದು	V__VM__VNG	<fs af='ಚಾಚು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+10	((	CCP	
+10.1	ಎನ್ನುವುದನ್ನು	CC__CCS	<fs af='ಎನ್ನುವುದನ್ನು,avy,,,,d,0,0'>
+	))
+11	((	VGF	
+11.1	ಅರಿತುಕೊಳ್ಳಬೇಕು	V__VM__VF	<fs af='ಅರಿ,v,,,,,ತ+ಉ+ಕೊಳ್ಳು+ಅ+ಬೇಕು,wa+u+koVlYlYu+a+beku'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='41'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ರೀತಿ	N__NN	<fs af='ರೀತಿ,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಚಾಚಿದ	V__VM__VNG	<fs af='ಚಾಚು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+4	((	NP	
+4.1	ಅಂಗಗಳು	N__NN	<fs af='ಅಂಗ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+5	((	NP	
+5.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+5.2	ಕರುಳು	N__NN	<fs af='ಕರುಳು,n,,sg,3,o,ಉ,u'>
+5.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಉದರದ	JJ	<fs af='ಉದರ,adj,,,,o,ದ,xa'>
+6.2	ಒಳಗಿನ	N__NST	<fs af='ಒಳಗು,nst,,,3,o,ಇನ+ಅ,ina+a'>
+6.3	ಕೊಬ್ಬು	N__NN	<fs af='ಕೊಬ್ಬು,n,,sg,3,o,ಉ,u'>
+6.4	ಇತ್ಯಾದಿ	RP__RPD	<fs af='ಇತ್ಯಾದಿ,avy,,,,d,0,0'>
+6.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ವ್ಯಕ್ತಿ	N__NN	<fs af='ವ್ಯಕ್ತಿ,n,any,sg,3,d,0,0'>
+	))
+8	((	VGNF	
+8.1	ಎದ್ದು	V__VAUX	<fs af='ಏಳು,v,,,,,ದ+ದ+ಉ,xa+xa+u'>
+8.2	ನಿಂತಾಗ	V__VM__VNF	<fs af='ನಿಲ್ಲು,v,,,,,ಅಂ+ತ+ಆಗ,aM+wa+Aga'>
+8.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+9	((	VGNF	
+9.1	ಕೆಮ್ಮುವಾಗ	V__VM__VNF	<fs af='ಕೆಮ್ಮು,v,,,,,ವ+ಆಗ,va+Aga'>
+	))
+10	((	CCP	
+10.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಶ್ರಮ	N__NN	<fs af='ಶ್ರಮ,n,,sg,3,d,0,0'>
+	))
+12	((	VGNF	
+12.1	ಪಡುವಾಗ	V__VM__VNF	<fs af='ಪಡು,v,,,,,ವ+ಆಗ,va+Aga'>
+	))
+13	((	NP	
+13.1	ಉದರದಿಂದ	N__NN	<fs af='ಉದರ,n,,sg,3,o,ದ+ಇಂದ,xa+iMxa'>
+13.2	ಹೊರಗೆ	N__NST	<fs af='ಹೊರಗು,nst,,,3,o,ಎ,eV'>
+	))
+14	((	VGNN	
+14.1	ಇದ್ದು	V__VM__VNG	<fs af='ಇರು,v,,,,o,ದ+ದ+ಉ+ಉ,xa+xa+u+u'>
+	))
+15	((	NP	
+15.1	ಆತ	PR__PRP	<fs af='ಆತ,pn,m,sg,3,d,0,0'>
+	))
+16	((	VGNF	
+16.1	ಮಲಗಿ	V__VM__VNF	<fs af='ಮಲಗು,v,,,,,ಇ,i'>
+	))
+17	((	NP	
+17.1	ವಿಶ್ರಾಂತಿ	N__NN	<fs af='ವಿಶ್ರಾಂತಿ,n,,sg,3,d,0,0'>
+	))
+18	((	VGNF	
+18.1	ಪಡೆದುಕೊಳ್ಳುವಾಗ	V__VM__VNF	<fs af='ಪಡೆ,v,,,,,ದು+ಕೊಳ್ಳು+ವ+ಆಗ,xu+koVlYlYu+va+Aga'>
+	))
+19	((	NP	
+19.1	ತನ್ನಿಂದ	PR__PRF	<fs af='ತಾನು,pn,any,sg,1,o,ನ+ನ+ಇಂದ,na+na+iMxa'>
+	))
+20	((	NP	
+20.1	ತಾನೇ	PR__PRF	<fs af='ತಾನು,pn,any,sg,1,o,ಏ,e'>
+	))
+21	((	VGF	
+21.1	ಒಳಹೋಗಬಹುದು	V__VM__VF	<fs af='ಒಳಹೋಗು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+22	((	BLK	
+22.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='42'>
+1	((	NP	
+1.1	ಕೆಲವೊಮ್ಮೆ	N__NST	<fs af='ಕೆಲವು,nst,,,,o,ಒಮ್ಮೆ,oVmmeV'>
+	))
+2	((	NP	
+2.1	ರೋಗಿ	N__NN	<fs af='ರೋಗ,n,any,sg,3,o,ಇ,i'>
+	))
+3	((	NP	
+3.1	ಹರ್ನಿಯಾವನ್ನು	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+4	((	NP	
+4.1	ತಾನೇ	PR__PRF	<fs af='ತಾನು,pn,any,sg,1,o,ಏ,e'>
+	))
+5	((	NP	
+5.1	ಕೈಯಾರೆ	N__NN	<fs af='ಕೈಯಾರೆ,n,,,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ಒಳ	N__NST	<fs af='ಒಳ,nst,,,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ದಬ್ಬಬೇಕಾಗುತ್ತದೆ	V__VM__VF	<fs af='ದಬ್ಬು,v,,,,,ಅ+ಬೇಕು+ಆಗು+ಉತ್ತ+ಅದೆ,a+beku+Agu+uwwa+axeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='43'>
+1	((	NP	
+1.1	ತಜ್ಞರು	N__NN	<fs af='ತಜ್ಞ,n,any,pl,3,o,ಅರು+ಉ,aru+u'>
+	))
+2	((	NP	
+2.1	ತಪಾಸಣೆ	N__NNV	<fs af='ತಪಾಸಿಸು,n,,sg,3,o,ಅಣೆ,aNeV'>
+	))
+3	((	VGNF	
+3.1	ಮಾಡುವಾಗ	V__VM__VNF	<fs af='ಮಾಡು,v,,,,,ವ+ಆಗ,va+Aga'>
+	))
+4	((	NP	
+4.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+5	((	VGNN	
+5.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+6	((	NP	
+6.1	ಉದರದ	JJ	<fs af='ಉದರ,adj,,,,o,ದ,xa'>
+6.2	ಭಾಗವನ್ನು	N__NN	<fs af='ಭಾಗ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+7	((	VGNF	
+7.1	ಮುಟ್ಟಿ	V__VM__VNF	<fs af='ಮುಟ್ಟು,v,,,,,ಇ,i'>
+	))
+8	((	NP	
+8.1	ರೋಗಿಗೆ	N__NN	<fs af='ರೋಗ,n,any,sg,3,o,ಇಗೆ,igeV'>
+	))
+9	((	VGINF	
+9.1	ಕೆಮ್ಮಲು	V__VM__VINF	<fs af='ಕೆಮ್ಮು,v,,,,,ಅಲು,alu'>
+	))
+10	((	VGF	
+10.1	ಹೇಳುತ್ತಾರೆ	V__VM__VF	<fs af='ಹೇಳು,v,any,pl,3,,ಉತ್ತ+ಆರೆ,uwwa+AreV'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='44'>
+1	((	VGNN	
+1.1	ಕೆಮ್ಮುವ	V__VM__VNG	<fs af='ಕೆಮ್ಮು,v,,,,o,ವ+ಅ,va+a'>
+	))
+2	((	NP	
+2.1	ಕ್ರಿಯೆ	N__NN	<fs af='ಕ್ರಿಯೆ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಉದರದ	JJ	<fs af='ಉದರ,adj,,,,o,ದ,xa'>
+3.2	ಒಳಗಿನ	N__NST	<fs af='ಒಳಗು,nst,,,3,o,ಇನ+ಅ,ina+a'>
+	))
+4	((	NP	
+4.1	ಒತ್ತಡವನ್ನು	N__NN	<fs af='ಒತ್ತಡ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+5	((	VGNF	
+5.1	ಹೆಚ್ಚಿಸಿ	V__VM__VNF	<fs af='ಹೆಚ್ಚಿಸು,v,,,,,ಇ,i'>
+	))
+6	((	NP	
+6.1	ಹರ್ನಿಯಾವನ್ನು	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+7	((	NP	
+7.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	ದಬ್ಬುತ್ತದೆ	V__VM__VF	<fs af='ದಬ್ಬು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='45'>
+1	((	NP	
+1.1	ಇದು	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+2.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+3	((	NP	
+3.1	ಪ್ರಚೋದನೆಯ	N__NN	<fs af='ಪ್ರಚೋದನೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+3.2	ಮೂಲಕ	RP__RPD	<fs af='ಮೂಲಕ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ತಜ್ಞರ	N__NN	<fs af='ತಜ್ಞ,n,any,pl,3,o,ಅರು+ಅ,aru+a'>
+	))
+5	((	NP	
+5.1	ಅನುಭವಕ್ಕೆ	N__NN	<fs af='ಅನುಭವ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+6	((	VGNF	
+6.1	ಬಂದಾಗ	V__VM__VNF	<fs af='ಬರು,v,,,,,ಅಂ+ದ+ಆಗ,aM+xa+Aga'>
+	))
+7	((	NP	
+7.1	ಹರ್ನಿಯಾದ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+8	((	NP	
+8.1	ಇರುವಿಕೆಯ	N__NNV	<fs af='ಇರು,n,,,3,o,ವಿಕೆ+ಯ+ಅ,vikeV+ya+a'>
+8.2	ಬಗ್ಗೆ	RP__RPD	<fs af='ಬಗ್ಗೆ,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ಸಂಶಯಕ್ಕೆ	N__NN	<fs af='ಸಂಶಯ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+10	((	NP	
+10.1	ಆಸ್ಪದವೇ	N__NN	<fs af='ಆಸ್ಪದ,n,,,3,o,ವ+ಏ,va+e'>
+	))
+11	((	VGF	
+11.1	ಉಳಿಯುವುದಿಲ್ಲ	V__VM__VF	<fs af='ಉಳಿ,v,,,,,ಯ+ಉವ+ಉದು+ಇಲ್ಲ,ya+uva+uxu+illa'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='46'>
+1	((	CCP	
+1.1	ಆದ್ದರಿಂದಲೇ	CC__CCS	<fs af='ಆದ್ದರಿಂದಲೇ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹೆಚ್ಚಿನ	JJ	<fs af='ಹೆಚ್ಚು,adj,,,,o,ಇನ,ina'>
+2.2	ತಪಾಸಣೆ	N__NNV	<fs af='ತಪಾಸಿಸು,n,,sg,3,o,ಅಣೆ,aNeV'>
+	))
+3	((	CCP	
+3.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಸ್ಕ್ಯಾನ್‌ನ	N__NN	<fs af='ಸ್ಕ್ಯಾನ್‌,n,,sg,3,o,ನ+ಅ,na+a'>
+	))
+5	((	NP	
+5.1	ಅವಶ್ಯಕತೆ	N__NN	<fs af='ಅವಶ್ಯಕ,n,,sg,3,o,ತೆ,weV'>
+	))
+6	((	RBP	
+6.1	ಸಾಮಾನ್ಯವಾಗಿ	RB	<fs af='ಸಾಮಾನ್ಯ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+7	((	VGF	
+7.1	ಇರುವುದಿಲ್ಲ	V__VM__VF	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='47'>
+1	((	CCP	
+1.1	ಆದರೆ	CC__CCS	<fs af='ಆದರೆ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಇಂದು	N__NST	<fs af='ಇಂದು,nst,,,3,o,ಉ,u'>
+	))
+3	((	NP	
+3.1	ಹಲವು	QT__QTF	<fs af='ಹಲವು,adj,,pl,3,o,ಉ,u'>
+3.2	ರೋಗಿಗಳು	N__NN	<fs af='ರೋಗ,n,any,pl,3,o,ಇ+ಗಳು+ಉ,i+galYu+u'>
+	))
+4	((	NP	
+4.1	ಮೊದಲು	N__NST	<fs af='ಮೊದಲು,nst,,,3,o,ಉ,u'>
+	))
+5	((	NP	
+5.1	ಸ್ಕ್ಯಾನ್	N__NN	<fs af='ಸ್ಕ್ಯಾನ್,n,,sg,3,d,0,0'>
+	))
+6	((	VGNF	
+6.1	ಮಾಡಿಸಿ	V__VM__VNF	<fs af='ಮಾಡು,v,,,,,ಇಸು+ಇ,isu+i'>
+	))
+7	((	NP	
+7.1	ನಂತರ	N__NST	<fs af='ನಂತರ,nst,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ತಜ್ಞರ	N__NN	<fs af='ತಜ್ಞ,n,any,pl,3,o,ಅರು+ಅ,aru+a'>
+8.2	ಬಳಿ	N__NST	<fs af='ಬಳಿ,nst,,,3,d,0,0'>
+	))
+9	((	VGF	
+9.1	ಹೋಗುತ್ತಾರೆ	V__VM__VF	<fs af='ಹೋಗು,v,any,pl,3,,ಉತ್ತ+ಆರೆ,uwwa+AreV'>
+	))
+10	((	CCP	
+10.1	ಎಂಬುದು	CC__CCS	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಬೇರೆ	JJ	<fs af='ಬೇರೆ,adj,,,,d,0,0'>
+11.2	ಮಾತಾ	N__NN	<fs af='ಮಾತು,n,,sg,3,o,ಆ,A'>
+	))
+12	((	BLK	
+12.1	!	RD__PUNC	<fs af='!,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='48'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+2	((	VGNN	
+2.1	ಇರುವುದನ್ನು	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಉದು+ಅನ್ನು,va+uxu+annu'>
+	))
+3	((	NP	
+3.1	ಪತ್ತೆ	N__NN	<fs af='ಪತ್ತೆ,n,,,3,d,0,0'>
+	))
+4	((	VGNN	
+4.1	ಮಾಡುವುದು	V__VM__VNG	<fs af='ಮಾಡು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+5	((	NP	
+5.1	ಸುಲಭ	JJ	<fs af='ಸುಲಭ,adj,,,,d,0,0'>
+5.2	ಸಾಧ್ಯ	N__NN	<fs af='ಸಾಧ್ಯ,n,,,3,d,0,0'>
+	))
+6	((	CCP	
+6.1	ಎಂಬುದನ್ನು	CC__CCS	<fs af='ಎಂಬುದನ್ನು,avy,,,,d,0,0'>
+	))
+7	((	VGNF	
+7.1	ಒಪ್ಪಿಕೊಂಡರೂ	V__VM__VNF	<fs af='ಒಪ್ಪು,v,,,,,ಇ+ಕೊಂಡು+ಅರೆ+ಊ,i+koVMdu+areV+U'>
+	))
+8	((	BLK	
+8.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+9	((	NP	
+9.1	ಹೆಚ್ಚಿನ	JJ	<fs af='ಹೆಚ್ಚು,adj,,,,o,ಇನ,ina'>
+9.2	ಸಲ	N__NN	<fs af='ಸಲ,n,,,3,d,0,0'>
+	))
+10	((	RBP	
+10.1	ಆಗಾಗ	RB	<fs af='ಆಗ,adv,,,,o,ಆಗ,Aga'>
+	))
+11	((	NP	
+11.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+12	((	VGNF	
+12.1	ಚಾಚಿ	V__VM__VNF	<fs af='ಚಾಚು,v,,,,,ಇ,i'>
+	))
+13	((	NP	
+13.1	ಒಳ	N__NST	<fs af='ಒಳ,nst,,,3,d,0,0'>
+	))
+14	((	VGNN	
+14.1	ಹೋಗುವುದನ್ನು	V__VM__VNG	<fs af='ಹೋಗು,v,,,,o,ವ+ಉದು+ಅನ್ನು,va+uxu+annu'>
+	))
+15	((	NEGP	
+15.1	ಹೊರತುಪಡಿಸಿದರೆ	RP__NEG	<fs af='ಹೊರತುಪಡು,avy,,,,o,ಇಸು+ಇದ+ಅರೆ,isu+ixa+areV'>
+	))
+16	((	NP	
+16.1	ಅಂತಹ	DM__DMD	<fs af='ಅಂತಹ,pn,,,3,d,0,0'>
+16.2	ದೊಡ್ಡ	JJ	<fs af='ದೊಡ್ಡ,adj,,,,d,0,0'>
+16.3	ರೋಗ	N__NN	<fs af='ರೋಗ,n,,sg,3,d,0,0'>
+16.4	ಲಕ್ಷಣವನ್ನು	N__NN	<fs af='ಲಕ್ಷಣ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+17	((	VGNN	
+17.1	ಉಂಟುಮಾಡದ	V__VM__VNG	<fs af='ಉಂಟು,v,,,,o,ಮಾಡು+ಅದೆ+ಅ,mAdu+axeV+a'>
+	))
+18	((	NP	
+18.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+18.2	ಕಾಯಿಲೆಗೆ	N__NN	<fs af='ಕಾಯಿಲೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+19	((	NP	
+19.1	ಶಸ್ತ್ರಕ್ರಿಯೆ	N__NN	<fs af='ಶಸ್ತ್ರಕ್ರಿಯೆ,n,,sg,3,d,0,0'>
+	))
+20	((	NP	
+20.1	ಅನಿವಾರ್ಯವೇ	N__NN	<fs af='ಅನಿವಾರ್ಯ,n,,,3,o,ವ+ಏ,va+e'>
+	))
+21	((	CCP	
+21.1	ಎಂಬ	CC__CCS	<fs af='ಎಂಬ,avy,,,,d,0,0'>
+	))
+22	((	NP	
+22.1	ಪ್ರಶ್ನೆ	N__NN	<fs af='ಪ್ರಶ್ನೆ,n,,sg,3,d,0,0'>
+	))
+23	((	VGF	
+23.1	ಉಳಿಯುತ್ತದೆ	V__VM__VF	<fs af='ಉಳಿ,v,,sg,3,,ಯ+ಉತ್ತ+ಅದೆ,ya+uwwa+axeV'>
+	))
+24	((	BLK	
+24.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='49'>
+1	((	NP	
+1.1	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದರೆ,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+3.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+4	((	NP	
+4.1	ಅವ್ಯಕ್ತ	JJ	<fs af='ಅವ್ಯಕ್ತ,adj,,,,d,0,0'>
+4.2	ಭೀತಿ	N__NN	<fs af='ಭೀತಿ,n,,sg,3,d,0,0'>
+	))
+5	((	NP	
+5.1	ಹೆಚ್ಚಿನವರಲ್ಲಿ	N__NN	<fs af='ಹೆಚ್ಚು,n,any,pl,3,o,ಇನ+ಅವರು+ಅಲ್ಲಿ,ina+avaru+alli'>
+	))
+6	((	VGF	
+6.1	ಇರುತ್ತದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='50'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾದ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ದ+ಅ,xa+a'>
+1.2	ಬಗ್ಗೆ	RP__RPD	<fs af='ಬಗ್ಗೆ,avy,,,,d,0,0'>
+	))
+2	((	VGNF	
+2.1	ಹೇಳುವುದಾದರೆ	V__VM__VNF	<fs af='ಹೇಳು,v,,,,,ವ+ಉದು+ಆದರೆ,va+uxu+AxareV'>
+	))
+3	((	NP	
+3.1	ಇದು	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಉ,u'>
+	))
+4	((	JJP	
+4.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+	))
+5	((	NP	
+5.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+5.2	ಭಿತ್ತಿಯಲ್ಲಿನ	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ+ನ+ಅ,ya+alli+na+a'>
+	))
+6	((	NP	
+6.1	ಭೌತಿಕ	JJ	<fs af='ಭೌತ,adj,,,,o,ಇಕ,ika'>
+6.2	ನ್ಯೂನತೆ	N__NN	<fs af='ನ್ಯೂನ,n,,sg,3,o,ತೆ,weV'>
+	))
+7	((	VGNN	
+7.1	ಆಗಿರುವುದರಿಂದ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಇರು+ವ+ಉದು+ಅರ+ಇಂದ,iru+va+uxu+ara+iMxa'>
+	))
+8	((	NP	
+8.1	ಇದರ	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಅರ+ಅ,ara+a'>
+	))
+9	((	NP	
+9.1	ಪರಿಹಾರವೂ	N__NN	<fs af='ಪರಿಹಾರ,n,,sg,3,o,ವ+ಊ,va+U'>
+	))
+10	((	NP	
+10.1	ಭೌತಿಕವೇ	N__NN	<fs af='ಭೌತ,n,,,3,o,ಇಕ+ವ+ಏ,ika+va+e'>
+	))
+11	((	VGF	
+11.1	ಆಗಬೇಕಾಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಅ+ಬೇಕು+ಆಗು+ಉತ್ತ+ಅದೆ,a+beku+Agu+uwwa+axeV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='51'>
+1	((	NP	
+1.1	ಬಟ್ಟೆ	N__NN	<fs af='ಬಟ್ಟೆ,n,,sg,3,d,0,0'>
+	))
+2	((	VGNN	
+2.1	ಹರಿದು	V__VAUX	<fs af='ಹರಿ,v,,,,,ದು,xu'>
+2.2	ಹೋದಲ್ಲಿ	V__VM__VNG	<fs af='ಹೋಗು,v,,,,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+3	((	NP	
+3.1	ಅದನ್ನು	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಅನ್ನು,annu'>
+	))
+4	((	NP	
+4.1	ಹೊಲಿಗೆ	N__NNV	<fs af='ಹೊಲಿ,n,,,3,o,ಗೆ,geV'>
+	))
+5	((	VGF	
+5.1	ಹಾಕುವುದು	V__VM__VF	<fs af='ಹಾಕು,v,,,,,ವ+ಉದು,va+uxu'>
+	))
+6	((	CCP	
+6.1	ಅಲ್ಲದೆ	CC__CCS	<fs af='ಅಲ್ಲದೆ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಬೇರೆ	JJ	<fs af='ಬೇರೆ,adj,,,,d,0,0'>
+7.2	ರೀತಿಯಲ್ಲಿ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+8	((	NP	
+8.1	ಹೇಗೆ	PR__PRQ	<fs af='ಹೇಗೆ,pn,,,3,d,0,0'>
+	))
+9	((	VGNN	
+9.1	ಸರಿಪಡಿಸಲಾಗದೋ	V__VM__VNG	<fs af='ಸರಿಪಡು,v,,,,o,ಇಸು+ಅಲು+ಆಗ+ಅದು+ಓ,isu+alu+Aga+axu+o'>
+	))
+10	((	NP	
+10.1	ಆ	DM__DMD	<fs af='ಆ,pn,,,3,d,0,0'>
+10.2	ರೀತಿ	N__NN	<fs af='ರೀತಿ,n,,sg,3,d,0,0'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='52'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+2	((	VGINF	
+2.1	ಬರಲು	V__VM__VINF	<fs af='ಬರು,v,,,,,ಅಲು,alu'>
+	))
+3	((	NP	
+3.1	ಕಾರಣವಾದ	N__NN	<fs af='ಕಾರಣ,n,,sg,3,o,ವ+ಆದ,va+Axa'>
+	))
+4	((	NP	
+4.1	ಉದರ	JJ	<fs af='ಉದರ,adj,,,,d,0,0'>
+4.2	ಭಿತ್ತಿಯ	N__NN	<fs af='ಭಿತ್ತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+5	((	NP	
+5.1	ನ್ಯೂನತೆಯನ್ನು	N__NN	<fs af='ನ್ಯೂನ,n,,sg,3,o,ತೆ+ಯ+ಅನ್ನು,weV+ya+annu'>
+	))
+6	((	VGNF	
+6.1	ಸರಿಪಡಿಸದೇ	V__VM__VNF	<fs af='ಸರಿಪಡು,v,,,,,ಇಸು+ಅದೆ+ಏ,isu+axeV+e'>
+	))
+7	((	VGF	
+7.1	ಬಿಟ್ಟಿಲ್ಲ	V__VM__VF	<fs af='ಬಿಡು,v,,,,,ಟ+ಟ+ಇಲ್ಲ,ta+ta+illa'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='53'>
+1	((	NP	
+1.1	ಒಂದಲ್ಲ	JJ	<fs af='ಒಂದು,adj,,sg,3,o,ಅಲ್ಲ,alla'>
+1.2	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+1.3	ದಿನ	N__NN	<fs af='ದಿನ,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹೊರ	N__NST	<fs af='ಹೊರ,nst,,,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಚಾಚಿದ	V__VM__VNG	<fs af='ಚಾಚು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+4	((	NP	
+4.1	ಕರುಳು	N__NN	<fs af='ಕರುಳು,n,,sg,3,o,ಉ,u'>
+4.2	ಇತ್ಯಾದಿ	RP__RPD	<fs af='ಇತ್ಯಾದಿ,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಅಂಗಗಳು	N__NN	<fs af='ಅಂಗ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+6	((	NP	
+6.1	ಕಾರಣಾಂತರಗಳಿಂದ	N__NN	<fs af='ಕಾರಣ,n,,pl,3,o,ಅಂತರ+ಗಳು+ಇಂದ,aMwara+galYu+iMxa'>
+	))
+7	((	NP	
+7.1	ಹೊರಗೆಯೇ	N__NST	<fs af='ಹೊರಗು,nst,,,,o,ಎ+ಯ+ಏ,eV+ya+e'>
+	))
+8	((	VGNF	
+8.1	ಉಳಿಯುವಂತೆ	V__VM__VNF	<fs af='ಉಳಿ,v,,,,,ಯ+ಉವ+ಅಂತೆ,ya+uva+aMweV'>
+	))
+9	((	VGF	
+9.1	ಆಗಬಹುದು	V__VM__VF	<fs af='ಆಗು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='54'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+2	((	VGNN	
+2.1	ಸಿಕ್ಕಿ	V__VAUX	<fs af='ಸಿಗು,v,,,,,ಕ+ಕ+ಇ,ka+ka+i'>
+2.2	ಹಾಕಿಕೊಳ್ಳುವ	V__VM__VNG	<fs af='ಹಾಕು,v,,,,o,ಇ+ಕೊಳ್ಳು+ವ+ಅ,i+koVlYlYu+va+a'>
+	))
+3	((	NP	
+3.1	ಪ್ರಕ್ರಿಯೆ	N__NN	<fs af='ಪ್ರಕ್ರಿಯೆ,n,,sg,3,d,0,0'>
+	))
+4	((	RBP	
+4.1	ಇದ್ದಕ್ಕಿದ್ದಂತೆ	RB	<fs af='ಇದ್ದಕ್ಕಿದ್ದ,adv,,,,o,ಅಂತೆ,aMweV'>
+	))
+5	((	VGNF	
+5.1	ಘಟಿಸಿದರೆ	V__VM__VNF	<fs af='ಘಟಿಸು,v,,,,,ಇದ+ಅರೆ,ixa+areV'>
+	))
+6	((	NP	
+6.1	ಒಳಗಿನ	N__NST	<fs af='ಒಳಗು,nst,,,,o,ಇನ+ಅ,ina+a'>
+	))
+7	((	NP	
+7.1	ಕರುಳು	N__NN	<fs af='ಕರುಳು,n,,sg,3,o,ಉ,u'>
+	))
+8	((	NP	
+8.1	ಘಾಸಿ	N__NN	<fs af='ಘಾಸಿ,n,,,3,d,0,0'>
+	))
+9	((	VGF	
+9.1	ಆಗಬಹುದು	V__VM__VF	<fs af='ಆಗು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='55'>
+1	((	NP	
+1.1	ಆ	DM__DMD	<fs af='ಆ,pn,,,3,d,0,0'>
+1.2	ರೀತಿ	N__NN	<fs af='ರೀತಿ,n,,sg,3,d,0,0'>
+	))
+2	((	VGNF	
+2.1	ಆದಾಗ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ದ+ಆಗ,xa+Aga'>
+	))
+3	((	NP	
+3.1	ರೋಗಿಯ	N__NN	<fs af='ರೋಗ,n,any,sg,3,o,ಇ+ಯ+ಅ,i+ya+a'>
+	))
+4	((	NP	
+4.1	ಸ್ಥಿತಿ	N__NN	<fs af='ಸ್ಥಿತಿ,n,,sg,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಬಿಗಡಾಯಿಸುತ್ತದೆ	V__VM__VF	<fs af='ಬಿಗಡಾಯಿಸು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='56'>
+1	((	NP	
+1.1	ಕರುಳಿನ	N__NN	<fs af='ಕರುಳು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+	))
+2	((	NP	
+2.1	ರಕ್ತ	JJ	<fs af='ರಕ್ತ,adj,,,,d,0,0'>
+2.2	ಪೂರೈಕೆಗೆ	N__NNV	<fs af='ಪೂರೈಸು,n,,,3,o,ಇಕೆ+ಗೆ,ikeV+geV'>
+	))
+3	((	NP	
+3.1	ಅಡಚಣೆ	N__NN	<fs af='ಅಡಚಣೆ,n,,sg,3,d,0,0'>
+	))
+4	((	VGNF	
+4.1	ಉಂಟಾಗಿ	V__VM__VNF	<fs af='ಉಂಟು,v,,,,,ಆಗಿ,Agi'>
+	))
+5	((	NP	
+5.1	ಕರುಳಿನ	JJ	<fs af='ಕರುಳು,adj,,,,o,ಇನ,ina'>
+5.2	ಗ್ಯಾಂಗ್ರಿನ್	N__NNP	<fs af='ಗ್ಯಾಂಗ್ರಿನ್,n,,sg,3,d,0,0'>
+	))
+6	((	VGNF	
+6.1	ಆಗುವುದೂ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ವ+ಉದು+ಊ,va+uxu+U'>
+	))
+7	((	VGF	
+7.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ+ಎ,xa+eV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='57'>
+1	((	NP	
+1.1	ಇದು	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಪ್ರಾಣಾಂತಿಕ	JJ	<fs af='ಪ್ರಾಣಾಂತಿಕ,adj,,,,d,0,0'>
+2.2	ಸಂಕೀರ್ಣತೆ	N__NN	<fs af='ಸಂಕೀರ್ಣ,n,,sg,3,o,ತೆ,weV'>
+	))
+3	((	CCP	
+3.1	ಎಂಬುದನ್ನು	CC__CCS	<fs af='ಎಂಬುದನ್ನು,avy,,,,d,0,0'>
+	))
+4	((	VGNF	
+4.1	ಬಿಡಿಸಿ	V__VM__VNF	<fs af='ಬಿಡಿಸು,v,,,,,ಇ,i'>
+	))
+5	((	VGF	
+5.1	ಹೇಳಬೇಕಿಲ್ಲ	V__VM__VF	<fs af='ಹೇಳು,v,,,,,ಅ+ಬೇಕು+ಇಲ್ಲ,a+beku+illa'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='58'>
+1	((	NP	
+1.1	ರೋಗಿಯನ್ನು	N__NN	<fs af='ರೋಗ,n,any,sg,3,o,ಇ+ಯ+ಅನ್ನು,i+ya+annu'>
+	))
+2	((	NP	
+2.1	ತುರ್ತು	JJ	<fs af='ತುರ್ತು,adj,,,,d,0,0'>
+2.2	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆಗೆ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+3	((	VGNN	
+3.1	ಒಳಪಡಿಸುವುದರ	V__VM__VNG	<fs af='ಒಳಪಡು,v,,,,o,ಇಸು+ವ+ಉದು+ಅರ+ಅ,isu+va+uxu+ara+a'>
+	))
+4	((	NEGP	
+4.1	ಹೊರತಾಗಿ	RP__NEG	<fs af='ಹೊರತು,avy,,,,o,ಆಗಿ,Agi'>
+	))
+5	((	NP	
+5.1	ಆತನ	PR__PRP	<fs af='ಆತ,pn,m,sg,3,o,ನ+ಅ,na+a'>
+	))
+6	((	NP	
+6.1	ಪ್ರಾಣ	N__NN	<fs af='ಪ್ರಾಣ,n,,sg,3,d,0,0'>
+	))
+7	((	VGNN	
+7.1	ಉಳಿಸುವ	V__VM__VNG	<fs af='ಉಳಿ,v,,,,o,ಇಸು+ವ+ಅ,isu+va+a'>
+	))
+8	((	NP	
+8.1	ಯಾವುದೇ	PR__PRI	<fs af='ಯಾವುದು,pn,,,,o,ಏ,e'>
+	))
+9	((	NP	
+9.1	ದಾರಿ	N__NN	<fs af='ದಾರಿ,n,,sg,3,d,0,0'>
+	))
+10	((	VGF	
+10.1	ಇರುವುದಿಲ್ಲ	V__VM__VF	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಇಲ್ಲ,va+uxu+illa'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='59'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+2	((	NP	
+2.1	ಸಂಕೀರ್ಣತೆ	N__NN	<fs af='ಸಂಕೀರ್ಣ,n,,sg,3,o,ತೆ,weV'>
+	))
+3	((	NP	
+3.1	ಸುಮಾರು	N__NN	<fs af='ಸುಮಾರು,n,,pl,3,o,ಉ,u'>
+3.2	೫	QT__QTC	<fs af='೫,num,,pl,3,d,0,0'>
+3.3	%	RD__SYM	<fs af='%,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ರೋಗಿಗಳಲ್ಲಿ	N__NN	<fs af='ರೋಗ,n,any,pl,3,o,ಇ+ಗಳು+ಅಲ್ಲಿ,i+galYu+alli'>
+4.2	ಮಾತ್ರ	RP__RPD	<fs af='ಮಾತ್ರ,avy,,,,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಉಂಟಾಗುತ್ತದೆ	V__VM__VF	<fs af='ಉಂಟು,v,,sg,3,,ಆಗು+ಉತ್ತ+ಅದೆ,Agu+uwwa+axeV'>
+	))
+6	((	CCP	
+6.1	ಆದರೂ	CC__CCS	<fs af='ಆದರೂ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಆ	DM__DMD	<fs af='ಆ,pn,,,3,d,0,0'>
+7.2	೫	QT__QTC	<fs af='೫,num,,pl,3,d,0,0'>
+7.3	%	RD__SYM	<fs af='%,punc,,,,,,'>
+	))
+8	((	NP	
+8.1	ರೋಗಿಗಳು	N__NN	<fs af='ರೋಗ,n,any,pl,3,o,ಇ+ಗಳು+ಉ,i+galYu+u'>
+	))
+9	((	NP	
+9.1	ಯಾರು	PR__PRQ	<fs af='ಯಾರು,pn,any,sg,3,o,ಉ,u'>
+	))
+10	((	CCP	
+10.1	ಎಂಬುದನ್ನು	CC__CCS	<fs af='ಎಂಬುದನ್ನು,avy,,,,d,0,0'>
+	))
+11	((	VGNN	
+11.1	ಊಹಿಸುವುದು	V__VM__VNG	<fs af='ಊಹಿಸು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+12	((	NP	
+12.1	ಅಸಾಧ್ಯ	N__NN	<fs af='ಅಸಾಧ್ಯ,n,,,3,d,0,0'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='60'>
+1	((	CCP	
+1.1	ಆದ್ದರಿಂದಲೇ	CC__CCS	<fs af='ಆದ್ದರಿಂದಲೇ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ತುರ್ತು	JJ	<fs af='ತುರ್ತು,adj,,,,d,0,0'>
+2.2	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆಯ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+3	((	NP	
+3.1	ಅಪಾಯವನ್ನು	N__NN	<fs af='ಅಪಾಯ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+4	((	VGNF	
+4.1	ತಂದುಕೊಳ್ಳುವುದಕ್ಕಿಂತ	V__VM__VNF	<fs af='ತರು,v,,,,,ಅಂ+ದು+ಕೊಳ್ಳು+ವ+ಉದು+ಅಕ್ಕೆ+ಇಂತ,aM+xu+koVlYlYu+va+uxu+akkeV+iMwa'>
+	))
+5	((	NP	
+5.1	ಆರೋಗ್ಯ	N__NN	<fs af='ಆರೋಗ್ಯ,n,,sg,3,d,0,0'>
+	))
+6	((	RBP	
+6.1	ಚೆನ್ನಾಗಿ	RB	<fs af='ಚೆನ್ನ,adv,,,,o,ಆಗಿ,Agi'>
+	))
+7	((	VGNF	
+7.1	ಇರುವಾಗ	V__VM__VNF	<fs af='ಇರು,v,,,,,ವ+ಆಗ,va+Aga'>
+	))
+8	((	NP	
+8.1	ಅಷ್ಟೊಂದು	JJ	<fs af='ಅಷ್ಟು,adj,,,,o,ಒಂದು,oVMxu'>
+8.2	ರಿಸ್ಕ್	N__NN	<fs af='ರಿಸ್ಕ್,n,,sg,3,d,0,0'>
+	))
+9	((	VGNN	
+9.1	ಇಲ್ಲದ	V__VM__VNG	<fs af='ಇಲ್ಲ,v,,,,o,ದ+ಅ,xa+a'>
+	))
+10	((	NP	
+10.1	ಸರಳ	JJ	<fs af='ಸರಳ,adj,,,,d,0,0'>
+10.2	ಶಸ್ತ್ರಕ್ರಿಯೆಗೆ	N__NN	<fs af='ಶಸ್ತ್ರಕ್ರಿಯೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+11	((	VGNN	
+11.1	ಒಳಪಡುವುದು	V__VM__VNG	<fs af='ಒಳಪಡು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+12	((	NP	
+12.1	ಶ್ರೇಯಸ್ಕರ	N__NN	<fs af='ಶ್ರೇಯಸ್ಕರ,n,,,3,d,0,0'>
+	))
+13	((	CCP	
+13.1	ಎಂಬ	CC__CCS	<fs af='ಎಂಬ,avy,,,,d,0,0'>
+	))
+14	((	NP	
+14.1	ಸಲಹೆಯನ್ನು	N__NN	<fs af='ಸಲಹೆ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+15	((	NP	
+15.1	ಎಲ್ಲಾ	JJ	<fs af='ಎಲ್ಲ,adj,,pl,3,o,ಆ,A'>
+15.2	ರೋಗಿಗಳಿಗೆ	N__NN	<fs af='ರೋಗ,n,any,pl,3,o,ಇ+ಗಳು+ಇಗೆ,i+galYu+igeV'>
+	))
+16	((	NP	
+16.1	ತಜ್ಞರು	N__NN	<fs af='ತಜ್ಞ,n,any,pl,3,o,ಅರು+ಉ,aru+u'>
+	))
+17	((	VGF	
+17.1	ನೀಡಬೇಕಾಗುತ್ತದೆ	V__VM__VF	<fs af='ನೀಡು,v,,,,,ಅ+ಬೇಕು+ಆಗು+ಉತ್ತ+ಅದೆ,a+beku+Agu+uwwa+axeV'>
+	))
+18	((	BLK	
+18.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='61'>
+1	((	NP	
+1.1	ಅದರಲ್ಲೂ	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಅರ+ಅಲ್ಲಿ+ಊ,ara+alli+U'>
+	))
+2	((	NP	
+2.1	ಹೃದಯ	JJ	<fs af='ಹೃದಯ,adj,,,,d,0,0'>
+2.2	ಸಂಬಂಧಿ	N__NN	<fs af='ಸಂಬಂಧ,n,,,3,o,ಇ,i'>
+2.3	ಕಾಯಿಲೆ	N__NN	<fs af='ಕಾಯಿಲೆ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+4	((	NP	
+4.1	ಹರ್ನಿಯಾ	JJ	<fs af='ಹರ್ನಿಯಾ,adj,,,,d,0,0'>
+4.2	ರೋಗಿಗಳಿಗೆ	N__NN	<fs af='ರೋಗ,n,any,pl,3,o,ಇ+ಗಳು+ಇಗೆ,i+galYu+igeV'>
+	))
+5	((	NP	
+5.1	ತುರ್ತು	JJ	<fs af='ತುರ್ತು,adj,,,,d,0,0'>
+5.2	ಶಸ್ತ್ರಕ್ರಿಯೆಯ	N__NN	<fs af='ಶಸ್ತ್ರಕ್ರಿಯೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+6	((	NP	
+6.1	ರಿಸ್ಕ್	N__NN	<fs af='ರಿಸ್ಕ್,n,,,3,d,0,0'>
+	))
+7	((	NP	
+7.1	ಹಲವು	QT__QTF	<fs af='ಹಲವು,adj,,pl,3,o,ಉ,u'>
+7.2	ಪಟ್ಟು	N__NN	<fs af='ಪಟ್ಟು,n,,,3,o,ಉ,u'>
+	))
+8	((	NP	
+8.1	ಹೆಚ್ಚು	N__NN	<fs af='ಹೆಚ್ಚು,n,,,3,o,ಉ,u'>
+	))
+9	((	VGF	
+9.1	ಇರುತ್ತದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='62'>
+1	((	NP	
+1.1	ಹರ್ನಿಯಾದ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+2	((	NP	
+2.1	ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಸರಳ	N__NN	<fs af='ಸರಳ,n,,,3,d,0,0'>
+	))
+4	((	VGF	
+4.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='63'>
+1	((	NP	
+1.1	ಹೆಚ್ಚಿನ	JJ	<fs af='ಹೆಚ್ಚು,adj,,,,o,ಇನ,ina'>
+1.2	ಆಸ್ಪತ್ರೆಗಳಲ್ಲಿ	N__NN	<fs af='ಆಸ್ಪತ್ರೆ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+2	((	RBP	
+2.1	ದಿನನಿತ್ಯ	RB	<fs af='ದಿನನಿತ್ಯ,adv,,,,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಎಂಬಂತೆ	CC__CCS	<fs af='ಎಂಬಂತೆ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+4.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+5	((	NP	
+5.1	ಶಸ್ತ್ರಕ್ರಿಯೆಗಳನ್ನು	N__NN	<fs af='ಶಸ್ತ್ರಕ್ರಿಯೆ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+6	((	RBP	
+6.1	ಯಶಸ್ವಿಯಾಗಿ	RB	<fs af='ಯಶಸ್ವಿ,adv,,,,o,ಯ+ಆಗಿ,ya+Agi'>
+	))
+7	((	VGF	
+7.1	ನೆರವೇರಿಸಲಾಗುತ್ತದೆ	V__VM__VF	<fs af='ನೆರವೇರು,v,,,,,ಇಸು+ಅಲು+ಆಗು+ಉತ್ತ+ಅದೆ,isu+alu+Agu+uwwa+axeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='64'>
+1	((	NP	
+1.1	ಉದರದರ್ಶಕ	JJ	<fs af='ಉದರದರ್ಶಕ,adj,,,,d,0,0'>
+1.2	ಶಸ್ತ್ರಕ್ರಿಯೆ	N__NN	<fs af='ಶಸ್ತ್ರಕ್ರಿಯೆ,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹರ್ನಿಯಾಕ್ಕೆ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+3	((	NP	
+3.1	ಅನಿವಾರ್ಯ	N__NN	<fs af='ಅನಿವಾರ್ಯ,n,,,3,d,0,0'>
+	))
+4	((	NEGP	
+4.1	ಅಲ್ಲ	RP__NEG	<fs af='ಅಲ್ಲ,avy,,,,d,0,0'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='65'>
+1	((	NP	
+1.1	ಸಾಮಾನ್ಯ	JJ	<fs af='ಸಾಮಾನ್ಯ,adj,,,,d,0,0'>
+1.2	ಶಸ್ತ್ರಕ್ರಿಯೆಯೇ	N__NN	<fs af='ಶಸ್ತ್ರಕ್ರಿಯೆ,n,,sg,3,o,ಯ+ಏ,ya+e'>
+	))
+2	((	VGF	
+2.1	ಸಾಕಾಗುತ್ತದೆ	V__VM__VF	<fs af='ಸಾಕು,v,,,,,ಆಗು+ಉತ್ತ+ಅದೆ,Agu+uwwa+axeV'>
+	))
+3	((	BLK	
+3.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='66'>
+1	((	RBP	
+1.1	ಒಟ್ಟಾರೆ	RB	<fs af='ಒಟ್ಟಾರೆ,adv,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹರ್ನಿಯಾ	N__NNP	<fs af='ಹರ್ನಿಯಾ,n,,sg,3,d,0,0'>
+	))
+3	((	VGF	
+3.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ+ಎ,xa+eV'>
+	))
+4	((	CCP	
+4.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+5	((	VGNF	
+5.1	ದೃಢಪಟ್ಟಾಗ	V__VM__VNF	<fs af='ದೃಢಪಡು,v,,,,,ಟ+ಟ+ಆಗ,ta+ta+Aga'>
+	))
+6	((	NP	
+6.1	ಭಾವನೆಗೆ	N__NN	<fs af='ಭಾವನೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+7	((	VGNF	
+7.1	ಒಳಪಡದೆ	V__VM__VNF	<fs af='ಒಳಪಡು,v,,,,,ಅದೆ,axeV'>
+	))
+8	((	NP	
+8.1	ಶಸ್ತ್ರಕ್ರಿಯೆ	N__NN	<fs af='ಶಸ್ತ್ರಕ್ರಿಯೆ,n,,sg,3,d,0,0'>
+	))
+9	((	NP	
+9.1	ನಿರ್ಧಾರವನ್ನು	N__NN	<fs af='ನಿರ್ಧಾರ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+10	((	NP	
+10.1	ತಜ್ಞರಿಗೆ	N__NN	<fs af='ತಜ್ಞ,n,any,pl,3,o,ಅರು+ಇಗೆ,aru+igeV'>
+	))
+11	((	VGNN	
+11.1	ಬಿಡುವುದು	V__VM__VNG	<fs af='ಬಿಡು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+12	((	NP	
+12.1	ಒಳ್ಳೆಯದು	N__NN	<fs af='ಒಳ್ಳೆಯ,n,,,3,o,ಅದು+ಉ,axu+u'>
+	))
+13	((	CCP	
+13.1	ಎಂಬುದು	CC__CCS	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+14	((	NP	
+14.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,,d,0,0'>
+14.2	ಲೇಖನದ	N__NN	<fs af='ಲೇಖ,n,,sg,3,o,ನ+ದ+ಅ,na+xa+a'>
+	))
+15	((	NP	
+15.1	ಅಭಿಪ್ರಾಯ	N__NN	<fs af='ಅಭಿಪ್ರಾಯ,n,,sg,3,d,0,0'>
+	))
+16	((	BLK	
+16.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+</document>

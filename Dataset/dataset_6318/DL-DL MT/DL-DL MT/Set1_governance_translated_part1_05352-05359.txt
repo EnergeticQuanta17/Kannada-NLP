@@ -1,0 +1,296 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='5352'>
+1	((	NP	
+1.1	ಮ್ಯಾಗ್ನೆಸೈಟ್	N__NNP	<fs af='ಮ್ಯಾಗ್ನೆಸೈಟ್,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಮೆಗ್ನೀಸಿಯಮ್	N__NNP	<fs af='ಮೆಗ್ನೀಸಿಯಮ್,n,,sg,3,d,0,0'>
+2.2	ಕಾರ್ಬೋನೇಟ್	N__NNP	<fs af='ಕಾರ್ಬೋನೇಟ್,n,,sg,3,d,0,0'>
+	))
+3	((	VGF	
+3.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+4	((	BLK	
+4.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+4.2	MgCO3	RD__RDF	<fs af='MgCO,unk,,,,d,0,0'>
+4.3	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5353'>
+1	((	NP	
+1.1	ಕಚ್ಚಾ	JJ	<fs af='ಕಚ್ಚಾ,adj,,,,d,0,0'>
+1.2	ಮ್ಯಾಗ್ನೆಸೈಟ್	N__NNP	<fs af='ಮ್ಯಾಗ್ನೆಸೈಟ್,n,,sg,3,d,0,0'>
+1.3	ಅನ್ನು	PSP	<fs af='ಅನ್ನು,psp,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ರಾಸಾಯನಿಕ	JJ	<fs af='ರಸಾಯನ,adj,,,,o,ಇಕ,ika'>
+2.2	ಕೈಗಾರಿಕೆಗಳಲ್ಲಿ	N__NN	<fs af='ಕೈಗಾರಿಕೆ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+3	((	NP	
+3.1	ಎಪ್ಸಮ್	N__NNP	<fs af='ಎಪ್ಸಮ್,n,,sg,3,d,0,0'>
+3.2	ಉಪ್ಪನ್ನು	N__NN	<fs af='ಉಪ್ಪು,n,,sg,3,o,ಅನ್ನು,annu'>
+	))
+4	((	VGINF	
+4.1	ತಯಾರಿಸಲು	V__VM__VINF	<fs af='ತಯಾರಿಸು,v,,,,,ಅಲು,alu'>
+4.2	ಮಾತ್ರ	RP__RPD	<fs af='ಮಾತ್ರ,avy,,,,d,0,0'>
+	))
+5	((	VGF	<fs af=',,,,,,,'>
+5.1	ಬಳಸಲು	V__VM__VF	<fs af='ಬಳಸು,v,,,,,ಅಲು,alu'>
+5.2	ಆಗುತ್ತದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5354'>
+1	((	NP	
+1.1	ಗಾಜಿನ	JJ	<fs af='ಗಾಜು,adj,,,,o,ಇನ,ina'>
+1.2	ಕೈಗಾರಿಕೆಗಳಲ್ಲಿ	N__NN	<fs af='ಕೈಗಾರಿಕೆ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+2	((	NP	
+2.1	ಕಬ್ಬಿಣ	N__NN	<fs af='ಕಬ್ಬಿಣ,n,,sg,3,d,0,0'>
+	))
+3	((	NEGP	
+3.1	ಅಲ್ಲದ	RP__NEG	<fs af='ಅಲ್ಲದ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಅದಿರು	JJ	<fs af='ಅದಿರು,adj,,,,d,0,0'>
+4.2	ಮ್ಯಾಗ್ನೆಸೈಟ್	N__NNP	<fs af='ಮ್ಯಾಗ್ನೆಸೈಟ್,n,,sg,3,d,0,0'>
+4.3	ಅನ್ನು	PSP	<fs af='ಅನ್ನು,psp,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಸಣ್ಣ	JJ	<fs af='ಸಣ್ಣ,adj,,,,d,0,0'>
+5.2	ಪ್ರಮಾಣದಲ್ಲಿ	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+6	((	VGF	
+6.1	ಬಳಸಲು	V__VM__VF	<fs af='ಬಳಸು,v,,,,,ಅಲು,alu'>
+6.2	ಆಗುತ್ತದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5355'>
+1	((	NP	
+1.1	ಕಬ್ಬಿಣ	N__NNP	<fs af='ಕಬ್ಬಿಣ,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಉಕ್ಕಿನ	N__NNP	<fs af='ಉಕ್ಕು,n,,sg,3,o,ಇನ,ina'>
+	))
+4	((	NP	
+4.1	ಕೈಗಾರಿಕೆಗಳಲ್ಲಿ	N__NN	<fs af='ಕೈಗಾರಿಕೆ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+5	((	VGINF	
+5.1	ಬಳಸಲು	V__VM__VINF	<fs af='ಬಳಸು,v,,,,,ಅಲು,alu'>
+5.2	ಆಗುವ	V__VAUX	<fs af='ಆಗು,v,,,,,ವ,va'>
+	))
+6	((	NP	
+6.1	ಗುಣಮಟ್ಟದ	N__NN	<fs af='ಗುಣಮಟ್ಟ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+7	((	NP	
+7.1	ಶಾಖವನ್ನು	N__NN	<fs af='ಶಾಖ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+8	((	VGNN	
+8.1	ಹಿಡಿದು	V__VM__VNG	<fs af='ಹಿಡಿ,v,,,,o,ದು+ಉ,xu+u'>
+8.2	ಇಡುವ	V__VAUX	<fs af='ಇಡು,v,,,,o,ವ+ಅ,va+a'>
+	))
+9	((	NP	
+9.1	ಸಾಮರ್ಥ್ಯ	N__NN	<fs af='ಸಾಮರ್ಥ್ಯ,n,,sg,3,d,0,0'>
+	))
+10	((	VGNF	
+10.1	ಉಳ್ಳ	V__VM__VNF	<fs af='ಉಳ್ಳ,v,,,,,0,0'>
+	))
+11	((	NP	
+11.1	ಕಲ್ಲುಗಳ	N__NN	<fs af='ಕಲ್ಲು,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+12	((	NP	
+12.1	ಉತ್ಪಾದನೆಗೆ	N__NN	<fs af='ಉತ್ಪಾದನೆ,n,,sg,3,o,ಗೆ,geV'>
+	))
+13	((	NP	
+13.1	ಪೂರ್ಣ	JJ	<fs af='ಪೂರ್ಣ,adj,,,,d,0,0'>
+13.2	-	RD__SYM	<fs af='HYPHEN,punc,,,,,,'>
+13.3	ಸುಟ್ಟ	JJ	<fs af='ಸುಟ್ಟ,adj,,,,d,0,0'>
+13.4	ಮ್ಯಾಗ್ನೆಸೈಟ್	N__NNP	<fs af='ಮ್ಯಾಗ್ನೆಸೈಟ್,n,,sg,3,d,0,0'>
+	))
+14	((	NP	
+14.1	ಸೂಕ್ತವಾದ	JJ	<fs af='ಸೂಕ್ತ,adj,,,,o,ವ+ಆದ,va+Axa'>
+14.2	ಕಚ್ಚಾ	JJ	<fs af='ಕಚ್ಚಾ,adj,,,,d,0,0'>
+14.3	ವಸ್ತು	N__NN	<fs af='ವಸ್ತು,n,,sg,3,d,0,0'>
+	))
+15	((	VGF	
+15.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+16	((	BLK	
+16.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5356'>
+1	((	NP	
+1.1	ಕಾಸ್ಟಿಕ್	N__NNP	<fs af='ಕಾಸ್ಟಿಕ್,n,,sg,3,d,0,0'>
+1.2	ಮ್ಯಾಗ್ನೆಸೈಟ್	N__NNP	<fs af='ಮ್ಯಾಗ್ನೆಸೈಟ್,n,,sg,3,d,0,0'>
+	))
+2	((	CCP	
+2.1	ಎಂದು	CC__CCS	<fs af='ಎಂದು,avy,,,,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಕರೆಯಲ್ಪಡುವ	V__VM__VNG	<fs af='ಕರೆ,v,,,,o,ಯ+ಅಲ್ಪಡು+ವ+ಅ,ya+alpadu+va+a'>
+	))
+4	((	NP	
+4.1	2	QT__QTC	<fs af='2,num,,pl,,d,0,0'>
+4.2	-	RD__SYM	<fs af='HYPHEN,punc,,,,,,'>
+4.3	10	QT__QTC	<fs af='10,num,,pl,,d,0,0'>
+4.4	ಪ್ರತಿಶತ	N__NN	<fs af='ಪ್ರತಿಶತ,n,,sg,3,d,0,0'>
+4.5	ಕಾರ್ಬನ್	N__NNP	<fs af='ಕಾರ್ಬನ್,n,,sg,3,d,0,0'>
+4.6	ಡೈಆಕ್ಸೈಡ್	N__NNP	<fs af='ಡೈಆಕ್ಸೈಡ್,n,,sg,3,d,0,0'>
+4.7	ಅನ್ನು	PSP	<fs af='ಅನ್ನು,psp,,,,d,0,0'>
+	))
+5	((	VGNF	
+5.1	ಹೊಂದಿ	V__VM__VNF	<fs af='ಹೊಂದು,v,,,,,ಇ,i'>
+5.2	ಇರುವ	V__VAUX	<fs af='ಇರು,v,,,,,ವ,va'>
+	))
+6	((	NP	
+6.1	ಮಧ್ಯಮ	JJ	<fs af='ಮಧ್ಯಮ,adj,,,,d,0,0'>
+6.2	ಕ್ಯಾಲ್ಸಿನ್ಡ್	N__NNP	<fs af='ಕ್ಯಾಲ್ಸಿನ್ಡ್,n,,sg,3,d,0,0'>
+6.3	ಮ್ಯಾಗ್ನೆಸೈಟ್	N__NNP	<fs af='ಮ್ಯಾಗ್ನೆಸೈಟ್,n,,sg,3,d,0,0'>
+6.4	ಅನ್ನು	PSP	<fs af='ಅನ್ನು,psp,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ವಿವಿಧ	JJ	<fs af='ವಿವಿಧ,adj,,pl,,d,0,0'>
+7.2	ಕೈಗಾರಿಕೆಗಳಲ್ಲಿ	N__NN	<fs af='ಕೈಗಾರಿಕೆ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+8	((	VGF	
+8.1	ಬಳಸಲು	V__VM__VF	<fs af='ಬಳಸು,v,,,,,ಅಲು,alu'>
+8.2	ಆಗುತ್ತದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5357'>
+1	((	NP	
+1.1	ಇದನ್ನು	DM__DMD	<fs af='ಇದು,pn,,sg,3,o,ಅನ್ನು,annu'>
+	))
+2	((	RBP	
+2.1	ಮುಖ್ಯವಾಗಿ	RB	<fs af='ಮುಖ್ಯ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+3	((	NP	
+3.1	ಆಕ್ಸಿಕ್ಲೋರೈಡ್	N__NNP	<fs af='ಆಕ್ಸಿಕ್ಲೋರೈಡ್,n,,sg,3,d,0,0'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಪೇಪರ್	N__NN	<fs af='ಪೇಪರ್,n,,sg,3,d,0,0'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ರೇಯಾನ್	N__NN	<fs af='ರೇಯಾನ್,n,,sg,3,d,0,0'>
+5.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ರಸ	JJ	<fs af='ರಸ,adj,,,,d,0,0'>
+6.2	ಗೊಬ್ಬರ	N__NN	<fs af='ಗೊಬ್ಬರ,n,,sg,3,d,0,0'>
+6.3	ಕೈಗಾರಿಕೆಗಳು	N__NN	<fs af='ಕೈಗಾರಿಕೆ,n,,pl,3,o,ಗಳು,galYu'>
+	))
+7	((	CCP	
+7.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ಪಶು	JJ	<fs af='ಪಶು,adj,,,,d,0,0'>
+8.2	ಆಹಾರದಲ್ಲಿ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+9	((	VGF	
+9.1	ಬಳಸಲು	V__VM__VF	<fs af='ಬಳಸು,v,,,,,ಅಲು,alu'>
+9.2	ಆಗುತ್ತದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5358'>
+1	((	NP	
+1.1	ರಬ್ಬರ್	N__NN	<fs af='ರಬ್ಬರ್,n,,sg,3,d,0,0'>
+1.2	ಅನ್ನು	PSP	<fs af='ಅನ್ನು,psp,,,,d,0,0'>
+	))
+2	((	RBP	
+2.1	ಬಲ	RB	<fs af='ಬಲ,adv,,,,d,0,0'>
+	))
+3	((	VGINF	
+3.1	ಆಗಿಸಲು	V__VM__VINF	<fs af='ಆಗು,v,,,,,ಇಸು+ಅಲು,isu+alu'>
+	))
+4	((	CCP	
+4.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+5	((	RBP	
+5.1	ದೃಢವಾಗಿ	RB	<fs af='ದೃಢ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+6	((	VGINF	
+6.1	ಇಡಲು	V__VM__VINF	<fs af='ಇಡು,v,,,,,ಅಲು,alu'>
+	))
+7	((	NP	
+7.1	ಗುಣಮಟ್ಟದ	N__NN	<fs af='ಗುಣಮಟ್ಟ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+8	((	NP	
+8.1	ಮೆಗ್ನೀಸಿಯಮ್	N__NNP	<fs af='ಮೆಗ್ನೀಸಿಯಮ್,n,,sg,3,d,0,0'>
+8.2	ಕಾರ್ಬೋನೇಟ್	N__NNP	<fs af='ಕಾರ್ಬೋನೇಟ್,n,,sg,3,o,ಅನ್ನು,annu'>
+8.3	ಅನ್ನು	PSP	<fs af='ಅನ್ನು,psp,,,,d,0,0'>
+	))
+9	((	VGF	
+9.1	ಬಳಸಲು	V__VM__VF	<fs af='ಬಳಸು,v,,,,,ಅಲು,alu'>
+9.2	ಆಗುತ್ತದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5359'>
+1	((	CCP	
+1.1	ಅಲ್ಲದೆ	CC__CCS	<fs af='ಅಲ್ಲದೆ,avy,,,,d,0,0'>
+	))
+2	((	NP	
+2.1	ಧಾನ್ಯಗಳಿಂದ	N__NN	<fs af='ಧಾನ್ಯ,n,,sg,3,o,ಗಳು+ಇಂದ,galYu+iMxa'>
+	))
+3	((	NP	
+3.1	ಹೊಟ್ಟು	N__NN	<fs af='ಹೊಟ್ಟು,n,,sg,3,d,0,0'>
+	))
+4	((	VGINF	
+4.1	ತೆಗೆಯಲು	V__VM__VINF	<fs af='ತೆಗೆ,v,,,,,ಯ+ಅಲು,ya+alu'>
+	))
+5	((	VGNN	
+5.1	ಬಳಸಿದ	V__VM__VNG	<fs af='ಬಳಸು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+6	((	NP	
+6.1	ಕಲ್ಲುಗಳನ್ನು	N__NN	<fs af='ಕಲ್ಲು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+7	((	NP	
+7.1	ಎಮೆರಿ	N__NNP	<fs af='ಎಮೆರಿ,n,,sg,3,d,0,0'>
+7.2	ಕಾಸ್ಟಿಕ್	N__NNP	<fs af='ಕಾಸ್ಟಿಕ್,n,,sg,3,d,0,0'>
+7.3	-	RD__SYM	<fs af='HYPHEN,punc,,,,,,'>
+7.4	ಮೆಗ್ನೀಸಿಯಮ್	N__NNP	<fs af='ಮೆಗ್ನೀಸಿಯಮ್,n,,sg,3,d,0,0'>
+7.5	ಕ್ಲೋರೈಡ್	N__NNP	<fs af='ಕ್ಲೋರೈಡ್,n,,sg,3,d,0,0'>
+7.6	ನಿಂದ	PSP	<fs af='ನಿಂದ,psp,,,,d,0,0'>
+	))
+8	((	VGF	
+8.1	ತಯಾರಿಸಲು	V__VM__VF	<fs af='ತಯಾರಿಸು,v,,,,,ಅಲು,alu'>
+8.2	ಆಗುತ್ತದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+</document>

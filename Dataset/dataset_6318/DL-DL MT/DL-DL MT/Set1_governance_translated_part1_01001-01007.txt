@@ -1,0 +1,368 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='1001'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+1.2	ತರಬೇತಿ	N__NN	<fs af='ತರಬೇತಿ,n,,sg,3,d,0,0'>
+1.3	ಸಂಸ್ಥೆಯಲ್ಲಿ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+2	((	NP	
+2.1	ಇದುವರೆಗೆ	N__NST	<fs af=''ಇದು,nst,,,,o,ವರೆಗೆ,vareVgeV'>
+	))
+3	((	NP	
+3.1	15	QT__QTC	<fs af='15,num,,pl,,d,0,0'>
+3.2	ಘಟಕಗಳ	N__NN	<fs af='ಘಟಕ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+4	((	NP	
+4.1	ತರಬೇತಿ	JJ	<fs af='ತರಬೇತಿ,adj,,,,d,0,0'>
+4.2	ತರಗತಿಗಳು	N__NN	<fs af='ತರಗತಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+5	((	VGF	
+5.1	ಮುಗಿದಿವೆ	V__VM__VF	<fs af='ಮುಗಿ,v,,sg,3,,ದು+ಇವೆ,xu+iveV'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='1002'>
+1	((	NP	
+1.1	ಆರಂಭದಲ್ಲಿ	N__NN	<fs af='ಆರಂಭ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+2.2	ಸಂಸ್ಥೆಯು	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಯ+ಉ,ya+u'>
+	))
+3	((	NP	
+3.1	ನಾವಿಕ	JJ	<fs af='ನಾವಿಕ,adj,,,,d,0,0'>
+3.2	ತರಬೇತಿ	N__NN	<fs af='ತರಬೇತಿ,n,,sg,3,d,0,0'>
+	))
+4	((	CCP	
+4.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಕಡಲ	JJ	<fs af='ಕಡಲು,adj,,,,o,ಅ,a'>
+5.2	ತರಬೇತಿಯನ್ನು	N__NN	<fs af='ತರಬೇತಿ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+6	((	VGF	
+6.1	ನಡೆಸಿತು	V__VM__VF	<fs af='ನಡೆ,v,,sg,3,,ಇಸು+ಇತು,isu+iwu'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='1003'>
+1	((	JJP	
+1.1	ಪ್ರಸ್ತುತ	JJ	<fs af='ಪ್ರಸ್ತುತ,adj,,,,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ನಾವಿಕ	JJ	<fs af='ನಾವಿಕ,adj,,,,d,0,0'>
+2.2	ತರಬೇತಿ	N__NN	<fs af='ತರಬೇತಿ,n,,sg,3,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಸಮುದ್ರ	JJ	<fs af='ಸಮುದ್ರ,adj,,,,d,0,0'>
+4.2	ತರಬೇತಿಯ	N__NN	<fs af='ತರಬೇತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+4.3	ಬದಲಿಗೆ	RP__RPD	<fs af='ಬದಲಿಗೆ,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	40	QT__QTC	<fs af='40,num,,pl,,d,0,0'>
+5.2	ಜನರ	N__NN	<fs af='ಜನ,n,any,pl,3,o,ಅರು+ಅ,aru+a'>
+	))
+6	((	NP	
+6.1	ಸಾಮಾನ್ಯ	JJ	<fs af='ಸಾಮಾನ್ಯ,adj,,,,d,0,0'>
+6.2	ನಾವಿಕ	JJ	<fs af='ನಾವಿಕ,adj,,,,d,0,0'>
+6.3	ವ್ಯವಸ್ಥೆ	N__NN	<fs af='ವ್ಯವಸ್ಥೆ,n,,sg,3,d,0,0'>
+6.4	ತರಬೇತಿ	N__NN	<fs af='ತರಬೇತಿ,n,,sg,3,d,0,0'>
+	))
+7	((	FRAGP	
+7.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+7.2	General	RD__RDF	<fs af='General,unk,,,,d,0,0'>
+7.3	Purpose	RD__RDF	<fs af='Purpose,unk,,,,d,0,0'>
+7.4	Rating	RD__RDF	<fs af='Rating,unk,,,,d,0,0'>
+7.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+8	((	NP	
+8.1	ತರಗತಿಗಳನ್ನು	N__NN	<fs af='ತರಗತಿ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+9	((	VGF	
+9.1	ನಡೆಸಲು	V__VM__VF	<fs af='ನಡೆ,v,,,,,ಇಸು+ಅಲು,isu+alu'>
+9.2	ಆಗುತ್ತಿದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಇದೆ,uwwa+ixeV'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='1004'>
+1	((	CCP	
+1.1	ಅಲ್ಲದೆ	CC__CCS	<fs af='ಅಲ್ಲದೆ,avy,,,,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+2.2	ತರಬೇತಿ	JJ	<fs af='ತರಬೇತಿ,adj,,,,d,0,0'>
+2.3	ಸಂಸ್ಥೆಯಲ್ಲಿ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+3	((	NP	
+3.1	ಭಾರತ	N__NNP	<fs af='ಭಾರತ,n,,sg,3,d,0,0'>
+3.2	ಸರ್ಕಾರದ	N__NN	<fs af='ಸರ್ಕಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+4	((	NP	
+4.1	ಶಿಪ್ಪಿಂಗ್	JJ	<fs af='ಶಿಪ್ಪಿಂಗ್,adj,,,,d,0,0'>
+4.2	ಇಲಾಖೆ	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,d,0,0'>
+4.3	1995ರ	N__NN	<fs af='1995,n,,,,o,ಅರ+ಅ,ara+a'>
+	))
+5	((	NP	
+5.1	ನಿಯಮಗಳ	N__NN	<fs af='ನಿಯಮ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+5.2	ಪ್ರಕಾರ	RP__RPD	<fs af='ಪ್ರಕಾರ,avy,,,,d,0,0'>
+5.3	"	RD__PUNC	<fs af='",punc,,,,,,'>
+5.4	ಆತ್ಮರಕ್ಷಣಾ	JJ	<fs af='ಆತ್ಮರಕ್ಷಣೆ,adj,,,,o,ಆ,A'>
+5.5	ತಂತ್ರಗಳು	N__NN	<fs af='ತಂತ್ರ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+5.6	"	RD__SYM	<fs af='",punc,,,,,,'>
+	))
+6	((	FRAGP	
+6.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+6.2	Personal	RD__RDF	<fs af='Personal,unk,,,,d,0,0'>
+6.3	survival	RD__RDF	<fs af='survival,unk,,,,d,0,0'>
+6.4	techniques	RD__RDF	<fs af='techniques,unk,,,,d,0,0'>
+6.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+6.6	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+7.2	ಸಮುದ್ರದಲ್ಲಿ	N__NN	<fs af='ಸಮುದ್ರ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+7.3	ಪ್ರಾಥಮಿಕ	JJ	<fs af='ಪ್ರಥಮ,adj,,,,o,ಇಕ,ika'>
+7.4	ಪ್ರಥಮ	JJ	<fs af='ಪ್ರಥಮ,adj,,,,d,0,0'>
+7.5	ಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0'>
+7.6	"	RD__SYM	<fs af='",punc,,,,,,'>
+	))
+8	((	FRAGP	
+8.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+8.2	Elementary	RD__RDF	<fs af='Elementary,unk,,,,d,0,0'>
+8.3	First	RD__RDF	<fs af='First,unk,,,,d,0,0'>
+8.4	Aid	RD__RDF	<fs af='Aid,unk,,,,d,0,0'>
+8.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+8.6	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+9	((	NP	
+9.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+9.2	ವೈಯಕ್ತಿಕ	JJ	<fs af='ವೈಯಕ್ತಿಕ,adj,,,,d,0,0'>
+9.3	ಸುರಕ್ಷತೆ	N__NNV	<fs af='ಸುರಕ್ಷಿಸು,n,,sg,3,o,ಅತೆ,aweV'>
+	))
+10	((	CCP	
+10.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಸಾಮಾಜಿಕ	JJ	<fs af='ಸಮಾಜ,adj,,,,o,ಇಕ,ika'>
+11.2	ಜವಾಬ್ದಾರಿ	N__NN	<fs af='ಜವಾಬು,n,,sg,3,o,ದಾರ+ಇ,xAra+i'>
+11.3	"	RD__SYM	<fs af='",punc,,,,,,'>
+	))
+12	((	FRAGP	
+12.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+12.2	Personal	RD__RDF	<fs af='Personal,unk,,,,d,0,0'>
+12.3	safety	RD__RDF	<fs af='safety,unk,,,,d,0,0'>
+12.4	and	RD__RDF	<fs af='and,unk,,,,d,0,0'>
+12.5	social	RD__RDF	<fs af='social,unk,,,,d,0,0'>
+12.6	responsibility	RD__RDF	<fs af='responsibility,unk,,,,d,0,0'>
+12.7	)	RD__SYM	<fs af='),punc,,,,,,'>
+12.8	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+13	((	NP	
+13.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+13.2	ಆಯಿಲ್	N__NN	<fs af='ಆಯಿಲ್,n,,sg,3,d,0,0'>
+13.3	ಟ್ಯಾಂಕರ್	N__NN	<fs af='ಟ್ಯಾಂಕರ್,n,,sg,3,d,0,0'>
+13.4	ಪರಿಚಿತತೆ	N__NN	<fs af='ಪರಿಚಿತ,n,,,3,o,ತೆ,weV'>
+13.5	"	RD__SYM	<fs af='",punc,,,,,,'>
+	))
+14	((	FRAGP	
+14.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+14.2	Oil	RD__RDF	<fs af='Oil,unk,,,,d,0,0'>
+14.3	Tanker	RD__RDF	<fs af='Tanker,unk,,,,d,0,0'>
+14.4	Familiarization	RD__RDF	<fs af='Familiarization,unk,,,,d,0,0'>
+14.5	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+15	((	CCP	
+15.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+16	((	BLK	
+16.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+16.2	ಬೆಂಕಿ	N__NN	<fs af='ಬೆಂಕಿ,n,,sg,3,d,0,0'>
+16.3	ತಡೆಗಟ್ಟುವಿಕೆ	N__NNV	<fs af='ತಡೆ,n,,sg,3,o,ಗಟ್ಟು+ವಿಕೆ,gattu+vikeV'>
+	))
+17	((	CCP	
+17.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+18	((	NP	
+18.1	ಅಗ್ನಿಶಾಮಕ	N__NN	<fs af='ಅಗ್ನಿಶಾಮಕ,n,,sg,3,d,0,0'>
+18.2	"	RD__SYM	<fs af='",punc,,,,,,'>
+	))
+19	((	FRAGP	
+19.1	(	RD__SYM	<fs af='(,punc,,,,,,'>
+19.2	Fire	RD__RDF	<fs af='Fire,unk,,,,d,0,0'>
+19.3	prevention	RD__RDF	<fs af='prevention,unk,,,,d,0,0'>
+19.4	and	RD__RDF	<fs af='and,unk,,,,d,0,0'>
+19.5	Fire	RD__RDF	<fs af='Fire,unk,,,,d,0,0'>
+19.6	fighting	RD__RDF	<fs af='fighting,unk,,,,d,0,0'>
+19.7	)	RD__SYM	<fs af='),punc,,,,,,'>
+	))
+20	((	NP	
+20.1	ಐದು	QT__QTC	<fs af='ಐದು,num,,pl,,o,ಉ,u'>
+20.2	ರೀತಿಯ	N__NN	<fs af='ರೀತಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+21	((	NP	
+21.1	ತರಬೇತಿ	JJ	<fs af='ತರಬೇತಿ,adj,,,,d,0,0'>
+21.2	ತರಗತಿಗಳನ್ನು	N__NN	<fs af='ತರಗತಿ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+22	((	VGF	
+22.1	ನಡೆಸಲು	V__VM__VF	<fs af='ನಡೆ,v,,,,,ಇಸು+ಅಲು,isu+alu'>
+22.2	ಆಗುತ್ತದೆ	V__VAUX	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+23	((	BLK	
+23.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='1005'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0'>
+1.2	ತರಬೇತಿ	JJ	<fs af='ತರಬೇತಿ,adj,,,,d,0,0'>
+1.3	ಸಂಸ್ಥೆಯಲ್ಲಿ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+2	((	NP	
+2.1	ಅಧ್ಯಯನ	N__NN	<fs af='ಅಧ್ಯಯನ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಮಾಡಿದ	V__VM__VNG	<fs af='ಮಾಡು,v,,,,o,ಇದ+ಅ,ixa+a'>
+	))
+4	((	NP	
+4.1	ತರಬೇತುದಾರರು	N__NN	<fs af='ತರಬೇತು,n,,pl,3,o,ದಾರ+ಅರು+ಉ,xAra+aru+u'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಕಳೆದ	JJ	<fs af='ಕಳೆ,adj,,,,o,ದ,xa'>
+5.2	ಆರು	QT__QTC	<fs af='ಆರು,num,,pl,,o,ಉ,u'>
+5.3	ಅಭ್ಯಾಸ	JJ	<fs af='ಅಭ್ಯಾಸ,adj,,,,d,0,0'>
+5.4	ಪರೀಕ್ಷೆಯಲ್ಲಿ	N__NN	<fs af='ಪರೀಕ್ಷೆ,n,,sg,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+6	((	NP	
+6.1	100	QT__QTC	<fs af='100,num,,,,d,0,0'>
+6.2	ಪ್ರತಿಶತ	N__NN	<fs af='ಪ್ರತಿಶತ,n,,sg,3,d,0,0'>
+6.3	ಅಷ್ಟು	RP__RPD	<fs af='ಅಷ್ಟು,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ತೇರ್ಗಡೆ	N__NN	<fs af='ತೇರ್ಗಡೆ,n,,sg,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	ಆಗಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ,i'>
+8.2	ಇದ್ದಾರೆ	V__VAUX	<fs af='ಇರು,v,any,pl,3,,ದ+ದ+ಆರೆ,xa+xa+AreV'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='1006'>
+1	((	NP	
+1.1	ಕಳೆದ	JJ	<fs af='ಕಳೆದ,adj,,,,o,ದ,xa'>
+1.2	ಐದು	QT__QTC	<fs af='ಐದು,num,,pl,,o,ಉ,u'>
+1.3	ವರ್ಷಗಳ	N__NN	<fs af='ವರ್ಷ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+2	((	NP	
+2.1	ತರಬೇತಿ	JJ	<fs af='ತರಬೇತಿ,adj,,,,d,0,0'>
+2.2	ಪರೀಕ್ಷೆಗಳಲ್ಲಿ	N__NN	<fs af='ಪರೀಕ್ಷೆಗಳಲ್ಲಿ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	100	QT__QTC	<fs af='100,num,,pl,,d,0,0'>
+3.2	%	RD__SYM	<fs af='%,punc,,,,,,'>
+3.3	ಉತ್ತೀರ್ಣತೆಯ	N__NN	<fs af='ಉತ್ತೀರ್ಣ,n,,sg,3,o,ತೆ+ಯ+ಅ,weV+ya+a'>
+	))
+4	((	NP	
+4.1	ಆಧಾರದ	N__NN	<fs af='ಆಧಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+4.2	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಶಿಪ್ಪಿಂಗ್	JJ	<fs af='ಶಿಪ್ಪಿಂಗ್,adj,,,,d,0,0'>
+5.2	ಇಲಾಖೆಯು	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,o,ಯ+ಉ,ya+u'>
+	))
+6	((	NP	
+6.1	ಪೆರಿಯಕುನರಿನ	N__NN	<fs af='ಪೆರಿಯಕುನರು,n,,sg,3,o,ಇನ+ಅ,ina+a'>
+	))
+7	((	NP	
+7.1	ಮಾನ್ಯತೆ	N__NN	<fs af='ಮಾನ್ಯ,n,,sg,3,o,ತೆ,weV'>
+	))
+8	((	VGNN	
+8.1	ಪಡೆದ	V__VM__VNG	<fs af='ಪಡೆ,v,,,,o,ದ+ಅ,xa+a'>
+	))
+9	((	NP	
+9.1	ನಾವಿಕ	N__NNP	<fs af='ನಾವಿಕ,n,,sg,3,d,0,0'>
+9.2	ಹೊಣೆಗಾರಿಕೆ	N__NNP	<fs af='ಹೊಣೆ,n,,sg,3,o,ಗಾರ+ಇಕೆ,gAra+ikeV'>
+9.3	ನಿಗಮದ	N__NNP	<fs af='ನಿಗಮ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+10	((	NP	
+10.1	ಆಯ್ಕೆ	JJ	<fs af='ಆ,adj,,,,o,ಯ+ಇಕೆ,ya+ikeV'>
+10.2	ಮಂಡಳಿ	N__NN	<fs af='ಮಂಡಳಿ,n,,sg,3,d,0,0'>
+10.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+11	((	NP	
+11.1	30.10.2009ರಂದು	N__NNP	<fs af='30.10.2009,n,,,,o,ಅರ+ಅಂದು,ara+aMxu'>
+	))
+12	((	NP	
+12.1	ತಮಿಳುನಾಡು	N__NNP	<fs af='ತಮಿಳುನಾಡು,n,,sg,3,o,ಉ,u'>
+12.2	ಕಡಲ	N__NNP	<fs af='ಕಡಲು,n,,sg,3,o,ಅ,a'>
+12.3	ತರಬೇತಿ	N__NNP	<fs af='ತರಬೇತಿ,n,,sg,3,d,0,0'>
+12.4	ಸಂಸ್ಥೆಯ	N__NNP	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+13	((	NP	
+13.1	ನಿರಂತರ	JJ	<fs af='ನಿರಂತರ,adj,,,,d,0,0'>
+13.2	ಉತ್ತೀರ್ಣತೆಯ	N__NN	<fs af='ಉತ್ತೀರ್ಣ,n,,sg,3,o,ತೆ+ಯ+ಅ,weV+ya+a'>
+	))
+14	((	NP	
+14.1	ಮೆಚ್ಚುಗೆಗೆ	N__NN	<fs af='ಮೆಚ್ಚು,n,,sg,3,o,ಗೆ+ಇಗೆ,geV+igeV'>
+	))
+15	((	BLK	
+15.1	"	RD__PUNC	<fs af='",punc,,,,,,'>
+15.2	ಅತ್ಯಂತ	RP__INTF	<fs af='ಅತ್ಯಂತ,adj,,,,d,0,0'>
+15.3	ಸ್ಥಿರ	JJ	<fs af='ಸ್ಥಿರ,adj,,,,d,0,0'>
+15.4	ಸೇವಾ	JJ	<fs af='ಸೇವೆ,adj,,,,o,ಆ,A'>
+15.5	ತರಬೇತಿ	N__NN	<fs af='ತರಬೇತಿ,n,,sg,3,d,0,0'>
+15.6	ಸಂಸ್ಥೆ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,d,0,0'>
+15.7	"	RD__PUNC	<fs af='",punc,,,,,,'>
+	))
+16	((	NP	
+16.1	ಪ್ರಮಾಣ	JJ	<fs af='ಪ್ರಮಾಣ,adj,,,,d,0,0'>
+16.2	ಪತ್ರವನ್ನು	N__NN	<fs af='ಪತ್ರ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+17	((	VGF	
+17.1	ನೀಡಿದೆ	V__VM__VF	<fs af='ನೀಡು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+18	((	BLK	
+18.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='1007'>
+1	((	NP	
+1.1	ತಮಿಳುನಾಡು	N__NNP	<fs af='ತಮಿಳುನಾಡು,n,,sg,3,o,ಉ,u'>
+1.2	ಕಡಲ	N__NNP	<fs af='ಕಡಲು,n,,sg,3,o,ಅ,a'>
+1.3	ಮಂಡಳಿಯ	N__NNP	<fs af='ಮಂಡಳಿ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+2	((	NP	
+2.1	ಹೊಸ	JJ	<fs af='ಹೊಸ,adj,,,,d,0,0'>
+2.2	ಆಡಳಿತ	JJ	<fs af='ಆಡಳಿತ,adj,,,,d,0,0'>
+2.3	ಕಚೇರಿ	N__NN	<fs af='ಕಚೇರಿ,n,,sg,3,d,0,0'>
+2.4	ಕಟ್ಟಡ	N__NN	<fs af='ಕಟ್ಟಡ,n,,sg,3,d,0,0'>
+	))
+3	((	BLK	
+3.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+</document>

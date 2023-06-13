@@ -1,0 +1,2314 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='1'>
+1	((	NP	
+1.1	ಹಿರಿಯರಿಗೆ	N__NN	<fs af='ಹಿರಿಯ,n,any,pl,3,o,ಅರು+ಇಗೆ,aru+igeV'>
+	))
+2	((	NP	
+2.1	ಪೌಷ್ಟಿಕಾಂಶ	N__NN	<fs af='ಪೌಷ್ಟಿಕಾಂಶ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಸಮೃದ್ಧ	JJ	<fs af='ಸಮೃದ್ಧ,adj,,,3,d,0,0'>
+3.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='2'>
+1	((	JJP	
+1.1	ಒಳ್ಳೆಯ	JJ	<fs af='ಒಳ್ಳೆಯ,adj,,,3,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಪೌಷ್ಟಿಕಾಂಶಭರಿತ	JJ	<fs af='ಪೌಷ್ಟಿಕಾಂಶ,adj,,,3,o,ಭರಿತ,Bariwa'>
+2.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+2.3	ಸೇವನೆ	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಎಲ್ಲ	QT__QTF	<fs af='ಎಲ್ಲ,adj,,pl,3,d,0,0'>
+3.2	ವಯಸ್ಸಿನವರಿಗೂ	N__NN	<fs af='ವಯಸ್ಸು,n,any,pl,3,o,ಇನ+ಅವರು+ಇಗೆ+ಊ,ina+avaru+igeV+U'>
+	))
+4	((	NP	
+4.1	ಅತ್ಯಂತ	JJ	<fs af='ಅತ್ಯಂತ,adj,,,,d,0,0'>
+4.2	ಪ್ರಾಮುಖ್ಯ	N__NN	<fs af='ಪ್ರಾಮುಖ್ಯ,n,,sg,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಆದುದು	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ದ+ಉದು,xa+uxu'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='3'>
+1	((	NP	
+1.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+2	((	NP	
+2.1	ಆರೋಗ್ಯ	N__NN	<fs af='ಆರೋಗ್ಯ,n,,,3,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+4	((	NP	
+4.1	ದೇಹ	N__NN	<fs af='ದೇಹ,n,,sg,3,d,0,0'>
+	))
+5	((	CCP	
+5.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+7	((	NP	
+7.1	ಯೋಗಕ್ಷೇಮದಲ್ಲಿ	N__NN	<fs af='ಯೋಗಕ್ಷೇಮ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+8	((	NP	
+8.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+9	((	NP	
+9.1	ದೈನಂದಿನ	JJ	<fs af='ದೈನಂದಿನ,adj,,,3,d,0,0'>
+9.2	ಆಹಾರದ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+10	((	NP	
+10.1	ಆಯ್ಕೆಗಳು	N__NNV	<fs af='ಆಯು,n,,pl,3,o,ಇಕೆ+ಗಳು+ಉ,ikeV+galYu+u'>
+	))
+11	((	NP	
+11.1	ಗಮನಾರ್ಹ	JJ	<fs af='ಗಮನ,adj,,,3,o,ಅರ್ಹ,arha'>
+11.2	ವ್ಯತ್ಯಯಗಳನ್ನು	N__NN	<fs af='ವ್ಯತ್ಯಯ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+12	((	VGF	
+12.1	ಉಂಟುಮಾಡಬಲ್ಲವು	V__VM__VF	<fs af='ಉಂಟು,v,,pl,3,,ಮಾಡು+ಅ+ಬಲ್ಲ+ಅವು,mAdu+a+balla+avu'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='4'>
+1	((	RBP	
+1.1	ಸಮತೋಲನಪೂರ್ಣವಾಗಿ	RB	<fs af='ಸಮತೋಲನ,adv,,,,o,ಪೂರ್ಣ+ವ+ಆಗಿ,pUrNa+va+Agi'>
+	))
+2	((	RBP	
+2.1	ಚೆನ್ನಾಗಿ	RB	<fs af='ಚೆನ್ನ,adv,,,,o,ಆಗಿ,Agi'>
+	))
+3	((	NP	
+3.1	ಯೋಜಿತ	N__NNV	<fs af='ಯೋಜಿಸು,n,,,3,o,ಇತ,iwa'>
+	))
+4	((	VGNN	
+4.1	ಆಗಿರುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಇರು+ವ+ಅ,iru+va+a'>
+	))
+5	((	NP	
+5.1	ಮಿಶ್ರ	JJ	<fs af='ಮಿಶ್ರ,adj,,,3,d,0,0'>
+5.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+5.3	ವಸ್ತುಗಳನ್ನು	N__NN	<fs af='ವಸ್ತು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+6	((	RBP	
+6.1	ದಿನವೂ	RB	<fs af='ದಿನ,adv,,,,o,ವ+ಊ,va+U'>
+	))
+7	((	VGNN	
+7.1	ಸೇವಿಸುವುದು	V__VM__VNG	<fs af='ಸೇವಿಸು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+8	((	NP	
+8.1	ಅನೇಕ	QT__QTF	<fs af='ಅನೇಕ,adj,,pl,3,d,0,0'>
+8.2	ಆರೋಗ್ಯ	N__NN	<fs af='ಆರೋಗ್ಯ,n,,,3,d,0,0'>
+8.3	ಪ್ರಯೋಜನಗಳನ್ನು	N__NN	<fs af='ಪ್ರಯೋಜನ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+9	((	VGF	
+9.1	ಹೊಂದಿದೆ	V__VM__VF	<fs af='ಹೊಂದು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5'>
+1	((	NP	
+1.1	ಉದಾಹರಣೆಗೆ	N__NNV	<fs af='ಉದಾಹರಿಸು,n,,sg,3,o,ಅಣೆ+ಗೆ,aNeV+geV'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಒಳ್ಳೆಯ	JJ	<fs af='ಒಳ್ಳೆಯ,adj,,,3,d,0,0'>
+2.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+2.3	ಸೇವನೆಯು	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,o,ಯ+ಉ,ya+u'>
+	))
+3	((	NP	
+3.1	ಹೃದ್ರೋಗಗಳು	N__NN	<fs af='ಹೃದ್ರೋಗ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಲಕ್ವಾ	N__NN	<fs af='ಲಕ್ವಾ,n,,,3,d,0,0'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಟೈಪ್	N__NN	<fs af='ಟೈಪ್,n,,,3,d,0,0'>
+5.2	2	QT__QTC	<fs af='2,num,,,3,d,0,0'>
+5.3	ಮಧುಮೇಹ	N__NN	<fs af='ಮಧುಮೇಹ,n,,,3,d,0,0'>
+5.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಎಲುಬಿನ	JJ	<fs af='ಎಲುಬು,adj,,sg,3,o,ಇನ,ina'>
+6.2	ಅನಾರೋಗ್ಯ	N__NN	<fs af='ಅನಾರೋಗ್ಯ,n,,sg,3,d,0,0'>
+6.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ಕೆಲವು	QT__QTF	<fs af='ಕೆಲವು,adj,,pl,3,o,ಉ,u'>
+7.2	ವಿಧದ	N__NN	<fs af='ವಿಧ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+8	((	NP	
+8.1	ಕ್ಯಾನ್ಸರ್‌ಗಳು	N__NN	<fs af='ಕ್ಯಾನ್ಸರ್,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+9	((	CCP	
+9.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಅನೀಮಿಯಾ	N__NN	<fs af='ಅನೀಮಿಯಾ,n,,,3,d,0,0'>
+	))
+11	((	VGNN	
+11.1	ಉಂಟಾಗುವ	V__VM__VNG	<fs af='ಉಂಟು,v,,,,o,ಆಗು+ವ+ಅ,Agu+va+a'>
+	))
+12	((	NP	
+12.1	ಅಪಾಯವನ್ನು	N__NN	<fs af='ಅಪಾಯ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+13	((	NP	
+13.1	ಕಡಿಮೆ	N__NN	<fs af='ಕಡಿಮೆ,n,,,3,d,0,0'>
+	))
+14	((	VGF	
+14.1	ಮಾಡುತ್ತದೆ	V__VM__VF	<fs af='ಮಾಡು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+15	((	BLK	
+15.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='6'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ದೀರ್ಘಕಾಲಿಕ	JJ	<fs af='ದೀರ್ಘಕಾಲ,adj,,,3,o,ಇಕ,ika'>
+1.3	ಅನಾರೋಗ್ಯಗಳಲ್ಲಿ	N__NN	<fs af='ಅನಾರೋಗ್ಯ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+2	((	NP	
+2.1	ಯಾವುದಾದರೂ	DM__DMI	<fs af='ಯಾವುದು,pn,,,3,o,ಆದರೂ,AxarU'>
+2.2	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+	))
+3	((	NP	
+3.1	ನಿಮಗೆ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಗೆ,ma+geV'>
+	))
+4	((	RBP	
+4.1	ಈಗಾಗಲೇ	RB	<fs af='ಈಗಾಗಲೆ,adv,,,,o,ಏ,e'>
+	))
+5	((	VGNF	
+5.1	ಇರುವುದಾದರೆ	V__VM__VNF	<fs af='ಇರು,v,,,,,ವ+ಉದು+ಆದರೆ,va+uxu+AxareV'>
+	))
+6	((	BLK	
+6.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ಒಳ್ಳೆಯ	JJ	<fs af='ಒಳ್ಳೆಯ,adj,,,3,d,0,0'>
+7.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	ಸೇವಿಸುವುದು	V__VM__VF	<fs af='ಸೇವಿಸು,v,,,,,ವ+ಉದು,va+uxu'>
+	))
+9	((	CCP	
+9.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+10	((	RBP	
+10.1	ದೈಹಿಕವಾಗಿ	RB	<fs af='ದೇಹ,adv,,,,o,ಇಕ+ವ+ಆಗಿ,ika+va+Agi'>
+	))
+11	((	NP	
+11.1	ಸಕ್ರಿಯ	N__NN	<fs af='ಸಕ್ರಿಯ,n,,,3,d,0,0'>
+	))
+12	((	VGNN	
+12.1	ಆಗಿರುವುದರಿಂದ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಇರು+ವ+ಉದು+ಅರ+ಇಂದ,iru+va+uxu+ara+iMxa'>
+	))
+13	((	NP	
+13.1	ಆ	DM__DMD	<fs af='ಆ,pn,,,3,d,0,0'>
+13.2	ಅನಾರೋಗ್ಯವನ್ನು	N__NN	<fs af='ಅನಾರೋಗ್ಯ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+14	((	RBP	
+14.1	ಹೆಚ್ಚು	RP__INTF	<fs af='ಹೆಚ್ಚು,adv,,,3,d,0,0'>
+14.2	ಉತ್ತಮವಾಗಿ	RB	<fs af='ಉತ್ತಮ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+15	((	VGF	
+15.1	ನಿಭಾಯಿಸಬಹುದು	V__VM__VF	<fs af='ನಿಭಾಯಿಸು,v,,,,,ಅ+ಬಹುದು,a+bahuxu'>
+	))
+16	((	BLK	
+16.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='7'>
+1	((	NP	
+1.1	ಅಧಿಕ	JJ	<fs af='ಅಧಿಕ,adj,,,,d,0,0'>
+1.2	ರಕ್ತದೊತ್ತಡವನ್ನು	N__NN	<fs af='ರಕ್ತದೊತ್ತಡ,n,,,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+2	((	NP	
+2.1	ಕಡಿಮೆ	N__NN	<fs af='ಕಡಿಮೆ,n,,,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಮಾಡುವುದು	V__VM__VNG	<fs af='ಮಾಡು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+4	((	BLK	
+4.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಕೊಲೆಸ್ಟರಾಲ್	JJ	<fs af='ಕೊಲೆಸ್ಟರಾಲ್,adj,,sg,3,d,0,0'>
+5.2	ಆಧಿಕ್ಯವನ್ನು	N__NN	<fs af='ಆಧಿಕ್ಯ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+6	((	VGF	
+6.1	ಇಳಿಸುವುದು	V__VM__VF	<fs af='ಇಳಿ,v,,,,,ಇಸು+ವ+ಉದು,isu+va+uxu'>
+	))
+7	((	CCP	
+7.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ಮಧುಮೇಹವನ್ನು	N__NN	<fs af='ಮಧುಮೇಹ,n,,,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+9	((	VGNF	
+9.1	ನಿಭಾಯಿಸುವುದರಲ್ಲಿಯೂ	V__VM__VNF	<fs af='ನಿಭಾಯಿಸು,v,,,,,ವ+ಉದು+ಅರ+ಅಲ್ಲಿ+ಯ+ಊ,va+uxu+ara+alli+ya+U'>
+	))
+10	((	NP	
+10.1	ಆರೋಗ್ಯಕರ	JJ	<fs af='ಆರೋಗ್ಯ,adj,,,3,o,ಕರ,kara'>
+10.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+10.3	ಸೇವನೆ	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,d,0,0'>
+	))
+11	((	NP	
+11.1	ನೆರವು	N__NN	<fs af='ನೆರವು,n,,sg,3,o,ಉ,u'>
+	))
+12	((	VGF	
+12.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='8'>
+1	((	NP	
+1.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+2	((	NP	
+2.1	ಸ್ನಾಯುಗಳು	N__NN	<fs af='ಸ್ನಾಯು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಎಲುಬುಗಳು	N__NN	<fs af='ಎಲುಬು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಅಂಗಾಂಗಗಳು	N__NN	<fs af='ಅಂಗಾಂಗ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+5	((	CCP	
+5.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ದೇಹದ	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+7	((	NP	
+7.1	ಇತರ	JJ	<fs af='ಇತರ,adj,,pl,3,d,0,0'>
+7.2	ಭಾಗಗಳನ್ನು	N__NN	<fs af='ಭಾಗ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+8	((	RBP	
+8.1	ಜೀವನಪೂರ್ತಿ	RP__INTF	<fs af='ಜೀವನ,adj,,,3,o,ಪೂರ್ತಿ,pUrwi'>
+8.2	ಆರೋಗ್ಯಕರವಾಗಿ	RB	<fs af='ಆರೋಗ್ಯ,adv,,,,o,ಕರ+ವ+ಆಗಿ,kara+va+Agi'>
+	))
+9	((	VGINF	
+9.1	ಇಟ್ಟುಕೊಳ್ಳಲು	V__VM__VINF	<fs af='ಇಡು,v,,,,,ಟ+ಟ+ಉ+ಕೊಳ್ಳು+ಅಲು,ta+ta+u+koVlYlYu+alu'>
+	))
+10	((	VGNN	
+10.1	ಬೇಕಾದ	V__VM__VNG	<fs af='ಬೇಕು,v,,,,o,ಆದ+ಅ,Axa+a'>
+	))
+11	((	NP	
+11.1	ಅಗತ್ಯ	JJ	<fs af='ಅಗತ್ಯ,adj,,,3,d,0,0'>
+11.2	ಪೌಷ್ಟಿಕಾಂಶಗಳನ್ನು	N__NN	<fs af='ಪೌಷ್ಟಿಕಾಂಶ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+12	((	NP	
+12.1	ಒಳ್ಳೆಯ	JJ	<fs af='ಒಳ್ಳೆಯ,adj,,,3,d,0,0'>
+12.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+12.3	ಸೇವನೆ	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,d,0,0'>
+	))
+13	((	VGF	
+13.1	ಒದಗಿಸುತ್ತದೆ	V__VM__VF	<fs af='ಒದಗು,v,,sg,3,,ಇಸು+ಉತ್ತ+ಅದೆ,isu+uwwa+axeV'>
+	))
+14	((	BLK	
+14.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='9'>
+1	((	NP	
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,3,d,0,0'>
+1.2	ಪೌಷ್ಟಿಕಾಂಶಗಳು	N__NN	<fs af='ಪೌಷ್ಟಿಕಾಂಶ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+2	((	CCP	
+2.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದರೆ,avy,,,,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ವಿಟಮಿನ್‍ಗಳು	N__NN	<fs af='ವಿಟಮಿನ್‍,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಖನಿಜಾಂಶಗಳು	N__NN	<fs af='ಖನಿಜಾಂಶ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಪ್ರೊಟೀನ್‍ಗಳು	N__NN	<fs af='ಪ್ರೊಟೀನ್‍,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+5.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಪಿಷ್ಟ	N__NN	<fs af='ಪಿಷ್ಟ,n,,,3,d,0,0'>
+6.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ಕೊಬ್ಬುಗಳು	N__NN	<fs af='ಕೊಬ್ಬು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+8	((	CCP	
+8.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ನೀರು	N__NN	<fs af='ನೀರು,n,,,3,o,ಉ,u'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='10'>
+1	((	NP	
+1.1	ಒಳ್ಳೆಯ	JJ	<fs af='ಒಳ್ಳೆಯ,adj,,,3,d,0,0'>
+1.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+1.3	ಸೇವನೆಯು	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,o,ಯ+ಉ,ya+u'>
+	))
+2	((	NP	
+2.1	ನಮ್ಮನ್ನು	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅನ್ನು,ma+ma+annu'>
+	))
+3	((	NP	
+3.1	ಶಕ್ತಿಭರಿತರನ್ನಾಗಿ	N__NN	<fs af='ಶಕ್ತಿ,n,any,pl,3,o,ಭರಿತ+ಅರು+ಅನ್ನು+ಆಗಿ,Bariwa+aru+annu+Agi'>
+	))
+4	((	VGF	
+4.1	ಇರಿಸುತ್ತದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ಇಸು+ಉತ್ತ+ಅದೆ,isu+uwwa+axeV'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='11'>
+1	((	NP	
+1.1	ಆಹಾರದಿಂದ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,o,ದ+ಇಂದ,xa+iMxa'>
+	))
+2	((	NP	
+2.1	ನಾವು	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ವು+ಉ,vu+u'>
+	))
+3	((	VGNN	
+3.1	ಪಡೆಯುವ	V__VM__VNG	<fs af='ಪಡೆ,v,,,,o,ಯ+ಉವ+ಅ,ya+uva+a'>
+	))
+4	((	NP	
+4.1	ಶಕ್ತಿಯನ್ನು	N__NN	<fs af='ಶಕ್ತಿ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+5	((	VGNN	
+5.1	ಅಳೆಯುವ	V__VM__VNG	<fs af='ಅಳೆ,v,,,,o,ಯ+ಉವ+ಅ,ya+uva+a'>
+	))
+6	((	NP	
+6.1	ಮಾನದಂಡ	N__NN	<fs af='ಮಾನದಂಡ,n,,sg,3,d,0,0'>
+	))
+7	((	NP	
+7.1	ಕ್ಯಾಲೊರಿ	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,sg,3,d,0,0'>
+	))
+8	((	BLK	
+8.1	;	RD__PUNC	<fs af=';,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='12'>
+1	((	NP	
+1.1	ಇಂಥ	DM__DMD	<fs af='ಇಂಥ,pn,,,3,d,0,0'>
+1.2	ಕ್ಯಾಲೊರಿಗಳನ್ನು	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+2	((	NP	
+2.1	ಸಾಕಷ್ಟು	JJ	<fs af='ಸಾಕು,adj,,,3,o,ಅಷ್ಟು,aRtu'>
+2.2	ಪ್ರಮಾಣದಲ್ಲಿ	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+3	((	VGNN	
+3.1	ಸೇವಿಸುವುದರಿಂದ	V__VM__VNG	<fs af='ಸೇವಿಸು,v,,,,o,ವ+ಉದು+ಅರ+ಇಂದ,va+uxu+ara+iMxa'>
+	))
+4	((	NP	
+4.1	ಇಡೀ	JJ	<fs af='ಇಡಿ,adj,,,3,o,ಈ,I'>
+4.2	ದಿನ	N__NN	<fs af='ದಿನ,n,,sg,3,d,0,0'>
+	))
+5	((	NP	
+5.1	ವಿವಿಧ	JJ	<fs af='ವಿವಿಧ,adj,,pl,3,d,0,0'>
+5.2	ಕಾರ್ಯ	N__NN	<fs af='ಕಾರ್ಯ,n,,sg,3,d,0,0'>
+5.3	ಚಟುವಟಿಕೆಗಳಲ್ಲಿ	N__NN	<fs af='ಚಟುವಟಿಕೆ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+6	((	RBP	
+6.1	ನಿರತ	RB	<fs af='ನಿರತ,adv,,,,d,0,0'>
+	))
+7	((	VGINF	
+7.1	ಆಗಿರಲು	V__VM__VINF	<fs af='ಆಗು,v,,,,,ಇರು+ಅಲು,iru+alu'>
+	))
+8	((	NP	
+8.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+9	((	NP	
+9.1	ದೇಹಕ್ಕೆ	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+10	((	NP	
+10.1	ಅಗತ್ಯವಾದ	JJ	<fs af='ಅಗತ್ಯ,adj,,,3,o,ವ+ಆದ,va+Axa'>
+10.2	ಇಂಧನವನ್ನು	N__NN	<fs af='ಇಂಧನ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+11	((	NP	
+11.1	ನಾವು	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ವು+ಉ,vu+u'>
+	))
+12	((	NP	
+12.1	ದೇಹಕ್ಕೆ	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+13	((	VGF	
+13.1	ಒದಗಿಸುತ್ತೇವೆ	V__VM__VF	<fs af='ಒದಗು,v,any,pl,1,,ಇಸು+ಉತ್ತ+ಏವೆ,isu+uwwa+eveV'>
+	))
+14	((	BLK	
+14.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='13'>
+1	((	NP	
+1.1	ನಮಗೆ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಗೆ,ma+geV'>
+	))
+2	((	NP	
+2.1	ಎಷ್ಟು	PR__PRQ	<fs af='ಎಷ್ಟು,pn,,,3,o,ಉ,u'>
+	))
+3	((	NP	
+3.1	ಕ್ಯಾಲೊರಿ	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,sg,3,d,0,0'>
+	))
+4	((	NP	
+4.1	ಅಗತ್ಯ	N__NN	<fs af='ಅಗತ್ಯ,n,,,3,d,0,0'>
+	))
+5	((	CCP	
+5.1	ಎಂಬುದು	CC__CCS	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+7	((	NP	
+7.1	ವಯಸ್ಸು	N__NN	<fs af='ವಯಸ್ಸು,n,,,3,o,ಉ,u'>
+	))
+8	((	NP	
+8.1	ಎಷ್ಟು	PR__PRQ	<fs af='ಎಷ್ಟು,pn,,,3,o,ಉ,u'>
+	))
+9	((	BLK	
+9.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+10	((	NP	
+10.1	ಪುರುಷನೇ	N__NN	<fs af='ಪುರುಷ,n,m,sg,3,o,ನ+ಏ,na+e'>
+	))
+11	((	CCP	
+11.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+12	((	NP	
+12.1	ಮಹಿಳೆಯೇ	N__NN	<fs af='ಮಹಿಳೆ,n,f,sg,3,o,ಯ+ಏ,ya+e'>
+12.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+13	((	NP	
+13.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+14	((	NP	
+14.1	ಎತ್ತರ	N__NN	<fs af='ಎತ್ತರ,n,,,3,d,0,0'>
+	))
+15	((	CCP	
+15.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+16	((	NP	
+16.1	ತೂಕ	N__NN	<fs af='ತೂಕ,n,,,3,d,0,0'>
+	))
+17	((	CCP	
+17.1	ಹಾಗೂ	CC__CCD	<fs af='ಹಾಗೂ,avy,,,,d,0,0'>
+	))
+18	((	NP	
+18.1	ನಾವು	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ವು+ಉ,vu+u'>
+	))
+19	((	NP	
+19.1	ಎಷ್ಟು	PR__PRQ	<fs af='ಎಷ್ಟು,pn,,,3,o,ಉ,u'>
+	))
+20	((	NP	
+20.1	ಚಟುವಟಿಕೆಯಿಂದ	N__NN	<fs af='ಚಟುವಟಿಕೆ,n,,sg,3,o,ಯ+ಇಂದ,ya+iMxa'>
+	))
+21	((	VGF	
+21.1	ಇದ್ದೇವೆ	V__VM__VF	<fs af='ಇರು,v,any,pl,1,,ದ+ದ+ಏವೆ,xa+xa+eveV'>
+	))
+22	((	CCP	
+22.1	ಎಂಬುದನ್ನು	CC__CCS	<fs af='ಎಂಬುದನ್ನು,avy,,,,d,0,0'>
+	))
+23	((	VGF	
+23.1	ಆಧರಿಸಿರುತ್ತದೆ	V__VM__VF	<fs af='ಆಧರಿಸು,v,,sg,3,,ಇರು+ಉತ್ತ+ಅದೆ,iru+uwwa+axeV'>
+	))
+24	((	BLK	
+24.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='14'>
+1	((	NP	
+1.1	ಆಹಾರದ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+2	((	NP	
+2.1	ಆಯ್ಕೆ	N__NNV	<fs af='ಆಯು,n,,sg,3,o,ಇಕೆ,ikeV'>
+	))
+3	((	NP	
+3.1	ದೇಹತೂಕವನ್ನು	N__NN	<fs af='ದೇಹತೂಕ,n,,,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+4	((	VGNN	
+4.1	ಪ್ರಭಾವಿಸಬಲ್ಲುದು	V__VM__VNG	<fs af='ಪ್ರಭಾವಿಸು,v,,,,o,ಅ+ಬಲ್ಲ+ಉದು+ಉ,a+balla+uxu+u'>
+	))
+5	((	BLK	
+5.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ವಯಸ್ಸು	N__NN	<fs af='ವಯಸ್ಸು,n,,,3,o,ಉ,u'>
+	))
+7	((	VGNF	
+7.1	ಆಗುತ್ತಿದ್ದಂತೆ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ಉತ್ತ+ಇದ್ದ+ಅಂತೆ,uwwa+ixxa+aMweV'>
+	))
+8	((	NP	
+8.1	ದೇಹತೂಕ	N__NN	<fs af='ದೇಹತೂಕ,n,,,3,d,0,0'>
+	))
+9	((	NP	
+9.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+10	((	NP	
+10.1	ದುರ್ಬಲತೆಯನ್ನು	N__NN	<fs af='ದುರ್ಬಲ,n,,sg,3,o,ತೆ+ಯ+ಅನ್ನು,weV+ya+annu'>
+	))
+11	((	VGF	
+11.1	ಪ್ರಭಾವಿಸಬಲ್ಲುದು	V__VM__VF	<fs af='ಪ್ರಭಾವಿಸು,v,,sg,3,,ಅ+ಬಲ್ಲ+ಉದು,a+balla+uxu'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='15'>
+1	((	NP	
+1.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+2	((	NP	
+2.1	ದೈಹಿಕ	JJ	<fs af='ದೇಹ,adj,,,,o,ಇಕ,ika'>
+2.2	ಚಟುವಟಿಕೆಗಳ	N__NN	<fs af='ಚಟುವಟಿಕೆ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+3	((	NP	
+3.1	ಪ್ರಮಾಣಕ್ಕೆ	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+4	((	RBP	
+4.1	ಸರಿಯಾಗಿ	RB	<fs af='ಸರಿ,adv,,,,o,ಯ+ಆಗಿ,ya+Agi'>
+	))
+5	((	NP	
+5.1	ಅಗತ್ಯ	JJ	<fs af='ಅಗತ್ಯ,adj,,,3,d,0,0'>
+5.2	ಪ್ರಮಾಣದಲ್ಲಿ	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+6	((	NP	
+6.1	ಕ್ಯಾಲೊರಿಗಳನ್ನು	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+7	((	VGNN	
+7.1	ಸೇವಿಸುವುದು	V__VM__VNG	<fs af='ಸೇವಿಸು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+8	((	NP	
+8.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+9	((	NP	
+9.1	ದೇಹತೂಕವನ್ನು	N__NN	<fs af='ದೇಹತೂಕ,n,,,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+10	((	VGINF	
+10.1	ನಿಯಂತ್ರಿಸಲು	V__VM__VINF	<fs af='ನಿಯಂತ್ರಿಸು,v,,,,,ಅಲು,alu'>
+	))
+11	((	NP	
+11.1	ಸಹಾಯ	N__NN	<fs af='ಸಹಾಯ,n,,,3,d,0,0'>
+	))
+12	((	VGF	
+12.1	ಮಾಡುತ್ತದೆ	V__VM__VF	<fs af='ಮಾಡು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='16'>
+1	((	NP	
+1.1	ಹಿರಿಯರಲ್ಲಿ	N__NN	<fs af='ಹಿರಿಯ,n,any,pl,3,o,ಅರು+ಅಲ್ಲಿ,aru+alli'>
+	))
+2	((	NP	
+2.1	ಅಧಿಕ	JJ	<fs af='ಅಧಿಕ,adj,,,3,d,0,0'>
+2.2	ದೇಹತೂಕ	N__NN	<fs af='ದೇಹತೂಕ,n,,,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಕಳವಳಕ್ಕೆ	N__NN	<fs af='ಕಳವಳ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+4	((	NP	
+4.1	ಕಾರಣ	N__NN	<fs af='ಕಾರಣ,n,,sg,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+6	((	BLK	
+6.1	-	RD__SYM	<fs af='-,punc,,,,,,'>
+	))
+7	((	CCP	
+7.1	ಏಕೆಂದರೆ	CC__CCS	<fs af='ಏಕೆಂದರೆ,avy,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ಅದು	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಉ,u'>
+	))
+9	((	NP	
+9.1	ಟೈಪ್	JJ	<fs af='ಟೈಪ್,adj,,,3,d,0,0'>
+9.2	2	QT__QTC	<fs af='2,num,,,3,d,0,0'>
+9.3	ಮಧುಮೇಹ	N__NN	<fs af='ಮಧುಮೇಹ,n,,,3,d,0,0'>
+	))
+10	((	CCP	
+10.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ಹೃದ್ರೋಗಗಳಂತಹ	N__NN	<fs af='ಹೃದ್ರೋಗ,n,,pl,3,o,ಗಳು+ಅಂತಹ,galYu+aMwaha'>
+	))
+12	((	NP	
+12.1	ಅನಾರೋಗ್ಯಗಳು	N__NN	<fs af='ಅನಾರೋಗ್ಯ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+13	((	VGNN	
+13.1	ಉಂಟಾಗುವ	V__VM__VNG	<fs af='ಉಂಟು,v,,,,o,ಆಗು+ವ+ಅ,Agu+va+a'>
+	))
+14	((	NP	
+14.1	ಅಪಾಯವನ್ನು	N__NN	<fs af='ಅಪಾಯ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+15	((	VGF	
+15.1	ಹೆಚ್ಚಿಸುತ್ತದೆ	V__VM__VF	<fs af='ಹೆಚ್ಚಿಸು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+16	((	CCP	
+16.1	ಹಾಗೂ	CC__CCD	<fs af='ಹಾಗೂ,avy,,,,d,0,0'>
+	))
+17	((	NP	
+17.1	ಸಂದುಗಳಲ್ಲಿ	N__NN	<fs af='ಸಂದು,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+18	((	NP	
+18.1	ಸಮಸ್ಯೆಗಳಿಗೆ	N__NN	<fs af='ಸಮಸ್ಯೆ,n,,pl,3,o,ಗಳು+ಇಗೆ,galYu+igeV'>
+	))
+19	((	NP	
+19.1	ಕಾರಣ	N__NN	<fs af='ಕಾರಣ,n,,sg,3,d,0,0'>
+	))
+20	((	VGF	
+20.1	ಆಗಬಲ್ಲುದು	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಅ+ಬಲ್ಲ+ಉದು,a+balla+uxu'>
+	))
+21	((	BLK	
+21.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='17'>
+1	((	NP	
+1.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+2	((	NP	
+2.1	ದೈಹಿಕ	JJ	<fs af='ದೇಹ,adj,,,,o,ಇಕ,ika'>
+2.2	ಚಟುವಟಿಕೆಗಳನ್ನು	N__NN	<fs af='ಚಟುವಟಿಕೆ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+3	((	VGINF	
+3.1	ನಡೆಸಲು	V__VM__VINF	<fs af='ನಡೆ,v,,,,,ಇಸು+ಅಲು,isu+alu'>
+	))
+4	((	NP	
+4.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+5	((	NP	
+5.1	ದೇಹಕ್ಕೆ	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+6	((	NP	
+6.1	ಎಷ್ಟು	DM__DMQ	<fs af='ಎಷ್ಟು,pn,,,3,o,ಉ,u'>
+	))
+7	((	VGNF	
+7.1	ಬೇಕೋ	V__VM__VNF	<fs af='ಬೇಕು,v,,,,,ಓ,o'>
+	))
+8	((	NP	
+8.1	ಅದಕ್ಕಿಂತ	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಅಕ್ಕೆ+ಇಂತ,akkeV+iMwa'>
+	))
+9	((	NP	
+9.1	ಹೆಚ್ಚು	JJ	<fs af='ಹೆಚ್ಚು,adj,,,,d,0,0'>
+9.2	ಪ್ರಮಾಣದ	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+10	((	NP	
+10.1	ಕ್ಯಾಲೊರಿಗಳು	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+11	((	VGNN	
+11.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+12	((	NP	
+12.1	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+	))
+13	((	VGNN	
+13.1	ಸೇವಿಸುವುದು	V__VM__VNG	<fs af='ಸೇವಿಸು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+14	((	NP	
+14.1	ಬೊಜ್ಜು	N__NN	<fs af='ಬೊಜ್ಜು,n,,,3,o,ಉ,u'>
+	))
+15	((	VGINF	
+15.1	ಸಂಚಯಗೊಳ್ಳಲು	V__VM__VINF	<fs af='ಸಂಚಯಗೊಳ್ಳು,v,,,,,ಅಲು,alu'>
+	))
+16	((	NP	
+16.1	ದಾರಿ	N__NN	<fs af='ದಾರಿ,n,,sg,3,d,0,0'>
+	))
+17	((	VGF	
+17.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+18	((	BLK	
+18.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='18'>
+1	((	NP	
+1.1	ವಯಸ್ಸು	N__NN	<fs af='ವಯಸ್ಸು,n,,,3,o,ಉ,u'>
+	))
+2	((	VGNF	
+2.1	ಹೆಚ್ಚುತ್ತಿದ್ದಂತೆ	V__VM__VNF	<fs af='ಹೆಚ್ಚು,v,,,,,ಉತ್ತ+ಇದ್ದ+ಅಂತೆ,uwwa+ixxa+aMweV'>
+	))
+3	((	NP	
+3.1	ದೈಹಿಕ	JJ	<fs af='ದೇಹ,adj,,,,o,ಇಕ,ika'>
+3.2	ಚಟುವಟಿಕೆಗಳು	N__NN	<fs af='ಚಟುವಟಿಕೆ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+4	((	NP	
+4.1	ಕಡಿಮೆ	N__NN	<fs af='ಕಡಿಮೆ,n,,,3,d,0,0'>
+	))
+5	((	VGNF	
+5.1	ಆದರೆ	V__VM__VNF	<fs af='ಆಗು,v,,,,,ದ+ಅರೆ,xa+areV'>
+	))
+6	((	BLK	
+6.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ಆಗ	N__NST	<fs af='ಆಗ,nst,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ಸಮತೂಕವನ್ನು	N__NN	<fs af='ಸಮತೂಕ,n,,,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+9	((	VGINF	
+9.1	ಉಳಿಸಿಕೊಳ್ಳಲು	V__VM__VINF	<fs af='ಉಳಿ,v,,,,,ಇಸು+ಇ+ಕೊಳ್ಳು+ಅಲು,isu+i+koVlYlYu+alu'>
+	))
+10	((	NP	
+10.1	ಕಡಿಮೆ	JJ	<fs af='ಕಡಿಮೆ,adj,,,3,d,0,0'>
+10.2	ಕ್ಯಾಲೊರಿ	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,sg,3,d,0,0'>
+	))
+11	((	VGNF	
+11.1	ಸೇವಿಸಿದರೆ	V__VM__VNF	<fs af='ಸೇವಿಸು,v,,,,,ಇದ+ಅರೆ,ixa+areV'>
+	))
+12	((	VGF	
+12.1	ಸಾಕು	V__VM__VF	<fs af='ಸಾಕು,v,,,,d,0,0'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='19'>
+1	((	NP	
+1.1	ಪೌಷ್ಟಿಕಾಂಶಗಳು	N__NN	<fs af='ಪೌಷ್ಟಿಕಾಂಶ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+2	((	RBP	
+2.1	ಸಾಂದ್ರ	RB	<fs af='ಸಾಂದ್ರ,adv,,,,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಆಗಿರುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಇರು+ವ+ಅ,iru+va+a'>
+	))
+4	((	NP	
+4.1	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	CCP	
+5.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದರೆ,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ಪೌಷ್ಟಿಕಾಂಶಗಳು	N__NN	<fs af='ಪೌಷ್ಟಿಕಾಂಶ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+7	((	NP	
+7.1	ಅಧಿಕ	JJ	<fs af='ಅಧಿಕ,adj,,,,d,0,0'>
+7.2	ಪ್ರಮಾಣದಲ್ಲಿ	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+8	((	VGNN	
+8.1	ಇದ್ದು	V__VM__VNG	<fs af='ಇರು,v,,,,o,ದ+ದ+ಉ+ಉ,xa+xa+u+u'>
+	))
+9	((	BLK	
+9.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+10	((	NP	
+10.1	ಕ್ಯಾಲೊರಿ	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,sg,3,d,0,0'>
+	))
+11	((	NP	
+11.1	ಕಡಿಮೆ	N__NN	<fs af='ಕಡಿಮೆ,n,,,3,d,0,0'>
+	))
+12	((	VGNN	
+12.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+13	((	NP	
+13.1	ಆಹಾರಗಳನ್ನು	N__NN	<fs af='ಆಹಾರ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+14	((	VGNN	
+14.1	ಆರಿಸಿಕೊಂಡು	V__VM__VNG	<fs af='ಆರಿಸು,v,,,,o,ಇ+ಕೊಂಡು+ಉ,i+koVMdu+u'>
+	))
+15	((	VGNF	
+15.1	ಸೇವಿಸಿದರೆ	V__VM__VNF	<fs af='ಸೇವಿಸು,v,,,,,ಇದ+ಅರೆ,ixa+areV'>
+	))
+16	((	NP	
+16.1	ಕ್ಯಾಲೊರಿ	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,sg,3,d,0,0'>
+16.2	ಸೇವನೆಯನ್ನು	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+17	((	NP	
+17.1	ನಿಯಂತ್ರಣದಲ್ಲಿ	N__NN	<fs af='ನಿಯಂತ್ರಣ,n,,,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+18	((	VGNN	
+18.1	ಇಟ್ಟುಕೊಂಡು	V__VM__VNG	<fs af='ಇಡು,v,,,,o,ಟ+ಟ+ಉ+ಕೊಂಡು+ಉ,ta+ta+u+koVMdu+u'>
+	))
+19	((	NP	
+19.1	ದೇಹಕ್ಕೆ	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+20	((	NP	
+20.1	ಅಗತ್ಯ	N__NN	<fs af='ಅಗತ್ಯ,n,,,3,d,0,0'>
+	))
+21	((	VGNN	
+21.1	ಇದ್ದಷ್ಟು	V__VM__VNG	<fs af='ಇರು,v,,,,o,ದ+ದ+ಅಷ್ಟು+ಉ,xa+xa+aRtu+u'>
+	))
+22	((	NP	
+22.1	ಪೌಷ್ಟಿಕಾಂಶಗಳನ್ನು	N__NN	<fs af='ಪೌಷ್ಟಿಕಾಂಶ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+23	((	VGINF	
+23.1	ಪಡೆಯಲು	V__VM__VNIF	<fs af='ಪಡೆ,v,,,,o,ಯ+ಅಲು,ya+alu'>
+	))
+24	((	NP	
+24.1	ಸಾಧ್ಯ	N__NN	<fs af='ಸಾಧ್ಯ,n,,,3,d,0,0'>
+	))
+25	((	BLK	
+25.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='20'>
+1	((	NP	
+1.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+2	((	NP	
+2.1	ಆಹಾರದ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+3	((	NP	
+3.1	ಆಯ್ಕೆ	N__NNV	<fs af='ಆಯು,n,,sg,3,o,ಇಕೆ,ikeV'>
+	))
+4	((	NP	
+4.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+5	((	NP	
+5.1	ಜೀರ್ಣಕ್ರಿಯೆಯ	N__NN	<fs af='ಜೀರ್ಣಕ್ರಿಯೆ,n,,,3,o,ಯ+ಅ,ya+a'>
+5.2	ಮೇಲೂ	RP__RPD	<fs af='ಮೇಲೂ,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ಪ್ರಭಾವ	N__NN	<fs af='ಪ್ರಭಾವ,n,,sg,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಬೀರುತ್ತದೆ	V__VM__VF	<fs af='ಬೀರು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='21'>
+1	((	NP	
+1.1	ಉದಾಹರಣೆಗೆ	N__NNV	<fs af='ಉದಾಹರಿಸು,n,,sg,3,o,ಅಣೆ+ಗೆ,aNeV+geV'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಅಗತ್ಯ	JJ	<fs af='ಅಗತ್ಯ,adj,,,3,d,0,0'>
+2.2	ಪ್ರಮಾಣದಲ್ಲಿ	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+3	((	NP	
+3.1	ನಾರಿನಂಶಗಳು	N__NN	<fs af='ನಾರಿನಂಶ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+4	((	CCP	
+4.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ದ್ರವಾಂಶ	N__NN	<fs af='ದ್ರವಾಂಶ,n,,sg,3,d,0,0'>
+	))
+6	((	NP	
+6.1	ನಮ್ಮ	PR__PRP	<fs af='ನಾನು,pn,any,pl,1,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+7	((	NP	
+7.1	ದೇಹವನ್ನು	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+8	((	NP	
+8.1	ಆಹಾರದ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,o,ದ+ಅ,xa+a'>
+8.2	ಮೂಲಕ	RP__RPD	<fs af='ಮೂಲಕ,avy,,,,d,0,0'>
+	))
+9	((	VGNF	
+9.1	ಸೇರದಿದ್ದರೆ	V__VM__VNF	<fs af='ಸೇರು,v,,,,,ಅದೆ+ಇದ್ದ+ಅರೆ,axeV+ixxa+areV'>
+	))
+10	((	NP	
+10.1	ಮಲಬದ್ಧತೆ	N__NN	<fs af='ಮಲಬದ್ಧ,n,,,3,o,ತೆ,weV'>
+	))
+11	((	VGF	
+11.1	ಉಂಟಾಗುತ್ತದೆ	V__VM__VF	<fs af='ಉಂಟು,v,,sg,3,,ಆಗು+ಉತ್ತ+ಅದೆ,Agu+uwwa+axeV'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='22'>
+1	((	NP	
+1.1	ನಾರಿನಂಶ	N__NN	<fs af='ನಾರಿನಂಶ,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹೆಚ್ಚು	N__NN	<fs af='ಹೆಚ್ಚು,n,,,3,o,ಉ,u'>
+	))
+3	((	VGNN	
+3.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+4	((	NP	
+4.1	ಇಡೀ	JJ	<fs af='ಇಡಿ,adj,,,,o,ಈ,I'>
+4.2	ಧಾನ್ಯಗಳ	N__NN	<fs af='ಧಾನ್ಯ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+5	((	NP	
+5.1	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+5.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಹಣ್ಣುಹಂಪಲುಗಳು	N__NN	<fs af='ಹಣ್ಣುಹಂಪಲು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+7	((	CCP	
+7.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ತರಕಾರಿಗಳು	N__NN	<fs af='ತರಕಾರಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+9	((	CCP	
+9.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಸಾಕಷ್ಟು	JJ	<fs af='ಸಾಕು,adj,,,3,o,ಅಷ್ಟು,aRtu'>
+10.2	ಪ್ರಮಾಣದಲ್ಲಿ	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+11	((	NP	
+11.1	ನೀರು	N__NN	<fs af='ನೀರು,n,,,3,o,ಉ,u'>
+	))
+12	((	VGNN	
+12.1	ಕುಡಿಯುವುದು	V__VM__VNG	<fs af='ಕುಡಿ,v,,,,o,ಯ+ಉವ+ಉದು+ಉ,ya+uva+uxu+u'>
+	))
+13	((	NP	
+13.1	ಮಲಬದ್ಧತೆಯನ್ನು	N__NN	<fs af='ಮಲಬದ್ಧ,n,,,3,o,ತೆ+ಯ+ಅನ್ನು,weV+ya+annu'>
+	))
+14	((	NP	
+14.1	ದೂರ	N__NN	<fs af='ದೂರ,n,,,3,d,0,0'>
+	))
+15	((	VGINF	
+15.1	ಇಡಲು	V__VM__VINF	<fs af='ಇಡು,v,,,,,ಅಲು,alu'>
+	))
+16	((	VGF	
+16.1	ಸಹಕರಿಸುತ್ತವೆ	V__VM__VF	<fs af='ಸಹಕರಿಸು,v,,pl,3,,ಉತ್ತ+ಅವೆ,uwwa+aveV'>
+	))
+17	((	BLK	
+17.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='23'>
+1	((	JJP	
+1.1	ಒಳ್ಳೆಯ	JJ	<fs af='ಒಳ್ಳೆಯ,adj,,,3,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಚೆನ್ನಾದ	JJ	<fs af='ಚೆನ್ನ,adj,,,3,o,ಆದ,Axa'>
+2.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+2.3	ಸೇವನೆ	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಎಂಬುದು	CC__CCS	<fs af='ಎಂಬುದು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಕೇವಲ	JJ	<fs af='ಕೇವಲ,adj,,,,d,0,0'>
+4.2	ಇಂದು	N__NST	<fs af='ಇಂದು,nst,,,3,o,ಉ,u'>
+	))
+5	((	NP	
+5.1	ಆಚರಣೆಯಲ್ಲಿ	N__NNV	<fs af='ಆಚರಿಸು,n,,sg,3,o,ಅಣೆ+ಯ+ಅಲ್ಲಿ,aNeV+ya+alli'>
+	))
+6	((	VGNN	
+6.1	ಇದ್ದು	V__VM__VNG	<fs af='ಇರು,v,,,,o,ದ+ದ+ಉ+ಉ,xa+xa+u+u'>
+	))
+7	((	BLK	
+7.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+8	((	NP	
+8.1	ನಾಳೆ	N__NST	<fs af='ನಾಳೆ,nst,,,3,d,0,0'>
+	))
+9	((	RBP	
+9.1	ಮಾಯ	RB	<fs af='ಮಾಯ,adv,,,,d,0,0'>
+	))
+10	((	VGNN	
+10.1	ಆಗುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ವ+ಅ,va+a'>
+	))
+11	((	NP	
+11.1	`	RD__PUNC	<fs af='`,punc,,,,,,'>
+11.2	ಡಯಟ್	N__NN	<fs af='ಡಯಟ್,n,,,3,d,0,0'>
+11.3	'	RD__PUNC	<fs af='',punc,,,,,,'>
+	))
+12	((	CCP	
+12.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+13	((	NP	
+13.1	`	RD__PUNC	<fs af='`,punc,,,,,,'>
+13.2	ಕಾರ್ಯಕ್ರಮ	N__NN	<fs af='ಕಾರ್ಯಕ್ರಮ,n,,sg,3,d,0,0'>
+13.3	'	RD__PUNC	<fs af='',punc,,,,,,'>
+	))
+14	((	NEGP	
+14.1	ಅಲ್ಲ	RP__NEG	<fs af='ಅಲ್ಲ,avy,,,,d,0,0'>
+	))
+15	((	BLK	
+15.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='24'>
+1	((	NP	
+1.1	ಅದು	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಉ,u'>
+	))
+2	((	NP	
+2.1	ಇಂದು	N__NST	<fs af='ಇಂದು,nst,,,3,o,ಉ,u'>
+	))
+3	((	VGNN	
+3.1	ಅಳವಡಿಸಿಕೊಂಡು	V__VM__VNG	<fs af='ಅಳವಡು,v,,,,o,ಇಸು+ಇ+ಕೊಂಡು+ಉ,isu+i+koVMdu+u'>
+	))
+4	((	NP	
+4.1	ಭವಿಷ್ಯದಲ್ಲಿ	N__NST	<fs af='ಭವಿಷ್ಯ,nst,,,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+5	((	NP	
+5.1	ನಮ್ಮದನ್ನಾಗಿ	N__NN	<fs af='ನಾನು,n,any,pl,1,o,ಮ+ಮ+ಅ+ದ+ಅನ್ನು+ಆಗಿ,ma+ma+a+xa+annu+Agi'>
+	))
+6	((	VGNN	
+6.1	ಇಟ್ಟುಕೊಳ್ಳುವ	V__VM__VNG	<fs af='ಇಡು,v,,,,o,ಟ+ಟ+ಉ+ಕೊಳ್ಳು+ವ+ಅ,ta+ta+u+koVlYlYu+va+a'>
+	))
+7	((	NP	
+7.1	ಆರೋಗ್ಯಪೂರ್ಣ	JJ	<fs af='ಆರೋಗ್ಯ,adj,,,3,o,ಪೂರ್ಣ,pUrNa'>
+7.2	ಜೀವನಶೈಲಿಯ	N__NN	<fs af='ಜೀವನಶೈಲಿ,n,,,3,o,ಯ+ಅ,ya+a'>
+	))
+8	((	NP	
+8.1	ಅವಿಭಾಜ್ಯ	JJ	<fs af='ಅವಿಭಾಜ್ಯ,adj,,,3,d,0,0'>
+8.2	ಅಂಗ	N__NN	<fs af='ಅಂಗ,n,,sg,3,d,0,0'>
+	))
+9	((	VGF	
+9.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇದೆ,ixeV'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='25'>
+1	((	NP	
+1.1	ಒಳ್ಳೆಯ	JJ	<fs af='ಒಳ್ಳೆಯ,adj,,,3,d,0,0'>
+1.2	ಆರೋಗ್ಯಕ್ಕಾಗಿ	N__NN	<fs af='ಆರೋಗ್ಯ,n,,,3,o,ಕ್ಕೆ+ಆಗಿ,kkeV+Agi'>
+	))
+2	((	NP	
+2.1	ಒಳ್ಳೆಯ	JJ	<fs af='ಒಳ್ಳೆಯ,adj,,,3,d,0,0'>
+2.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+2.3	ಸೇವನೆಯ	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+2.4	ನಿಟ್ಟಿನಲ್ಲಿ	RP__RPD	<fs af='ನಿಟ್ಟಿನಲ್ಲಿ,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ನೀವು	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ವು+ಉ,vu+u'>
+	))
+4	((	NP	
+4.1	ಒಮ್ಮೆಗೆ	N__NN	<fs af='ಒಮ್ಮೆ,n,,,3,o,ಗೆ,geV'>
+	))
+5	((	NP	
+5.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+5.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+5.3	ಬದಲಾವಣೆ	N__NNV	<fs af='ಬದಲಾಯಿಸು,n,,sg,3,o,ಅಣೆ,aNeV'>
+	))
+6	((	VGNF	
+6.1	ಮಾಡಿಕೊಳ್ಳುವಂತಹ	V__VM__VNF	<fs af='ಮಾಡು,v,,,,,ಇ+ಕೊಳ್ಳು+ವ+ಅಂತಹ,i+koVlYlYu+va+aMwaha'>
+	))
+7	((	NP	
+7.1	ಪುಟ್ಟ	JJ	<fs af='ಪುಟ್ಟ,adj,,,3,d,0,0'>
+7.2	ಹೆಜ್ಜೆಗಳನ್ನು	N__NN	<fs af='ಹೆಜ್ಜೆ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+8	((	VGNF	
+8.1	ಇಡುತ್ತ	V__VM__VNF	<fs af='ಇಡು,v,,,,,ಉತ್ತ,uwwa'>
+	))
+9	((	VGF	
+9.1	ಮುಂದುವರಿಯಬಹುದು	V__VM__VF	<fs af='ಮುಂದುವರಿ,v,,,,,ಯ+ಬಹುದು,ya+bahuxu'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='26'>
+1	((	NP	
+1.1	ಉದಾಹರಣೆಗೆ	N__NNV	<fs af='ಉದಾಹರಿಸು,n,,sg,3,o,ಅಣೆ+ಗೆ,aNeV+geV'>
+	))
+2	((	NP	
+2.1	ನೀವು	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ವು+ಉ,vu+u'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಉಪ್ಪಿನ	JJ	<fs af='ಉಪ್ಪು,adj,,,3,o,ಇನ,ina'>
+3.2	ಡಬ್ಬಿಯನ್ನು	N__NN	<fs af='ಡಬ್ಬಿ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+4	((	NP	
+4.1	ಊಟದ	N__NNV	<fs af='ಊಡು,n,,,3,o,ಟ+ದ+ಅ,ta+xa+a'>
+	))
+5	((	NP	
+5.1	ಮೇಜಿನಿಂದ	N__NN	<fs af='ಮೇಜು,n,,sg,3,o,ಇನ+ಇಂದ,ina+iMxa'>
+	))
+6	((	RBP	
+6.1	ದೂರ	RB	<fs af='ದೂರ,adv,,,,d,0,0'>
+	))
+7	((	VGNF	
+7.1	ಸರಿಸಿ	V__VM__VNF	<fs af='ಸರಿ,v,,,,,ಇಸು+ಇ,isu+i'>
+	))
+8	((	BLK	
+8.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+9	((	NP	
+9.1	ಉಪ್ಪು	JJ	<fs af='ಉಪ್ಪು,adj,,,3,d,0,0'>
+9.2	ಸೇವನೆಯ	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,o,ಯ+ಅ,ya+a'>
+	))
+10	((	NP	
+10.1	ಪ್ರಮಾಣವನ್ನು	N__NN	<fs af='ಪ್ರಮಾಣ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+11	((	RBP	
+11.1	ನಿಧಾನವಾಗಿ	RB	<fs af='ನಿಧಾನ,adv,,,,o,ವ+ಆಗಿ,va+Agi'>
+	))
+12	((	VGNN	
+12.1	ಕಡಿತಗೊಳಿಸುವುದರಿಂದ	V__VM__VNG	<fs af='ಕಡಿತಗೊಳ್ಳು,v,,,,o,ಇಸು+ವ+ಉದು+ಅರ+ಇಂದ,isu+va+uxu+ara+iMxa'>
+	))
+13	((	NP	
+13.1	ಅದಕ್ಕೆ	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಅಕ್ಕೆ,akkeV'>
+	))
+14	((	NP	
+14.1	ನಿಮಗೆ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಗೆ,ma+geV'>
+	))
+15	((	VGINF	
+15.1	ಹೊಂದಿಕೊಳ್ಳಲು	V__VM__VINF	<fs af='ಹೊಂದು,v,,,,,ಇ+ಕೊಳ್ಳು+ಅಲು,i+koVlYlYu+alu'>
+	))
+16	((	NP	
+16.1	ಸಾಧ್ಯ	N__NN	<fs af='ಸಾಧ್ಯ,n,,,3,d,0,0'>
+	))
+17	((	VGF	
+17.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ+ಅದೆ,uwwa+axeV'>
+	))
+18	((	BLK	
+18.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='27'>
+1	((	NP	
+1.1	ಖಾದ್ಯ	JJ	<fs af='ಖಾದ್ಯ,adj,,,3,d,0,0'>
+1.2	ವಸ್ತುಗಳಿಗಾಗಿ	N__NN	<fs af='ವಸ್ತು,n,,pl,3,o,ಗಳು+ಇಗೆ+ಆಗಿ,galYu+igeV+Agi'>
+	))
+2	((	NP	
+2.1	ಶಾಪಿಂಗ್	N__NN	<fs af='ಶಾಪಿಂಗ್,n,,,3,d,0,0'>
+	))
+3	((	VGNF	
+3.1	ಮಾಡುವಾಗ	V__VM__VNF	<fs af='ಮಾಡು,v,,,,,ವ+ಆಗ,va+Aga'>
+	))
+4	((	NP	
+4.1	ಇಡೀ	RP__INTF	<fs af='ಇಡಿ,adj,,,3,o,ಈ,I'>
+4.2	ಧಾನ್ಯದ	JJ	<fs af='ಧಾನ್ಯ,adj,,sg,3,o,ದ,xa'>
+4.3	ಬ್ರೆಡ್	N__NN	<fs af='ಬ್ರೆಡ್,n,,sg,3,d,0,0'>
+4.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಸಮುದ್ರ	JJ	<fs af='ಸಮುದ್ರ,adj,,,3,d,0,0'>
+5.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+	))
+6	((	CCP	
+6.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ತರಕಾರಿ	N__NN	<fs af='ತರಕಾರಿ,n,,sg,3,d,0,0'>
+	))
+8	((	VGNN	
+8.1	ಕೊಳ್ಳುವುದನ್ನು	V__VM__VNG	<fs af='ಕೊಳ್ಳು,v,,,,o,ವ+ಉದು+ಅನ್ನು,va+uxu+annu'>
+	))
+9	((	VGF	
+9.1	ಹೆಚ್ಚಿಸಿ	V__VM__VF	<fs af='ಹೆಚ್ಚಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='28'>
+1	((	NP	
+1.1	ಇಂತಹ	DM__DMD	<fs af='ಇಂತಹ,pn,,,3,d,0,0'>
+1.2	ಸಣ್ಣ	JJ	<fs af='ಸಣ್ಣ,adj,,,3,d,0,0'>
+1.3	ಪುಟ್ಟ	JJ	<fs af='ಪುಟ್ಟ,adj,,,3,d,0,0'>
+1.4	ಬದಲಾವಣೆಗಳು	N__NNV	<fs af='ಬದಲಾಯಿಸು,n,,pl,3,o,ಅಣೆ+ಗಳು+ಉ,aNeV+galYu+u'>
+	))
+2	((	NP	
+2.1	ನೀವು	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ವು+ಉ,vu+u'>
+	))
+3	((	VGNF	
+3.1	ಆಲೋಚಿಸದ್ದಕ್ಕಿಂತ	V__VM__VNF	<fs af='ಆಲೋಚಿಸು,v,,,,,ಇದ್ದ+ಅಕ್ಕೆ+ಇಂತ,ixxa+akkeV+iMwa'>
+	))
+4	((	NP	
+4.1	ಹೆಚ್ಚು	JJ	<fs af='ಹೆಚ್ಚು,adj,,,,d,0,0'>
+4.2	ಸುಲಭ	N__NN	<fs af='ಸುಲಭ,n,,,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಅನಿಸುತ್ತವೆ	V__VM__VF	<fs af='ಅನಿಸು,v,,pl,3,,ಉತ್ತ+ಅವೆ,uwwa+aveV'>
+	))
+6	((	BLK	
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='29'>
+1	((	NP	
+1.1	ಶಾಪಿಂಗ್	N__NN	<fs af='ಶಾಪಿಂಗ್,n,,sg,3,d,0,0'>
+	))
+2	((	VGNF	
+2.1	ಮಾಡುವಾಗ	V__VM__VNF	<fs af='ಮಾಡು,v,,,,,ವ+ಆಗ,va+Aga'>
+	))
+3	((	CCP	
+3.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಅಡುಗೆ	N__NNV	<fs af='ಅಡು,n,,,3,o,ಗೆ,geV'>
+	))
+5	((	VGF	
+5.1	ಮಾಡುವಾಗ	V__VM__VF	<fs af='ಮಾಡು,v,,,,,ವ+ಆಗ,va+Aga'>
+	))
+6	((	CCP	
+6.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+8	((	NP	
+8.1	ಬಜೆಟ್	N__NN	<fs af='ಬಜೆಟ್,n,,,3,d,0,0'>
+	))
+9	((	NP	
+9.1	ಕಡಿಮೆ	N__NN	<fs af='ಕಡಿಮೆ,n,,,3,d,0,0'>
+	))
+10	((	VGNF	
+10.1	ಇದ್ದಾಗಲೂ	V__VM__VNF	<fs af='ಇರು,v,,,,,ದ+ದ+ಆಗ+ಅಲು+ಊ,xa+xa+Aga+alu+U'>
+	))
+11	((	NP	
+11.1	ಇಂತಹ	DM__DMD	<fs af='ಇಂತಹ,pn,,,3,d,0,0'>
+11.2	ಬದಲಾವಣೆಗಳು	N__NNV	<fs af='ಬದಲಾಯಿಸು,n,,pl,3,o,ಅಣೆ+ಗಳು+ಉ,aNeV+galYu+u'>
+	))
+12	((	NP	
+12.1	ಸಾಧ್ಯ	N__NN	<fs af='ಸಾಧ್ಯ,n,,,3,d,0,0'>
+	))
+13	((	VGF	
+13.1	ಆಗುತ್ತವೆ	V__VM__VF	<fs af='ಆಗು,v,,pl,3,,ಉತ್ತ+ಅವೆ,uwwa+aveV'>
+	))
+14	((	BLK	
+14.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='30'>
+1	((	NP	
+1.1	ಹಿರಿಯರಿಗಾಗಿ	N__NN	<fs af='ಹಿರಿಯ,n,any,pl,3,o,ಅರು+ಇಗೆ+ಆಗಿ,aru+igeV+Agi'>
+	))
+2	((	NP	
+2.1	ಚುರುಕಾದ	JJ	<fs af='ಚುರುಕು,adj,,,3,o,ಆದ,Axa'>
+2.2	ಸಲಹೆಗಳು	N__NN	<fs af='ಸಲಹೆ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+3	((	BLK	
+3.1	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='31'>
+1	((	NP	
+1.1	ನಾರಿನಂಶ	N__NN	<fs af='ನಾರಿನಂಶ,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಹೆಚ್ಚು	N__NN	<fs af='ಹೆಚ್ಚು,n,,,3,o,ಉ,u'>
+	))
+3	((	VGNN	
+3.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+4	((	NP	
+4.1	ಆಹಾರವಸ್ತುಗಳ	N__NN	<fs af='ಆಹಾರವಸ್ತು,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+5	((	NP	
+5.1	ಆಯ್ಕೆಯನ್ನು	N__NNV	<fs af='ಆಯು,n,,sg,3,o,ಇಕೆ+ಯ+ಅನ್ನು,ikeV+ya+annu'>
+	))
+6	((	VGF	
+6.1	ಹೆಚ್ಚಿಸಿ	V__VM__VF	<fs af='ಹೆಚ್ಚಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='32'>
+1	((	VGNN	
+1.1	ಬೆರೆಸಿದ	V__VM__VNG	<fs af='ಬೆರೆ,v,,,,o,ಇಸು+ಇದ+ಅ,isu+ixa+a'>
+	))
+2	((	NP	
+2.1	ಸಕ್ಕರೆ	JJ	<fs af='ಸಕ್ಕರೆ,adj,,,3,d,0,0'>
+2.2	ಅಂಶ	N__NN	<fs af='ಅಂಶ,n,,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಕಡಿಮೆ	N__NN	<fs af='ಕಡಿಮೆ,n,,,3,d,0,0'>
+	))
+4	((	VGNN	
+4.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+5	((	NP	
+5.1	ಪಾನೀಯಗಳು	N__NN	<fs af='ಪಾನ,n,,pl,3,o,ಈಯ+ಗಳು+ಉ,Iya+galYu+u'>
+	))
+6	((	CCP	
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ನೀರು	N__NN	<fs af='ನೀರು,n,,,3,o,ಉ,u'>
+	))
+8	((	VGNN	
+8.1	ಕುಡಿಯುವುದನ್ನು	V__VM__VNG	<fs af='ಕುಡಿ,v,,,,o,ಯ+ಉವ+ಉದು+ಅನ್ನು,ya+uva+uxu+annu'>
+	))
+9	((	VGF	
+9.1	ಹೆಚ್ಚಿಸಿ	V__VM__VF	<fs af='ಹೆಚ್ಚಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='33'>
+1	((	NP	
+1.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+2	((	NP	
+2.1	ವಿಟಮಿನ್	N__NN	<fs af='ವಿಟಮಿನ್,n,,sg,3,d,0,0'>
+2.2	ಡಿ	N__NNP	<fs af='ಡಿ,n,,sg,3,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ವಿಟಮಿನ್	N__NN	<fs af='ವಿಟಮಿನ್,n,,sg,3,d,0,0'>
+4.2	ಬಿ12	N__NNP	<fs af='ಬಿ12,n,,sg,3,d,0,0'>
+	))
+5	((	NP	
+5.1	ಅಗತ್ಯವನ್ನು	N__NN	<fs af='ಅಗತ್ಯ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+6	((	VGINF	
+6.1	ಪೂರೈಸಲು	V__VM__VINF	<fs af='ಪೂರೈಸು,v,,,,,ಅಲು,alu'>
+	))
+7	((	NP	
+7.1	ಪೋರ್ಟಿಫೈಡ್	JJ	<fs af='ಪೋರ್ಟಿಫೈಡ್,adj,,,3,d,0,0'>
+7.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+	))
+8	((	CCP	
+8.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ಪೂರಕ	JJ	<fs af='ಪೂರಕ,adj,,,3,d,0,0'>
+9.2	ಆಹಾರಗಳನ್ನು	N__NN	<fs af='ಆಹಾರ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+10	((	VGF	
+10.1	ಉಪಯೋಗಿಸಿ	V__VM__VF	<fs af='ಉಪಯೋಗಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='34'>
+1	((	NP	
+1.1	ತರಕಾರಿಗಳು	N__NN	<fs af='ತರಕಾರಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+2	((	NP	
+2.1	ವೈವಿಧ್ಯ	N__NN	<fs af='ವೈವಿಧ್ಯ,n,,,3,d,0,0'>
+	))
+3	((	VGF	
+3.1	ಇರಲಿ	V__VM__VF	<fs af='ಇರು,v,,,,,ಅಲಿ,ali'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='35'>
+1	((	NP	
+1.1	ಬ್ರಾಕೊಲಿ	N__NN	<fs af='ಬ್ರಾಕೊಲಿ,n,,,3,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಹಸಿ	JJ	<fs af='ಹಸಿ,adj,,,,d,0,0'>
+2.2	ತರಕಾರಿ	N__NN	<fs af='ತರಕಾರಿ,n,,sg,3,d,0,0'>
+2.3	ಸಲಾಡ್	N__NN	<fs af='ಸಲಾಡ್,n,,sg,3,d,0,0'>
+2.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	VGNN	
+3.1	ಬೇಯಿಸಿದ	V__VM__VNG	<fs af='ಬೇಯು,v,,,,o,ಇಸು+ಇದ+ಅ,isu+ixa+a'>
+	))
+4	((	NP	
+4.1	ಹಸುರು	JJ	<fs af='ಹಸುರು,adj,,,3,d,0,0'>
+4.2	ತರಕಾರಿ	N__NN	<fs af='ತರಕಾರಿ,n,,sg,3,d,0,0'>
+4.3	ಇತ್ಯಾದಿ	RP__RPD	<fs af='ಇತ್ಯಾದಿ,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಕಡು	RP__INTF	<fs af='ಕಡು,adj,,,,d,0,0'>
+5.2	ಹಸುರು	JJ	<fs af='ಹಸುರು,adj,,,3,d,0,0'>
+5.3	ತರಕಾರಿಗಳನ್ನು	N__NN	<fs af='ತರಕಾರಿ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+6	((	RBP	
+6.1	ಹೆಚ್ಚು	RB	<fs af='ಹೆಚ್ಚು,adv,,,,o,ಉ,u'>
+	))
+7	((	VGF	
+7.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='36'>
+1	((	NP	
+1.1	ಕ್ಯಾರೆಟ್	N__NN	<fs af='ಕ್ಯಾರೆಟ್,n,,sg,3,d,0,0'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಗೆಣಸಿನಂತಹ	N__NN	<fs af='ಗೆಣಸು,n,,sg,3,o,ಇನ+ಅಂತಹ,ina+aMwaha'>
+	))
+3	((	NP	
+3.1	ಕಿತ್ತಳೆ	JJ	<fs af='ಕಿತ್ತಳೆ,adj,,,3,d,0,0'>
+3.2	ವರ್ಣದ	N__NN	<fs af='ವರ್ಣ,n,,sg,3,o,ದ+ಅ,xa+a'>
+	))
+4	((	NP	
+4.1	ತರಕಾರಿಗಳ	N__NN	<fs af='ತರಕಾರಿ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+5	((	NP	
+5.1	ಬಳಕೆ	N__NNV	<fs af='ಬಳಸು,n,,sg,3,o,ಅಕೆ,akeV'>
+	))
+6	((	NP	
+6.1	ಅಧಿಕ	N__NN	<fs af='ಅಧಿಕ,n,,,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಆಗಲಿ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಅಲಿ,ali'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='37'>
+1	((	JJP	
+1.1	ಕಪ್ಪು	JJ	<fs af='ಕಪ್ಪು,adj,,,3,o,ಉ,u'>
+	))
+2	((	CCP	
+2.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಬಿಳಿಗಡಲೆ	N__NN	<fs af='ಬಿಳಿಗಡಲೆ,n,,sg,3,d,0,0'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ತೊಗರಿ	N__NN	<fs af='ತೊಗರಿ,n,,,3,d,0,0'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ರಾಜ್ಮಾ	N__NN	<fs af='ರಾಜ್ಮಾ,n,,,3,d,0,0'>
+5.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಅವರೆಗಳಂತಹ	N__NN	<fs af='ಅವರೆ,n,,pl,3,o,ಗಳು+ಅಂತಹ,galYu+aMwaha'>
+	))
+7	((	NP	
+7.1	ಒಣ	JJ	<fs af='ಒಣ,adj,,,3,d,0,0'>
+7.2	ಬೀಜಗಳು	N__NN	<fs af='ಬೀಜ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+8	((	CCP	
+8.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ಬಟಾಣಿಗಳ	N__NN	<fs af='ಬಟಾಣಿ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+10	((	NP	
+10.1	ಉಪಯೋಗ	N__NN	<fs af='ಉಪಯೋಗ,n,,sg,3,d,0,0'>
+	))
+11	((	VGF	
+11.1	ಹೆಚ್ಚಿಸಿ	V__VM__VF	<fs af='ಹೆಚ್ಚಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+12	((	CCP	
+12.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+13	((	NP	
+13.1	ದಿನಕ್ಕೆ	N__NN	<fs af='ದಿನ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+14	((	NP	
+14.1	ಎರಡೂವರೆ	QT__QTC	<fs af='ಎರಡೂವರೆ,num,,pl,3,d,0,0'>
+14.2	ಕಪ್‍ಗಳಷ್ಟು	N__NN	<fs af='ಕಪ್‍,n,,pl,3,o,ಗಳು+ಅಷ್ಟು+ಉ,galYu+aRtu+u'>
+	))
+15	((	VGF	
+15.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+16	((	BLK	
+16.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='38'>
+1	((	NP	
+1.1	ಹಣ್ಣುಹಂಪಲುಗಳು	N__NN	<fs af='ಹಣ್ಣುಹಂಪಲು,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+1.2	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಹಣ್ಣುಗಳ	N__NN	<fs af='ಹಣ್ಣು,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+2.2	ಮೇಲೆ	RP__RPD	<fs af='ಮೇಲೆ,avy,,,,d,0,0'>
+	))
+3	((	VGF	
+3.1	ಗಮನಹರಿಸಿ	V__VM__VF	<fs af='ಗಮನಹರಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='39'>
+1	((	NP	
+1.1	ಬಾಳೇಹಣ್ಣು	N__NN	<fs af='ಬಾಳೇಹಣ್ಣು,n,,sg,3,o,ಉ,u'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಬಗೆಬಗೆಯ	JJ	<fs af='ಬಗೆಬಗೆ,adj,,pl,3,o,ಯ,ya'>
+2.2	ಬೆರಿಗಳು	N__NN	<fs af='ಬೆರಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+2.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ದ್ರಾಕ್ಷಿ	N__NN	<fs af='ದ್ರಾಕ್ಷಿ,n,,sg,3,d,0,0'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಕಿತ್ತಳೆಯಂತಹ	N__NN	<fs af='ಕಿತ್ತಳೆ,n,,sg,3,o,ಯ+ಅಂತಹ,ya+aMwaha'>
+	))
+5	((	NP	
+5.1	ವೈವಿಧ್ಯಮಯ	JJ	<fs af='ವೈವಿಧ್ಯ,adj,,,,o,ಮಯ,maya'>
+5.2	ಹಣ್ಣುಗಳನ್ನು	N__NN	<fs af='ಹಣ್ಣು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+6	((	VGF	
+6.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='40'>
+1	((	JJP	
+1.1	ತಾಜಾ	JJ	<fs af='ತಾಜ,adj,,,3,o,ಆ,A'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	JJP	
+2.1	ಶೀತಲೀಕರಿಸಿದ	JJ	<fs af='ಶೀತಲೀಕರಿಸು,adj,,,,o,ಇದ,ixa'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	JJP	
+3.1	ಕಾದಿರಿಸಿದ	JJ	<fs af='ಕಾದಿರು,adj,,,,o,ಇಸು+ಇದ,isu+ixa'>
+	))
+4	((	CCP	
+4.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಒಣ	JJ	<fs af='ಒಣ,adj,,,3,d,0,0'>
+5.2	ಹಣ್ಣುಗಳನ್ನು	N__NN	<fs af='ಹಣ್ಣು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+6	((	VGF	
+6.1	ಆಯ್ದುಕೊಳ್ಳಿ	V__VM__VF	<fs af='ಆಯು,v,any,pl,2,,ದು+ಕೊಳ್ಳು+ಇ,xu+koVlYlYu+i'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='41'>
+1	((	NP	
+1.1	ಹಣ್ಣುಗಳ	JJ	<fs af='ಹಣ್ಣು,adj,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+1.2	ರಸವನ್ನು	N__NN	<fs af='ರಸ,n,,,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+2	((	VGNF	
+2.1	ಸೇವಿಸುವುದಕ್ಕಿಂತ	V__VM__VNF	<fs af='ಸೇವಿಸು,v,,,,o,ವ+ಉದು+ಅಕ್ಕೆ+ಇಂತ,va+uxu+akkeV+iMwa'>
+	))
+3	((	NP	
+3.1	ಹಣ್ಣುಗಳನ್ನು	N__NN	<fs af='ಹಣ್ಣು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+4	((	RBP	
+4.1	ಹಾಗೆಯೇ	RB	<fs af='ಹಾಗೆ,adv,,,,o,ಯ+ಏ,ya+e'>
+	))
+5	((	VGNN	
+5.1	ತಿನ್ನುವುದು	V__VM__VNG	<fs af='ತಿನ್ನು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+6	((	NP	
+6.1	ಉತ್ತಮ	N__NN	<fs af='ಉತ್ತಮ,n,,,3,d,0,0'>
+	))
+7	((	BLK	
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='42'>
+1	((	NP	
+1.1	ಪ್ರತಿದಿನ	N__NN	<fs af='ಪ್ರತಿದಿನ,n,,,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಒಂದೂವರೆ	QT__QTC	<fs af='ಒಂದೂವರೆ,num,,pl,3,d,0,0'>
+2.2	ಕಪ್‍ನಷ್ಟು	N__NN	<fs af='ಕಪ್‍,n,,sg,3,o,ನ+ಅಷ್ಟು+ಉ,na+aRtu+u'>
+	))
+3	((	VGF	
+3.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='43'>
+1	((	NP	
+1.1	ಧಾನ್ಯಗಳು	N__NN	<fs af='ಧಾನ್ಯ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+1.2	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಇಡೀ	JJ	<fs af='ಇಡಿ,adj,,,3,o,ಈ,I'>
+2.2	ಧಾನ್ಯಗಳು	N__NN	<fs af='ಧಾನ್ಯ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+3	((	NP	
+3.1	ಹೆಚ್ಚು	N__NN	<fs af='ಹೆಚ್ಚು,n,,,3,o,ಉ,u'>
+	))
+4	((	VGF	
+4.1	ಇರಲಿ	V__VM__VF	<fs af='ಇರು,v,,,,,ಅಲಿ,ali'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='44'>
+1	((	NP	
+1.1	ಇಡೀ	RP__INTF	<fs af='ಇಡಿ,adj,,,3,o,ಈ,I'>
+1.2	ಧಾನ್ಯಗಳ	JJ	<fs af='ಧಾನ್ಯ,adj,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+1.3	ಸೀರಿಯಲ್‍ಗಳು	N__NN	<fs af='ಸೀರಿಯಲ್‍,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+1.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಬ್ರೆಡ್	N__NN	<fs af='ಬ್ರೆಡ್,n,,sg,3,d,0,0'>
+2.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಅನ್ನ	N__NN	<fs af='ಅನ್ನ,n,,,3,d,0,0'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಗರಿಮುರಿ	JJ	<fs af='ಗರಿಮುರಿ,adj,,,3,d,0,0'>
+4.2	ತಿಂಡಿ	N__NN	<fs af='ತಿಂಡಿ,n,,sg,3,d,0,0'>
+	))
+5	((	CCP	
+5.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ದೋಸೆಗಳನ್ನು	N__NN	<fs af='ದೋಸೆ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+7	((	NP	
+7.1	ಪ್ರತೀ	JJ	<fs af='ಪ್ರತಿ,adj,,,,o,ಈ,I'>
+7.2	ದಿನ	N__NN	<fs af='ದಿನ,n,,sg,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='45'>
+1	((	NP	
+1.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+1.2	ಸ್ಲೈಸ್	N__NN	<fs af='ಸ್ಲೈಸ್,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	ಇಡೀ	RP__INTF	<fs af='ಇಡಿ,adj,,,3,o,ಈ,I'>
+2.2	ಕಾಳಿನ	JJ	<fs af='ಕಾಳು,adj,,sg,3,o,ಇನ,ina'>
+2.3	ಬ್ರೆಡ್	N__NN	<fs af='ಬ್ರೆಡ್,n,,sg,3,d,0,0'>
+2.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,o,ಉ,u'>
+3.2	ಕಪ್‍ನ	N__NN	<fs af='ಕಪ್‍,n,,sg,3,o,ನ+ಅ,na+a'>
+	))
+4	((	NP	
+4.1	ತಣ್ಣನೆಯ	JJ	<fs af='ತಣ್ಣನೆ,adj,,,3,o,ಯ,ya'>
+4.2	ಬ್ರೇಕ್‍ಫಾಸ್ಟ್	N__NN	<fs af='ಬ್ರೇಕ್‍ಫಾಸ್ಟ್,n,,,3,d,0,0'>
+4.3	ಸೀರಿಯಲ್	N__NN	<fs af='ಸೀರಿಯಲ್,n,,,3,d,0,0'>
+	))
+5	((	CCP	
+5.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ಅರ್ಧ	JJ	<fs af='ಅರ್ಧ,adj,,,3,d,0,0'>
+6.2	ಕಪ್	N__NN	<fs af='ಕಪ್,n,,sg,3,d,0,0'>
+	))
+7	((	VGNN	
+7.1	ಬೇಯಿಸಿದ	V__VM__VNG	<fs af='ಬೇಯು,v,,,,o,ಇಸು+ಇದ+ಅ,isu+ixa+a'>
+	))
+8	((	NP	
+8.1	ಸೀರಿಯಲ್	N__NN	<fs af='ಸೀರಿಯಲ್,n,,,3,d,0,0'>
+8.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+9	((	NP	
+9.1	ಅನ್ನ	N__NN	<fs af='ಅನ್ನ,n,,,3,d,0,0'>
+	))
+10	((	CCP	
+10.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+11	((	NP	
+11.1	ದೋಸೆ	N__NN	<fs af='ದೋಸೆ,n,,sg,3,d,0,0'>
+	))
+12	((	BLK	
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='46'>
+1	((	NP	
+1.1	ವಿಟಮಿನ್	N__NN	<fs af='ವಿಟಮಿನ್,n,,sg,3,d,0,0'>
+1.2	ಬಿ12ಯುಕ್ತ	N__NNP	<fs af='ಬಿ12,n,,sg,3,o,ಯುಕ್ತ,yukwa'>
+	))
+2	((	NP	
+2.1	ಸೀರಿಯಲ್‍ಗಳನ್ನು	N__NN	<fs af='ಸೀರಿಯಲ್‍,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+3	((	VGF	
+3.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='47'>
+1	((	NP	
+1.1	ಪ್ರೋಟೀನ್‍ಯುಕ್ತ	JJ	<fs af='ಪ್ರೋಟೀನ್‍,adj,,,3,o,ಯುಕ್ತ,yukwa'>
+1.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+1.3	:	RD__PUNC	<fs af=':,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಅಧಿಕ	JJ	<fs af='ಅಧಿಕ,adj,,,,d,0,0'>
+2.2	ಪ್ರೋಟೀನ್	N__NN	<fs af='ಪ್ರೋಟೀನ್,n,,sg,3,d,0,0'>
+	))
+3	((	VGF	
+3.1	ಇರಲಿ	V__VM__VF	<fs af='ಇರು,v,,,,,ಅಲಿ,ali'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='48'>
+1	((	NP	
+1.1	ಕಡಿಮೆ	JJ	<fs af='ಕಡಿಮೆ,adj,,,3,d,0,0'>
+1.2	ಕೊಬ್ಬು	N__NN	<fs af='ಕೊಬ್ಬು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	VGNN	
+2.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+3	((	CCP	
+3.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ತೆಳುವಾದ	JJ	<fs af='ತೆಳು,adj,,,3,o,ವ+ಆದ,va+Axa'>
+4.2	ಮಾಂಸ	N__NN	<fs af='ಮಾಂಸ,n,,sg,3,d,0,0'>
+	))
+5	((	CCP	
+5.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+6	((	NP	
+6.1	ಕೋಳಿ	JJ	<fs af='ಕೋಳಿ,adj,,sg,3,d,0,0'>
+6.2	ಮಾಂಸ	N__NN	<fs af='ಮಾಂಸ,n,,sg,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	ಆಯ್ದುಕೊಳ್ಳಿ	V__VM__VF	<fs af='ಆಯು,v,any,pl,2,,ದು+ಕೊಳ್ಳು+ಇ,xu+koVlYlYu+i'>
+	))
+8	((	BLK	
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='49'>
+1	((	NP	
+1.1	ಆಹಾರವನ್ನು	N__NN	<fs af='ಆಹಾರ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+2	((	NP	
+2.1	ಹಬೆಯಲ್ಲಿ	N__NN	<fs af='ಹಬೆ,n,,,3,o,ಯ+ಅಲ್ಲಿ,ya+alli'>
+	))
+3	((	VGNF	
+3.1	ಬೇಯಿಸಿ	V__VM__VNF	<fs af='ಬೇಯು,v,any,pl,2,,ಇಸು+ಇ,isu+i'>
+3.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಬ್ರಾಯಿಲ್	N__NN	<fs af='ಬ್ರಾಯಿಲ್,n,,,3,d,0,0'>
+	))
+5	((	VGF	
+5.1	ಮಾಡಿ	V__VM__VF	<fs af='ಮಾಡು,v,any,pl,2,,ಇ,i'>
+	))
+6	((	CCP	
+6.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಗ್ರಿಲ್	N__NN	<fs af='ಗ್ರಿಲ್,n,,,3,d,0,0'>
+	))
+8	((	VGNF	
+8.1	ಮಾಡಿ	V__VM__VNF	<fs af='ಮಾಡು,v,,,,,ಇ,i'>
+	))
+9	((	VGF	
+9.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='50'>
+1	((	NP	
+1.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+2	((	NP	
+2.1	ಪ್ರೋಟೀನ್‍ಯುಕ್ತ	JJ	<fs af='ಪ್ರೋಟೀನ್‍,adj,,,3,o,ಯುಕ್ತ,yukwa'>
+2.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+2.3	ಮೂಲಗಳಲ್ಲಿ	N__NN	<fs af='ಮೂಲ,n,,pl,3,o,ಗಳು+ಅಲ್ಲಿ,galYu+alli'>
+	))
+3	((	NP	
+3.1	ವೈವಿಧ್ಯ	N__NN	<fs af='ವೈವಿಧ್ಯ,n,,,3,d,0,0'>
+	))
+4	((	VGF	
+4.1	ಇರಲಿ	V__VM__VF	<fs af='ಇರು,v,,,,,ಅಲಿ,ali'>
+	))
+5	((	BLK	
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='51'>
+1	((	NP	
+1.1	ಮೊಟ್ಟೆಗಳು	N__NN	<fs af='ಮೊಟ್ಟೆ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಒಣ	JJ	<fs af='ಒಣ,adj,,,3,d,0,0'>
+2.2	ಬೀಜಗಳು	N__NN	<fs af='ಬೀಜ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+2.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+3	((	NP	
+3.1	ಸೊಯಾ	N__NN	<fs af='ಸೊಯಾ,n,,sg,3,d,0,0'>
+3.2	ಮೊಸರು	N__NN	<fs af='ಮೊಸರು,n,,,3,o,ಉ,u'>
+3.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+4	((	NP	
+4.1	ಮೀನು	N__NN	<fs af='ಮೀನು,n,,sg,3,o,ಉ,u'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಬೀಜಗಳು	N__NN	<fs af='ಬೀಜ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+6	((	CCP	
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಬೀಜಗಳನ್ನು	N__NN	<fs af='ಬೀಜ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+8	((	NP	
+8.1	ಹೆಚ್ಚು	N__NN	<fs af='ಹೆಚ್ಚು,n,,,3,o,ಉ,u'>
+	))
+9	((	VGF	
+9.1	ಉಪಯೋಗಿಸಿ	V__VM__VF	<fs af='ಉಪಯೋಗಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='52'>
+1	((	NP	
+1.1	ಹೈನು	JJ	<fs af='ಹೈನು,adj,,,3,d,0,0'>
+1.2	ಉತ್ಪನ್ನಗಳು	N__NN	<fs af='ಉತ್ಪನ್ನ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+1.3	:	RD__SYM	<fs af=':,punc,,,,,,'>
+	))
+2	((	NP	
+2.1	ಕ್ಯಾಲ್ಸಿಯಂ	N__NN	<fs af='ಕ್ಯಾಲ್ಸಿಯಂ,n,,,3,d,0,0'>
+	))
+3	((	NP	
+3.1	ಸಮೃದ್ಧ	JJ	<fs af='ಸಮೃದ್ಧ,adj,,,3,d,0,0'>
+3.2	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+3.3	ಮೂಲ	N__NN	<fs af='ಮೂಲ,n,,sg,3,d,0,0'>
+	))
+4	((	BLK	
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='53'>
+1	((	NP	
+1.1	ಕಡಿಮೆ	JJ	<fs af='ಕಡಿಮೆ,adj,,,3,d,0,0'>
+1.2	ಕೊಬ್ಬು	N__NN	<fs af='ಕೊಬ್ಬು,n,,sg,3,o,ಉ,u'>
+	))
+2	((	VGNN	
+2.1	ಹೊಂದಿರುವ	V__VM__VNG	<fs af='ಹೊಂದು,v,,,,o,ಇರು+ವ+ಅ,iru+va+a'>
+	))
+3	((	CCP	
+3.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ಕೊಬ್ಬು	N__NN	<fs af='ಕೊಬ್ಬು,n,,sg,3,o,ಉ,u'>
+	))
+5	((	VGNN	
+5.1	ತೆಗೆದ	V__VM__VNG	<fs af='ತೆಗೆ,v,,,,o,ದ+ಅ,xa+a'>
+	))
+6	((	NP	
+6.1	ಹಾಲು	N__NN	<fs af='ಹಾಲು,n,,,3,o,ಉ,u'>
+6.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+7	((	NP	
+7.1	ಮೊಸರು	N__NN	<fs af='ಮೊಸರು,n,,,3,o,ಉ,u'>
+	))
+8	((	CCP	
+8.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+9	((	NP	
+9.1	ಹಾಲಿನ	JJ	<fs af='ಹಾಲು,adj,,,3,o,ಇನ,ina'>
+9.2	ಉತ್ಪನ್ನಗಳನ್ನು	N__NN	<fs af='ಉತ್ಪನ್ನ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+10	((	VGF	
+10.1	ಆಯ್ದುಕೊಳ್ಳಿ	V__VM__VF	<fs af='ಆಯು,v,any,pl,2,,ದು+ಕೊಳ್ಳು+ಇ,xu+koVlYlYu+i'>
+	))
+11	((	BLK	
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='54'>
+1	((	NP	
+1.1	ಹಾಲನ್ನು	N__NN	<fs af='ಹಾಲು,n,,,3,o,ಅನ್ನು,annu'>
+	))
+2	((	VGNN	
+2.1	ಸೇವಿಸುವುದು	V__VM__VNG	<fs af='ಸೇವಿಸು,v,,,,o,ವ+ಉದು+ಉ,va+uxu+u'>
+	))
+3	((	NP	
+3.1	ಸಾಧ್ಯ	N__NN	<fs af='ಸಾಧ್ಯ,n,,,3,d,0,0'>
+	))
+4	((	VGNF	
+4.1	ಇಲ್ಲದಿದ್ದರೆ	V__VM__VNF	<fs af='ಇಲ್ಲ,v,,,,,ಅದೆ+ಇದ್ದ+ಅರೆ,axeV+ixxa+areV'>
+	))
+5	((	BLK	
+5.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಲ್ಯಾಕ್ಟೋಸ್	JJ	<fs af='ಲ್ಯಾಕ್ಟೋಸ್,adj,,,3,d,0,0'>
+6.2	ಮುಕ್ತ	N__NN	<fs af='ಮುಕ್ತ,n,,,,d,0,0'>
+	))
+7	((	CCP	
+7.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ಇತರ	N__NN	<fs af='ಇತರ,n,,pl,3,d,0,0'>
+8.2	ಫೋರ್ಟಿಫೈಡ್	N__NN	<fs af='ಫೋರ್ಟಿಫೈಡ್,n,,,3,d,0,0'>
+	))
+9	((	NP	
+9.1	ಆಹಾರಗಳು	N__NN	<fs af='ಆಹಾರ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+9.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+10	((	NP	
+10.1	ಪಾನೀಯಗಳಂತಹ	N__NN	<fs af='ಪಾನ,n,,pl,3,o,ಈಯ+ಗಳು+ಅಂತಹ,Iya+galYu+aMwaha'>
+	))
+11	((	NP	
+11.1	ಕ್ಯಾಲ್ಸಿಯಂ	JJ	<fs af='ಕ್ಯಾಲ್ಸಿಯಂ,adj,,,3,d,0,0'>
+11.2	ಮೂಲಗಳನ್ನು	N__NN	<fs af='ಮೂಲ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+12	((	VGF	
+12.1	ಬಳಸಿ	V__VM__VF	<fs af='ಬಳಸು,v,any,pl,2,,ಇ,i'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='55'>
+1	((	NP	
+1.1	ಪ್ರತೀ	JJ	<fs af='ಪ್ರತಿ,adj,,,3,o,ಈ,I'>
+1.2	ದಿನ	N__NN	<fs af='ದಿನ,n,,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	3	QT__QTC	<fs af='3,num,,pl,3,d,0,0'>
+2.2	ಕಪ್	N__NN	<fs af='ಕಪ್,n,,sg,3,d,0,0'>
+	))
+3	((	VGF	
+3.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+4	((	CCP	
+4.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+5	((	NP	
+5.1	ಸರಿ	N__NN	<fs af='ಸರಿ,n,,,3,d,0,0'>
+	))
+6	((	VGNN	
+6.1	ಆದುದನ್ನು	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ದ+ಉದು+ಅನ್ನು,xa+uxu+annu'>
+	))
+7	((	BLK	
+7.1	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+8	((	RBP	
+8.1	ಸರಿಯಾಗಿ	RB	<fs af='ಸರಿ,adv,,,,o,ಯ+ಆಗಿ,ya+Agi'>
+	))
+9	((	VGF	
+9.1	ಸೇವಿಸಿ	V__VM__VF	<fs af='ಸೇವಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='56'>
+1	((	NP	
+1.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+2	((	NP	
+2.1	ಜೀರ್ಣಕ್ರಿಯೆ	N__NN	<fs af='ಜೀರ್ಣಕ್ರಿಯೆ,n,,,3,d,0,0'>
+	))
+3	((	CCP	
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ದೇಹಕ್ರಿಯೆಗಳನ್ನು	N__NN	<fs af='ದೇಹಕ್ರಿಯೆ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+5	((	RBP	
+5.1	ಚೆನ್ನಾಗಿ	RB	<fs af='ಚೆನ್ನ,adv,,,,o,ಆಗಿ,Agi'>
+	))
+6	((	VGINF	
+6.1	ಇರಿಸಿಕೊಳ್ಳಲು	V__VM__VINF	<fs af='ಇರು,v,,,,,ಇಸು+ಇ+ಕೊಳ್ಳು+ಅಲು,isu+i+koVlYlYu+alu'>
+	))
+7	((	NP	
+7.1	ನಾರಿನಂಶ	N__NN	<fs af='ನಾರಿನಂಶ,n,,sg,3,d,0,0'>
+	))
+8	((	NP	
+8.1	ಸಮೃದ್ಧ	N__NN	<fs af='ಸಮೃದ್ಧ,n,,,3,d,0,0'>
+	))
+9	((	VGNN	
+9.1	ಆಗಿರುವ	V__VM__VNG	<fs af='ಆಗು,v,,,,o,ಇರು+ವ+ಅ,iru+va+a'>
+	))
+10	((	NP	
+10.1	ಆಹಾರ	JJ	<fs af='ಆಹಾರ,adj,,,3,d,0,0'>
+10.2	ವಸ್ತುಗಳನ್ನು	N__NN	<fs af='ವಸ್ತು,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+11	((	VGNF	
+11.1	ಆರಿಸಿ	V__VM__VNF	<fs af='ಆರಿಸು,v,,,,,ಇ,i'>
+	))
+12	((	VGF	
+12.1	ಉಪಯೋಗಿಸಿ	V__VM__VF	<fs af='ಉಪಯೋಗಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='57'>
+1	((	NP	
+1.1	ದೇಹದಲ್ಲಿ	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+2	((	RBP	
+2.1	ಯಾವಾಗಲೂ	RB	<fs af='ಯಾವಾಗ,adv,,,,o,ಲ+ಊ,la+U'>
+	))
+3	((	NP	
+3.1	ದ್ರವಾಂಶ	N__NN	<fs af='ದ್ರವಾಂಶ,n,,sg,3,d,0,0'>
+	))
+4	((	VGNF	
+4.1	ಇರುವಂತೆ	V__VM__VNF	<fs af='ಇರು,v,,,,,ವ+ಅಂತೆ,va+aMweV'>
+	))
+5	((	NP	
+5.1	ನೀರು	N__NN	<fs af='ನೀರು,n,,,3,o,ಉ,u'>
+	))
+6	((	CCP	
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ದ್ರವಾಹಾರಗಳನ್ನು	N__NN	<fs af='ದ್ರವಾಹಾರ,n,,pl,3,o,ಗಳು+ಅನ್ನು,galYu+annu'>
+	))
+8	((	RBP	
+8.1	ಸಾಕಷ್ಟು	RB	<fs af='ಸಾಕು,adv,,,,o,ಅಷ್ಟು,aRtu'>
+	))
+9	((	VGF	
+9.1	ಕುಡಿಯಿರಿ	V__VM__VF	<fs af='ಕುಡಿ,v,any,pl,2,,ಯ+ಇರಿ,ya+iri'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='58'>
+1	((	NP	
+1.1	ಬರೀ	JJ	<fs af='ಬರಿ,adj,,,3,o,ಈ,I'>
+1.2	ಕ್ಯಾಲೊರಿಗಳು	N__NN	<fs af='ಕ್ಯಾಲೊರಿ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+2	((	NP	
+2.1	ದೇಹ	N__NN	<fs af='ದೇಹ,n,,sg,3,d,0,0'>
+	))
+3	((	VGNN	
+3.1	ಸೇರುವುದನ್ನು	V__VM__VNG	<fs af='ಸೇರು,v,,,,o,ವ+ಉದು+ಅನ್ನು,va+uxu+annu'>
+	))
+4	((	VGINF	
+4.1	ತಡೆಯಲು	V__VM__VINF	<fs af='ತಡೆ,v,,,,,ಯ+ಅಲು,ya+alu'>
+	))
+5	((	NP	
+5.1	ಸಕ್ಕರೆ	N__NN	<fs af='ಸಕ್ಕರೆ,n,,,3,d,0,0'>
+5.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+6	((	NP	
+6.1	ಸಿಹಿ	JJ	<fs af='ಸಿಹಿ,adj,,,,d,0,0'>
+6.2	ತಿನಿಸುಗಳ	N__NN	<fs af='ತಿನಿಸು,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+	))
+7	((	NP	
+7.1	ಸೇವನೆಯನ್ನು	N__NN	<fs af='ಸೇವನೆ,n,,sg,3,o,ಯ+ಅನ್ನು,ya+annu'>
+	))
+8	((	NP	
+8.1	ನಿಯಂತ್ರಣದಲ್ಲಿ	N__NN	<fs af='ನಿಯಂತ್ರಣ,n,,sg,3,o,ದ+ಅಲ್ಲಿ,xa+alli'>
+	))
+9	((	VGF	
+9.1	ಇರಿಸಿ	V__VM__VF	<fs af='ಇರು,v,any,pl,2,,ಇಸು+ಇ,isu+i'>
+	))
+10	((	BLK	
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='59'>
+1	((	NP	
+1.1	ದೇಹಕ್ಕೆ	N__NN	<fs af='ದೇಹ,n,,sg,3,o,ಕ್ಕೆ,kkeV'>
+	))
+2	((	VGNN	
+2.1	ಬೇಕಾದ	V__VM__VNG	<fs af='ಬೇಕು,v,,,,o,ಆದ+ಅ,Axa+a'>
+	))
+3	((	NP	
+3.1	ಎಣ್ಣೆ	N__NN	<fs af='ಎಣ್ಣೆ,n,,sg,3,d,0,0'>
+3.2	ಅಂಶವನ್ನು	N__NN	<fs af='ಅಂಶ,n,,sg,3,o,ವ+ಅನ್ನು,va+annu'>
+	))
+4	((	NP	
+4.1	ಮೀನು	N__NN	<fs af='ಮೀನು,n,,sg,3,o,ಉ,u'>
+4.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+5	((	NP	
+5.1	ಎಣ್ಣೆ	JJ	<fs af='ಎಣ್ಣೆ,adj,,sg,3,d,0,0'>
+5.2	ಬೀಜಗಳು	N__NN	<fs af='ಬೀಜ,n,,pl,3,o,ಗಳು+ಉ,galYu+u'>
+	))
+6	((	CCP	
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಕ್ಯಾನೊಲಾ	N__NN	<fs af='ಕ್ಯಾನೊಲಾ,n,,sg,3,d,0,0'>
+7.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+8	((	NP	
+8.1	ಆಲಿವ್	N__NN	<fs af='ಆಲಿವ್,n,,sg,3,d,0,0'>
+	))
+9	((	CCP	
+9.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+10	((	NP	
+10.1	ಸೋಯಾಬೀನ್	N__NN	<fs af='ಸೋಯಾಬೀನ್,n,,,3,d,0,0'>
+	))
+11	((	NP	
+11.1	ಎಣ್ಣೆಗಳಿಂದ	N__NN	<fs af='ಎಣ್ಣೆ,n,,pl,3,o,ಗಳು+ಇಂದ,galYu+iMxa'>
+	))
+12	((	VGF	
+12.1	ಪಡೆಯಿರಿ	V__VM__VF	<fs af='ಪಡೆ,v,any,pl,2,,ಯ+ಇರಿ,ya+iri'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='60'>
+1	((	NP	
+1.1	ಕಡಿಮೆ	JJ	<fs af='ಕಡಿಮೆ,adj,,,3,d,0,0'>
+1.2	ಉಪ್ಪು	N__NN	<fs af='ಉಪ್ಪು,n,,,3,o,ಉ,u'>
+	))
+2	((	CCP	
+2.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+3	((	NP	
+3.1	ಸೋಡಿಯಂ	N__NN	<fs af='ಸೋಡಿಯಂ,n,,,3,d,0,0'>
+	))
+4	((	VGNF	
+4.1	ಉಪಯೋಗಿಸಿ	V__VM__VNF	<fs af='ಉಪಯೋಗಿಸು,v,,,,,ಇ,i'>
+	))
+5	((	NP	
+5.1	ಅಡುಗೆ	N__NNV	<fs af='ಅಡು,n,,,3,o,ಗೆ,geV'>
+	))
+6	((	VGF	
+6.1	ಮಾಡಿ	V__VM__VF	<fs af='ಮಾಡು,v,any,pl,2,,ಇ,i'>
+	))
+7	((	CCP	
+7.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+8	((	NP	
+8.1	ಅವು	PR__PRP	<fs af='ಅದು,pn,,pl,3,o,ವು+ಉ,vu+u'>
+	))
+9	((	NP	
+9.1	ಕಡಿಮೆ	N__NN	<fs af='ಕಡಿಮೆ,n,,,3,d,0,0'>
+	))
+10	((	VGNN	
+10.1	ಇರುವ	V__VM__VNG	<fs af='ಇರು,v,,,,o,ವ+ಅ,va+a'>
+	))
+11	((	NP	
+11.1	ಆಹಾರ	N__NN	<fs af='ಆಹಾರ,n,,sg,3,d,0,0'>
+	))
+12	((	VGF	
+12.1	ಆರಿಸಿಕೊಳ್ಳಿ	V__VM__VF	<fs af='ಆರಿಸು,v,any,pl,2,,ಇ+ಕೊಳ್ಳು+ಇ,i+koVlYlYu+i'>
+	))
+13	((	BLK	
+13.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='61'>
+1	((	NP	
+1.1	ನೀವು	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ವು+ಉ,vu+u'>
+	))
+2	((	VGNN	
+2.1	ತೆಗೆದುಕೊಳ್ಳುತ್ತಿರುವ	V__VM__VNG	<fs af='ತೆಗೆ,v,,,,o,ದು+ಕೊಳ್ಳು+ಉತ್ತ+ಇರು+ವ+ಅ,xu+koVlYlYu+uwwa+iru+va+a'>
+	))
+3	((	NP	
+3.1	ಪೂರಕ	JJ	<fs af='ಪೂರಕ,adj,,,3,d,0,0'>
+3.2	ಆಹಾರಗಳ	N__NN	<fs af='ಆಹಾರ,n,,pl,3,o,ಗಳು+ಅ,galYu+a'>
+3.3	ಬಗ್ಗೆ	RP__RPD	<fs af='ಬಗ್ಗೆ,avy,,,,d,0,0'>
+	))
+4	((	NP	
+4.1	ನಿಮ್ಮ	PR__PRP	<fs af='ನೀನು,pn,any,pl,2,o,ಮ+ಮ+ಅ,ma+ma+a'>
+	))
+5	((	NP	
+5.1	ವೈದ್ಯರು	N__NN	<fs af='ವೈದ್ಯ,n,any,sg,3h,o,ಅರು+ಉ,aru+u'>
+	))
+6	((	CCP	
+6.1	ಅಥವಾ	CC__CCD	<fs af='ಅಥವಾ,avy,,,,d,0,0'>
+	))
+7	((	NP	
+7.1	ಫಾರ್ಮಾಸಿಸ್ಟ್	N__NN	<fs af='ಫಾರ್ಮಾಸಿಸ್ಟ್,n,any,sg,3,d,0,0'>
+7.2	ಬಳಿ	RP__RPD	<fs af='ಬಳಿ,avy,,,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	ಸಮಾಲೋಚಿಸಿ	V__VM__VF	<fs af='ಸಮಾಲೋಚಿಸು,v,any,pl,2,,ಇ,i'>
+	))
+9	((	BLK	
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+</document>
