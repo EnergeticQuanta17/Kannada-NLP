@@ -176,6 +176,7 @@ def train(model, iterator, optimizer, criterion):
         if(i==100):
             print("Returning from train funciton")
             break
+
 def eval(model, iterator):
     model.eval()
 
@@ -198,6 +199,10 @@ def eval(model, iterator):
         for words, is_heads, tags, y_hat in zip(Words, Is_heads, Tags, Y_hat):
             try:
                 y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
+                print(words, '\n')
+                print(is_heads, '\n')
+                print(tags, '\n')
+                print(y_hat, '\n')
                 preds = [index2tag[hat] for hat in y_hat]
                 assert len(preds)==len(words.split())==len(tags.split())
                 for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
@@ -206,6 +211,7 @@ def eval(model, iterator):
             except:
                 count+=1
         print("Count of errors:", count)
+        # print(Count of errors == Count of test_data)
 
             
     ## calc metric
