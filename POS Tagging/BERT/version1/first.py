@@ -203,7 +203,7 @@ def eval(model, iterator):
                 print(is_heads, '\n')
                 print(tags, '\n')
                 print(y_hat, '\n')
-                exit()
+                break
                 preds = [index2tag[hat] for hat in y_hat]
                 assert len(preds)==len(words.split())==len(tags.split())
                 for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
