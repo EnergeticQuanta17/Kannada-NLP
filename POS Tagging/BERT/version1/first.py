@@ -80,9 +80,9 @@ class PosDataset(data.Dataset):
             y.extend(y_ids)
 
         assert len(x)==len(y)==len(is_heads)
-        print("Length of x: ", len(x))
-        print("Length of y: ", len(y))
-        print("Length of is_heads: ", len(is_heads))
+        # print("Length of x: ", len(x))
+        # print("Length of y: ", len(y))
+        # print("Length of is_heads: ", len(is_heads))
 
         seqlen = len(y)
 
