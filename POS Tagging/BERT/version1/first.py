@@ -14,6 +14,7 @@ import sys
 
 import time
 start = time.time()
+global start
 
 sys.path.append('../../../Parsing/')
 print(os.getcwd())
@@ -167,6 +168,7 @@ def train(model, iterator, optimizer, criterion):
         optimizer.step()
 
         if i%10==0: # monitoring
+            global start
             print("step: {}, loss: {}, time: {}".format(i, loss.item(), time.time()-start))
             start = time.time()
     
