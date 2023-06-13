@@ -15,6 +15,7 @@ __email__ = "kbpark.linguist@gmail.com"
 
 
 import os
+os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 from tqdm import tqdm_notebook as tqdm
 import numpy as np
 import torch
