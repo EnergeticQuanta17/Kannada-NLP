@@ -12,6 +12,9 @@ import os
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 import sys
 
+import time
+start = time.time()
+
 sys.path.append('../../../Parsing/')
 print(os.getcwd())
 from language_elements import Sentence, Word, Chunk
@@ -164,7 +167,8 @@ def train(model, iterator, optimizer, criterion):
         optimizer.step()
 
         if i%10==0: # monitoring
-            print("step: {}, loss: {}".format(i, loss.item()))
+            print("step: {}, loss: {}, time: {}".format(i, loss.item(), time.time()-start))
+            start = time.time()
     
 def eval(model, iterator):
     model.eval()
@@ -208,16 +212,17 @@ train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
 train_iter = data.DataLoader(dataset=train_dataset,
-                             batch_size=16,
+                             batch_size=512,
                              shuffle=True,
                              collate_fn=pad)
 
 test_iter = data.DataLoader(dataset=eval_dataset,
-                             batch_size=16,
+                             batch_size=512,
                              shuffle=False,
                              collate_fn=pad)
 
-optimizer = optim.Adam(model.parameters(), lr = 0.0001)
+optimizer = optim.Adam(model.parameters(), lr = 0.001)
+# increased learning rate by 10 times
 criterion = nn.CrossEntropyLoss(ignore_index=0)
 
 train(model, train_iter, optimizer, criterion)
