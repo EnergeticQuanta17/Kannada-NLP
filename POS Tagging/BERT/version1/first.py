@@ -13,8 +13,9 @@ os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 import sys
 
 import time
-start = time.time()
+
 global start
+start = time.time()
 
 sys.path.append('../../../Parsing/')
 print(os.getcwd())
