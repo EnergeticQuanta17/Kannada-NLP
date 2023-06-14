@@ -202,12 +202,12 @@ def eval(model, iterator):
             # if(len(set(y_hat))==1):
             #     print("set len=1")
             #     continue
-            print(words, '\n')
-            print(is_heads, '\n')
-            print(tags, '\n')
-            print(y_hat, '\n')
+            # print(words, '\n')
+            # print(is_heads, '\n')
+            # print(tags, '\n')
+            # print(y_hat, '\n')
             
-            print('Indexto tag: ',index2tag,'\n')
+            # print('Indexto tag: ',index2tag,'\n')
             
             preds = [index2tag[hat] for hat in y_hat]
             assert len(preds)==len(words.split())==len(tags.split())
