@@ -222,8 +222,8 @@ def eval(model, iterator):
     print(index2tag)
                 
     ## calc metric
-    y_true =  np.array([index2tag[line.split()[1]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
-    y_pred =  np.array([index2tag[line.split()[2]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
+    y_true =  np.array([tag2index[line.split()[1]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
+    y_pred =  np.array([tag2index[line.split()[2]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
 
     print(y_true)
     print()
