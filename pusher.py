@@ -10,4 +10,4 @@ if ret.returncode == 0:
     print("Push successful")
 else:
     print("Push failed")
-    Beep(500, 100)
+    winsound.Beep(500, 100)
