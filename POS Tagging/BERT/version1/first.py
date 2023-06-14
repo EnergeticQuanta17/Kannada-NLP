@@ -21,6 +21,8 @@ sys.path.append('../../../Parsing/')
 print(os.getcwd())
 from language_elements import Sentence, Word, Chunk
 
+BATCH_SIZE = 8
+
 with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
 
@@ -41,6 +43,7 @@ index2tag = {idx:tag for idx, tag in enumerate(tags)}
 
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
+print("Batch Size: ", BATCH_SIZE)
 
 # device = 'cuda' if torch.cuda.is_available() else 'cpu'
 device = 'cuda'
@@ -245,12 +248,12 @@ train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
 train_iter = data.DataLoader(dataset=train_dataset,
-                             batch_size=8,
+                             batch_size=BATCH_SIZE,
                              shuffle=True,
                              collate_fn=pad)
 
 test_iter = data.DataLoader(dataset=eval_dataset,
-                             batch_size=8,
+                             batch_size=BATCH_SIZE,
                              shuffle=False,
                              collate_fn=pad)
 
