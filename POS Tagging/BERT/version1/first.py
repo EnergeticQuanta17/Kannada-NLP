@@ -68,8 +68,8 @@ print("Batch Size: ", BATCH_SIZE)
 print("Number of EPOCHS:", NUM_OF_EPOCHS)
 print("BERT Model used: ", BERT_MODEL)
 
-# device = 'cuda' if torch.cuda.is_available() else 'cpu'
-device = 'cuda'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+# device = 'cuda'
 
 # How to use tokenizer for this
     # especially for Kannada
