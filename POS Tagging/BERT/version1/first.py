@@ -156,24 +156,28 @@ class Net(nn.Module):
 
 def train(model, iterator, optimizer, criterion):
     model.train()
-    for i, batch in enumerate(iterator):
-        words, x, is_heads, tags, y, seqlens = batch
-        _y = y # for monitoring
-        optimizer.zero_grad()
-        logits, y, _ = model(x, y) # logits: (N, T, VOCAB), y: (N, T)
+    for _ in range(10):
+        for i, batch in enumerate(iterator):
+            words, x, is_heads, tags, y, seqlens = batch
+            _y = y # for monitoring
+            optimizer.zero_grad()
+            logits, y, _ = model(x, y) # logits: (N, T, VOCAB), y: (N, T)
 
-        logits = logits.view(-1, logits.shape[-1]) # (N*T, VOCAB)
-        y = y.view(-1)  # (N*T,)
+            logits = logits.view(-1, logits.shape[-1]) # (N*T, VOCAB)
+            y = y.view(-1)  # (N*T,)
 
-        loss = criterion(logits, y)
-        loss.backward()
+            loss = criterion(logits, y)
+            loss.backward()
 
-        optimizer.step()
+            optimizer.step()
 
-        if i%100==0:
-            global start
-            print("step: {}, loss: {}, time: {}".format(i, loss.item(), time.time()-start))
-            start = time.time()
+            if i%100==0:
+                global start
+                print("step: {}, loss: {}, time: {}".format(i, loss.item(), time.time()-start))
+                start = time.time()
+            
+            if(i==600):
+                break
     
 
 def eval(model, iterator):
@@ -213,10 +217,6 @@ def eval(model, iterator):
             for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
                 fout.write("{} {} {}\n".format(w, t, p))
             fout.write("\n")
-            # except:
-            #     count+=1
-        print("Count of errors:", count)
-        # print(Count of errors == Count of test_data)
 
     print(index2tag)
                 
