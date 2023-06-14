@@ -29,8 +29,10 @@ NUM_OF_EPOCHS = 1
 NUM_EPOCHS_TO_STAGNATE = 10
 BERT_MODEL_NAMES = [
     'bert-base-uncased',
-    'bert-base-multilingual-cased',
     'bert-large-uncased'
+    'bert-base-multilingual-cased',
+    
+    
 ]
 BERT_MODEL = BERT_MODEL_NAMES[1]
 
@@ -180,7 +182,6 @@ class Net(nn.Module):
     def __init__(self, vocab_size=None):
         super().__init__()
         self.bert = BertModel.from_pretrained(BERT_MODEL)
-        bert-large-uncased
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
         self.fc2 = nn.Linear(256, vocab_size)
