@@ -183,7 +183,7 @@ class Net(nn.Module):
         super().__init__()
         self.bert = BertModel.from_pretrained(BERT_MODEL)
         self.dropout = nn.Dropout(0.05)
-        self.fc1 = nn.Linear(768, 256)
+        self.fc1 = nn.Linear(1024, 256)
         self.fc2 = nn.Linear(256, vocab_size)
         self.device = device
 
