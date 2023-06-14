@@ -37,7 +37,7 @@ tags = list(set(word_pos[1] for sentence in tagged_sentences for word_pos in sen
 tags = ["<pad>"] + tags
 
 tag2index = {tag:idx for idx, tag in enumerate(tags)}
-index2tag = {idx:tag for tag, idx in enumerate(tags)}
+index2tag = {idx:tag for idx, tag in enumerate(tags)}
 
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
