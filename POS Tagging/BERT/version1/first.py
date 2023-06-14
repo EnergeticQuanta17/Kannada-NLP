@@ -27,7 +27,12 @@ from language_elements import Sentence, Word, Chunk
 BATCH_SIZE = 16
 NUM_OF_EPOCHS = 1
 NUM_EPOCHS_TO_STAGNATE = 10
-
+BERT_MODEL_NAMES = [
+    'bert-base-uncased',
+    'bert-base-multilingual-cased',
+    'bert-large-uncased'
+]
+BERT_MODEL = BERT_MODEL_NAMES[2]
 
 with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
@@ -52,13 +57,14 @@ train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
 print("Batch Size: ", BATCH_SIZE)
 print("Number of EPOCHS:", NUM_OF_EPOCHS)
+print("BERT Model used: ", )
 
 # device = 'cuda' if torch.cuda.is_available() else 'cpu'
 device = 'cuda'
 
 # How to use tokenizer for this
     # especially for Kannada
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=False)
+tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=False)
 
 class PosDataset(data.Dataset):
     def __init__(self, tagged_sentences):
@@ -173,7 +179,8 @@ def pad(batch):
 class Net(nn.Module):
     def __init__(self, vocab_size=None):
         super().__init__()
-        self.bert = BertModel.from_pretrained('bert-base-uncased')
+        self.bert = BertModel.from_pretrained(BERT_MODEL)
+        bert-large-uncased
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
         self.fc2 = nn.Linear(256, vocab_size)
