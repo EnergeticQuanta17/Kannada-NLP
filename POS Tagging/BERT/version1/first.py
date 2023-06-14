@@ -24,7 +24,7 @@ sys.path.append('../../../Parsing/')
 print(os.getcwd())
 from language_elements import Sentence, Word, Chunk
 
-BATCH_SIZE = 8
+BATCH_SIZE = 16
 NUM_OF_EPOCHS = 1
 NUM_EPOCHS_TO_STAGNATE = 10
 
