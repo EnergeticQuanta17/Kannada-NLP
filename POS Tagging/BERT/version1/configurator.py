@@ -43,7 +43,10 @@ for index, item in enumerate(config.items()):
             break
         try:
             int(inp)
-            config[key] = int(inp)
+            if(key=='bert-model-name'):
+                config[key] = BERT_MODEL_NAMES[int(inp)]
+            else:
+                config[key] = int(inp)
             break
         except:
             print("Change? ")
