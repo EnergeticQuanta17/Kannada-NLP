@@ -29,7 +29,7 @@ NUM_OF_EPOCHS = 1
 NUM_EPOCHS_TO_STAGNATE = 10
 BERT_MODEL_NAMES = [
     'bert-base-uncased',
-    'bert-large-uncased'
+    'bert-large-uncased',
     'bert-base-multilingual-cased',
     
     
