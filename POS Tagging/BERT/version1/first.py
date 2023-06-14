@@ -156,7 +156,8 @@ class Net(nn.Module):
 
 def train(model, iterator, optimizer, criterion):
     model.train()
-    for _ in range(10):
+    for eee in range(10):
+        start_epoch = time.time()
         for i, batch in enumerate(iterator):
             words, x, is_heads, tags, y, seqlens = batch
             _y = y # for monitoring
@@ -178,6 +179,10 @@ def train(model, iterator, optimizer, criterion):
             
             if(i==600):
                 break
+        print(f"Epoch {eee+1} took {time.time()-start_epoch} time.")
+        start_epoch = time.time()
+        
+        
     
 
 def eval(model, iterator):
