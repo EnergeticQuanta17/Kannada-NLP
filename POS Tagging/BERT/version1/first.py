@@ -82,7 +82,7 @@ device = 'cuda'
 
 # How to use tokenizer for this
     # especially for Kannada
-tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, hidden_size=1024)
+tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=False)
 
 class PosDataset(data.Dataset):
     def __init__(self, tagged_sentences):
@@ -197,7 +197,7 @@ def pad(batch):
 class Net(nn.Module):
     def __init__(self, vocab_size=None):
         super().__init__()
-        self.bert = BertModel.from_pretrained(BERT_MODEL)
+        self.bert = BertModel.from_pretrained(BERT_MODEL, hidden_size=1024)
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
         self.fc2 = nn.Linear(256, vocab_size)
