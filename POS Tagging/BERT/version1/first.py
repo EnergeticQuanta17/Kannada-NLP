@@ -236,7 +236,9 @@ def train(model, iterator, optimizer, criterion):
 
                 # Check for stagnation
                 if epochs_without_improvement >= NUM_EPOCHS_TO_STAGNATE:
+                    print('-----------------------------')
                     print("Loss has become stagnant.")
+                    print('-----------------------------')
                     break
             
         print(f"Epoch {eee+1} took {time.time()-start_epoch} time.")
