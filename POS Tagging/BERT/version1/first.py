@@ -39,8 +39,7 @@ BERT_MODEL_NAMES = [
     'bert-base-uncased',
     'bert-large-uncased',
     'bert-base-multilingual-cased',
-    
-    
+    'bert-large-uncased-whole-word-masking',  
 ]
 BERT_MODEL = BERT_MODEL_NAMES[1]
 
