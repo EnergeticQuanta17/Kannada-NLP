@@ -1,5 +1,6 @@
 import numpy as np
 import pickle
+import json
 
 import shutil
 
@@ -32,16 +33,24 @@ sys.path.append('../../../Parsing/')
 print(os.getcwd())
 from language_elements import Sentence, Word, Chunk
 
-BATCH_SIZE = 1
-NUM_OF_EPOCHS = 1
-NUM_EPOCHS_TO_STAGNATE = 10
+# BATCH_SIZE = 1
+# NUM_OF_EPOCHS = 1
+# NUM_EPOCHS_TO_STAGNATE = 10
 BERT_MODEL_NAMES = [
     'bert-base-uncased',
     'bert-large-uncased',
     'bert-base-multilingual-cased',
     'bert-large-uncased-whole-word-masking',  
 ]
-BERT_MODEL = BERT_MODEL_NAMES[1]
+# BERT_MODEL = BERT_MODEL_NAMES[1]
+
+with open('configuration.json', 'r') as json_file:
+    config = json.load(json_file)
+
+BATCH_SIZE = config['batch_size']
+NUM_OF_EPOCHS = config['epochs']
+NUM_EPOCHS_TO_STAGNATE = config['epochs_stagnate']
+BERT_MODEL = config['bert_model']
 
 with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
@@ -335,7 +344,7 @@ test_iter = data.DataLoader(dataset=eval_dataset,
                              shuffle=False,
                              collate_fn=pad)
 
-optimizer = optim.Adam(model.parameters(), lr = 0.001)
+optimizer = optim.Adam(model.parameters(), lr = 0.0001)
 # increased learning rate by 10 times
 criterion = nn.CrossEntropyLoss(ignore_index=0)
 
