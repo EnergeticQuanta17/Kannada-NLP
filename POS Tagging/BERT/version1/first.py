@@ -32,7 +32,7 @@ sys.path.append('../../../Parsing/')
 print(os.getcwd())
 from language_elements import Sentence, Word, Chunk
 
-BATCH_SIZE = 8
+BATCH_SIZE = 1
 NUM_OF_EPOCHS = 1
 NUM_EPOCHS_TO_STAGNATE = 10
 BERT_MODEL_NAMES = [
@@ -310,7 +310,7 @@ def eval(model, iterator):
 
     print(y_true)
     print()
-    print(y_pred)
+    print(list(y_pred))
 
     acc = (y_true==y_pred).astype(np.int32).sum() / len(y_true)
 
