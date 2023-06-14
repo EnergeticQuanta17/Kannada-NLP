@@ -32,7 +32,7 @@ BERT_MODEL_NAMES = [
     'bert-base-multilingual-cased',
     'bert-large-uncased'
 ]
-BERT_MODEL = BERT_MODEL_NAMES[2]
+BERT_MODEL = BERT_MODEL_NAMES[1]
 
 with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
@@ -57,7 +57,7 @@ train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
 print("Batch Size: ", BATCH_SIZE)
 print("Number of EPOCHS:", NUM_OF_EPOCHS)
-print("BERT Model used: ", )
+print("BERT Model used: ", BERT_MODEL)
 
 # device = 'cuda' if torch.cuda.is_available() else 'cpu'
 device = 'cuda'
