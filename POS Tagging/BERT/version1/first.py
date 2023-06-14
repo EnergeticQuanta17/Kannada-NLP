@@ -313,6 +313,8 @@ model = Net(vocab_size=len(tag2index))
 model.to(device)
 model = nn.DataParallel(model)
 
+print(model)
+
 train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
