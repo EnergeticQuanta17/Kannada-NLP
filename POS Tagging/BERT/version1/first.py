@@ -2,10 +2,13 @@ import numpy as np
 import pickle
 
 from sklearn.model_selection import train_test_split
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils import data
+from torchsummary import summary
+
 from pytorch_pretrained_bert import BertTokenizer, BertModel
 
 import os
@@ -45,6 +48,7 @@ index2tag = {idx:tag for idx, tag in enumerate(tags)}
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
 print("Batch Size: ", BATCH_SIZE)
+print("Number of EPOCHS:", NUM_OF_EPOCHS)
 
 # device = 'cuda' if torch.cuda.is_available() else 'cpu'
 device = 'cuda'
@@ -217,10 +221,10 @@ def train(model, iterator, optimizer, criterion):
 
             if i%100==0:
                 global start
-                print("step: {}, loss: {:.2f}, time: {:.2f}".format(i, loss.item(), time.time()-start))
+                print("step: {}, loss: {:.2f}, time: {:.2f}s".format(i, loss.item(), time.time()-start))
                 start = time.time()
             
-            if(i==600):
+            if(i==10):
                 break
         print(f"Epoch {eee+1} took {time.time()-start_epoch} time.")
         eval(model, test_iter)
@@ -308,3 +312,7 @@ eval(model, test_iter)
 
 
 open('result', 'r').read().splitlines()[:100]
+
+
+model = Net()
+summary(model, (784,))
