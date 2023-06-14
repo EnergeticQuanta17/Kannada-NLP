@@ -313,6 +313,4 @@ eval(model, test_iter)
 
 open('result', 'r').read().splitlines()[:100]
 
-
-model = Net()
 summary(model, (784,))
