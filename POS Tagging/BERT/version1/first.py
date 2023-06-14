@@ -27,6 +27,7 @@ from language_elements import Sentence, Word, Chunk
 BATCH_SIZE = 8
 NUM_OF_EPOCHS = 1
 
+
 with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
 
@@ -41,6 +42,7 @@ for sentence in retrieved_sentences:
 
 tags = list(set(word_pos[1] for sentence in tagged_sentences for word_pos in sentence))
 tags = ["<pad>"] + tags
+NO_OF_TAGS = len(tags) - 1
 
 tag2index = {tag:idx for idx, tag in enumerate(tags)}
 index2tag = {idx:tag for idx, tag in enumerate(tags)}
@@ -171,7 +173,7 @@ class Net(nn.Module):
     def __init__(self, vocab_size=None):
         super().__init__()
         self.bert = BertModel.from_pretrained('bert-base-uncased')
-        self.dropout = nn.Dropout(0.2)
+        # self.dropout = nn.Dropout(0.2)
         self.fc1 = nn.Linear(768, 256)
         self.fc2 = nn.Linear(256, vocab_size)
         self.device = device
