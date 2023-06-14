@@ -26,6 +26,7 @@ from language_elements import Sentence, Word, Chunk
 
 BATCH_SIZE = 8
 NUM_OF_EPOCHS = 1
+NUM_EPOCHS_TO_STAGNATE = 10
 
 
 with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
@@ -205,6 +206,7 @@ class Net(nn.Module):
 
 def train(model, iterator, optimizer, criterion):
     model.train()
+    best_loss = None
     for eee in range(NUM_OF_EPOCHS):
         start_epoch = time.time()
         for i, batch in enumerate(iterator):
@@ -225,9 +227,18 @@ def train(model, iterator, optimizer, criterion):
                 global start
                 print("step: {}, loss: {:.2f}, time: {:.2f}s".format(i, loss.item(), time.time()-start))
                 start = time.time()
+                
+                if best_loss is None or loss < best_loss:
+                    best_loss = loss    
+                    epochs_without_improvement = 0
+                else:
+                    epochs_without_improvement += 1
+
+                # Check for stagnation
+                if epochs_without_improvement >= NUM_EPOCHS_TO_STAGNATE:
+                    print("Loss has become stagnant.")
+                    break
             
-            if(i==10):
-                break
         print(f"Epoch {eee+1} took {time.time()-start_epoch} time.")
         eval(model, test_iter)
         print('-------------------------------------------------------------------------------------------------')
