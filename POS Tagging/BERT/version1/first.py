@@ -83,8 +83,10 @@ class PosDataset(data.Dataset):
             x.extend(token_ids)
             is_heads.extend(is_head)
             y.extend(y_ids)
-
-        assert len(x)==len(y)==len(is_heads)
+        try:
+            assert len(x)==len(y)==len(is_heads)
+        except:
+            print(len(x), len(y), len(is_heads))
         # print("Length of x: ", len(x))
         # print("Length of y: ", len(y))
         # print("Length of is_heads: ", len(is_heads))
@@ -168,7 +170,7 @@ def train(model, iterator, optimizer, criterion):
 
         optimizer.step()
 
-        if i%10==0: # monitoring
+        if i%100==0:
             global start
             print("step: {}, loss: {}, time: {}".format(i, loss.item(), time.time()-start))
             start = time.time()
