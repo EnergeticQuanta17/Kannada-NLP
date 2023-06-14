@@ -50,7 +50,7 @@ with open('configuration.json', 'r') as json_file:
 BATCH_SIZE = config['batch_size']
 NUM_OF_EPOCHS = config['epochs']
 NUM_EPOCHS_TO_STAGNATE = config['epochs_stagnate']
-BERT_MODEL = config['bert_model']
+BERT_MODEL = config['bert-model-name']
 
 with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
