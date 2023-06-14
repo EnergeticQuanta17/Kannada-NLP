@@ -197,23 +197,23 @@ def eval(model, iterator):
     with open("result", 'w') as fout:
         count = 0
         for words, is_heads, tags, y_hat in zip(Words, Is_heads, Tags, Y_hat):
-            try:
-                y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
-                # if(len(set(y_hat))==1):
-                #     print("set len=1")
-                #     continue
-                # print(words, '\n')
-                # print(is_heads, '\n')
-                # print(tags, '\n')
-                # print(y_hat, '\n')
-                
-                preds = [index2tag[hat] for hat in y_hat]
-                assert len(preds)==len(words.split())==len(tags.split())
-                for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
-                    fout.write("{} {} {}\n".format(w, t, p))
-                fout.write("\n")
-            except:
-                count+=1
+            # try:
+            y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
+            # if(len(set(y_hat))==1):
+            #     print("set len=1")
+            #     continue
+            # print(words, '\n')
+            # print(is_heads, '\n')
+            # print(tags, '\n')
+            # print(y_hat, '\n')
+            
+            preds = [index2tag[hat] for hat in y_hat]
+            assert len(preds)==len(words.split())==len(tags.split())
+            for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
+                fout.write("{} {} {}\n".format(w, t, p))
+            fout.write("\n")
+            # except:
+            #     count+=1
         print("Count of errors:", count)
         # print(Count of errors == Count of test_data)
 
