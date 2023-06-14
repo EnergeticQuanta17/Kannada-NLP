@@ -173,9 +173,6 @@ def train(model, iterator, optimizer, criterion):
             print("step: {}, loss: {}, time: {}".format(i, loss.item(), time.time()-start))
             start = time.time()
     
-        if(i==10):
-            print("Returning from train funciton")
-            break
 
 def eval(model, iterator):
     model.eval()
