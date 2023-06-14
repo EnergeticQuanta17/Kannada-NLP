@@ -313,4 +313,5 @@ eval(model, test_iter)
 
 open('result', 'r').read().splitlines()[:100]
 
+print(model)
 summary(model, (784,))
