@@ -22,6 +22,7 @@ print(os.getcwd())
 from language_elements import Sentence, Word, Chunk
 
 BATCH_SIZE = 8
+NUM_OF_EPOCHS = 1
 
 with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
@@ -132,7 +133,12 @@ class Net(nn.Module):
         super().__init__()
         self.bert = BertModel.from_pretrained('bert-base-cased')
 
-        self.fc = nn.Linear(768, vocab_size)
+        # self.fc = nn.Linear(768, vocab_size)
+        # self.device = device
+        
+        self.dropout = nn.Dropout(0.2)
+        self.fc1 = nn.Linear(768, 256)
+        self.fc2 = nn.Linear(256, vocab_size)
         self.device = device
 
     def forward(self, x, y):
@@ -159,7 +165,7 @@ class Net(nn.Module):
 
 def train(model, iterator, optimizer, criterion):
     model.train()
-    for eee in range(10):
+    for eee in range(NUM_OF_EPOCHS):
         start_epoch = time.time()
         for i, batch in enumerate(iterator):
             words, x, is_heads, tags, y, seqlens = batch
@@ -177,12 +183,14 @@ def train(model, iterator, optimizer, criterion):
 
             if i%100==0:
                 global start
-                print("step: {}, loss: {}, time: {}".format(i, loss.item(), time.time()-start))
+                print("step: {}, loss: {:.2f}, time: {:.2f}".format(i, loss.item(), time.time()-start))
                 start = time.time()
             
             if(i==600):
                 break
         print(f"Epoch {eee+1} took {time.time()-start_epoch} time.")
+        eval(model, test_iter)
+        print('-------------------------------------------------------------------------------------------------')
         start_epoch = time.time()
         
         
