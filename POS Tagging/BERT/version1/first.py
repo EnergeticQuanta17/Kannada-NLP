@@ -199,9 +199,9 @@ def eval(model, iterator):
         for words, is_heads, tags, y_hat in zip(Words, Is_heads, Tags, Y_hat):
             try:
                 y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
-                if(len(set(y_hat))==1):
-                    print("set len=1")
-                    continue
+                # if(len(set(y_hat))==1):
+                #     print("set len=1")
+                #     continue
                 print(words, '\n')
                 print(is_heads, '\n')
                 print(tags, '\n')
@@ -221,6 +221,10 @@ def eval(model, iterator):
     ## calc metric
     y_true =  np.array([index2tag[line.split()[1]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
     y_pred =  np.array([index2tag[line.split()[2]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
+
+    print(y_true)
+    print()
+    print(y_pred)
 
     acc = (y_true==y_pred).astype(np.int32).sum() / len(y_true)
 
