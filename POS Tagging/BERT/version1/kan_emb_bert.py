@@ -199,13 +199,36 @@ class KanandaEmbedding(nn.Module):
         embedded = self.embedding(x)
         return embedded
 
+# Convert the word embeddings dictionary to tensors
+word_tensor = torch.tensor(list(embs.values()))  # Shape: (input_size, output_size)
+
+# Create a dictionary mapping words to indices
+word_to_index = {word: index for index, word in enumerate(embs.keys())}
+
+# Create an instance of CustomEmbedding
+custom_embedding = KanandaEmbedding(word_tensor)
+
+# # Example usage
+# words = ['word1', 'word2', 'word3']
+# indices = torch.tensor([word_to_index[word] for word in words])  # Convert words to indices
+# embedded_words = custom_embedding(indices)  # Embed the words
+# print(embedded_words)
+
+
 class Net(nn.Module):
     def __init__(self, vocab_size=None):
         super().__init__()
         self.bert = BertModel.from_pretrained(BERT_MODEL)
 
-        KanandaEmbedding
-        self.bert.embeddings.word_embeddings = nn.Embedding()
+        # Create a new nn.Embedding object with the desired input and output size
+        new_word_embeddings = nn.Embedding(custom_embedding.input_size, custom_embedding.output_size)
+
+        # Copy the values from custom_embedding to new_word_embeddings
+        new_word_embeddings.weight.data.copy_(custom_embedding.embedding.weight.data)
+
+        # Assign the new_word_embeddings to self.bert.embeddings.word_embeddings
+        self.bert.embeddings.word_embeddings = new_word_embeddings
+
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
         self.fc2 = nn.Linear(256, vocab_size)
@@ -225,12 +248,12 @@ class Net(nn.Module):
             enc = encoded_layers[-1]
             
             # print(x)
-            print("-----------------------------------------------------------")
-            print(self.bert)
-            print("-----------------------------------------------------------")
-            print(dir(self.bert))
-            print("-----------------------------------------------------------")
-            print(self.bert.embeddings)
+            # print("-----------------------------------------------------------")
+            # print(self.bert)
+            # print("-----------------------------------------------------------")
+            # print(dir(self.bert))
+            # print("-----------------------------------------------------------")
+            # print(self.bert.embeddings)
             print("-----------------------------------------------------------")
             print(self.bert.embeddings.word_embeddings)
             print("-----------------------------------------------------------")
