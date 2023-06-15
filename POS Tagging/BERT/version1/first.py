@@ -110,6 +110,9 @@ class PosDataset(data.Dataset):
             # tokens = tokenizer.tokenize()
             tokens = tokenizer.tokenize(w) if w not in ('[CLS]', '[SEP]') else [w]
             token_ids = tokenizer.convert_tokens_to_ids(tokens)
+
+            print(tokens)
+            raise Exception
             
 
             is_head = [1] + [0] * (len(tokens) - 1)
