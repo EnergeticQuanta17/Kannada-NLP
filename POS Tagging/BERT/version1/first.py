@@ -248,6 +248,12 @@ class Net(nn.Module):
             print(self.bert)
             print("-----------------------------------------------------------")
             print(dir(self.bert))
+            print("-----------------------------------------------------------")
+            print(self.bert.embeddings)
+            print("-----------------------------------------------------------")
+            print(self.bert.encoder)
+            print("-----------------------------------------------------------")
+            print(self.bert.pooler)
             # print(encoded_layers)
             sys.tracebacklimit = 0
             raise Exception
