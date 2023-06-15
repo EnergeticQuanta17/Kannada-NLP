@@ -273,11 +273,11 @@ class Net(nn.Module):
         enc = self.fc1(enc)
         logits = self.fc2(enc)
         y_hat = logits.argmax(-1)
-        print(y_hat)
-        print("-----------------------------------------------------------")
-        print(y)
-        print("-----------------------------------------------------------")
-        raise Exception
+        # print(y_hat)
+        # print("-----------------------------------------------------------")
+        # print(y)
+        # print("-----------------------------------------------------------")
+        # raise Exception
         return logits, y, y_hat
 
 
