@@ -129,11 +129,15 @@ class PosDataset(data.Dataset):
 
         seqlen = len(y)
 
+        print(words)
+        print()
+        print(type(words))
+        raise Exception
+
         words = " ".join(words)
         tags = " ".join(tags)
 
-        print(words)
-        raise Exception
+        
 
         return words, tags, is_heads, tags, y, seqlen
     
