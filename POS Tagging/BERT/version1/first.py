@@ -64,12 +64,16 @@ for sentence in retrieved_sentences:
             temp.append((word.kannada_word, word.pos))
     tagged_sentences.append(temp)
 
+all_words = list(set(word_pos[0] for sentence in tagged_sentences for word_pos in sentence))
 tags = list(set(word_pos[1] for sentence in tagged_sentences for word_pos in sentence))
 tags = ["<pad>"] + tags
 NO_OF_TAGS = len(tags) - 1
 
 tag2index = {tag:idx for idx, tag in enumerate(tags)}
 index2tag = {idx:tag for idx, tag in enumerate(tags)}
+
+words2index = {tag:idx for idx, tag in enumerate(all_words)}
+index2words = {idx:tag for idx, tag in enumerate(all_words)}
 
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("First sentence of train data:", train_data[0])
@@ -83,7 +87,9 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # How to use tokenizer for this
     # especially for Kannada
-tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=False)
+tokenizer = BertTokenizer.from_pretrained(BERT_MODEL)
+
+
 
 class PosDataset(data.Dataset):
     def __init__(self, tagged_sentences):
@@ -107,11 +113,14 @@ class PosDataset(data.Dataset):
         is_heads = []
 
         for w, t in zip(words, tags):
-            # tokens = tokenizer.tokenize()
-            tokens = tokenizer.tokenize(w) if w not in ('[CLS]', '[SEP]') else [w]
-            token_ids = tokenizer.convert_tokens_to_ids(tokens)
+            # # tokens = tokenizer.tokenize()
+            # tokens = tokenizer.tokenize(w) if w not in ('[CLS]', '[SEP]') else [w]
+            # token_ids = tokenizer.convert_tokens_to_ids(tokens)
 
-            
+            if(w in words2index):
+                token_ids = words2index[w]
+            else:
+                token_ids = [0]
             
 
             is_head = [1] + [0] * (len(tokens) - 1)
