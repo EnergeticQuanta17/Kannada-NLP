@@ -118,7 +118,7 @@ class PosDataset(data.Dataset):
             # token_ids = tokenizer.convert_tokens_to_ids(tokens)
 
             if(w in words2index):
-                token_ids = words2index[w]
+                token_ids = [words2index[w]]
             else:
                 token_ids = [0]
             
