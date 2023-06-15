@@ -19,7 +19,7 @@ def extract_list_of_sentences(filename=""):
     if(filename==""):
         filename = r"../Dataset/DL-DL MT/DL-DL MT/Set1_governance_translated_part1_00001-00050.txt"
     else:
-        filename = r'../Dataset/dataset_6318/DL-DL MT/DL-DL MT/' + filename
+        filename = r"../Dataset/dataset_6318/DL-DL MT/DL-DL MT/" + filename
     with open(filename, mode='r',  encoding='utf-8') as f:
         for line_number, line in enumerate(f):
             # print(line)
