@@ -249,6 +249,8 @@ def train(model, iterator, optimizer, criterion):
             optimizer.zero_grad()
             print("Words:", words)
             print("-----------------------------------------------------------")
+            print("Tags:", tags)
+            print("-----------------------------------------------------------")
             logits, y, _ = model(x, y) # logits: (N, T, VOCAB), y: (N, T)
 
             logits = logits.view(-1, logits.shape[-1]) # (N*T, VOCAB)
