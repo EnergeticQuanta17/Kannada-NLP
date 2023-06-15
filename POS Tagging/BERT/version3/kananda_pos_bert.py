@@ -225,8 +225,11 @@ custom_embedding = nn.Embedding.from_pretrained(word_tensor)
 class CustomBertModel(BertModel):
     def __init__(self, config):
         super().__init__(config)
-        del self.embeddings.position_embeddings
-        del self.embeddings.token_type_embeddings
+        try:
+            del self.embeddings.position_embeddings
+            del self.embeddings.token_type_embeddings
+        except:
+            pass
 
 class Net(nn.Module):
     def __init__(self, vocab_size=None):
