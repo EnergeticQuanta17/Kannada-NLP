@@ -249,7 +249,7 @@ class Net(nn.Module):
             # print("-----------------WHILE TRAINING-------------------------------")
             # print(self.bert)
             # print("-----------------------------------------------------------")
-            # encoded_layers, other_output = self.bert(x)
+            encoded_layers, other_output = self.bert(x)
             # print("Encoded Layers:", encoded_layers)
             # print("-----------------------------------------------------------")
             # print("Other output:", other_output)
