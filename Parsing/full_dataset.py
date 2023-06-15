@@ -20,6 +20,8 @@ for file in file_names:
     print(file, len(sentences))
     sum += len(sentences)
     all_sentences += sentences
+    
 print(len(all_sentences), sum)
+
 with open('full_dataset_131.pickle', 'wb') as file:
     pickle.dump(all_sentences, file)

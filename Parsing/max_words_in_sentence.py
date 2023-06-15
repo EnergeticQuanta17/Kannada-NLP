@@ -2,7 +2,7 @@ import pickle
 
 from language_elements import Sentence, Word, Chunk
 
-file_name = "full_dataset_113.pickle"
+file_name = "full_dataset_131.pickle"
 
 full_dataset_sentences = []
 
@@ -15,7 +15,7 @@ with open(file_name, 'rb') as file:
         for chunk in sentence.list_of_chunks:
             for word in chunk.list_of_words:
                 count += 1
-                if(sentence.id=="1897"):
+                if(sentence.id=="569"):
                     print(word.kannada_word)
         if(count>max_words):
             max_words = count
