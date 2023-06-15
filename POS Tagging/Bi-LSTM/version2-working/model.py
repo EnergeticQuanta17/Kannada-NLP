@@ -194,6 +194,8 @@ if(True):
 
         with open('find_this_sentence.pkl', 'wb') as file:
             pickle.dump(X_test[k], file)
+
+        
         print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
         print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
         
@@ -213,13 +215,15 @@ with open('index_to_tag.txt', 'w') as f:
         f.write(str(i) + '-->' + int2tag[i] + '\n')
 
 count = 0
+non_zero_count = 0
+
 if(True):
     for k in range(X_test.shape[0]):
         if(np.argmax(y_pred[k]) == np.argmax(y_test[k])):
-            # if(np.argmax(y_pred[k])!=0):
-            #     for i, j in zip(y_pred[k], y_test[k]):
-            #         print(i, '\t', j)
-            #     break
+            if(np.argmax(y_pred[k])!=0):
+                for i, j in zip(y_pred[k], y_test[k]):
+                    print(i, '\t', j)
+                non_zero_count += 1
             count+=1
 print()
 print()
