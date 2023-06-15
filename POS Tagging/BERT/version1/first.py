@@ -133,7 +133,10 @@ class PosDataset(data.Dataset):
         seqlen = len(y)
 
         print("X:", x)
+        print("For words:", words)
+        print("---------------------------------------------------------------------------------------------------")
         print("Y:", y)
+        print("For tags:", tags)
         sys.tracebacklimit = 0
         raise Exception
 
