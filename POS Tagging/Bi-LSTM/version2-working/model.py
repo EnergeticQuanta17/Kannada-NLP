@@ -173,8 +173,8 @@ print('\n\n\n-------------------------------------------------------------------
 
 
 
-y_pred = y_pred.reshape(-1, 77)
-y_test = y_test.reshape(-1, 77)
+y_pred = y_pred.reshape(-1, 78)
+y_test = y_test.reshape(-1, 78)
 
 count = 0
 if(True):
