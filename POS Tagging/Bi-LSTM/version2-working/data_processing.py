@@ -12,7 +12,7 @@ tags = []
 sys.path.append('../Parsing/')
 from language_elements import Sentence, Chunk, Word
 
-with open('../Parsing/full_dataset_113.pickle', 'rb') as file:
+with open('../Parsing/full_dataset_131.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
 
 print("Number of sentences retrieved: ", len(retrieved_sentences))
