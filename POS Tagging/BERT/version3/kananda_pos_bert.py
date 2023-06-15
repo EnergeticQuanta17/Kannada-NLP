@@ -399,7 +399,8 @@ model = nn.DataParallel(model)
 print("-----------------------------------------------------------")
 print(model)
 print("-----------------------------------------------------------")
-
+sys.tracebacklimit = 0
+raise Exception
 train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
