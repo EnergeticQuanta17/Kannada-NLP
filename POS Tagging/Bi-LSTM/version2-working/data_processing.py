@@ -9,10 +9,10 @@ Y_train = []
 words = []
 tags = []
 
-sys.path.append('../Parsing/')
+sys.path.append('../../../Parsing/')
 from language_elements import Sentence, Chunk, Word
 
-with open('../Parsing/full_dataset_131.pickle', 'rb') as file:
+with open('../../../Parsing/full_dataset_131.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
 
 print("Number of sentences retrieved: ", len(retrieved_sentences))
@@ -24,7 +24,8 @@ for sentence in retrieved_sentences:
         for word in chunk.list_of_words:
             words.append(word.kannada_word)
             tags.append(word.pos)
-            print("tags", word.pos)
+            # print("Word ", word.kannada_word,)
+            # print("tags ", word.pos)
 
             tempX.append(word.kannada_word)
             tempY.append(word.pos)
@@ -32,27 +33,32 @@ for sentence in retrieved_sentences:
     X_train.append(tempX)
     Y_train.append(tempY)
 
-print('X_train shape:', np.array(X_train).shape)
-print('Y_train shape:', np.array(Y_train).shape)
+
+# for ele in X_train:
+#   print(ele)
+# print('X_train shape:', np.array(X_train).shape)
+# print('Y_train shape:', np.array(Y_train).shape)
 
 words = set(words)
 tags = set(tags)
 
 
 
-print("\n\n--------------PART OF SPEECH TAGS--------------")
+print("\n\n----------------------------PART OF SPEECH TAGS----------------------------")
 for index, tag in enumerate(tags):
     print(index, '\t', tag)
-print("\n\n-----------------------------------------------")
 
-print("First 10 words:")
+
+print("\n\n----------------------------FIRST 10 WORDS----------------------------")
 for word in list(words)[:10]:
     print(word)
-print()
 
 
+print("\n\n--------------------------------------------------------------------")
 print('Vocabulary Size: ', len(words))
 print('Total POS Tags: ', len(tags))
+
+# TOKEN TO EACH WORD
 
 word2int = {}
 int2word = {}
@@ -64,17 +70,22 @@ for i, word in enumerate(words):
 tag2int = {}
 int2tag = {}
 
+# TOKEN TO EACH TAG
+
 for i, tag in enumerate(tags):
     tag2int[tag] = i+1
     int2tag[i+1] = tag
 
     if(tag=='UNK'):
-        print("FOUND UNK------------------------------------------------------------------------------------------")
+        print("-----------------------------------------------FOUND UNK-------------------------------------------")
 
-print("Seee this", int2tag[1])
+# EMPTY TAG
+# print("Seee this", int2tag[1])
 
 X_train_numberised = []
 Y_train_numberised = []
+
+# FOR SENTENCES
 
 for sentence in X_train:
     tempX = []
@@ -82,20 +93,23 @@ for sentence in X_train:
         tempX.append(word2int[word])
     X_train_numberised.append(tempX)
 
+# FOR TAGS
+
 for tags in Y_train:
     tempY = []
     for tag in tags:
         tempY.append(tag2int[tag])
     Y_train_numberised.append(tempY)
 
+print()
 print('sample X_train_numberised: ', X_train_numberised[42], '\n')
 print('sample Y_train_numberised: ', Y_train_numberised[42], '\n')
 
-print('X_train_numberised shape:', np.array(X_train_numberised).shape)
-print('Y_train_numberised shape:', np.array(Y_train_numberised).shape)
+# print('X_train_numberised shape:', np.array(X_train_numberised).shape)
+# print('Y_train_numberised shape:', np.array(Y_train_numberised).shape)
 
-X_train_numberised = np.asarray(X_train_numberised)
-Y_train_numberised = np.asarray(Y_train_numberised)
+# X_train_numberised = np.asarray(X_train_numberised)
+# Y_train_numberised = np.asarray(Y_train_numberised)
 
 pickle_files = [X_train_numberised, Y_train_numberised, word2int, int2word, tag2int, int2tag]
 
