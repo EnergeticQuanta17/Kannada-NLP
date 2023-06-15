@@ -229,6 +229,8 @@ class Net(nn.Module):
 
         self.bert.embeddings.word_embeddings = new_word_embeddings
 
+        # self.bert.embeddings
+
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
         self.fc2 = nn.Linear(256, vocab_size)
