@@ -126,8 +126,8 @@ class PosDataset(data.Dataset):
             # is_head = [1] + [0] * (len(tokens) - 1)
             # t = [t] + ["<pad>"] * (len(tokens) - 1)
 
-            is_head = [1] + [0]
-            t = [t] + ["<pad>"]
+            is_head = [1]
+            t = [t]
 
         
             y_ids = [tag2index[i] for i in t]
