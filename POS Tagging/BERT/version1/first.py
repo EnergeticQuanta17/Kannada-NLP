@@ -246,6 +246,8 @@ class Net(nn.Module):
             # print(x)
             print("-----------------------------------------------------------")
             print(self.bert)
+            print("-----------------------------------------------------------")
+            print(dir(self.bert))
             # print(encoded_layers)
             sys.tracebacklimit = 0
             raise Exception
@@ -367,7 +369,7 @@ model = Net(vocab_size=len(tag2index))
 model.to(device)
 model = nn.DataParallel(model)
 
-print(model)
+# print(model)
 
 train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
