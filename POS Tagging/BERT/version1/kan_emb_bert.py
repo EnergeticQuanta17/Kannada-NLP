@@ -245,7 +245,7 @@ class Net(nn.Module):
         y = y.to(self.device)
         
         if self.training:
-            # self.bert.train()
+            self.bert.train()
             # print("-----------------WHILE TRAINING-------------------------------")
             # print(self.bert)
             # print("-----------------------------------------------------------")
