@@ -221,16 +221,12 @@ class Net(nn.Module):
         super().__init__()
         self.bert = BertModel.from_pretrained(BERT_MODEL)
 
-        # Create a new nn.Embedding object with the desired input and output size
         new_word_embeddings = nn.Embedding(custom_embedding.num_embeddings, custom_embedding.embedding_dim)
-
-        # Copy the values from custom_embedding to new_word_embeddings
-
         new_word_embeddings.weight.data.copy_(custom_embedding.weight.data)
-
-
-        # Assign the new_word_embeddings to self.bert.embeddings.word_embeddings
         self.bert.embeddings.word_embeddings = new_word_embeddings
+
+        del self.bert.embeddings.position_embeddings
+        del self.bert.embeddings.token_type_embeddings
 
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
