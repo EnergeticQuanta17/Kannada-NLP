@@ -251,9 +251,9 @@ class Net(nn.Module):
             print("-----------------------------------------------------------")
             print(self.bert.embeddings)
             print("-----------------------------------------------------------")
-            print(self.bert.encoder)
+            print(self.bert.embeddings.word_embeddings)
             print("-----------------------------------------------------------")
-            print(self.bert.pooler)
+            
             # print(encoded_layers)
             sys.tracebacklimit = 0
             raise Exception
