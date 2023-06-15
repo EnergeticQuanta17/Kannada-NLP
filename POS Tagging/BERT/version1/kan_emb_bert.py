@@ -221,16 +221,15 @@ class Net(nn.Module):
         super().__init__()
         self.bert = BertModel.from_pretrained(BERT_MODEL)
 
-        # Create a new nn.Embedding object with the desired input and output size
         new_word_embeddings = nn.Embedding(custom_embedding.num_embeddings, custom_embedding.embedding_dim)
-
-        # Copy the values from custom_embedding to new_word_embeddings
-
         new_word_embeddings.weight.data.copy_(custom_embedding.weight.data)
 
+        fc_layer = nn.Linear(300, 768)
+        new_word_embeddings = fc_layer(new_word_embeddings.weight.data)
 
-        # Assign the new_word_embeddings to self.bert.embeddings.word_embeddings
-        self.bert.embeddings.word_embeddings = new_word_embeddings
+        self.bert.embeddings.word_embeddings = nn.Embedding.from_pretrained(new_word_embeddings)
+
+        # self.bert.embeddings  
 
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
@@ -257,13 +256,13 @@ class Net(nn.Module):
             # print(dir(self.bert))
             # print("-----------------------------------------------------------")
             # print(self.bert.embeddings)
-            print("-----------------------------------------------------------")
-            print(self.bert.embeddings.word_embeddings)
-            print("-----------------------------------------------------------")
+            # print("-----------------------------------------------------------")
+            # print(self.bert.embeddings.word_embeddings)
+            # print("-----------------------------------------------------------")
             
-            # print(encoded_layers)
-            sys.tracebacklimit = 0
-            raise Exception
+            # # print(encoded_layers)
+            # sys.tracebacklimit = 0
+            # raise Exception
         else:
             self.bert.eval()
             with torch.no_grad():
@@ -286,10 +285,10 @@ def train(model, iterator, optimizer, criterion):
             words, x, is_heads, tags, y, seqlens = batch
             _y = y # for monitoring
             optimizer.zero_grad()
-            print("Words:", words)
-            print("-----------------------------------------------------------")
-            print("Tags:", tags)
-            print("-----------------------------------------------------------")
+            # print("Words:", words)
+            # print("-----------------------------------------------------------")
+            # print("Tags:", tags)
+            # print("-----------------------------------------------------------")
             logits, y, _ = model(x, y) # logits: (N, T, VOCAB), y: (N, T)
 
             logits = logits.view(-1, logits.shape[-1]) # (N*T, VOCAB)
