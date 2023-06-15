@@ -225,8 +225,8 @@ class Net(nn.Module):
         new_word_embeddings.weight.data.copy_(custom_embedding.weight.data)
         self.bert.embeddings.word_embeddings = new_word_embeddings
 
-        del self.bert.embeddings.position_embeddings
-        del self.bert.embeddings.token_type_embeddings
+        self.bert.embeddings.position_embeddings = nn.Embedding(2, 300)
+        self.bert.embeddings.token_type_embeddingsnn.Embedding(2, 300)
 
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
