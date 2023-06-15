@@ -83,7 +83,7 @@ validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags + 1)
 
 
 
-with open('Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
+with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
 	embeddings_index = pickle.load(f)
 
 print('Total %s word vectors.' % len(embeddings_index))
