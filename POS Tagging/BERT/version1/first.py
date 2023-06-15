@@ -72,6 +72,7 @@ tag2index = {tag:idx for idx, tag in enumerate(tags)}
 index2tag = {idx:tag for idx, tag in enumerate(tags)}
 
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
+print("First sentence of train data:", train_data[0])
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
 print("Batch Size: ", BATCH_SIZE)
 print("Number of EPOCHS:", NUM_OF_EPOCHS)
