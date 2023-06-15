@@ -59,7 +59,7 @@ tagged_sentences = []
 
 for sentence in retrieved_sentences:
     temp = []
-    for chunk in sentence.list_of_chunks:
+    for chunk in sentence.list_of_chunks:   
         for word in chunk.list_of_words:
             temp.append((word.kannada_word, word.pos))
     tagged_sentences.append(temp)
