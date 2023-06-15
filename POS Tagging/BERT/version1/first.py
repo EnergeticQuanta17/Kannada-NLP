@@ -129,10 +129,6 @@ class PosDataset(data.Dataset):
 
         seqlen = len(y)
 
-        print(words)
-        print()
-        print(type(words))
-        raise Exception
 
         words = " ".join(words)
         tags = " ".join(tags)
@@ -223,6 +219,12 @@ class Net(nn.Module):
             self.bert.train()
             encoded_layers, _ = self.bert(x)
             enc = encoded_layers[-1]
+            
+            print(x)
+            print()
+            print(encoded_layers)
+            sys.tracebacklimit = 0
+            raise Exception
         else:
             self.bert.eval()
             with torch.no_grad():
