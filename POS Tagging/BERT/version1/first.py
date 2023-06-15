@@ -243,9 +243,10 @@ class Net(nn.Module):
             encoded_layers, _ = self.bert(x)
             enc = encoded_layers[-1]
             
-            print(x)
+            # print(x)
             print("-----------------------------------------------------------")
-            print(encoded_layers)
+            print(self.bert)
+            # print(encoded_layers)
             sys.tracebacklimit = 0
             raise Exception
         else:
