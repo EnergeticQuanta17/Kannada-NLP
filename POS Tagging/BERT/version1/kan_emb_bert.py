@@ -246,7 +246,14 @@ class Net(nn.Module):
         
         if self.training:
             self.bert.train()
-            encoded_layers, _ = self.bert(x)
+            print("-----------------WHILE TRAINING-------------------------------")
+            print(self.bert)
+            print("-----------------------------------------------------------")
+            encoded_layers, other_output = self.bert(x)
+            print("Encoded Layers:", encoded_layers)
+            print("-----------------------------------------------------------")
+            print("Other output:", other_output)
+            print("-----------------------------------------------------------")
             enc = encoded_layers[-1]
             
             # print(x)
