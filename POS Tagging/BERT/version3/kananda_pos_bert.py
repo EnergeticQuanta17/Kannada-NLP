@@ -275,7 +275,9 @@ class Net(nn.Module):
             with torch.no_grad():
                 encoded_layers, _ = self.bert(x)
                 enc = encoded_layers[-1]
-        
+        print("-----------------------------------------------------------")
+        print("ENC:", enc)
+        print("-----------------------------------------------------------")
         enc = self.dropout(enc)
         enc = self.fc1(enc)
         logits = self.fc2(enc)
