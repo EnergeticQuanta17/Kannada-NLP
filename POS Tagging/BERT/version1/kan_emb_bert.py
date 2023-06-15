@@ -223,10 +223,11 @@ class Net(nn.Module):
 
         new_word_embeddings = nn.Embedding(custom_embedding.num_embeddings, custom_embedding.embedding_dim)
         new_word_embeddings.weight.data.copy_(custom_embedding.weight.data)
-        self.bert.embeddings.word_embeddings = new_word_embeddings
 
-        self.bert.embeddings.position_embeddings = nn.Embedding(2, 300)
-        self.bert.embeddings.token_type_embeddings = nn.Embedding(2, 300)
+        fc_layer = nn.Linear(300, 768)
+        new_word_embeddings = fc_layer(new_word_embeddings.weight.data)
+
+        self.bert.embeddings.word_embeddings = new_word_embeddings
 
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
