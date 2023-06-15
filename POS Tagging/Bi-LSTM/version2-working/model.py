@@ -30,8 +30,8 @@ EPOCHS = 25
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
 
-print("Shape of X: ", X.shape)
-print("Shape of Y: ", y.shape)
+# print("Shape of X: ", X.shape)
+# print("Shape of Y: ", y.shape)
 
 
 def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
