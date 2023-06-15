@@ -263,13 +263,13 @@ class Net(nn.Module):
             # print(dir(self.bert))
             # print("-----------------------------------------------------------")
             # print(self.bert.embeddings)
-            print("-----------------------------------------------------------")
-            print(self.bert.embeddings.word_embeddings)
-            print("-----------------------------------------------------------")
+            # print("-----------------------------------------------------------")
+            # print(self.bert.embeddings.word_embeddings)
+            # print("-----------------------------------------------------------")
             
             # print(encoded_layers)
-            sys.tracebacklimit = 0
-            raise Exception
+            # sys.tracebacklimit = 0
+            # raise Exception
         else:
             self.bert.eval()
             with torch.no_grad():
