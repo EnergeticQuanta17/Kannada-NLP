@@ -227,9 +227,9 @@ class Net(nn.Module):
         fc_layer = nn.Linear(300, 768)
         new_word_embeddings = fc_layer(new_word_embeddings.weight.data)
 
-        self.bert.embeddings.word_embeddings = new_word_embeddings
+        self.bert.embeddings.word_embeddings = nn.Embedding.from_pretrained(new_word_embeddings)
 
-        # self.bert.embeddings
+        # self.bert.embeddings  
 
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
