@@ -241,7 +241,8 @@ class Net(nn.Module):
         new_word_embeddings.weight.data.copy_(custom_embedding.weight.data)
         self.bert.embeddings.word_embeddings = new_word_embeddings
 
-        # del self.bert.embeddings.position_embeddings
+        self.bert.embeddings.position_embeddings = nn.Embedding(0, 300)
+        self.bert.embeddings.token_type_embeddings = nn.Embedding(0, 300)
 
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(300, 256)
@@ -398,7 +399,8 @@ model = nn.DataParallel(model)
 print("-----------------------------------------------------------")
 print(model)
 print("-----------------------------------------------------------")
-
+sys.tracebacklimit = 0
+raise Exception
 train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
