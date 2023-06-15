@@ -187,7 +187,8 @@ def pad(batch):
 with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as file:
     embs = pickle.load(file)
 
-print(embs.items()[0])
+print()
+print(list(embs.items())[0])
 
 class KanandaEmbedding(nn.Module):
     def __init__(self, input_size, output_size):
