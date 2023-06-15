@@ -158,14 +158,14 @@ print("Type of y-pred: ", type(y_pred), y_pred.shape)
 # print()
 # print(y_pred[:20])
 
-for y in y_pred[:20]:
+for y in y_pred[:]:
     print(np.argmax(y))
 
 
 print("Type of y-test: ", type(y_test), y_test.shape)
 
 # print(y_test[:20])
-for y in y_test[:20]:
+for y in y_test[:]:
     print(np.argmax(y))
 
 
