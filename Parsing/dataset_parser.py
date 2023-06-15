@@ -10,7 +10,7 @@ chunk_attributes = vars(Chunk)['__annotations__']
 sentence_attributes = vars(Sentence)['__annotations__']
 
 
-def extract_list_of_sentences(filename=""):
+def extract_list_of_sentences(filename):
     list_of_sentences = []
     s = None
     c = None
