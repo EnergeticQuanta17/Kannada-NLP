@@ -206,7 +206,8 @@ word_tensor = torch.tensor(list(embs.values()))  # Shape: (input_size, output_si
 word_to_index = {word: index for index, word in enumerate(embs.keys())}
 
 # Create an instance of CustomEmbedding
-custom_embedding = KanandaEmbedding(word_tensor)
+# custom_embedding = KanandaEmbedding(word_tensor)
+custom_embedding = nn.Embedding.from_pretrained(word_tensor)
 
 # # Example usage
 # words = ['word1', 'word2', 'word3']
