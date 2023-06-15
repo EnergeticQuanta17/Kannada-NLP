@@ -111,8 +111,7 @@ class PosDataset(data.Dataset):
             tokens = tokenizer.tokenize(w) if w not in ('[CLS]', '[SEP]') else [w]
             token_ids = tokenizer.convert_tokens_to_ids(tokens)
 
-            print(tokens)
-            raise Exception
+            
             
 
             is_head = [1] + [0] * (len(tokens) - 1)
@@ -133,6 +132,10 @@ class PosDataset(data.Dataset):
 
         seqlen = len(y)
 
+        print("X:", x)
+        print("Y:", y)
+        sys.tracebacklimit = 0
+        raise Exception
 
         words = " ".join(words)
         tags = " ".join(tags)
