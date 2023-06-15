@@ -225,7 +225,9 @@ class Net(nn.Module):
         new_word_embeddings = nn.Embedding(custom_embedding.num_embeddings, custom_embedding.embedding_dim)
 
         # Copy the values from custom_embedding to new_word_embeddings
-        new_word_embeddings.weight.data.copy_(custom_embedding.embedding.weight.data)
+
+        new_word_embeddings.weight.data.copy_(custom_embedding.weight.data)
+
 
         # Assign the new_word_embeddings to self.bert.embeddings.word_embeddings
         self.bert.embeddings.word_embeddings = new_word_embeddings
