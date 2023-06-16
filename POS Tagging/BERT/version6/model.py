@@ -416,7 +416,7 @@ class KannadaBERT(nn.Module):
             print("Length of encoded layer:", len(encoded_layers))
             print(len(encoded_layers[0]))
             print(len(encoded_layers[1]))
-            print(np.array(encoded_layers).shape)
+            print(np.array(encoded_layers).ndim)
         except:
             print("Did not work-----++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         return encoded_layers, pooled_output
