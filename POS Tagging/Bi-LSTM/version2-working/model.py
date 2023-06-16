@@ -81,10 +81,10 @@ print('We have %d VALIDATION samples' % n_val_samples)
 print('We have %d TEST samples' % n_test_samples)
 
 # make generators for training and validation
-train_generator = generator(all_X=X_train, all_y=y_train, n_classes=n_tags + 1)
-validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags + 1)
+train_generator = generator(all_X=X_train, all_y=y_train, n_classes=n_tags)
+validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags)
 
-print('Ntags + 1 : ', n_tags+1)
+print('Ntags : ', n_tags)
 
 with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
 	embeddings_index = pickle.load(f)
@@ -146,7 +146,7 @@ train = True
 #     from keras.models import load_model
 #     model = load_model('Models/model.h5')
 
-y_test = to_categorical(y_test, num_classes=n_tags+1)
+y_test = to_categorical(y_test, num_classes=n_tags)
 test_results = model.evaluate(X_test, y_test, verbose=0)
 
 X_test
