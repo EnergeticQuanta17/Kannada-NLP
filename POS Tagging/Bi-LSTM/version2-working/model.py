@@ -189,10 +189,11 @@ if(True):
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
         if(np.argmax(y_test[k]) != 0):
-            # for index, y in enumerate(zip(y_pred[k], y_test[k])):
-            #     print(index, '-->', y[0], '\t', y[1])
-            #     print(int2tag[index])
+            for index, y in enumerate(zip(y_pred[k], y_test[k])):
+                print(index, '-->', y[0], '\t', y[1])
+                print(int2tag[index])
             count+=1
+            break
     
 
         with open('find_this_sentence.pkl', 'wb') as file:
