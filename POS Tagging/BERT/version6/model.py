@@ -584,14 +584,14 @@ def runner():
                     fout.write("{} {} {}\n".format(w, t, p))
                 fout.write("\n")
 
-        print(index2tag)
+        # print(index2tag)
 
         y_true =  np.array([tag2index[line.split()[1]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
         y_pred =  np.array([tag2index[line.split()[2]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
 
-        print(y_true)
-        print()
-        print(list(y_pred))
+        # print(y_true)
+        # print()
+        # print(list(y_pred))
 
         acc = (y_true==y_pred).astype(np.int32).sum() / len(y_true)
 
