@@ -1,7 +1,7 @@
 import datasets
 from pathlib import Path
 
-from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments, DistilBertConfig, DistilBertForMaskedLM, DistilBertTokenizerFast
+from transformers import DataCollatorForLanguageModeling, TrainingArguments, DistilBertConfig, DistilBertForMaskedLM, DistilBertTokenizerFast
 
 
 import torch_xla.core.xla_model as xm
