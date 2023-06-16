@@ -70,7 +70,7 @@ index2tag = {idx:tag for idx, tag in enumerate(tags)}
 
 words2index = {tag:idx for idx, tag in enumerate(all_words)}
 index2words = {idx:tag for idx, tag in enumerate(all_words)}
-print(list(index2words.keys()))
+# print(list(index2words.keys()))
 
 emb_list = []
 def emb(word2index):
