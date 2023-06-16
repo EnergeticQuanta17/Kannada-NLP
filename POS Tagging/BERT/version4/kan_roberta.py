@@ -8,8 +8,6 @@ from transformers.training_args import TrainingArguments
 # import xla.torch_xla.distributed.parallel_loader as pl
 # import xla.torch_xla.distributed.xla_multiprocessing as xmp
 
-#
-
 
 config = DistilBertConfig(vocab_size=30000)
 model = DistilBertForMaskedLM(config)

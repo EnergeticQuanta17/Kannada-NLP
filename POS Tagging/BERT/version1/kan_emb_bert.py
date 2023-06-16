@@ -22,6 +22,7 @@ from pytorch_pretrained_bert import BertTokenizer, BertModel
 
 import os
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
+os.environ['TORCH_USE_CUDA_DSA'] = '1'
 import sys
 
 import time
@@ -220,6 +221,9 @@ class Net(nn.Module):
     def __init__(self, vocab_size=None):
         super().__init__()
         self.bert = BertModel.from_pretrained(BERT_MODEL)
+        
+        print(self.bert.embeddings.word_embeddings.weight)
+        print(type(self.bert.embeddings.word_embeddings.weight))
 
         new_word_embeddings = nn.Embedding(custom_embedding.num_embeddings, custom_embedding.embedding_dim)
         new_word_embeddings.weight.data.copy_(custom_embedding.weight.data)
@@ -228,8 +232,11 @@ class Net(nn.Module):
         new_word_embeddings = fc_layer(new_word_embeddings.weight.data)
 
         self.bert.embeddings.word_embeddings = nn.Embedding.from_pretrained(new_word_embeddings)
-
-        # self.bert.embeddings  
+        print(self.bert.embeddings.word_embeddings.weight)
+        
+        # self.bert.embeddings.position_embeddings = nn.Embedding(1, 768)
+        # self.bert.embeddings.token_type_embeddings = nn.Embedding(1, 768)
+        
 
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
