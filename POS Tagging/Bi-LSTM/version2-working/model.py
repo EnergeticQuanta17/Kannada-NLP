@@ -173,11 +173,11 @@ for y in y_test:
 
 
 print('\n\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\n')
-# print(int2tag)
+print(int2tag)
 
 
-y_pred = y_pred.reshape(-1, 78)
-y_test = y_test.reshape(-1, 78)
+y_pred = y_pred.reshape(-1, 77)
+y_test = y_test.reshape(-1, 77)
 
 print(X_test.shape)
 # print('-------------------Xtest--------------')
@@ -199,6 +199,7 @@ if(True):
             for index, y in enumerate(zip(y_pred[k], y_test[k])):
                 print(index, '-->', y[0], '\t', y[1])
                 print(int2tag[index+1])
+                
             count+=1
             break
     
