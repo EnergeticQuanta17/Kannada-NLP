@@ -173,11 +173,18 @@ for y in y_test:
 
 
 print('\n\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\n')
-print(int2tag)
+# print(int2tag)
 
 
 y_pred = y_pred.reshape(-1, 78)
 y_test = y_test.reshape(-1, 78)
+
+print(X_test.shape)
+print('-------------------Xtest--------------')
+print(X_test)
+
+print()
+print()
 
 count = 0
 if(True):
@@ -200,8 +207,8 @@ if(True):
             pickle.dump(X_test[k], file)
 
         
-        print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
-        print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
+        # print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
+        # print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
         
         
 
