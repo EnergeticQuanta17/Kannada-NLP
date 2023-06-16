@@ -238,6 +238,9 @@ print("Accuracy: ", ACCURACY)
 #     print(i, '\t', j)
 
 
+
+# LOADING TO JSON
+
 data = {
     "Epochs": EPOCHS,
     "Number of Embeddings used": NO_OF_EMBEDDINGS,
