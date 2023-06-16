@@ -512,7 +512,7 @@ def runner():
 
     print(model)
     print("---------------------------------------==========================================================================")
-    print(model.parameters()
+    print(model.parameters())
 
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.00001)
 
