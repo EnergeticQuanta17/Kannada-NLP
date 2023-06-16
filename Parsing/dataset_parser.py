@@ -127,7 +127,7 @@ if(__name__=='__main__'):
 
     test_parsing()
 
-    los = extract_list_of_sentences()
+    los = extract_list_of_sentences("full_dataset_131.pickle")
 
     with open('sentences.pickle', 'wb') as file:
         pickle.dump(los, file)
