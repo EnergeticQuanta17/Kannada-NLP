@@ -180,6 +180,8 @@ y_pred = y_pred.reshape(-1, 77)
 y_test = y_test.reshape(-1, 77)
 
 print(X_test.shape)
+
+print(y_pred.shape)
 # print('-------------------Xtest--------------')
 # print(X_test)
 
@@ -228,19 +230,23 @@ with open('index_to_tag.txt', 'w') as f:
 
 count = 0
 non_zero_count = 0
+tcount = 0
 
 if(True):
     for k in range(X_test.shape[0]):
         if(np.argmax(y_pred[k]) == np.argmax(y_test[k])):
-            if(np.argmax(y_pred[k])!=0):
-                for i, j in zip(y_pred[k], y_test[k]):
-                    print(i, '\t', j)
+            if(np.argmax(y_test[k])!=0):
+                #for i, j in zip(y_pred[k], y_test[k]):
+                    #print(i, '\t', j)
                 non_zero_count += 1
             count+=1
+        if(np.argmax(y_test[k])!=0):
+            tcount += 1
+
 print()
-print()
-print(count, X_test.shape[0])
-ACCURACY = 100* count/X_test.shape[0]
+print('Non zero count : ', non_zero_count)
+print('Total count : ', tcount)
+ACCURACY = 100* non_zero_count/tcount
 print("Accuracy: ", ACCURACY)
 
 # for i, j in zip(y_pred[10], y_test[10]):
