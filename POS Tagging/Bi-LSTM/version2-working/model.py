@@ -24,7 +24,7 @@ TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.2
 BATCH_SIZE = 32
 UNITS_IN_LSTM_LAYER = 64
-EPOCHS = 10
+EPOCHS = 1
 
 
 with open('all_data.pkl', 'rb') as f:
@@ -155,8 +155,8 @@ y_pred = model.predict(X_test)
 
 print("Type of y-pred: ", type(y_pred), y_pred.shape)
 
-print('Whole y_pred :')
-print(y_pred)
+# print('Whole y_pred :')
+# print(y_pred)
 
 for y in y_pred:
     print(np.argmax(y), end=' ')
@@ -164,8 +164,8 @@ for y in y_pred:
 
 print("Type of y-test: ", type(y_test), y_test.shape)
 
-print('Whole y_test :')
-print(y_test)
+# print('Whole y_test :')
+# print(y_test)
 
 for y in y_test:
     print(np.argmax(y), end=' ')
