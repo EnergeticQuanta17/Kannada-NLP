@@ -180,8 +180,8 @@ y_pred = y_pred.reshape(-1, 78)
 y_test = y_test.reshape(-1, 78)
 
 print(X_test.shape)
-print('-------------------Xtest--------------')
-print(X_test)
+# print('-------------------Xtest--------------')
+# print(X_test)
 
 print()
 print()
@@ -198,7 +198,7 @@ if(True):
         if(np.argmax(y_test[k]) != 0):
             for index, y in enumerate(zip(y_pred[k], y_test[k])):
                 print(index, '-->', y[0], '\t', y[1])
-                print(int2tag[index])
+                print(int2tag[index+1])
             count+=1
             break
     
