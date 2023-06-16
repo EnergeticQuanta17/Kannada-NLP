@@ -1,19 +1,18 @@
 import datasets
 from pathlib import Path
 
-from transformers import DataCollatorForLanguageModeling, DistilBertConfig, DistilBertForMaskedLM, DistilBertTokenizerFast
+from transformers import DataCollatorForLanguageModeling, DistilBertConfig, DistilBertForMaskedLM, DistilBertTokenizerFast, Trainer
 from transformers.training_args import TrainingArguments
 
-import xla.torch_xla.core.xla_model as xm
-import xla.torch_xla.distributed.parallel_loader as pl
-import xla.torch_xla.distributed.xla_multiprocessing as xmp
+# import xla.torch_xla.core.xla_model as xm
+# import xla.torch_xla.distributed.parallel_loader as pl
+# import xla.torch_xla.distributed.xla_multiprocessing as xmp
 
 #
 
 
 config = DistilBertConfig(vocab_size=30000)
-model = xmp.MpModelWrapper(DistilBertForMaskedLM(config))
-SERIAL_EXEC = xmp.MpSerialExecutor()
+model = DistilBertForMaskedLM(config)
 
 
 tokenizer = DistilBertTokenizerFast.from_pretrained("/content/Tokenizer", do_lower_case=False)
@@ -39,32 +38,13 @@ def get_tokenized_dataset():
 def get_data_collator():
   return DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm_probability=0.15)
 
-
-def map_fn(index):  
-  device = xm.xla_device()
-  model.to(device)
-  xm.rendezvous("Model moved to device")
-
-
-  # Defining arbitrary training arguments
-  args = TrainingArguments(output_dir="/content/TPUCheckpoints", do_train=True, per_device_train_batch_size=32,weight_decay=0.01, 
-                    num_train_epochs=3, save_total_limit=2, save_steps=500,
-                    disable_tqdm=False, remove_unused_columns=False, ignore_data_skip=False)
-                    
-  tokenized_datasets = SERIAL_EXEC.run(get_tokenized_dataset)
-  xm.rendezvous("Tokenized dataset loaded")
-  data_collator = SERIAL_EXEC.run(get_data_collator)
-  xm.rendezvous("DataCollator loaded")
+def map_fn(index):
+  model.to('cuda')
   
   trainer = Trainer(
       model=model,
-      args=args,
       train_dataset=tokenized_datasets["train"],
       tokenizer=tokenizer,
       data_collator=data_collator,
   )
   trainer.train()
-
-
-if __name__ == "__main__":
-  xmp.spawn(map_fn, args=(), nprocs=8, start_method='fork')
