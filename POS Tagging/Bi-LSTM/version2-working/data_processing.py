@@ -76,8 +76,8 @@ for i, tag in enumerate(tags):
     tag2int[tag] = i+1
     int2tag[i+1] = tag
 
-    if(tag=='UNK'):
-        print("-----------------------------------------------FOUND UNK-------------------------------------------")
+    # if(tag=='10ರಲ್ಲಿ'):
+    #     print("10ರಲ್ಲಿ Tag found")
 
 # EMPTY TAG
 # print("Seee this", int2tag[1])
