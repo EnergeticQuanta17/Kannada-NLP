@@ -24,7 +24,7 @@ TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.2
 BATCH_SIZE = 32
 UNITS_IN_LSTM_LAYER = 64
-EPOCHS = 1
+EPOCHS = 25
 
 
 with open('all_data.pkl', 'rb') as f:
