@@ -8,7 +8,7 @@ print(result)
 
 if result.returncode == 0:
     print("Push successful")
-    winsound.Beep(500, 10)
+    winsound.Beep(500, 500)
 else:
     print("Push failed")
-    winsound.Beep(500, 100)
+    winsound.Beep(500, 10000)

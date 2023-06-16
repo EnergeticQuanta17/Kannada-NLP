@@ -64,6 +64,7 @@ for sentence in retrieved_sentences:
             temp.append((word.kannada_word, word.pos))
     tagged_sentences.append(temp)
 
+all_words = list(set(word_pos[0] for sentence in tagged_sentences for word_pos in sentence))
 tags = list(set(word_pos[1] for sentence in tagged_sentences for word_pos in sentence))
 tags = ["<pad>"] + tags
 NO_OF_TAGS = len(tags) - 1
@@ -71,7 +72,11 @@ NO_OF_TAGS = len(tags) - 1
 tag2index = {tag:idx for idx, tag in enumerate(tags)}
 index2tag = {idx:tag for idx, tag in enumerate(tags)}
 
+words2index = {tag:idx for idx, tag in enumerate(all_words)}
+index2words = {idx:tag for idx, tag in enumerate(all_words)}
+
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
+print("First sentence of train data:", train_data[0])
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
 print("Batch Size: ", BATCH_SIZE)
 print("Number of EPOCHS:", NUM_OF_EPOCHS)
@@ -82,7 +87,9 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # How to use tokenizer for this
     # especially for Kannada
-tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=False)
+tokenizer = BertTokenizer.from_pretrained(BERT_MODEL)
+
+
 
 class PosDataset(data.Dataset):
     def __init__(self, tagged_sentences):
@@ -106,13 +113,23 @@ class PosDataset(data.Dataset):
         is_heads = []
 
         for w, t in zip(words, tags):
-            # tokens = tokenizer.tokenize()
-            tokens = tokenizer.tokenize(w) if w not in ('[CLS]', '[SEP]') else [w]
-            token_ids = tokenizer.convert_tokens_to_ids(tokens)
+            # # tokens = tokenizer.tokenize()
+            # tokens = tokenizer.tokenize(w) if w not in ('[CLS]', '[SEP]') else [w]
+            # token_ids = tokenizer.convert_tokens_to_ids(tokens)
 
-            is_head = [1] + [0] * (len(tokens) - 1)
+            if(w in words2index):
+                token_ids = [words2index[w]]
+            else:
+                token_ids = [0]
+            
 
-            t = [t] + ["<pad>"] * (len(tokens) - 1)
+            # is_head = [1] + [0] * (len(tokens) - 1)
+            # t = [t] + ["<pad>"] * (len(tokens) - 1)
+
+            is_head = [1]
+            t = [t]
+
+        
             y_ids = [tag2index[i] for i in t]
 
             x.extend(token_ids)
@@ -128,8 +145,18 @@ class PosDataset(data.Dataset):
 
         seqlen = len(y)
 
+        # print("X:", x)
+        # print("For words:", words)
+        # print("---------------------------------------------------------------------------------------------------")
+        # print("Y:", y)
+        # print("For tags:", tags)
+        # sys.tracebacklimit = 0
+        # raise Exception
+
         words = " ".join(words)
         tags = " ".join(tags)
+
+        
 
         return words, tags, is_heads, tags, y, seqlen
     
@@ -215,6 +242,21 @@ class Net(nn.Module):
             self.bert.train()
             encoded_layers, _ = self.bert(x)
             enc = encoded_layers[-1]
+            
+            # print(x)
+            print("-----------------------------------------------------------")
+            print(self.bert)
+            print("-----------------------------------------------------------")
+            print(dir(self.bert))
+            print("-----------------------------------------------------------")
+            print(self.bert.embeddings)
+            print("-----------------------------------------------------------")
+            print(self.bert.embeddings.word_embeddings)
+            print("-----------------------------------------------------------")
+            
+            # print(encoded_layers)
+            sys.tracebacklimit = 0
+            raise Exception
         else:
             self.bert.eval()
             with torch.no_grad():
@@ -237,6 +279,10 @@ def train(model, iterator, optimizer, criterion):
             words, x, is_heads, tags, y, seqlens = batch
             _y = y # for monitoring
             optimizer.zero_grad()
+            print("Words:", words)
+            print("-----------------------------------------------------------")
+            print("Tags:", tags)
+            print("-----------------------------------------------------------")
             logits, y, _ = model(x, y) # logits: (N, T, VOCAB), y: (N, T)
 
             logits = logits.view(-1, logits.shape[-1]) # (N*T, VOCAB)
@@ -329,14 +375,14 @@ model = Net(vocab_size=len(tag2index))
 model.to(device)
 model = nn.DataParallel(model)
 
-print(model)
+# print(model)
 
 train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
 train_iter = data.DataLoader(dataset=train_dataset,
                              batch_size=BATCH_SIZE,
-                             shuffle=True,
+                             shuffle=False,
                              collate_fn=pad)
 
 test_iter = data.DataLoader(dataset=eval_dataset,
