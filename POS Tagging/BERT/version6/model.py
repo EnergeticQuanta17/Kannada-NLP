@@ -497,7 +497,7 @@ def runner():
 
     print(model)
 
-    optimizer = torch.optim.Adam(model.parameters(), lr = 0.0001)
+    optimizer = torch.optim.Adam(model.parameters(), lr = 0.00001)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
 
@@ -542,6 +542,50 @@ def runner():
 
             start_epoch = time.time()
 
+
+        def eval(model, iterator):
+            model.eval()
+
+            Words, Is_heads, Tags, Y, Y_hat = [], [], [], [], []
+            with torch.no_grad():
+                for i, batch in enumerate(iterator):
+                    words, x, is_heads, tags, y, seqlens = batch
+
+                    _, _, y_hat = model(x, y)
+
+                    Words.extend(words)
+                    Is_heads.extend(is_heads)
+                    Tags.extend(tags)
+                    Y.extend(y.numpy().tolist())
+                    Y_hat.extend(y_hat.cpu().numpy().tolist())
+
+            with open("result", 'w') as fout:
+                count = 0
+                for words, is_heads, tags, y_hat in zip(Words, Is_heads, Tags, Y_hat):
+                    y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
+                    
+                    preds = [index2tag[hat] for hat in y_hat]
+                    assert len(preds)==len(words.split())==len(tags.split())
+                    for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
+                        fout.write("{} {} {}\n".format(w, t, p))
+                    fout.write("\n")
+
+            print(index2tag)
+
+            y_true =  np.array([tag2index[line.split()[1]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
+            y_pred =  np.array([tag2index[line.split()[2]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
+
+            print(y_true)
+            print()
+            print(list(y_pred))
+
+            acc = (y_true==y_pred).astype(np.int32).sum() / len(y_true)
+
+            print("acc=%.2f"%acc)
+
     train(model, train_iter, optimizer, criterion)
+    eval(model, test_iter)
 
 runner()
+
+open('result', 'r').read().splitlines()[:100]
