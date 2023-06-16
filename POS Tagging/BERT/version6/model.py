@@ -432,8 +432,8 @@ class KannadaBERT(nn.Module):
 config = {
     "vocab_size": 20_000,
     "hidden_size": 300,
-    "num_hidden_layers": 24,
-    "num_attention_heads": 24,
+    "num_hidden_layers": 30,
+    "num_attention_heads": 30,
     "intermediate_size": 3072,
     "hidden_act": "swish",
     "hidden_dropout_prob": 0.01,
