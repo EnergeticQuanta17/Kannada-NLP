@@ -30,6 +30,9 @@ EPOCHS = 1
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
 
+int2tag[0] = '<PAD>'
+tag2int['<PAD>'] = 0
+
 # print("Shape of X: ", X.shape)
 # print("Shape of Y: ", y.shape)
 
