@@ -434,9 +434,39 @@ config = {
 }
 
 
-model = KannadaBERT(config)
-model = nn.DataParallel(model)
-print(model)
+# model = KannadaBERT(config)
+# model = nn.DataParallel(model)
+# print(model)
+
+class POSNet(nn.Module):
+    def __init__(self, vocab_size=None):
+        super().__init__()
+        self.bert = KannadaBERT(config)
+        self.dropout = nn.Dropout(0.05)
+        self.fc1 = nn.Linear(768, 256)
+        self.fc2 = nn.Linear(256, vocab_size)
+        self.device = device
+    
+    def forward(self, x, y):
+        x = x.to(self.device)
+        y = y.to(self.device)
+        
+        if self.training:
+            self.bert.train()
+            encoded_layers, _ = self.bert(x)
+            enc = encoded_layers
+            # enc = encoded_layers[-1]
+        else:
+            self.bert.eval()
+            with torch.no_grad():
+                encoded_layers, _ = self.bert(x)
+                enc = encoded_layers[-1]
+        
+        enc = self.dropout(enc)
+        enc = self.fc1(enc)
+        logits = self.fc2(enc)
+        y_hat = logits.argmax(-1)
+        return logits, y, y_hat
 
 def runner():
     def pad(batch):
@@ -464,6 +494,10 @@ def runner():
                                 batch_size=BATCH_SIZE,
                                 shuffle=False,
                                 collate_fn=pad)
+
+    model = POSNet(vocab_size=len(tag2index))
+    model.to(device)
+    model = nn.DataParallel(model)
 
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.0001)
 
