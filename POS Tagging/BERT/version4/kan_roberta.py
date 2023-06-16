@@ -1,9 +1,7 @@
 import datasets
 from pathlib import Path
 
-from transformers import (DataCollatorForLanguageModeling, Trainer,
-			 TrainingArguments, DistilBertConfig, 
-			DistilBertForMaskedLM, DistilBertTokenizerFast)
+from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments, DistilBertConfig, DistilBertForMaskedLM, DistilBertTokenizerFast
 
 
 import torch_xla.core.xla_model as xm
@@ -24,7 +22,7 @@ def get_tokenized_dataset():
   tokenized_datasets = datasets.load_dataset('text', data_files=data_files)
   
   def tokenize_function(examples):
-    # Remove empty lines
+    
     examples["text"] = [line for line in examples["text"] if len(line) > 0 and not line.isspace()]
     return tokenizer(
         examples["text"],
