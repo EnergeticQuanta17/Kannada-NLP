@@ -439,7 +439,7 @@ class POSNet(nn.Module):
         super().__init__()
         self.bert = KannadaBERT(config)
         self.dropout = nn.Dropout(0.05)
-        self.fc1 = nn.Linear(768, 256)
+        self.fc1 = nn.Linear(300, 256)
         self.fc2 = nn.Linear(256, vocab_size)
         self.device = device
     
