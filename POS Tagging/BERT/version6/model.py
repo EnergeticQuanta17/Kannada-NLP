@@ -415,19 +415,34 @@ class KannadaBERT(nn.Module):
         return encoded_layers, pooled_output
 
 
+# config = {
+#     "vocab_size": 20_000,
+#     "hidden_size": 300,
+#     "num_hidden_layers": 12,
+#     "num_attention_heads": 12,
+#     "intermediate_size": 3072,
+#     "hidden_act": "gelu",
+#     "hidden_dropout_prob": 0.1,
+#     "attention_probs_dropout_prob": 0.1,
+#     "max_position_embeddings": 512,
+#     "type_vocab_size": 2,
+#     "initializer_range": 0.02   
+# }
+
 config = {
     "vocab_size": 20_000,
     "hidden_size": 300,
-    "num_hidden_layers": 12,
-    "num_attention_heads": 12,
+    "num_hidden_layers": 24,
+    "num_attention_heads": 24,
     "intermediate_size": 3072,
-    "hidden_act": "gelu",
-    "hidden_dropout_prob": 0.1,
-    "attention_probs_dropout_prob": 0.1,
-    "max_position_embeddings": 512,
-    "type_vocab_size": 2,
+    "hidden_act": "swish",
+    "hidden_dropout_prob": 0.01,
+    "attention_probs_dropout_prob": 0.01,
+    "max_position_embeddings": 0,
+    "type_vocab_size": 0,
     "initializer_range": 0.02   
 }
+
 
 
 # model = KannadaBERT(config)
@@ -541,7 +556,6 @@ def runner():
             eval(model, test_iter)
 
             start_epoch = time.time()
-
 
     def eval(model, iterator):
         model.eval()
