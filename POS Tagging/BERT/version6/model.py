@@ -411,7 +411,11 @@ class KannadaBERT(nn.Module):
             encoded_layers = encoded_layers[-1]
 
         print(type(encoded_layers))
-        print(encoded_layers.shape)
+        try:
+            print("Length of encoded layer:", len(encoded_layers))
+            print(np.array(encoded_layers).shape)
+        except:
+            print("Did not work-----++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         return encoded_layers, pooled_output
 
 
