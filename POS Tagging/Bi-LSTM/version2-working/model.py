@@ -199,7 +199,7 @@ if(True):
         if(np.argmax(y_test[k]) != 0):
             for index, y in enumerate(zip(y_pred[k], y_test[k])):
                 print(index, '-->', y[0], '\t', y[1])
-                print(int2tag[index+1])
+                print(int2tag[index])
                 
             count+=1
             break
@@ -209,8 +209,8 @@ if(True):
             pickle.dump(X_test[k], file)
 
         
-        # print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
-        # print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
+        # print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])])
+        # print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])])
         
         
 
