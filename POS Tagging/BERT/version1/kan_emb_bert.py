@@ -221,7 +221,7 @@ class Net(nn.Module):
         super().__init__()
         self.bert = BertModel.from_pretrained(BERT_MODEL)
         
-        print(lenself.bert.embeddings.word_embeddings())
+        print(len(self.bert.embeddings.word_embeddings()))
 
         new_word_embeddings = nn.Embedding(custom_embedding.num_embeddings, custom_embedding.embedding_dim)
         new_word_embeddings.weight.data.copy_(custom_embedding.weight.data)
