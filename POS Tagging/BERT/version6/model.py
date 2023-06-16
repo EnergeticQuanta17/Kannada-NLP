@@ -500,6 +500,8 @@ def runner():
     model.to(device)
     model = nn.DataParallel(model)
 
+    print(model)
+
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.0001)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
