@@ -53,7 +53,6 @@ with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
 
 tagged_sentences = []
-
 for sentence in retrieved_sentences:
     temp = []
     for chunk in sentence.list_of_chunks:
@@ -72,6 +71,24 @@ index2tag = {idx:tag for idx, tag in enumerate(tags)}
 words2index = {tag:idx for idx, tag in enumerate(all_words)}
 index2words = {idx:tag for idx, tag in enumerate(all_words)}
 print(list(index2words.keys()))
+
+emb_list = []
+def emb(word2index):
+    with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
+        emb_dict = pickle.load(f)
+    
+    for e in emb_dict:
+        print(e, emb_dict[e])
+        break
+    
+    index2words_list = [(key, val) for key, val in index2words.items()]
+    index2words_list = sorted(index2words_list)
+
+    for index, word in index2words_list:
+        if(word in emb_dict):
+            emb_list.append(emb_dict[word])
+        else:
+            emb_list.append(np.random.rand(300))
 
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("First sentence of train data:", train_data[0])
@@ -187,7 +204,7 @@ class KannadaEmbeddings(nn.Module):
     def __init__(self, config):
         super(KannadaEmbeddings, self).__init__()
         # self.word_embeddings = nn.Embedding(config["vocab_size"], config["hidden_size"])
-        self.word_embeddings = nn.Embedding.from_pretrained()
+        self.word_embeddings = nn.Embedding.from_pretrained(torch.Tensor(emb_list))
 
         self.LayerNorm = KannadaLayerNorm(config)
         self.dropout = nn.Dropout(config["hidden_dropout_prob"])
