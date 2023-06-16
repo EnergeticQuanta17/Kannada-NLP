@@ -232,7 +232,10 @@ class Net(nn.Module):
 
         self.bert.embeddings.word_embeddings = nn.Embedding.from_pretrained(new_word_embeddings)
         print(self.bert.embeddings.word_embeddings.weight)
-        # self.bert.embeddings  
+        
+        self.bert.embeddings.position_embeddings = nn.Embedding(1, 768)
+        self.bert.embeddings.token_type_embeddings = nn.Embedding(1, 768)
+        
 
         self.dropout = nn.Dropout(0.05)
         self.fc1 = nn.Linear(768, 256)
