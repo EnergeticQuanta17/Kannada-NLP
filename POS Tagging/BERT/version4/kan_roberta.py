@@ -15,7 +15,7 @@ config = DistilBertConfig(vocab_size=30000)
 model = DistilBertForMaskedLM(config)
 
 
-tokenizer = DistilBertTokenizerFast.from_pretrained("/content/Tokenizer", do_lower_case=False)
+tokenizer = DistilBertTokenizerFast.from_pretrained("./kanbert", do_lower_case=False)
 
 
 def get_tokenized_dataset():
