@@ -192,6 +192,7 @@ print('Y_pred shape ' , y_pred.shape)
 print()
 print()
 
+"""
 count = 0
 if(True):
     for k in range(X_test.shape[0]):
@@ -224,6 +225,8 @@ if(True):
 
 print("Number of non-zero indexed tags: ", count)
 
+"""
+
 with open('index_to_word.txt', 'w') as f:
     for i in int2word:
         f.write(str(i) + '-->' + int2word[i] + '\n')
@@ -237,7 +240,7 @@ non_zero_count = 0
 tcount = 0
 
 if(True):
-    for k in range(X_test.shape[0]):
+    for k in range(y_pred.shape[0]):
         if(np.argmax(y_pred[k]) == np.argmax(y_test[k])):
             if(np.argmax(y_test[k])!=0):
                 #for i, j in zip(y_pred[k], y_test[k]):
