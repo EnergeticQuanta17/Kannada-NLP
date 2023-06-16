@@ -24,14 +24,14 @@ TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.2
 BATCH_SIZE = 32
 UNITS_IN_LSTM_LAYER = 64
-EPOCHS = 25
+EPOCHS = 10
 
 
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
 
-print("Shape of X: ", X.shape)
-print("Shape of Y: ", y.shape)
+# print("Shape of X: ", X.shape)
+# print("Shape of Y: ", y.shape)
 
 
 def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
@@ -83,7 +83,7 @@ validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags + 1)
 
 
 
-with open('Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
+with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
 	embeddings_index = pickle.load(f)
 
 print('Total %s word vectors.' % len(embeddings_index))
@@ -155,18 +155,20 @@ y_pred = model.predict(X_test)
 
 print("Type of y-pred: ", type(y_pred), y_pred.shape)
 
-# print()
-# print(y_pred[:20])
+print('Whole y_pred :')
+print(y_pred)
 
-for y in y_pred[:20]:
-    print(np.argmax(y))
+for y in y_pred:
+    print(np.argmax(y), end=' ')
 
 
 print("Type of y-test: ", type(y_test), y_test.shape)
 
-# print(y_test[:20])
-for y in y_test[:20]:
-    print(np.argmax(y))
+print('Whole y_test :')
+print(y_test)
+
+for y in y_test:
+    print(np.argmax(y), end=' ')
 
 
 
@@ -174,8 +176,8 @@ print('\n\n\n-------------------------------------------------------------------
 
 
 
-y_pred = y_pred.reshape(-1, 73)
-y_test = y_test.reshape(-1, 73)
+y_pred = y_pred.reshape(-1, 78)
+y_test = y_test.reshape(-1, 78)
 
 count = 0
 if(True):
@@ -195,6 +197,8 @@ if(True):
 
         with open('find_this_sentence.pkl', 'wb') as file:
             pickle.dump(X_test[k], file)
+
+        
         print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
         print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
         
@@ -214,13 +218,15 @@ with open('index_to_tag.txt', 'w') as f:
         f.write(str(i) + '-->' + int2tag[i] + '\n')
 
 count = 0
+non_zero_count = 0
+
 if(True):
     for k in range(X_test.shape[0]):
         if(np.argmax(y_pred[k]) == np.argmax(y_test[k])):
-            # if(np.argmax(y_pred[k])!=0):
-            #     for i, j in zip(y_pred[k], y_test[k]):
-            #         print(i, '\t', j)
-            #     break
+            if(np.argmax(y_pred[k])!=0):
+                for i, j in zip(y_pred[k], y_test[k]):
+                    print(i, '\t', j)
+                non_zero_count += 1
             count+=1
 print()
 print()
@@ -231,6 +237,9 @@ print("Accuracy: ", ACCURACY)
 # for i, j in zip(y_pred[10], y_test[10]):
 #     print(i, '\t', j)
 
+
+
+# LOADING TO JSON
 
 data = {
     "Epochs": EPOCHS,
