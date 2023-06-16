@@ -511,6 +511,8 @@ def runner():
     model = nn.DataParallel(model)
 
     print(model)
+    print("---------------------------------------==========================================================================")
+    print(model.parameters()
 
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.00001)
 
