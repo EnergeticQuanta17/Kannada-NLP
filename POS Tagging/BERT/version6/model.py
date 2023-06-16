@@ -19,6 +19,119 @@ NUM_OF_EPOCHS = 1
 BATCH_SIZE = 2
 NUM_EPOCHS_TO_STAGNATE = 5
 
+import shutil
+total, used, free = shutil.disk_usage("/")
+print("Total: %d GiB" % (total // (2**30)))
+print("Used: %d GiB" % (used // (2**30)))
+print("Free: %d GiB" % (free // (2**30)))
+
+import sys
+
+global start
+start = time.time()
+
+sys.path.append('../../../Parsing/')
+print(os.getcwd())
+from language_elements import Sentence, Word, Chunk
+
+BERT_MODEL_NAMES = [
+    'bert-base-uncased',
+    'bert-large-uncased',
+    'bert-base-multilingual-cased',
+    'bert-large-uncased-whole-word-masking',  
+]
+
+with open('configuration.json', 'r') as json_file:
+    config = json.load(json_file)
+
+BATCH_SIZE = config['batch_size']
+NUM_OF_EPOCHS = config['epochs']
+NUM_EPOCHS_TO_STAGNATE = config['epochs_stagnate']
+BERT_MODEL = config['bert-model-name']
+
+with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
+    retrieved_sentences = pickle.load(file)
+
+tagged_sentences = []
+
+for sentence in retrieved_sentences:
+    temp = []
+    for chunk in sentence.list_of_chunks:
+        for word in chunk.list_of_words:
+            temp.append((word.kannada_word, word.pos))
+    tagged_sentences.append(temp)
+
+all_words = list(set(word_pos[0] for sentence in tagged_sentences for word_pos in sentence))
+tags = list(set(word_pos[1] for sentence in tagged_sentences for word_pos in sentence))
+tags = ["<pad>"] + tags
+NO_OF_TAGS = len(tags) - 1
+
+tag2index = {tag:idx for idx, tag in enumerate(tags)}
+index2tag = {idx:tag for idx, tag in enumerate(tags)}
+
+words2index = {tag:idx for idx, tag in enumerate(all_words)}
+print(list(index2words.keys()))
+index2words = {idx:tag for idx, tag in enumerate(all_words)}
+
+train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
+print("First sentence of train data:", train_data[0])
+print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
+print("Batch Size: ", BATCH_SIZE)
+print("Number of EPOCHS:", NUM_OF_EPOCHS)
+print("BERT Model used: ", BERT_MODEL)
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    
+class PosDataset(torch.utils.data.Dataset):
+    def __init__(self, tagged_sentences):
+        self.list_of_sentences  = []
+        self.list_of_tags  = []
+
+        for sentence in tagged_sentences:
+            words, tags = zip(*sentence)
+            words, tags = list(words), list(tags)
+
+            self.list_of_sentences.append(["[CLS]"] + words + ["[SEP]"])
+            self.list_of_tags.append(["<pad>"] + tags + ["<pad>"])
+
+    def __len__(self):
+        return len(self.list_of_sentences)
+    
+    def __getitem__(self, index):
+        words, tags = self.list_of_sentences[index], self.list_of_tags[index]
+
+        x, y = [], []
+        is_heads = []
+
+        for w, t in zip(words, tags):
+            if(w in words2index):
+                token_ids = [words2index[w]]
+            else:
+                token_ids = [0]
+            is_head = [1]
+            t = [t]
+
+        
+            y_ids = [tag2index[i] for i in t]
+
+            x.extend(token_ids)
+            is_heads.extend(is_head)
+            y.extend(y_ids)
+        try:
+            assert len(x)==len(y)==len(is_heads)
+        except:
+            print(len(x), len(y), len(is_heads))
+
+        seqlen = len(y)
+
+        words = " ".join(words)
+        tags = " ".join(tags)
+
+        return words, tags, is_heads, tags, y, seqlen
+
+train_dataset = PosDataset(train_data)
+eval_dataset = PosDataset(test_data)
+
 
 def gelu(x):
     return x * 0.5 * (1.0 + torch.erf(x / math.sqrt(2.0)))
@@ -73,7 +186,8 @@ class KannadaEmbeddings(nn.Module):
     """
     def __init__(self, config):
         super(KannadaEmbeddings, self).__init__()
-        self.word_embeddings = nn.Embedding(config["vocab_size"], config["hidden_size"])
+        # self.word_embeddings = nn.Embedding(config["vocab_size"], config["hidden_size"])
+        self.word_embeddings = nn.Embedding.from_pretrained()
 
         self.LayerNorm = KannadaLayerNorm(config)
         self.dropout = nn.Dropout(config["hidden_dropout_prob"])
@@ -261,127 +375,12 @@ config = {
     "initializer_range": 0.02   
 }
 
+
 model = KannadaBERT(config)
 model = nn.DataParallel(model)
 print(model)
 
 def runner():
-    import shutil
-    total, used, free = shutil.disk_usage("/")
-    print("Total: %d GiB" % (total // (2**30)))
-    print("Used: %d GiB" % (used // (2**30)))
-    print("Free: %d GiB" % (free // (2**30)))
-
-    import sys
-
-    global start
-    start = time.time()
-
-    sys.path.append('../../../Parsing/')
-    print(os.getcwd())
-    from language_elements import Sentence, Word, Chunk
-
-    BERT_MODEL_NAMES = [
-        'bert-base-uncased',
-        'bert-large-uncased',
-        'bert-base-multilingual-cased',
-        'bert-large-uncased-whole-word-masking',  
-    ]
-
-
-    with open('configuration.json', 'r') as json_file:
-        config = json.load(json_file)
-
-    BATCH_SIZE = config['batch_size']
-    NUM_OF_EPOCHS = config['epochs']
-    NUM_EPOCHS_TO_STAGNATE = config['epochs_stagnate']
-    BERT_MODEL = config['bert-model-name']
-
-    with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
-        retrieved_sentences = pickle.load(file)
-
-    tagged_sentences = []
-
-    for sentence in retrieved_sentences:
-        temp = []
-        for chunk in sentence.list_of_chunks:
-            for word in chunk.list_of_words:
-                temp.append((word.kannada_word, word.pos))
-        tagged_sentences.append(temp)
-
-    all_words = list(set(word_pos[0] for sentence in tagged_sentences for word_pos in sentence))
-    tags = list(set(word_pos[1] for sentence in tagged_sentences for word_pos in sentence))
-    tags = ["<pad>"] + tags
-    NO_OF_TAGS = len(tags) - 1
-
-    tag2index = {tag:idx for idx, tag in enumerate(tags)}
-    index2tag = {idx:tag for idx, tag in enumerate(tags)}
-
-    words2index = {tag:idx for idx, tag in enumerate(all_words)}
-    index2words = {idx:tag for idx, tag in enumerate(all_words)}
-
-    train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
-    print("First sentence of train data:", train_data[0])
-    print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
-    print("Batch Size: ", BATCH_SIZE)
-    print("Number of EPOCHS:", NUM_OF_EPOCHS)
-    print("BERT Model used: ", BERT_MODEL)
-
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        
-    class PosDataset(torch.utils.data.Dataset):
-        def __init__(self, tagged_sentences):
-            self.list_of_sentences  = []
-            self.list_of_tags  = []
-
-            for sentence in tagged_sentences:
-                words, tags = zip(*sentence)
-                words, tags = list(words), list(tags)
-
-                self.list_of_sentences.append(["[CLS]"] + words + ["[SEP]"])
-                self.list_of_tags.append(["<pad>"] + tags + ["<pad>"])
-
-        def __len__(self):
-            return len(self.list_of_sentences)
-        
-        def __getitem__(self, index):
-            words, tags = self.list_of_sentences[index], self.list_of_tags[index]
-
-            x, y = [], []
-            is_heads = []
-
-            for w, t in zip(words, tags):
-                if(w in words2index):
-                    token_ids = [words2index[w]]
-                else:
-                    token_ids = [0]
-                is_head = [1]
-                t = [t]
-
-            
-                y_ids = [tag2index[i] for i in t]
-
-                x.extend(token_ids)
-                is_heads.extend(is_head)
-                y.extend(y_ids)
-            try:
-                assert len(x)==len(y)==len(is_heads)
-            except:
-                print(len(x), len(y), len(is_heads))
-
-            seqlen = len(y)
-
-            words = " ".join(words)
-            tags = " ".join(tags)
-
-            
-
-            return words, tags, is_heads, tags, y, seqlen
-
-        
-    train_dataset = PosDataset(train_data)
-    eval_dataset = PosDataset(test_data)
-
     def pad(batch):
         f = lambda x: [sample[x] for sample in batch]
         words = f(0)
@@ -411,7 +410,6 @@ def runner():
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.0001)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
-
 
     def train(model, iterator, optimizer, criterion):
         model.train()
@@ -455,3 +453,5 @@ def runner():
             start_epoch = time.time()
 
     train(model, train_iter, optimizer, criterion)
+
+runner()
