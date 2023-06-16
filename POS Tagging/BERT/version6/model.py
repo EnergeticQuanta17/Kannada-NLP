@@ -411,14 +411,7 @@ class KannadaBERT(nn.Module):
             print(type(encoded_layers))
             encoded_layers = encoded_layers[-1]
 
-        print(type(encoded_layers))
-        try:
-            print("Length of encoded layer:", len(encoded_layers))
-            print(len(encoded_layers[0]))
-            print(len(encoded_layers[1]))
-            print(np.array(encoded_layers).ndim)
-        except:
-            print("Did not work-----++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        print("Length of encoded_layers:", len(encoded_layers))
         return encoded_layers, pooled_output
 
 
@@ -458,14 +451,14 @@ class POSNet(nn.Module):
             self.bert.train()
             encoded_layers, _ = self.bert(x)
             enc = encoded_layers
-            # enc = encoded_layers[-1]
+            enc = encoded_layers[-1]
         else:
             self.bert.eval()
             with torch.no_grad():
                 encoded_layers, _ = self.bert(x)
                 enc = encoded_layers[-1]
         
-        # enc = self.dropout(enc)
+        # enc = self.dropout(enc)/
         enc = self.fc1(enc)
         logits = self.fc2(enc)
         y_hat = logits.argmax(-1)
