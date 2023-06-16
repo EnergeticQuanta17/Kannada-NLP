@@ -187,6 +187,8 @@ y_test = y_test.reshape(-1, 77)
 # print('-------------------Xtest--------------')
 # print(X_test)
 
+print('Y_pred shape ' , y_pred.shape)
+
 print()
 print()
 
