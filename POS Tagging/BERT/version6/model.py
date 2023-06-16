@@ -11,6 +11,10 @@ import json
 import copy
 import pickle
 
+import os
+os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
+os.environ['TORCH_USE_CUDA_DSA'] = '1'
+
 NUM_OF_EPOCHS = 1
 BATCH_SIZE = 8
 NUM_EPOCHS_TO_STAGNATE = 5
@@ -267,8 +271,6 @@ def runner():
     print("Used: %d GiB" % (used // (2**30)))
     print("Free: %d GiB" % (free // (2**30)))
 
-    import os
-    os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
     import sys
 
     global start
