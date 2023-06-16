@@ -408,6 +408,7 @@ class KannadaBERT(nn.Module):
         sequence_output = encoded_layers[-1]
         pooled_output = self.pooler(sequence_output)
         if not output_all_encoded_layers:
+            print(type(encoded_layers))
             encoded_layers = encoded_layers[-1]
 
         print(type(encoded_layers))
