@@ -73,7 +73,7 @@ index2words = {idx:tag for idx, tag in enumerate(all_words)}
 # print(list(index2words.keys()))
 
 emb_list = []
-def emb(word2index):
+def emb():
     with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
         emb_dict = pickle.load(f)
     
@@ -89,6 +89,10 @@ def emb(word2index):
             emb_list.append(emb_dict[word])
         else:
             emb_list.append(np.random.rand(300))
+    
+    return emb_list
+
+emb_list = emb()
 
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
 print("First sentence of train data:", train_data[0])
