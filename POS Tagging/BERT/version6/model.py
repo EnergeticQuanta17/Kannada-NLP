@@ -411,7 +411,7 @@ class KannadaBERT(nn.Module):
             print(type(encoded_layers))
             encoded_layers = encoded_layers[-1]
 
-        print("Length of encoded_layers:", len(encoded_layers))
+        # print("Length of encoded_layers:", len(encoded_layers))
         return encoded_layers, pooled_output
 
 
