@@ -231,7 +231,7 @@ class Net(nn.Module):
         new_word_embeddings = fc_layer(new_word_embeddings.weight.data)
 
         self.bert.embeddings.word_embeddings = nn.Embedding.from_pretrained(new_word_embeddings)
-
+        print(self.bert.embeddings.word_embeddings.weight)
         # self.bert.embeddings  
 
         self.dropout = nn.Dropout(0.05)
