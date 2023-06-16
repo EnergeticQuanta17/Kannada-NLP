@@ -175,13 +175,12 @@ for y in y_test:
 print('\n\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\n')
 print(int2tag)
 
+print('X_test shape ', X_test.shape)
+print('Y_pred shape ' , y_pred.shape)
 
 y_pred = y_pred.reshape(-1, 77)
 y_test = y_test.reshape(-1, 77)
 
-print(X_test.shape)
-
-print(y_pred.shape)
 # print('-------------------Xtest--------------')
 # print(X_test)
 
