@@ -384,7 +384,7 @@ class KannadaBERT(nn.Module):
 
 config = {
     "vocab_size": 20_000,
-    "hidden_size": 768,
+    "hidden_size": 300,
     "num_hidden_layers": 12,
     "num_attention_heads": 12,
     "intermediate_size": 3072,
