@@ -84,7 +84,7 @@ print('We have %d TEST samples' % n_test_samples)
 train_generator = generator(all_X=X_train, all_y=y_train, n_classes=n_tags + 1)
 validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags + 1)
 
-
+print('Ntags + 1 : ', n_tags+1)
 
 with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
 	embeddings_index = pickle.load(f)
@@ -181,8 +181,8 @@ print(int2tag)
 print('X_test shape ', X_test.shape)
 print('Y_pred shape ' , y_pred.shape)
 
-y_pred = y_pred.reshape(-1, 77)
-y_test = y_test.reshape(-1, 77)
+y_pred = y_pred.reshape(-1, 78)
+y_test = y_test.reshape(-1, 78)
 
 # print('-------------------Xtest--------------')
 # print(X_test)
