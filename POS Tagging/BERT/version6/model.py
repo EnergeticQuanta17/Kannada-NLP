@@ -16,7 +16,7 @@ os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 os.environ['TORCH_USE_CUDA_DSA'] = '1'
 
 NUM_OF_EPOCHS = 1000
-BATCH_SIZE = 8
+BATCH_SIZE = 4
 NUM_EPOCHS_TO_STAGNATE = 100
 
 import shutil
