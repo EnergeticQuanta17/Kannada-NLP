@@ -555,7 +555,7 @@ def runner():
                 for name in before_update:
                     if not torch.equal(before_update[name], after_update[name]):
                         updated_params.append(name)
-                print(updated_params)
+                print(len(updated_params))
 
                 for p in model.parameters():
                     print(p.data[0][0], "\n--------------------------------------------")
