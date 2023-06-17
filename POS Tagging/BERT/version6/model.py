@@ -534,9 +534,28 @@ def runner():
                 y = y.view(-1)
 
                 loss = criterion(logits, y)
+                
+                before_update = {}
+                for name, param in model.named_parameters():
+                    before_update[name] = param.clone()
+
+                # Backward pass
                 loss.backward()
 
+                # Update the model parameters
                 optimizer.step()
+
+                # After optimizer.step()
+                after_update = {}
+                for name, param in model.named_parameters():
+                    after_update[name] = param.clone()
+
+                # Check which parameters were updated
+                updated_params = []
+                for name in before_update:
+                    if not torch.equal(before_update[name], after_update[name]):
+                        updated_params.append(name)
+                print(updated_params)
 
                 for p in model.parameters():
                     print(p.data[0][0], "\n--------------------------------------------")
