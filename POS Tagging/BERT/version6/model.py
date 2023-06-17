@@ -515,7 +515,7 @@ def runner():
     print(model.parameters())
     
 
-    optimizer = torch.optim.Adam(model.parameters(), lr = 0.01)
+    optimizer = torch.optim.Adam(model.parameters(), lr = 10)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
 
