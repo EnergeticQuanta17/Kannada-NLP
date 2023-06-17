@@ -539,8 +539,9 @@ def runner():
                 optimizer.step()
 
                 for p in model.parameters():
-                    print(p.data[0], "\n--------------------------------------------")
+                    print(p.data[0][0], "\n--------------------------------------------")
                     print()
+                    break
                     
 
                 if i%100==0:
