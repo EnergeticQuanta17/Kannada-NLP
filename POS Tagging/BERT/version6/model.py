@@ -15,9 +15,9 @@ import os
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 os.environ['TORCH_USE_CUDA_DSA'] = '1'
 
-NUM_OF_EPOCHS = 1
-BATCH_SIZE = 2
-NUM_EPOCHS_TO_STAGNATE = 5
+NUM_OF_EPOCHS = 1000
+BATCH_SIZE = 8
+NUM_EPOCHS_TO_STAGNATE = 100
 
 import shutil
 total, used, free = shutil.disk_usage("/")
@@ -514,7 +514,7 @@ def runner():
     print("---------------------------------------==========================================================================")
     print(model.parameters())
 
-    optimizer = torch.optim.Adam(model.parameters(), lr = 0.01)
+    optimizer = torch.optim.Adam(model.parameters(), lr = 0.0001)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
 
