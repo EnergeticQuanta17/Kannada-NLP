@@ -473,7 +473,7 @@ class POSNet(nn.Module):
                 encoded_layers, _ = self.bert(x)
                 enc = encoded_layers[-1]
         
-        enc = self.dropout(enc)
+        # enc = self.dropout(enc)
         enc = self.fc1(enc)
         logits = self.fc2(enc)
         y_hat = logits.argmax(-1)
