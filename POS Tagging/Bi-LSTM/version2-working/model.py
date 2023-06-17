@@ -24,11 +24,14 @@ TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.2
 BATCH_SIZE = 32
 UNITS_IN_LSTM_LAYER = 64
-EPOCHS = 10
+EPOCHS = 40
 
 
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
+
+int2tag[0] = '<PAD>'
+tag2int['<PAD>'] = 0
 
 # print("Shape of X: ", X.shape)
 # print("Shape of Y: ", y.shape)
@@ -78,10 +81,10 @@ print('We have %d VALIDATION samples' % n_val_samples)
 print('We have %d TEST samples' % n_test_samples)
 
 # make generators for training and validation
-train_generator = generator(all_X=X_train, all_y=y_train, n_classes=n_tags + 1)
-validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags + 1)
+train_generator = generator(all_X=X_train, all_y=y_train, n_classes=n_tags)
+validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags)
 
-
+print('Ntags : ', n_tags)
 
 with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
 	embeddings_index = pickle.load(f)
@@ -109,7 +112,7 @@ sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
 
 l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
-preds = TimeDistributed(Dense(n_tags + 1, activation='softmax'))(l_lstm)
+preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
 
 
@@ -143,7 +146,7 @@ train = True
 #     from keras.models import load_model
 #     model = load_model('Models/model.h5')
 
-y_test = to_categorical(y_test, num_classes=n_tags+1)
+y_test = to_categorical(y_test, num_classes=n_tags)
 test_results = model.evaluate(X_test, y_test, verbose=0)
 
 X_test
@@ -155,8 +158,8 @@ y_pred = model.predict(X_test)
 
 print("Type of y-pred: ", type(y_pred), y_pred.shape)
 
-print('Whole y_pred :')
-print(y_pred)
+# print('Whole y_pred :')
+# print(y_pred)
 
 for y in y_pred:
     print(np.argmax(y), end=' ')
@@ -164,8 +167,8 @@ for y in y_pred:
 
 print("Type of y-test: ", type(y_test), y_test.shape)
 
-print('Whole y_test :')
-print(y_test)
+# print('Whole y_test :')
+# print(y_test)
 
 for y in y_test:
     print(np.argmax(y), end=' ')
@@ -173,12 +176,23 @@ for y in y_test:
 
 
 print('\n\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\n')
+print(int2tag)
 
+print('X_test shape ', X_test.shape)
+print('Y_pred shape ' , y_pred.shape)
 
+y_pred = y_pred.reshape(-1, 77)
+y_test = y_test.reshape(-1, 77)
 
-y_pred = y_pred.reshape(-1, 78)
-y_test = y_test.reshape(-1, 78)
+# print('-------------------Xtest--------------')
+# print(X_test)
 
+print('Y_pred shape ' , y_pred.shape)
+
+print()
+print()
+
+"""
 count = 0
 if(True):
     for k in range(X_test.shape[0]):
@@ -189,18 +203,20 @@ if(True):
         # for i, j in zip(y_pred[k], y_test[k]):
         #     print(i, '\t', j)
         if(np.argmax(y_test[k]) != 0):
-            # for index, y in enumerate(zip(y_pred[k], y_test[k])):
-            #     print(index, '-->', y[0], '\t', y[1])
-            #     print(int2tag[index])
+            for index, y in enumerate(zip(y_pred[k], y_test[k])):
+                print(index, '-->', y[0], '\t', y[1])
+                print(int2tag[index])
+                
             count+=1
+            break
     
 
         with open('find_this_sentence.pkl', 'wb') as file:
             pickle.dump(X_test[k], file)
 
         
-        print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])+1])
-        print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])+1])
+        # print("Printing argmax tag of predict", int2tag[np.argmax(y_pred[k])])
+        # print("Printing argmax tag of test", int2tag[np.argmax(y_test[k])])
         
         
 
@@ -208,6 +224,8 @@ if(True):
         #     print(i, '\t', j)
 
 print("Number of non-zero indexed tags: ", count)
+
+"""
 
 with open('index_to_word.txt', 'w') as f:
     for i in int2word:
@@ -219,19 +237,23 @@ with open('index_to_tag.txt', 'w') as f:
 
 count = 0
 non_zero_count = 0
+tcount = 0
 
 if(True):
-    for k in range(X_test.shape[0]):
+    for k in range(y_pred.shape[0]):
         if(np.argmax(y_pred[k]) == np.argmax(y_test[k])):
-            if(np.argmax(y_pred[k])!=0):
-                for i, j in zip(y_pred[k], y_test[k]):
-                    print(i, '\t', j)
+            if(np.argmax(y_test[k])!=0):
+                #for i, j in zip(y_pred[k], y_test[k]):
+                    #print(i, '\t', j)
                 non_zero_count += 1
             count+=1
+        if(np.argmax(y_test[k])!=0):
+            tcount += 1
+
 print()
-print()
-print(count, X_test.shape[0])
-ACCURACY = 100* count/X_test.shape[0]
+print('Non zero count : ', non_zero_count)
+print('Total count : ', tcount)
+ACCURACY = 100* non_zero_count/tcount
 print("Accuracy: ", ACCURACY)
 
 # for i, j in zip(y_pred[10], y_test[10]):

@@ -63,7 +63,13 @@ def extract_list_of_sentences(filename):
                 ########################### HARD CODED - NULL CHUNK GROUP - CHUNK 2 --> Line 413 
 
                 continue
-        
+            
+            if tab_sep[2]=='10ರಲ್ಲಿ':
+                continue
+            
+            # SET UNKNOWN TAGS AS UNK
+            if tab_sep[2]=='':
+                tab_sep[2] = 'UNK'
 
             w = Word()
 
@@ -127,7 +133,7 @@ if(__name__=='__main__'):
 
     test_parsing()
 
-    los = extract_list_of_sentences()
+    los = extract_list_of_sentences("full_dataset_131.pickle")
 
     with open('sentences.pickle', 'wb') as file:
         pickle.dump(los, file)
