@@ -513,6 +513,7 @@ def runner():
     print(model)
     print("---------------------------------------==========================================================================")
     print(model.parameters())
+    
 
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.0001)
 
@@ -536,6 +537,11 @@ def runner():
                 loss.backward()
 
                 optimizer.step()
+
+                for p in model.parameters():
+                    print(p.data[0], "\n--------------------------------------------")
+                    print()
+                    
 
                 if i%100==0:
                     global start
