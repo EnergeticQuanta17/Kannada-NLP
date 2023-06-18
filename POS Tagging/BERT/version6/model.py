@@ -589,6 +589,9 @@ def runner():
                         updated_params.append(name)
                     elif(name not in ["module.bert.embeddings.word_embeddings.weight", "module.bert.pooler.dense.bias", "module.bert.pooler.dense.weight"]):
                         print(name)
+                        for named, param in model.named_parameters():
+                            if(name==named):
+                                print("Gradient change:", param.grad.data.norm())
                         raise DebuggingTillHereException
                 
 
