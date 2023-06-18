@@ -480,8 +480,8 @@ class POSNet(nn.Module):
         x = x.to(self.device)
         y = y.to(self.device)
 
-        print(x)
-        print(x.shape)
+        # print(x)
+        # print(x.shape)
         
         if self.training:
             self.bert.train()
