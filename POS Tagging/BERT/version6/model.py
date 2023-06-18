@@ -558,8 +558,6 @@ def runner():
             start_epoch = time.perf_counter()
             for i, batch in enumerate(iterator):
                 words, x, is_heads, tags, y, seqlens = batch
-                print("First batch while training:", words, x, is_heads, tags, y, seqlens)
-                raise DebuggingTillHereException
                 _y = y
                 optimizer.zero_grad()
                 logits, y, _ = model(x, y)
@@ -589,12 +587,12 @@ def runner():
                 for name in before_update:
                     if not torch.equal(before_update[name], after_update[name]):
                         updated_params.append(name)
-                print(len(updated_params))
+                # print(len(updated_params))
 
-                for p in model.parameters():
-                    print(p.data[0][0], "\n--------------------------------------------")
-                    print()
-                    break
+                # for p in model.parameters():
+                #     print(p.data[0][0], "\n--------------------------------------------")
+                #     print()
+                #     break
                     
 
                 if i%100==0:
