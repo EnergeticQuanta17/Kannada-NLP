@@ -47,7 +47,7 @@ BERT_MODEL_NAMES = [
     'bert-large-uncased-whole-word-masking',  
 ]
 
-with open('configuration.json', 'r') as json_file:
+with open(CONFIG_PATH, 'r') as json_file:
     config = json.load(json_file)
 
 GPU_OR_COLAB = int(input("GPU(0) or COLAB(1): "))
@@ -58,7 +58,7 @@ NUM_EPOCHS_TO_STAGNATE = config['epochs_stagnate']
 BERT_MODEL = config['bert-model-name']
 DATASET_PATH = config['dataset-path'][GPU_OR_COLAB]
 EMBEDDINGS_PATH = config['embedding-path'][GPU_OR_COLAB]
-
+CONFIG_PATH = config['configuration-path'][GPU_OR_COLAB]
 
 with open(DATASET_PATH, 'rb') as file:
     retrieved_sentences = pickle.load(file)
