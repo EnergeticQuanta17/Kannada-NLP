@@ -224,7 +224,7 @@ class KannadaEmbeddings(nn.Module):
         position_ids = torch.arange(seq_length, dtype=torch.long, device=input_ids.device)
         position_ids = position_ids.unsqueeze(0).expand_as(input_ids)
         if token_type_ids is None:
-            token_type_ids = torch.zeros_like(input_ids)
+            token_type_ids = torch.zeros_like(input_ids, requires_grad=True)
 
         words_embeddings = self.word_embeddings(input_ids)
         # position_embeddings = self.position_embeddings(position_ids)
@@ -521,7 +521,11 @@ def runner():
     model = nn.DataParallel(model)
 
     print(model)
-    # print(model.parameters())
+    print(model.parameters())
+    print("For These parmaters, requires_grad is not done")
+    for name, param in model.named_parameters():
+        if not param.requires_grad:
+            params_no_grad.append(name)
     from torchvision import models
     from torchsummary import summary
 
