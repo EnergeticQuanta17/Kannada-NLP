@@ -157,7 +157,7 @@ class PosDataset(torch.utils.data.Dataset):
         tags = " ".join(tags)
 
 
-        return words, tags, is_heads, tags, y, seqlen
+        return words, x, is_heads, tags, y, seqlen
 
 train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
@@ -507,6 +507,8 @@ def runner():
         y = f(-2, maxlen)
 
         f = torch.LongTensor
+
+
 
         return words, f(x), is_heads, tags, f(y), seqlens
 
