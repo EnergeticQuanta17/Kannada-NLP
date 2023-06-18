@@ -579,6 +579,8 @@ def runner():
                 # print(len(updated_params))
 
                 for name, param in model.named_parameters():
+                    if(name == "module.bert.embeddings.word_embeddings.weight"):
+                        continue
                     print("Parameter name:", name)
                     print("Parameter value:", param.data[0][0], "\n--------------------------------------------")
                     print()
