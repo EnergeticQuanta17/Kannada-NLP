@@ -536,7 +536,7 @@ def runner():
     vgg = models.vgg16().to(device)
     # summary(vgg, (3, 224, 224))
 
-    optimizer = torch.optim.Adam(model.parameters(), lr = 0.001)
+    optimizer = torch.optim.Adam(model.parameters(), lr = 0.01)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
 
