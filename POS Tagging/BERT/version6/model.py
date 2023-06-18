@@ -618,6 +618,7 @@ def runner():
                 if i%100==0:
                     global start
                     print("step: {}, loss: {:.2f}, time: {:.2f}s".format(i, loss.item(), time.time()-start))
+                    eval(model, train_iter)
                     start = time.time()
                     
                     if best_loss is None or loss < best_loss:
