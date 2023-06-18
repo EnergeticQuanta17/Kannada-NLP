@@ -38,8 +38,6 @@ import sys
 global start
 start = time.time()
 
-sys.path.append('../../../Parsing/')
-print(os.getcwd())
 from language_elements import Sentence, Word, Chunk
 
 BERT_MODEL_NAMES = [
@@ -52,12 +50,17 @@ BERT_MODEL_NAMES = [
 with open('configuration.json', 'r') as json_file:
     config = json.load(json_file)
 
+GPU_OR_COLAB = int(input("GPU(0) or COLAB(1): "))
+
 BATCH_SIZE = config['batch_size']
 NUM_OF_EPOCHS = config['epochs']
 NUM_EPOCHS_TO_STAGNATE = config['epochs_stagnate']
 BERT_MODEL = config['bert-model-name']
+DATASET_PATH = config['dataset-path'][GPU_OR_COLAB]
+EMBEDDINGS_PATH = config['embedding-path'][GPU_OR_COLAB]
 
-with open('../../../Parsing/full_dataset_113.pickle', 'rb') as file:
+
+with open(DATASET_PATH, 'rb') as file:
     retrieved_sentences = pickle.load(file)
 
 tagged_sentences = []
@@ -83,7 +86,7 @@ index2words = {idx:tag for idx, tag in enumerate(all_words)}
 
 def emb():
     emb_list_temp = []
-    with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
+    with open(EMBEDDINGS_PATH, 'rb') as f:
         emb_dict = pickle.load(f)
     
     index2words_list = [(key, val) for key, val in index2words.items()]
@@ -428,7 +431,7 @@ config = {
     "num_hidden_layers": 12,
     "num_attention_heads": 12,
     "intermediate_size": 3072,
-    "hidden_act": "relu",
+    "hidden_act": "gelu",
     "hidden_dropout_prob": 0.1,
     "attention_probs_dropout_prob": 0.1,
     "max_position_embeddings": 512,
