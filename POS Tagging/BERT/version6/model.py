@@ -99,7 +99,7 @@ def emb():
 emb_list = emb()
 
 train_data, test_data = train_test_split(tagged_sentences, test_size=0.1)
-print("First sentence of train data:", train_data[0])
+# print("First sentence of train data:", train_data[0])
 print("No. of sentences in train data:", len(train_data), "\nNo. of sentences in test data:", len(test_data))
 print("Batch Size: ", BATCH_SIZE)
 print("Number of EPOCHS:", NUM_OF_EPOCHS)
@@ -157,7 +157,7 @@ class PosDataset(torch.utils.data.Dataset):
 train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
-print("Printing the 26th index of train_dataset:", train_dataset[26])
+# print("Printing the 26th index of train_dataset:", train_dataset[26])
 
 def gelu(x):
     return x * 0.5 * (1.0 + torch.erf(x / math.sqrt(2.0)))
@@ -594,7 +594,7 @@ def runner():
                         print('-----------------------------')
                         break
                 
-            print(f"Epoch {eee+1} took {time.time()-start_epoch} time.")
+            print(f"Epoch {eee+1} took {time.perf_counter()-start_epoch} time.")
             eval(model, test_iter)
 
             start_epoch = time.time()
