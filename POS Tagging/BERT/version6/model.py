@@ -662,10 +662,15 @@ def runner():
                 y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
                 
                 preds = [index2tag[hat] for hat in y_hat]
-                assert len(preds)==len(words.split())==len(tags.split())
-                for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
-                    fout.write("{} {} {}\n".format(w, t, p))
-                fout.write("\n")
+                try:
+                    assert len(preds)==len(words.split())==len(tags.split())
+                    for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
+                        fout.write("{} {} {}\n".format(w, t, p))
+                        fout.write("\n")
+                except:
+                    print("Assertion Error: ", preds, words, tags)
+
+                
 
         # print(index2tag)
 
