@@ -47,10 +47,15 @@ BERT_MODEL_NAMES = [
     'bert-large-uncased-whole-word-masking',  
 ]
 
+GPU_OR_COLAB = int(input("GPU(0) or COLAB(1): "))
+
+if(GPU_OR_COLAB==0):
+    CONFIG_PATH = "configuration.json"
+else:
+    CONFIG_PATH = "Kannada-NLP/POS Tagging/BERT/version6/configuration.json"
+
 with open(CONFIG_PATH, 'r') as json_file:
     config = json.load(json_file)
-
-GPU_OR_COLAB = int(input("GPU(0) or COLAB(1): "))
 
 BATCH_SIZE = config['batch_size']
 NUM_OF_EPOCHS = config['epochs']
