@@ -85,10 +85,6 @@ def emb():
     with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
         emb_dict = pickle.load(f)
     
-    for e in emb_dict:
-        print(e, emb_dict[e])
-        break
-    
     index2words_list = [(key, val) for key, val in index2words.items()]
     index2words_list = sorted(index2words_list)
 
@@ -155,14 +151,6 @@ class PosDataset(torch.utils.data.Dataset):
 
         words = " ".join(words)
         tags = " ".join(tags)
-
-        print("See this IMP:")
-        print(words)
-        print()
-        print(x)
-        print()
-        print(tags)
-
 
         return words, x, is_heads, tags, y, seqlen
 
@@ -502,7 +490,6 @@ class POSNet(nn.Module):
 
 def runner():
     def pad(batch):
-        print("+++++++Printing batch:", batch)
         f = lambda x: [sample[x] for sample in batch]
         words = f(0)
         is_heads = f(2)
@@ -516,8 +503,6 @@ def runner():
 
         f = torch.LongTensor
 
-
-        print("Printing return values:", words, f(x), is_heads, tags, f(y), seqlens)
         return words, f(x), is_heads, tags, f(y), seqlens
 
     train_iter = torch.utils.data.DataLoader(dataset=train_dataset,
@@ -536,16 +521,13 @@ def runner():
     model = nn.DataParallel(model)
 
     print(model)
-    print("---------------------------------------==========================================================================")
     # print(model.parameters())
     from torchvision import models
     from torchsummary import summary
 
     
     vgg = models.vgg16().to(device)
-
     # summary(vgg, (3, 224, 224))
-    
 
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.001)
 
