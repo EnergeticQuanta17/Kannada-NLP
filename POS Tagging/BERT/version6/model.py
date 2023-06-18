@@ -464,6 +464,7 @@ class POSNet(nn.Module):
         x = x.to(self.device)
         y = y.to(self.device)
 
+        print(x)
         print(x.shape)
         raise Exception
         
