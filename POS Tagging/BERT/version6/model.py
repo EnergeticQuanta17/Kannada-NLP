@@ -633,6 +633,7 @@ def runner():
                         break
                 
             print(f"Epoch {eee+1} took {time.perf_counter()-start_epoch} time.")
+            eval(model, train_iter)
             eval(model, test_iter)
 
             start_epoch = time.time()
@@ -683,7 +684,7 @@ def runner():
 
         acc = (y_true==y_pred).astype(np.int32).sum() / len(y_true)
 
-        print("acc=%.2f"%acc)
+        print("acc=%.4f"%acc)
 
     train(model, train_iter, optimizer, scheduler, criterion)
     eval(model, test_iter)
