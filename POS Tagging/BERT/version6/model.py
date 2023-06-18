@@ -1,5 +1,6 @@
 import torch.nn as nn
 import torch
+torch.set_default_dtype(torch.float64)
 
 from sklearn.model_selection import train_test_split
 
@@ -208,7 +209,8 @@ class KannadaEmbeddings(nn.Module):
     def __init__(self, config):
         super(KannadaEmbeddings, self).__init__()
         # self.word_embeddings = nn.Embedding(config["vocab_size"], config["hidden_size"])
-        self.word_embeddings = nn.Embedding.from_pretrained(torch.tensor(emb_list, requires_grad=True))
+        # self.word_embeddings = nn.Embedding.from_pretrained(torch.tensor(emb_list, requires_grad=True))
+        self.word_embeddings = nn.Embedding.from_pretrained(torch.tensor(emb_list))
 
         self.LayerNorm = KannadaLayerNorm(config)
         self.dropout = nn.Dropout(config["hidden_dropout_prob"])
