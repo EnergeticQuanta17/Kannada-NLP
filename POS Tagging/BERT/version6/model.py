@@ -514,7 +514,14 @@ def runner():
 
     print(model)
     print("---------------------------------------==========================================================================")
-    print(model.parameters())
+    # print(model.parameters())
+    from torchvision import models
+    from torchsummary import summary
+
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    vgg = models.vgg16().to(device)
+
+    summary(vgg, (3, 224, 224))
     
 
     optimizer = torch.optim.Adam(model.parameters(), lr = 10)
