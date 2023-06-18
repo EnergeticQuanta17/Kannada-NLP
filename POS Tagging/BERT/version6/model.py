@@ -577,7 +577,7 @@ def runner():
                 for name in before_update:
                     if not torch.equal(before_update[name], after_update[name]):
                         updated_params.append(name)
-                # print(len(updated_params))
+                
 
                 for name, param in model.named_parameters():
                     if(name == "module.bert.encoder.layer.0.attention.self.query.weight"):
@@ -593,6 +593,7 @@ def runner():
                     elif(name == "module.fc2.weight"):
                         # print("Parameter name:", name)
                         print("Gradient change:", param.grad.data.norm())
+                        print(len(updated_params), len(before_update))
                         # print("Parameter value:", param, "\n=============================================\n")
                         print("\n=============================================\n")
                         print()   
