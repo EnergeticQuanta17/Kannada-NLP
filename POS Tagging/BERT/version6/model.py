@@ -156,6 +156,13 @@ class PosDataset(torch.utils.data.Dataset):
         words = " ".join(words)
         tags = " ".join(tags)
 
+        print("See this IMP:")
+        print(words)
+        print()
+        print(x)
+        print()
+        print(tags)
+
 
         return words, x, is_heads, tags, y, seqlen
 
@@ -495,6 +502,7 @@ class POSNet(nn.Module):
 
 def runner():
     def pad(batch):
+        print("+++++++Printing batch:", batch)
         f = lambda x: [sample[x] for sample in batch]
         words = f(0)
         is_heads = f(2)
@@ -503,13 +511,13 @@ def runner():
         maxlen = np.array(seqlens).max()
 
         f = lambda x, seqlen: [sample[x] + [0] * (seqlen - len(sample[x])) for sample in batch] # 0: <pad>
-        x = f(2, maxlen)
+        x = f(1, maxlen)
         y = f(-2, maxlen)
 
         f = torch.LongTensor
 
 
-
+        print("Printing return values:", words, f(x), is_heads, tags, f(y), seqlens)
         return words, f(x), is_heads, tags, f(y), seqlens
 
     train_iter = torch.utils.data.DataLoader(dataset=train_dataset,
@@ -523,7 +531,8 @@ def runner():
                                 collate_fn=pad)
 
     model = POSNet(vocab_size=len(tag2index))
-    model.to('cuda')
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    model.to(device)
     model = nn.DataParallel(model)
 
     print(model)
@@ -532,7 +541,7 @@ def runner():
     from torchvision import models
     from torchsummary import summary
 
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    
     vgg = models.vgg16().to(device)
 
     # summary(vgg, (3, 224, 224))
