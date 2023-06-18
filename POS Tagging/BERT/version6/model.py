@@ -581,19 +581,20 @@ def runner():
 
                 for name, param in model.named_parameters():
                     if(name == "module.bert.encoder.layer.0.attention.self.query.weight"):
-                        print("Parameter name:", name)
+                        # print("Parameter name:", name)
                         print("Gradient change:", param.grad.data.norm())
-                        print("Parameter value:", param, "\n--------------------------------------------")
-                        print()
+                        # print("Parameter value:", param, "\n--------------------------------------------")
+                        # print()
                     elif(name == "module.bert.encoder.layer.11.output.dense.weight"):
-                        print("Parameter name:", name)
+                        # print("Parameter name:", name)
                         print("Gradient change:", param.grad.data.norm())
-                        print("Parameter value:", param, "\n--------------------------------------------")
-                        print()           
+                        # print("Parameter value:", param, "\n--------------------------------------------")
+                        # print()           
                     elif(name == "module.fc2.weight"):
-                        print("Parameter name:", name)
+                        # print("Parameter name:", name)
                         print("Gradient change:", param.grad.data.norm())
-                        print("Parameter value:", param, "\n=============================================\n")
+                        # print("Parameter value:", param, "\n=============================================\n")
+                        print("\n=============================================\n")
                         print()   
                     
 
