@@ -581,6 +581,7 @@ def runner():
                 for name, param in model.named_parameters():
                     if(name == "module.bert.encoder.layer.0.attention.self.query.weight"):
                         print("Parameter name:", name)
+                        print("Gradient change:", param.grad.data.norm())
                         print("Parameter value:", param, "\n--------------------------------------------")
                         print()
                         break
