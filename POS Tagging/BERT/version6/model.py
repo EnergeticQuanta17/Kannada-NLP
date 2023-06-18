@@ -571,10 +571,10 @@ def runner():
                         updated_params.append(name)
                 # print(len(updated_params))
 
-                # for p in model.parameters():
-                #     print(p.data[0][0], "\n--------------------------------------------")
-                #     print()
-                #     break
+                for p in model.parameters():
+                    print(p.data[0][0], "\n--------------------------------------------")
+                    print()
+                    break
                     
 
                 if i%100==0:
