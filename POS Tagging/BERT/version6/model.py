@@ -26,6 +26,12 @@ print("Total: %d GiB" % (total // (2**30)))
 print("Used: %d GiB" % (used // (2**30)))
 print("Free: %d GiB" % (free // (2**30)))
 
+class NotAllOneException(Exception):
+    pass
+
+class DebuggingTillHereException(Exception):
+    pass
+
 import sys
 
 global start
@@ -73,8 +79,9 @@ words2index = {tag:idx for idx, tag in enumerate(all_words)}
 index2words = {idx:tag for idx, tag in enumerate(all_words)}
 # print(list(index2words.keys()))
 
-emb_list = []
+
 def emb():
+    emb_list_temp = []
     with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
         emb_dict = pickle.load(f)
     
@@ -87,11 +94,11 @@ def emb():
 
     for index, word in index2words_list:
         if(word in emb_dict):
-            emb_list.append(emb_dict[word])
+            emb_list_temp.append(emb_dict[word])
         else:
-            emb_list.append(np.random.rand(300))
+            emb_list_temp.append(np.random.rand(300))
     
-    return emb_list
+    return emb_list_temp
 
 emb_list = emb()
 
@@ -149,11 +156,13 @@ class PosDataset(torch.utils.data.Dataset):
         words = " ".join(words)
         tags = " ".join(tags)
 
+
         return words, tags, is_heads, tags, y, seqlen
 
 train_dataset = PosDataset(train_data)
 eval_dataset = PosDataset(test_data)
 
+print("Printing the 26th index of train_dataset:", train_dataset[26])
 
 def gelu(x):
     return x * 0.5 * (1.0 + torch.erf(x / math.sqrt(2.0)))
@@ -466,7 +475,6 @@ class POSNet(nn.Module):
 
         print(x)
         print(x.shape)
-        raise Exception
         
         if self.training:
             self.bert.train()
@@ -539,6 +547,8 @@ def runner():
             start_epoch = time.perf_counter()
             for i, batch in enumerate(iterator):
                 words, x, is_heads, tags, y, seqlens = batch
+                print("First batch while training:", words, x, is_heads, tags, y, seqlens)
+                raise DebuggingTillHereException
                 _y = y
                 optimizer.zero_grad()
                 logits, y, _ = model(x, y)
@@ -617,6 +627,9 @@ def runner():
         with open("result", 'w') as fout:
             count = 0
             for words, is_heads, tags, y_hat in zip(Words, Is_heads, Tags, Y_hat):
+                for each in is_heads:
+                    if(each!=1):
+                        raise NotAllOneException
                 y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
                 
                 preds = [index2tag[hat] for hat in y_hat]
