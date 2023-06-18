@@ -578,8 +578,9 @@ def runner():
                         updated_params.append(name)
                 # print(len(updated_params))
 
-                for p in model.parameters():
-                    print(p.data[0][0], "\n--------------------------------------------")
+                for name, param in model.named_parameters():
+                    print("Parameter name:", name)
+                    print("Parameter value:", param.data[0][0], "\n--------------------------------------------")
                     print()
                     break
                     
