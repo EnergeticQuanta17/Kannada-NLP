@@ -509,7 +509,7 @@ def runner():
                                 collate_fn=pad)
 
     model = POSNet(vocab_size=len(tag2index))
-    model.to(device)
+    model.to('cuda')
     model = nn.DataParallel(model)
 
     print(model)
