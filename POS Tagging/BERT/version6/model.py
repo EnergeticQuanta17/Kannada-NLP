@@ -463,6 +463,9 @@ class POSNet(nn.Module):
     def forward(self, x, y):
         x = x.to(self.device)
         y = y.to(self.device)
+
+        print(x.shape)
+        raise Exception
         
         if self.training:
             self.bert.train()
@@ -524,7 +527,7 @@ def runner():
     summary(vgg, (3, 224, 224))
     
 
-    optimizer = torch.optim.Adam(model.parameters(), lr = 10)
+    optimizer = torch.optim.Adam(model.parameters(), lr = 0.001)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
 
