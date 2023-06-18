@@ -1,1 +1,1 @@
-{"batch_size": 1, "epochs": 2, "epochs_stagnate": 3, "bert-model-name": "bert-base-uncased"}
+{"batch_size": 4, "epochs": 100, "epochs_stagnate": 100, "bert-model-name": "bert-base-uncased"}

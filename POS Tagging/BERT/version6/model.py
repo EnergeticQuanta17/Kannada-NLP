@@ -537,6 +537,7 @@ def runner():
     # summary(vgg, (3, 224, 224))
 
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.01)
+    optimizer = torch.optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
 
