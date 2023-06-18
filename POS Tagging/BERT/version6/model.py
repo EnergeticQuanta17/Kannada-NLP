@@ -582,7 +582,7 @@ def runner():
                     if(name == "module.bert.embeddings.word_embeddings.weight"):
                         continue
                     print("Parameter name:", name)
-                    print("Parameter value:", param.data[0][0], "\n--------------------------------------------")
+                    print("Parameter value:", param.item(), "\n--------------------------------------------")
                     print()
                     break
                     
