@@ -592,7 +592,7 @@ def runner():
                         for named, param in model.named_parameters():
                             if(name==named):
                                 print("Gradient change:", param.grad.data.norm())
-                        raise DebuggingTillHereException
+                        # raise DebuggingTillHereException
                 
 
                 # for name, param in model.named_parameters():
