@@ -537,11 +537,11 @@ def runner():
     # summary(vgg, (3, 224, 224))
 
     optimizer = torch.optim.Adam(model.parameters(), lr = 0.01)
-    optimizer = torch.optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
 
     criterion = nn.CrossEntropyLoss(ignore_index=0)
 
-    def train(model, iterator, optimizer, criterion):
+    def train(model, iterator, optimizer, scheduler, criterion):
         model.train()
         best_loss = None
         for eee in range(NUM_OF_EPOCHS):
@@ -566,6 +566,7 @@ def runner():
 
                 # Update the model parameters
                 optimizer.step()
+                scheduler.step()
 
                 # After optimizer.step()
                 after_update = {}
@@ -664,7 +665,7 @@ def runner():
 
         print("acc=%.2f"%acc)
 
-    train(model, train_iter, optimizer, criterion)
+    train(model, train_iter, optimizer, scheduler, criterion)
     eval(model, test_iter)
 
 runner()
