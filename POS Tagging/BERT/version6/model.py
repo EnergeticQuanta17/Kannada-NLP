@@ -584,7 +584,16 @@ def runner():
                         print("Gradient change:", param.grad.data.norm())
                         print("Parameter value:", param, "\n--------------------------------------------")
                         print()
-                        break
+                    elif(name == "module.bert.encoder.layer.11.output.dense.weight"):
+                        print("Parameter name:", name)
+                        print("Gradient change:", param.grad.data.norm())
+                        print("Parameter value:", param, "\n--------------------------------------------")
+                        print()           
+                    elif(name == "module.fc2.weight"):
+                        print("Parameter name:", name)
+                        print("Gradient change:", param.grad.data.norm())
+                        print("Parameter value:", param, "\n=============================================\n")
+                        print()   
                     
 
                 if i%100==0:
