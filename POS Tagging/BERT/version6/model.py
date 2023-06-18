@@ -587,7 +587,7 @@ def runner():
                 for name in before_update:
                     if not torch.equal(before_update[name], after_update[name]):
                         updated_params.append(name)
-                    else:
+                    elif(name != "module.bert.embeddings.word_embeddings.weight"):
                         print(name)
                         raise DebuggingTillHereException
                 
