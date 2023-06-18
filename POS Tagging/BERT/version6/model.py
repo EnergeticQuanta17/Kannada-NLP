@@ -525,7 +525,10 @@ def runner():
     print("For These parmaters, requires_grad is not done")
     for name, param in model.named_parameters():
         if not param.requires_grad:
-            params_no_grad.append(name)
+            print("DOES NOT REQUIRE --> ", name)
+        else:
+            print("REQUIRES --> ", name)
+
     from torchvision import models
     from torchsummary import summary
 
