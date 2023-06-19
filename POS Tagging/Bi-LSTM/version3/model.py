@@ -31,8 +31,12 @@ EPOCHS = 10
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
 
+print("Printing the len of int2tag before:", len(int2tag))
+
 int2tag[0] = '<PAD>'
 tag2int['<PAD>'] = 0
+
+print("Printing the len of int2tag after:", len(int2tag))
 
 # print("Shape of X: ", X.shape)
 # print("Shape of Y: ", y.shape)
