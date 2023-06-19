@@ -129,7 +129,9 @@ def custom_loss(y_true, y_pred):
     return tf.reduce_mean(masked_loss)
 
 def custom_accuracy(y_true, y_pred):
-    print(tf.shape(y_true)[1], y_pred.shape)
+    print(y_true)
+    print()
+    print(y_pred)
     raise DebuggingTillHereException
     mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
     accuracy = tf.keras.metrics.categorical_accuracy(y_true, y_pred)
