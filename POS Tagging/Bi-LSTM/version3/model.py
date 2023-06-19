@@ -135,7 +135,7 @@ def custom_accuracy(y_true, y_pred):
 #               optimizer='rmsprop',
 #               metrics=['acc'])
 
-model.compile(optimizer='categorical_crossentropy', loss=custom_loss, metrics=[custom_accuracy])
+model.compile(optimizer='rmsprop', loss=custom_loss, metrics=[custom_accuracy])
 
 
 print("model fitting - Bidirectional LSTM")
