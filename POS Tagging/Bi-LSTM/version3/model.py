@@ -17,6 +17,9 @@ from sklearn.utils import shuffle
 import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
 
+class DebuggingTillHereException(Exception):
+    pass
+
 IDEA_NUMBER = 3
 NO_OF_EMBEDDINGS = 10000
 MAX_SEQUENCE_LENGTH = 140
@@ -126,6 +129,8 @@ def custom_loss(y_true, y_pred):
     return tf.reduce_mean(masked_loss)
 
 def custom_accuracy(y_true, y_pred):
+    print(y_true.shape, y_pred.shape)
+    raise DebuggingTillHereException
     mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
     accuracy = tf.keras.metrics.categorical_accuracy(y_true, y_pred)
     masked_accuracy = accuracy * mask
