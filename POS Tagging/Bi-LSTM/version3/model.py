@@ -129,7 +129,8 @@ def custom_loss(y_true, y_pred):
     return tf.reduce_mean(masked_loss)
 
 def custom_accuracy(y_true, y_pred):
-    print(y_true)
+    for y in y_true:
+        print(y)
     print()
     print(y_pred)
     raise DebuggingTillHereException
