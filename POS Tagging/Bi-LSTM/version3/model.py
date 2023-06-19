@@ -17,14 +17,14 @@ from sklearn.utils import shuffle
 import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
 
-IDEA_NUMBER = 1
+IDEA_NUMBER = 3
 NO_OF_EMBEDDINGS = 10000
 MAX_SEQUENCE_LENGTH = 140
 EMBEDDING_DIM = 300
 TEST_SPLIT = 0.1
 VALIDATION_SPLIT = 0.1
-BATCH_SIZE = 128
-UNITS_IN_LSTM_LAYER = 1024
+BATCH_SIZE = 64
+UNITS_IN_LSTM_LAYER = 64
 EPOCHS = 10
 
 with open('all_data.pkl', 'rb') as f:
@@ -119,10 +119,24 @@ l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedde
 preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
 
+def custom_loss(y_true, y_pred):
+    mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
+    loss = tf.keras.losses.categorical_crossentropy(y_true, y_pred)
+    masked_loss = loss * mask
+    return tf.reduce_mean(masked_loss)
 
-model.compile(loss='categorical_crossentropy',
-              optimizer='rmsprop',
-              metrics=['acc'])
+def custom_accuracy(y_true, y_pred):
+    mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
+    accuracy = tf.keras.metrics.categorical_accuracy(y_true, y_pred)
+    masked_accuracy = accuracy * mask
+    return tf.reduce_mean(masked_accuracy)
+
+# model.compile(loss='categorical_crossentropy',
+#               optimizer='rmsprop',
+#               metrics=['acc'])
+
+model.compile(optimizer='categorical_crossentropy', loss=custom_loss, metrics=[custom_accuracy])
+
 
 print("model fitting - Bidirectional LSTM")
 model.summary()
@@ -288,5 +302,5 @@ model.save(f'Models/model{len(json_data)}.h5')
 
 json_data.append(data)
 
-with open(file_path, "w") as file:
-    json.dump(json_data, file, indent=4)
+# with open(file_path, "w") as file:
+#     json.dump(json_data, file, indent=4)
