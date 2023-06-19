@@ -17,14 +17,15 @@ from sklearn.utils import shuffle
 import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
 
+IDEA_NUMBER = 1
 NO_OF_EMBEDDINGS = 10000
 MAX_SEQUENCE_LENGTH = 140
 EMBEDDING_DIM = 300
-TEST_SPLIT = 0.2
-VALIDATION_SPLIT = 0.2
+TEST_SPLIT = 0.1
+VALIDATION_SPLIT = 0.1
 BATCH_SIZE = 32
 UNITS_IN_LSTM_LAYER = 64
-EPOCHS = 40
+EPOCHS = 10
 
 
 with open('all_data.pkl', 'rb') as f:
@@ -264,6 +265,7 @@ print("Accuracy: ", ACCURACY)
 # LOADING TO JSON
 
 data = {
+    "Idea Number": IDEA_NUMBER,
     "Epochs": EPOCHS,
     "Number of Embeddings used": NO_OF_EMBEDDINGS,
     "Max Sequence Length": MAX_SEQUENCE_LENGTH,
@@ -278,11 +280,15 @@ data = {
     "Embeddings File" : "Embeddings/embeddings_dict_10_000.pickle",
     "Test Loss": test_results[0],
     "Test Accuracy": test_results[1],
-    "Training Accuracy": training_accuracy,
+    "Inflated Training Accuracy": training_accuracy,
+    "Inflated Train Loss":history.history['loss'],
+    "Inflated Validation Accuracy": history.history['val_acc'],
+    "Inflated Validation Loss":history.history['val_loss'],
+    "Number of parametrs": int(input("Enter the number of parameters in this model:")),
     'Accuracy': ACCURACY
 }
 
-file_path = "../../results.json" 
+file_path = "results.json" 
 
 if os.path.exists(file_path):
     with open(file_path, "r") as file:
