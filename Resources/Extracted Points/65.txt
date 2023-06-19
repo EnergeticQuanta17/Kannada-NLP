@@ -1,0 +1,31 @@
+1. Direct application of dropout leads to issues such as vanishing gradients and difficulty in capturing long-term dependencies.
+
+2. DropOut drops neurons while the DropConnect drops the connections(weights are made to 0).
+
+3. NT-ASGD -> automatically determine the averaging trigger
+    Non-monotonic Trigger
+    NT-ASGD dynamically adjusts the averaging trigger during training
+    Averaging --> Instead of immediately updating the model parameters, ASGD accumulates the parameter updates.
+    Advantages --> Niuse reduction, Stability --> stable convergence
+
+4. 2016 --> proposed overcoming this(point 1) problem by retaining the same dropout mask across multiple time steps as opposed to sampling a new binary mark at each step.
+    Check how this works internally
+
+5. Another approach, regularize the network through limiting updates to RNN's hidden state
+
+6. Another approach, drop updates to network units, specifically the input gates of the LSTM
+
+7. Another approach, Restrictions on recurrent matrices.
+    Restricting the capacity of the matrix.
+    And also element-wise interactions.
+
+8. Batch Normalization
+    Recurrent Batch Normalization
+    Layer Normalization
+
+    But these introduce additional training parameters and can complicate the training process while increasing the sensitivity of the model/
+
+9. SGD and RMSprop are the most popular training methods
+
+10. 
+
