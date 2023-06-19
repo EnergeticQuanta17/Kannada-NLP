@@ -23,10 +23,9 @@ MAX_SEQUENCE_LENGTH = 140
 EMBEDDING_DIM = 300
 TEST_SPLIT = 0.1
 VALIDATION_SPLIT = 0.1
-BATCH_SIZE = 64
+BATCH_SIZE = 128
 UNITS_IN_LSTM_LAYER = 64
 EPOCHS = 10
-
 
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
@@ -161,24 +160,6 @@ print('TEST LOSS %f \nTEST ACCURACY: %f' % (test_results[0], test_results[1]))
 print("X_test: ", X_test.shape)
 y_pred = model.predict(X_test)
 
-print("Type of y-pred: ", type(y_pred), y_pred.shape)
-
-# print('Whole y_pred :')
-# print(y_pred)
-
-for y in y_pred:
-    print(np.argmax(y), end=' ')
-
-
-print("Type of y-test: ", type(y_test), y_test.shape)
-
-# print('Whole y_test :')
-# print(y_test)
-
-for y in y_test:
-    print(np.argmax(y), end=' ')
-
-
 
 print('\n\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\n')
 print(int2tag)
@@ -243,6 +224,7 @@ with open('index_to_tag.txt', 'w') as f:
 count = 0
 non_zero_count = 0
 tcount = 0
+tcount_zeros = 0
 
 if(True):
     for k in range(y_pred.shape[0]):
@@ -254,10 +236,12 @@ if(True):
             count+=1
         if(np.argmax(y_test[k])!=0):
             tcount += 1
+        tcount_zeros += 1
 
 print()
 print('Non zero count : ', non_zero_count)
 print('Total count : ', tcount)
+print("Total count including zeros:", tcount_zeros)
 ACCURACY = 100* non_zero_count/tcount
 print("Accuracy: ", ACCURACY)
 
