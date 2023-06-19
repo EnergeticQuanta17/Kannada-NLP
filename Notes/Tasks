@@ -1,10 +1,16 @@
 Data Analysis 
-	DL-DL-MT
-	fastText word vectors
+	
 
 fastText models on the dataset
 	Can directly pass data ig
 
+	https://fasttext.cc/docs/en/aligned-vectors.html
+
+
+
 AutoNLP
 	explore
+
+Extract many many words from wikipedia of kannada
+	Identify whether it is kannada using unicode and then store the sentence in utf-8
 

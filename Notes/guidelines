@@ -1,0 +1,212 @@
+-------------
+Introduction
+-------------
+Sequential Data
+	is why we need RNN like structure
+	
+Bi-LSTM architecture and its advantages over traditional LSTM models
+
+
+
+
+
+
+
+
+
+-----------------
+Literature Review
+-----------------
+Conduct a thorough review of existing Bi-LSTM papers
+
+SOTA works in this field
+
+Key advancements, innovations, and challenges addressed by previous papers.
+
+Limitations and Gaps in the existing literature that your paper aims to address.
+
+
+
+
+
+
+
+-------------------------------
+Problem Statement and Objective
+-------------------------------
+Define the specific problem, State the research objective and the specific goals of your paper.
+
+Task addressed with Bi-LSTM
+
+Significance and Potential impact of solving the problem or achieving the objectives.
+
+
+
+
+
+
+------------------
+Model Architecture
+------------------
+detailed description of the Bi-LSTM architecture
+
+functionality of the bidirectional and LSTM layers.
+
+modifications or variations to the standard Bi-LSTM model to address the specific requirements of your task
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------
+Training and Optimization
+-------------------------
+data preparation, batching, and sequence handling.
+
+optimization techniques used, such as gradient descent variants, learning rate scheduling, or regularization methods
+
+novel training strategies or improvements
+
+
+
+
+
+
+
+------------------
+Experimental Setup
+------------------
+Describe the dataset
+
+details about data size, data sources
+
+evaluation metrics
+
+Provide details of the hardware and software setup for conducting the experiments.
+
+
+
+
+
+
+
+
+
+
+--------------------
+Results and Analysis
+--------------------
+Present the quantitative and qualitative results of your experiments
+
+comparing the performance of your Bi-LSTM model against baseline methods or state-of-the-art models.
+	Find the baselines models for kananda and english
+
+Analyze and interpret the results, highlighting the strengths and weaknesses of your approach.
+
+Discuss any insights or observations that provide a deeper understanding of the behavior and capabilities of the Bi-LSTM model.
+
+Describing any patterns, trends, or relationships observed in the data
+
+Providing supporting evidence, such as statistical analyses, tables, or figures.
+
+Discussing any unexpected or contradictory findings and potential explanations for them.
+
+Comparing your results with existing literature and highlighting similarities or differences.
+
+Avoiding speculation or interpretation beyond what the data directly supports.
+
+
+----------
+Discussion
+----------
+
+Implications of your findings and their relevance to broader research community.
+
+Compare and contrast results with existing
+
+highlighting unique contributions, advancements
+
+Address any limitations or challenges faced during experimentation
+Potential areas for future improvement.
+
+Interpreting the results and explaining their meaning in relation to the research question or objectives.
+
+Relating the findings to existing theories, concepts, or models in the field.
+Identifying novel insights or contributions offered by the study.
+
+Addressing any discrepancies or inconsistencies between your results and prior research.
+
+Discussing the limitations or potential biases of the study and their impact on the findings.
+
+Proposing future research directions or unanswered questions arising from your study.
+
+
+
+
+----------
+Conclusion
+----------
+
+Summarize the key findings and contributions of your paper.
+
+Emphasize the significance and potential impact of your work.
+
+Provide closing remarks and suggestions for future research directions based on the insights gained from your study.
+
+
+
+---------------------------------------------------
+
+---------------------------------------------------
+
+
+
+
+
+---------------------------------------------------
+
+---------------------------------------------------
+
+
+
+
+
+----------
+References
+----------
+
+
+
+---------------------------------------------------
+Novel approaches and techniques in Bi-LSTM
+---------------------------------------------------
+Incorporation of additional knowledge of the dataset
+
+Transfer learning --> find a langauge structure similar to kannada
+
+Multitask learning
+
+Hybrid Bi-LSTM and Transformer models
+
+Attention mechanisms
+
+
+
+
+
+
+
+
+
+
+
+
+
