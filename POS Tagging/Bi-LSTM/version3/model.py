@@ -131,16 +131,16 @@ def custom_loss(y_true, y_pred):
 def custom_accuracy(y_true, y_pred):
     # y_true_np = np.array(y_true)
     # y_pred_np = np.array(y_pred)
-    with tf.compat.v1.Session() as sess:
-        print("y_true:")
-        # print(y_true_np)
-        print(y_true.eval())
-        print()
-        
-        print("y_pred:")
-        # print(y_pred_np)
-        print(y_pred.eval())
-        print()
+
+    print("y_true:")
+    # print(y_true_np)
+    print(y_true.numpy())
+    print()
+    
+    print("y_pred:")
+    # print(y_pred_np)
+    print(y_pred.numpy())
+    print()
     
     raise DebuggingTillHereException
     raise DebuggingTillHereException
