@@ -1,0 +1,17 @@
+1. 8 LSTM variants
+
+2. Hyperparamters optimized separately
+
+3. Shows that none of the variants can improve upon the standard LSTM architecture significantly
+
+4. Demonstrate forget gate and output activation function to be the most critical components.
+
+5. Earlier techniques did not scale to long time dependencies.
+	Find out those techniques and mention them
+
+6. LSTMs
+	General and effective at capturing long-term temporal dependencies
+
+7. Simple recurrent networks suffer from optimization hurdles like
+	Vanishing gradients problem
+		can limit the effectiveness of the network in modeling and cpaturing complex temporal patterns

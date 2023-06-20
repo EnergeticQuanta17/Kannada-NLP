@@ -3,4 +3,18 @@
 
 2. Attention mechanism after to extract features from concatenated hidden states
 
-3. 
+3. Custom training accuracy and loss
+
+4. 
+
+
+
+
+
+*** Check how to print correct validation and test accuracy
+    If we can fix this, the model itself can improve on its own ig
+
+*** Something with the model itself I feel
+    It can accept None as the first shape, then it must be BATCH_SIZE as the second dimension of the first layer shape right
+
+*** 
