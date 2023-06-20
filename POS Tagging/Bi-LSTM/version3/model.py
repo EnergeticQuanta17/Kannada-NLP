@@ -132,18 +132,17 @@ def custom_accuracy(y_true, y_pred):
     # y_true_np = np.array(y_true)
     # y_pred_np = np.array(y_pred)
 
-    print("y_true:")
-    # print(y_true_np)
-    print(y_true.numpy())
-    print()
+    # print("y_true:")
+    # # print(y_true_np)
+    # print(y_true.numpy())
+    # print()
     
-    print("y_pred:")
-    # print(y_pred_np)
-    print(y_pred.numpy())
-    print()
+    # print("y_pred:")
+    # # print(y_pred_np)
+    # print(y_pred.numpy())
+    # print()
     
-    raise DebuggingTillHereException
-    raise DebuggingTillHereException
+    # raise DebuggingTillHereException
     mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
     accuracy = tf.keras.metrics.categorical_accuracy(y_true, y_pred)
     masked_accuracy = accuracy * mask
