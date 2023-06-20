@@ -3,7 +3,7 @@ import numpy as np
 import pickle, sys, os
 
 from keras_preprocessing.sequence import pad_sequences
-from tensorflow.keras.utils.np_utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 
 from keras.layers import Embedding
 from keras.layers import Dense, Input
