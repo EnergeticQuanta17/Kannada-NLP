@@ -134,12 +134,12 @@ def custom_accuracy(y_true, y_pred):
     
     print("y_true:")
     # print(y_true_np)
-    print(tf.print(y_true))
+    print(y_true.eval())
     print()
     
     print("y_pred:")
     # print(y_pred_np)
-    print(tf.print(y_pred))
+    print(y_pred.eval())
     print()
     
     raise DebuggingTillHereException
