@@ -12,10 +12,12 @@ in Section 2 we discuss ____ and asnwer a possible objection to their use in cau
 in Section 2 we discuss ____ and out modification to its error gradient calculation
 See paper 60 --> 2005s Framewise for more (must write) sections in paper
 
+TRANSFER THIS TO 60.txt when summarrizing the papre 2005s
+	Use the structure from 2005s paper, very clean
 
-
-
-
+	There is also pseudo code for LSTM
+		
+Refer to the book "Deep Learning Book" - Chapter 10 has Bidirectional RNN
 
 
 
@@ -58,6 +60,9 @@ detailed description of the Bi-LSTM architecture
 functionality of the bidirectional and LSTM layers.
 
 modifications or variations to the standard Bi-LSTM model to address the specific requirements of your task
+
+INCLUDE THIS (see Fig 3)
+Tables, Diagrams
 
 
 

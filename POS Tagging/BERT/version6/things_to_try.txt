@@ -4,10 +4,32 @@ BERT
 
 2. Find out how to train the model fast
 
-3. 
+3. Fix the assertion error for 1 hideen layer
 
-4. 
+4. Remove the nouns altogether and see the accuracy
 
-5. 
+5. Check the gradients for higher learning rate
 
-6. 
+6. What is the ratio of nouns in the data is it close to 33%
+	How much % change in the paramters happened to give 33% accuracy
+
+	See how much change of weights is happening on each step
+		Use the norm or something to measure the change	
+
+		Or use the abs and sum-up
+
+7. Weighted error function
+
+8. Normalization
+
+9. Initalization is leading to a bad local minima, see what is being initialized for the weights in the middle
+
+10. Find a way to access the syntactic and semantic structure of the Language
+
+11. 
+
+12. 
+
+13.
+
+14. 

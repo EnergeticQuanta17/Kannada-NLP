@@ -47,3 +47,68 @@ By using these gates, the LSTM network can selectively control the flow of infor
 
 The interactions between the gates and the memory cells in an LSTM are multiplicative in nature. This means that the input, output, and forget gates provide continuous analogues of write, read, and reset operations for the memory cells. They control the interactions between the input, previous memory state, and current output, allowing the LSTM to effectively store, retrieve, and update information over time.
 
+rnn_tutorial.pdf
+    Ways to deal with sequence labelling
+        Autoregressive models
+        Feed-forward neural nets
+
+        Linear Dynamic Systems
+        Hidden Markov Models
+
+        Recurrent Neural Networks
+            Update the hidden state in a deterministic nonlinear Ways
+
+            RNNs powerful because
+                Distributed hidden state - allows to store lots of information about the past efficiently
+                Non-linear dynamics to update hidden states
+                No need to infer hidden state, purely deterministic 
+                Weight sharing(I feel like weights must not be same and it must depend on context of the current sentence under observation)
+            
+            
+    Has algorithm for Bidirectional (clean format)
+
+    Vanishing Gradients mathematical represetntaion of the problem 
+        Toy example
+        Math
+
+        Solutions
+            Initialization + ReLUs
+            Trick for exploding gradient: clipping
+        
+    
+    Range of context is limited
+        Because the influence of a given input hidden layer, the network output either decays or blows up
+        Most effective solution --> LSTM
+
+        can be thought as differential version of memory chips (this line was picked up from 2005s)
+
+        Vanishing gradients problem can be illustrated
+
+        Read slide27 math equations ON REVISIT
+
+        GRU merges cell state and hidden state
+            Much less parameters
+            Combines the forget and input gates into a single update gate
+        
+    Implementation of RNN in TF is also done
+
+lec10new.pdf (Geoffery Hinton)
+    IS TOO GOOD
+
+    It is because the RNN can represent any automaton, it is able to do anything that a computer can do
+        Which is also connect wtith markov chains and of course RL
+
+    Implement a RNN for binary addition - 😁
+
+    Recurrent neural network can emulate a finite state automaton, but it is exponentially more powerful
+        (Key to P vs. NP)
+        But the thing is RNN has to square the number of states in trade for exponential increase in activity
+    
+    Read backprop through memory cell again
+
+    Curvature matrices
+
+    The key idea of echo state Networks
+        Is this related to POS tagging?
+    
+    
