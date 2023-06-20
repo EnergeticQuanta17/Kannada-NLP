@@ -21,3 +21,29 @@ Bi-LSTM
 Anaphora resolution
     which entity is being referred to
 
+
+In the Long Short Term Memory (LSTM) architecture, there are three important components called gates: the input gate, output gate, and forget gate. These gates play a crucial role in controlling the flow of information into and out of the memory cells in an LSTM network.
+
+Input Gate:
+
+The input gate determines how much new information should be added to the memory cells.
+It takes the current input and the previous hidden state as inputs and applies a sigmoid function to them.
+The sigmoid function outputs values between 0 and 1, indicating how much of the new information should be kept (1) or discarded (0).
+The input gate multiplies the current input with the output of the sigmoid function, which allows it to control the flow of new information into the memory cells.
+Forget Gate:
+
+The forget gate decides what information should be removed from the memory cells.
+It takes the current input and the previous hidden state as inputs and applies a sigmoid function to them.
+The sigmoid function produces values between 0 and 1, indicating how much of the previous memory contents should be retained (1) or forgotten (0).
+The forget gate multiplies the previous cell state (memory) with the output of the sigmoid function, effectively allowing it to "forget" certain information from the previous memory.
+Output Gate:
+
+The output gate controls how much information from the memory cells should be exposed as the output of the LSTM at the current time step.
+It takes the current input and the previous hidden state as inputs and applies a sigmoid function to them.
+The sigmoid function produces values between 0 and 1, determining the amount of information to be exposed as the output.
+The output gate multiplies the cell state (after passing through the activation function, which could be a hyperbolic tangent or ReLU) with the output of the sigmoid function.
+The result is the output of the LSTM at the current time step.
+By using these gates, the LSTM network can selectively control the flow of information through time. The input gate determines how much new information should be stored in the memory cells, the forget gate decides what information should be discarded, and the output gate determines how much information from the memory cells should be exposed as the output.
+
+The interactions between the gates and the memory cells in an LSTM are multiplicative in nature. This means that the input, output, and forget gates provide continuous analogues of write, read, and reset operations for the memory cells. They control the interactions between the input, previous memory state, and current output, allowing the LSTM to effectively store, retrieve, and update information over time.
+
