@@ -6,15 +6,18 @@
 
 import os
 import re
+import pickle
 
 unique_characters = []
+
+unremoved_sentences = []
 
 directory_path = r"..\..\Dataset\Raw Data"
 for root, directories, files in os.walk(directory_path):
     for filename in files:
         file_path = os.path.join(root, filename)
     
-        with open(file_path, 'r') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:
             index = 0
             for line in f:
             
@@ -33,19 +36,21 @@ for root, directories, files in os.walk(directory_path):
                         if(char not in unique_characters):
                             unique_characters.append(char)
                             print(char, f"Sentence Number: {index}", f"Word index: {word_index}")
+                
+                unremoved_sentences.append(words)
                     
                 index += 1
 
 unique_characters.sort()
-print(unique_characters)
+# print(unique_characters)
 
-with open('unique.txt', 'w') as f:
+with open('unique.txt', 'w', encoding='utf-8') as f:
     for u in unique_characters:
         f.write(f"{ord(u)}--> "+ u + '\n')
 
 special_characters = []
 
-with open('special_characters.txt', 'w') as f:
+with open('special_characters.txt', 'w', encoding='utf-8') as f:
     for u in unique_characters:
         unicode = ord(u)
         if(unicode>=3202 and unicode<=3311):
@@ -62,32 +67,34 @@ with open('special_characters.txt', 'w') as f:
         
         special_characters.append(u)
         f.write(u + '\n')
+        
+print("Special Characters:", special_characters)
+
+
 
 # Need to take care how the special characters split
+regex = "".join(special_characters)
+pattern = "[" + re.escape(regex) + "]"
+pattern_with_symbols = "[^" + re.escape(regex) + "]+" + "|" + pattern
+print("Pattern with Symbols:", pattern_with_symbols)
 
-with open('out.txt', 'w') as o:
-    directory_path = r"..\..\Dataset\Raw Data"
-    for root, directories, files in os.walk(directory_path):
-        for filename in files:
-            file_path = os.path.join(root, filename)
+delimited_sentences = []
+with open('out.txt', 'w', encoding='utf-8') as f:
+    count = 0
+    for sentence in unremoved_sentences:
+        temp = []
+        for word in sentence:
+            try:
+                split = re.findall(pattern_with_symbols, word)
+                
+                temp.extend(split)
+                
+            except:
+                print("GAVE EXCEPTION FOR THIS -->", word)
         
-            with open(file_path, 'r') as f:
-                for line in f:
-                    line = line.strip()
+        delimited_sentences.append(temp)
+    
+print(len(delimited_sentences))
 
-                    for char in line:
-                        
-                        if(char in special_characters):
-                            print(f"This is the special character: {char}")
-                            raise Exception
-                            regex = "".join(special_characters)
-                            pattern = "[ " + re.escape(regex) + "]"
-                            result = re.split(pattern, line)
-
-                            print(result)
-                            print()
-                            print(line)
-                            o.write(line + '\n')
-                            o.write(file_path)
-
-                            raise Exception
+with open('delimited_sentences.pickle', 'wb') as file:
+    pickle.dump(delimited_sentences, file)

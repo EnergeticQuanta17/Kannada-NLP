@@ -13,7 +13,7 @@ directory_path = r"..\..\Dataset\Raw Data"
 for root, directories, files in os.walk(directory_path):
     for filename in files:
         file_path = os.path.join(root, filename)
-        with open(file_path, 'r') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:
             index = 0
             for line in f:
                 line = line.strip()
