@@ -433,7 +433,7 @@ class KannadaBERT(nn.Module):
 config = {
     "vocab_size": 20_000,
     "hidden_size": 300,
-    "num_hidden_layers": 12,
+    "num_hidden_layers": 1,
     "num_attention_heads": 12,
     "intermediate_size": 3072,
     "hidden_act": "gelu",
@@ -679,10 +679,6 @@ def runner():
         y_true =  np.array([tag2index[line.split()[1]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
         y_pred =  np.array([tag2index[line.split()[2]] for line in open('result', 'r').read().splitlines() if len(line) > 0])
 
-        # print(y_true)
-        # print()
-        # print(list(y_pred))
-
         acc = (y_true==y_pred).astype(np.int32).sum() / len(y_true)
 
         print("acc=%.4f"%acc)
@@ -693,3 +689,21 @@ def runner():
 runner()
 
 open('result', 'r').read().splitlines()[:100]
+
+
+
+
+file_path = "/home/preetham/Results/BERT/version6/results.json"
+if not os.path.exists("/home/preetham/Results/BERT/version6"):
+    os.makedirs("path/to/demo_folder")
+
+if os.path.exists(file_path):
+    with open(file_path, "r") as file:
+        json_data = json.load(file)
+else:
+    json_data = []
+
+json_data.append(data)
+
+with open(file_path, "w") as file:
+    json.dump(json_data, file, indent=4)

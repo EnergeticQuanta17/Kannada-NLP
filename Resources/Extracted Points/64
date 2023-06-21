@@ -9,9 +9,25 @@
 5. Earlier techniques did not scale to long time dependencies.
 	Find out those techniques and mention them
 
-6. LSTMs
-	General and effective at capturing long-term temporal dependencies
+6. 
 
 7. Simple recurrent networks suffer from optimization hurdles like
 	Vanishing gradients problem
 		can limit the effectiveness of the network in modeling and cpaturing complex temporal patterns
+
+8. LSTMs are specifically designed to address the vanishing gradient problem and effectively capture long-term temporal dependencies.
+
+LSTMs use a more complex structure with memory cells and gating mechanisms that allow them to retain and propagate information over longer sequences. 
+
+The memory cells in LSTMs can store and update information selectively, preventing the vanishing gradient problem and enabling the network to learn and capture long-term dependencies more effectively.
+
+9. LSTMs have been used to advance the SOTA for many different problems
+
+10. The central idea behind the LSTM architecture is a memory cell which can maintain its state over time, and non-linear gating units which regulate the information flow into and out of the cell.
+
+11. 
+
+-----------------------------------------------------------------------
+2005 Framewise phoneme classification with Bidirectional LSTM Networks
+-----------------------------------------------------------------------
+Reading this paper was a prerequisite

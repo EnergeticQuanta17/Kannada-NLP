@@ -1,10 +1,5 @@
 Bi-LSTM
-	His code is not working
-
-	We have
-		Embeddings for each word - in pickle
-		We know the model architecture --> design 
-
+	Increase Accuracy
 
 Minimum Edit Distance
 	1 hour research
@@ -30,3 +25,8 @@ Data Analysis
 
 	Cooccurance Matrix
 		SVD on co-occurence matrix
+
+Ideas
+1. Print the "Forward Net Only", "Reverse Net Only", "Bidirectional Output" and the "Target" for some of the sequences in Kannada
+
+2.
