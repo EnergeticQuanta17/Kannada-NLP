@@ -5,8 +5,13 @@
 
 3. Custom training accuracy and loss
 
-4. 
+4. See for which sentences it is not doing good (Broader)
+    After doing that see individual words doing bad
 
+    i.e. first count the number of errors / no of words in sentence
+        Do inference from high ratio to low ratio
+
+    
 
 
 
