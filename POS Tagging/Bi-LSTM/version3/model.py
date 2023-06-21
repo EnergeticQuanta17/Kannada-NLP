@@ -165,7 +165,7 @@ history  = model.fit_generator(train_generator,
                      epochs=EPOCHS,
                      verbose=1,)
 
-training_accuracy = history.history['acc']
+training_accuracy = history.history[custom_accuracy]
 print("Training Accuracy:", training_accuracy)
 
 if not os.path.exists('Models/'):
