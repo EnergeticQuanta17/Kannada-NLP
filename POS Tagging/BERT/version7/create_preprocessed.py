@@ -3,7 +3,7 @@ import os
 
 from language_elements import Sentence, Chunk, Word
 
-DATASET_PATH = "../../../Parsing/full_dataset_131.pickle"
+DATASET_PATH = "../../../Parsing/AnnotatedDatasetParsing/full_dataset_131.pickle"
 
 
 with open(DATASET_PATH, 'rb') as file:
