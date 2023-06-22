@@ -24,7 +24,7 @@ import itertools
 import collections
 from operator import index
 import random
-from turtle import back
+
 import tokenization
 import tensorflow as tf
 from absl import logging
