@@ -148,11 +148,11 @@ def custom_accuracy(y_true, y_pred):
     masked_accuracy = accuracy * mask
     return tf.reduce_mean(masked_accuracy)
 
-# model.compile(loss='categorical_crossentropy',
-#               optimizer='rmsprop',
-#               metrics=['acc'])
+model.compile(loss='categorical_crossentropy',
+              optimizer='rmsprop',
+              metrics=['acc'])
 
-model.compile(optimizer='rmsprop', loss=custom_loss, metrics=[custom_accuracy])
+# model.compile(optimizer='rmsprop', loss=custom_loss, metrics=[custom_accuracy])
 
 
 print("model fitting - Bidirectional LSTM")

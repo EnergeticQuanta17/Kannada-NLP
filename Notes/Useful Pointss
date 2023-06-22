@@ -47,7 +47,9 @@ By using these gates, the LSTM network can selectively control the flow of infor
 
 The interactions between the gates and the memory cells in an LSTM are multiplicative in nature. This means that the input, output, and forget gates provide continuous analogues of write, read, and reset operations for the memory cells. They control the interactions between the input, previous memory state, and current output, allowing the LSTM to effectively store, retrieve, and update information over time.
 
+================
 rnn_tutorial.pdf
+================
     Ways to deal with sequence labelling
         Autoregressive models
         Feed-forward neural nets
@@ -92,7 +94,9 @@ rnn_tutorial.pdf
         
     Implementation of RNN in TF is also done
 
+================================
 lec10new.pdf (Geoffery Hinton)
+================================
     IS TOO GOOD
 
     It is because the RNN can represent any automaton, it is able to do anything that a computer can do
@@ -111,4 +115,88 @@ lec10new.pdf (Geoffery Hinton)
     The key idea of echo state Networks
         Is this related to POS tagging?
     
+Need to check for stemming and stuff (but getting correct word embeddings from the stem requires the word's POS tag)
+    THINK HARD ABOUT THIS
+
+========
+05_rnns
+========
+    Examples of sequential data
+        Speech Recognition
+        Machine Translation
+        Language Modeling
+        Named Entity Recognition
+        Sentiment Classification
+        Video Activity Analysis
+
+        Just write top 5 main uses of RNNs, find out from other papers also
+
+    Inp, output can be different lengths in differnetn Examples
+        Put this more cleanly
     
+    Language concepts
+        Words and Vocabulary
+        Grammar and Sytax
+        Semantics
+        Discourse and Pragmatics
+        Named Entities
+        Sentiment and Opinion
+    
+    RNN
+        Introduce Bias based on previous output
+        RNN is a memory network
+        Dynamic Hidden state
+            Distributed Hidden state
+            Non-linear dynamics
+            Temporal and accumulative
+
+        Memory-less include Autoregressive and FF neural network
+
+        Short term dependencies
+
+        Long term dependencies
+
+        Feed forward do not take time dependencies into account
+
+        (Slide 20) The same fucnction g and same set of parameters W are used at every time step (check if true, and variants)
+
+        Selective summarization of input sequence in a fixed size state/hidden vector via a recurisve update
+
+        Read the BPTT in RNN properly once after seeing video on it
+            Nice equations and from-scratch-code is given for BPTT in RNN
+
+    Some complex math explaining vanishing and exploding gradients
+        MUST READ BEFORE WRITING IMPLEMENTATION PART
+
+    Dealing with Exploding Gradients
+        Gradient Clipping
+            Introduces an additional hyperparameter, the "threshold"
+        
+    Dealing with Vanishing Gradient
+        LSTM: Gating Mechanism
+
+        (Slide 80) amazing explaination of Gating Mechanism
+            But how is it actually done
+    
+            ----------------------------CONTINUE READING FROM SLIDE 81----------------------
+
+========================
+498_FA2019_lecture12
+========================
+    (Slide 16) 18 REALLY NICE EQUATIONS
+g
+    (Slide 49) min-char-rnn.py
+        See the RNN code
+    
+    (Slide 63) Searching for Interpretatble Hidden Units
+        Find out what are all those slides - Oh its in the paper
+
+    READ THE PAPER "VISUALIZING AND UNDERSTANDING RECURRENT NETWORKS"
+        1000-3000
+    
+    (Slide 84) to end
+        VERY GOOD REPRESENTATION OF EQUTIONS FOR LSTM
+
+    READ THE LAST PART CAREFULLY
+
+

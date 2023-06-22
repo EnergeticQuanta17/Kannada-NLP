@@ -1,0 +1,10 @@
+There are words where . represents the split of a person's name
+    How many words are like this?
+
+    How much effect on the model
+
+Use minimum edit distance to find out why only 6914/14690 words are matching compared to the raw dataset
+
+Findout the count of special characters totally
+    And print the lines in which they occur to fix the raw dataset
+
