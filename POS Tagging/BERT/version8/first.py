@@ -17,7 +17,7 @@ dataset = dataset.rename_column('sentence', 'text')
 datset_tok = dataset.map(tokenize_function, batched=True)
 # Set the device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model.to(device)
+model.to("cpu")
 # Define the training arguments
 training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch")
 # Define the trainer
