@@ -36,7 +36,7 @@ print(eval_results)
 
 from sentence_transformers import SentenceTransformer
 # Load the KooBERT model
-koo_model = SentenceTransformer('Koodsml/KooBERT', device="cuda")
+koo_model = SentenceTransformer('Koodsml/KooBERT', device="cpu")
 # Define the text
 text = "ರಾಮ ಮನೆಗೆ ಹೋದ"
 # Get the embedding
