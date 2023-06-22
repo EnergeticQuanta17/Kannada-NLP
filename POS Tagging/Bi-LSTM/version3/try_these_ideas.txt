@@ -11,8 +11,20 @@
     i.e. first count the number of errors / no of words in sentence
         Do inference from high ratio to low ratio
 
-    
+5. Inference
 
+6. Confusion matrix
+
+7. How to connect to tensorboard
+
+8. Check how much vanishing gradients happen for long seequences of sentences compared to shorter seqeuence of sentences.
+    Check how low the gradients are for long sequence inputs
+
+    (Slide 48) of 05_rnns.pdf says long term components goes exponentially fast to norm 0    
+
+    Check in which cases it explodes VS which cases it underflows and becomes 0
+
+9. 
 
 
 
