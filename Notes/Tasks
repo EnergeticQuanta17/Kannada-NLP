@@ -31,3 +31,32 @@ Find out a way in which we can find embeddings for unknown words from using part
 
 Teacher Forcing
 
+Self-supervised tasks
+	Learning from unlabelled data
+
+	1. MULTI-MASK LANGUAGE MODELING
+	2. NEXT SENTENCE PREDICTION (from the list of given options of sentences)
+	3. 
+
+BERT
+	Pre-training
+		1. Masked Language Modeling
+			15% of the tokens are chosen
+				mask 80% of the time
+				replace them with random token 10% of the time
+				keep them as is for 10% of the time
+			Dense layer and softmax
+
+		2. Next sentence prediction
+	
+	Position embeddings
+		Position in the sentence
+		Segment Embeddings --> sentence A or sentence B --> see how its actually implemented
+		Token Embeddings --> [CLS] at front and [SEP] at end
+
+		Take the sum? 
+	
+	Cross entropy loss and Binary loss for obj1 and obj2
+
+	Fine Tuning BERT
+		
