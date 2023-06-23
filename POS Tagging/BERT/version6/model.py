@@ -564,7 +564,12 @@ def runner():
                 logits = logits.view(-1, logits.shape[-1])
                 y = y.view(-1)
 
+                print(logits)
+                print()
+                print(y)
                 loss = criterion(logits, y)
+
+                raise Exception
                 
                 before_update = {}
                 for name, param in model.named_parameters():
@@ -693,17 +698,17 @@ open('result', 'r').read().splitlines()[:100]
 
 
 
-file_path = "/home/preetham/Results/BERT/version6/results.json"
-if not os.path.exists("/home/preetham/Results/BERT/version6"):
-    os.makedirs("path/to/demo_folder")
+# file_path = "/home/preetham/Results/BERT/version6/results.json"
+# if not os.path.exists("/home/preetham/Results/BERT/version6"):
+#     os.makedirs("path/to/demo_folder")
 
-if os.path.exists(file_path):
-    with open(file_path, "r") as file:
-        json_data = json.load(file)
-else:
-    json_data = []
+# if os.path.exists(file_path):
+#     with open(file_path, "r") as file:
+#         json_data = json.load(file)
+# else:
+#     json_data = []
 
-json_data.append(data)
+# json_data.append(data)
 
-with open(file_path, "w") as file:
-    json.dump(json_data, file, indent=4)
+# with open(file_path, "w") as file:
+#     json.dump(json_data, file, indent=4)
