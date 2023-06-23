@@ -674,7 +674,7 @@ def attention_layer(from_tensor,
     key_layer = tf.layers.dense(
                     to_tensor_2d,
                     num_attention_heads * size_per_head,
-                    activation=key_act,
+                    activation='relu',
                     name="key",
                     kernel_initializer=create_initializer(initializer_range))
 
