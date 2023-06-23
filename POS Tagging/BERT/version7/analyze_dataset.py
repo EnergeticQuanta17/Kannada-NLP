@@ -13,17 +13,19 @@ with open('kn.txt', 'r') as f:
 
         words = line.strip().split(' ')
         try:
-            # print(words[-1])
-            temp1 = words[-1][:-1]
-            temp2 = words[-1][-1]
+            if(words[-1][-1]=='.'):
+                temp1 = words[-1][:-1]
+                temp2 = words[-1][-1]
 
-            words[-1] = temp1
-            words.append(temp2)
-            print(temp2)
+                words[-1] = temp1
+                words.append(temp2)
+                print(temp2)
 
-            if(i==100):
-                input()
+                if(i==100):
+                    input()
         except:
-            pass
-        words_set.update()
-print(count_lines, count_words)
+            if(len(words)!=0):
+                print(words[-1])
+        words_set.update(words)
+
+print("Count of unique words: ", len(words_set))
