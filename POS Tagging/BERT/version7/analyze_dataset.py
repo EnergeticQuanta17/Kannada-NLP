@@ -12,15 +12,18 @@ with open('kn.txt', 'r') as f:
         count_lines+=1
 
         words = line.strip().split(' ')
-        print(words[-1])
-        temp1 = words[-1][:-1]
-        temp2 = words[-1][-1]
+        try:
+            print(words[-1])
+            temp1 = words[-1][:-1]
+            temp2 = words[-1][-1]
 
-        words[-1] = temp1
-        words.append(temp2)
-        print(temp2)
+            words[-1] = temp1
+            words.append(temp2)
+            print(temp2)
 
-        if(i==10):
-            raise Exception
+            if(i==10):
+                input()
+        except:
+            pass
         words_set.update()
 print(count_lines, count_words)
