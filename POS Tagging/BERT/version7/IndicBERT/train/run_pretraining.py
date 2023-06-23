@@ -413,7 +413,7 @@ def main(_):
         eval_batch_size=FLAGS.eval_batch_size)
 
     if FLAGS.do_train:
-        tf.compat.v1.logging.info("***** Running training *****")
+        tf.compat.v1.logging.info("******************** Running training ********************")
         tf.compat.v1.logging.info("  Batch size = %d", FLAGS.train_batch_size)
         train_input_fn = input_fn_builder(
             input_files=input_files,
@@ -423,7 +423,7 @@ def main(_):
         estimator.train(input_fn=train_input_fn, max_steps=FLAGS.num_train_steps)
 
     if FLAGS.do_eval:
-        tf.compat.v1.logging.info("***** Running evaluation *****")
+        tf.compat.v1.logging.info("******************** Running evaluation ********************")
         tf.compat.v1.logging.info("  Batch size = %d", FLAGS.eval_batch_size)
 
         eval_input_fn = input_fn_builder(
@@ -437,7 +437,7 @@ def main(_):
 
         output_eval_file = os.path.join(FLAGS.output_dir, "eval_results.txt")
         with tf.io.gfile.GFile(output_eval_file, "w") as writer:
-            tf.compat.v1.logging.info("***** Eval results *****")
+            tf.compat.v1.logging.info("******************** Eval results ********************")
             for key in sorted(result.keys()):
                 tf.compat.v1.logging.info("  %s = %s", key, str(result[key]))
                 writer.write("%s = %s\n" % (key, str(result[key])))
