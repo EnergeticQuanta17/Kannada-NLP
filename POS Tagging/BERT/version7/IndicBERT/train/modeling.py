@@ -671,20 +671,18 @@ def attention_layer(from_tensor,
 
 
     # `key_layer` = [B*T, N*H]
-    key_layer = tf.layers.dense(
-                    to_tensor_2d,
+    key_layer = tf.keras.layers.Dense(
                     num_attention_heads * size_per_head,
                     activation=key_act,
                     name="key",
-                    kernel_initializer=create_initializer(initializer_range))
+                    kernel_initializer=create_initializer(initializer_range))(to_tensor_2d)
 
     # `value_layer` = [B*T, N*H]
-    value_layer = tf.layers.dense(
-                    to_tensor_2d,
+    value_layer = tf.keras.layers.Dense(
                     num_attention_heads * size_per_head,
                     activation=value_act,
                     name="value",
-                    kernel_initializer=create_initializer(initializer_range))
+                    kernel_initializer=create_initializer(initializer_range))(to_tensor_2d)
 
     # `query_layer` = [B, N, F, H]
     query_layer = transpose_for_scores(query_layer, batch_size,
