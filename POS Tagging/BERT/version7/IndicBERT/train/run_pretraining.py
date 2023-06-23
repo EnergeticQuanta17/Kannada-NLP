@@ -22,7 +22,7 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import modeling
 import optimization
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 flags = tf.flags
 
