@@ -3,6 +3,8 @@ from tqdm import tqdm
 count_words = 0
 count_lines = 0
 
+empty_lines = 0
+
 words_set = set()
 with open('kn.txt', 'r') as f:
     total_lines = 67_265_080
@@ -19,9 +21,12 @@ with open('kn.txt', 'r') as f:
 
                 words[-1] = temp1
                 words.append(temp2)
+
+                if(i==100):
+                    input()
         except:
             if(len(words)!=0):
-                print(words[-1])
+                print(words[-1], ord(words[-1]))
         words_set.update(words)
 
 print("Count of unique words: ", len(words_set))
