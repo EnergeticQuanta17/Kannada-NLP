@@ -434,7 +434,7 @@ config = {
     "vocab_size": 20_000,
     "hidden_size": 300,
     "num_hidden_layers": 1,
-    "num_attention_heads": 12,
+    "num_attention_heads": 2,
     "intermediate_size": 3072,
     "hidden_act": "gelu",
     "hidden_dropout_prob": 0.1,
