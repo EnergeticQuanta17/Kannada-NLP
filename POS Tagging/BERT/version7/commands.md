@@ -32,3 +32,8 @@ python IndicBERT/train/run_pretraining.py \
 --learning_rate 0.001 \
 --save_checkpoints_steps 10 \
 --use_tpu False
+
+
+python IndicBERT/fine-tuning/ner/ner.py \
+    --model_name_or_path aquorio15/KannadaBERT-lamb \
+    --do_train True
