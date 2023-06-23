@@ -536,7 +536,8 @@ def runner():
         if not param.requires_grad:
             print("DOES NOT REQUIRE --> ", name)
         else:
-            print("REQUIRES --> ", name)
+            # print("REQUIRES --> ", name)
+            pass
 
     from torchvision import models
     from torchsummary import summary
@@ -563,8 +564,10 @@ def runner():
                 optimizer.zero_grad()
                 logits, y, dk = model(x, y)
                 print("After going to model:", f"Logits: {logits.shape}", f"y: {y.shape}", f"DK: {dk.shape}")
-
+                print(f"Shape of logits of logits.shape[-1]: {logits.shape[-1]}")
                 logits = logits.view(-1, logits.shape[-1])
+                print("Shape of logits after transforming: ", logits.shape)
+
                 y = y.view(-1)
 
                 print(logits)
