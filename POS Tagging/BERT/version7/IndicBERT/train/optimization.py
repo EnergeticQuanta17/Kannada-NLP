@@ -23,8 +23,7 @@ import tensorflow as tf
 
 
 def create_optimizer(loss, init_lr, num_train_steps, num_warmup_steps, use_tpu):
-    if(use_tpu):
-        raise Exception
+    use_tpu = False
     """Creates an optimizer training op."""
     global_step = tf.compat.v1.train.get_or_create_global_step()
 
