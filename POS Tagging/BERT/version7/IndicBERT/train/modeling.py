@@ -664,11 +664,11 @@ def attention_layer(from_tensor,
 
     # `query_layer` = [B*F, N*H]
     query_layer = tf.keras.layers.Dense(
-                    from_tensor_2d,
-                    num_attention_heads * size_per_head,
-                    activation=query_act,
-                    name="query",
-                    kernel_initializer=create_initializer(initializer_range))
+        num_attention_heads * size_per_head,
+        activation=query_act,
+        name="query",
+        kernel_initializer=create_initializer(initializer_range))(from_tensor_2d)
+
 
     # `key_layer` = [B*T, N*H]
     key_layer = tf.layers.dense(
