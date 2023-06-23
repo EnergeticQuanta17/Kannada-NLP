@@ -21,7 +21,7 @@ with open('kn.txt', 'r') as f:
             words.append(temp2)
             print(temp2)
 
-            if(i==10):
+            if(i==100):
                 input()
         except:
             pass
