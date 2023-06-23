@@ -224,10 +224,10 @@ def get_masked_lm_output(bert_config, input_tensor, output_weights, positions,
     """Get loss and log probs for the masked LM."""
     input_tensor = gather_indexes(input_tensor, positions)
 
-    with tf.variable_scope("cls/predictions"):
+    with tf.compat.v1.variable_scope("cls/predictions"):
         # We apply one more non-linear transformation before the output layer.
         # This matrix is not used after pre-training.
-        with tf.variable_scope("transform"):
+        with tf.compat.v1.variable_scope("transform"):
             input_tensor = tf.layers.dense(
                 input_tensor,
                 units=bert_config.hidden_size,
