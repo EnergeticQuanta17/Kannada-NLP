@@ -228,12 +228,11 @@ def get_masked_lm_output(bert_config, input_tensor, output_weights, positions,
         # We apply one more non-linear transformation before the output layer.
         # This matrix is not used after pre-training.
         with tf.compat.v1.variable_scope("transform"):
-            input_tensor = tf.layers.dense(
-                input_tensor,
+            input_tensor = tf.keras.layers.Dense(
                 units=bert_config.hidden_size,
                 activation=modeling.get_activation(bert_config.hidden_act),
                 kernel_initializer=modeling.create_initializer(
-                    bert_config.initializer_range))
+                    bert_config.initializer_range))(input_tensor)
             input_tensor = modeling.layer_norm(input_tensor)
 
         # The output weights are the same as the input embeddings, but there is
