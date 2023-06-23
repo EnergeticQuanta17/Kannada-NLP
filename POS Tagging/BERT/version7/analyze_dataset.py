@@ -26,6 +26,7 @@ with open('kn.txt', 'r') as f:
                     input()
         except:
             if(len(words)!=0):
+                print(words)
                 print(words[-1], ord(words[-1]))
         words_set.update(words)
 
