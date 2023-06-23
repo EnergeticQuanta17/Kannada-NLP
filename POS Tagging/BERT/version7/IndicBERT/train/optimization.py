@@ -23,6 +23,8 @@ import tensorflow as tf
 
 
 def create_optimizer(loss, init_lr, num_train_steps, num_warmup_steps, use_tpu):
+    if(use_tpu):
+        raise Exception
     """Creates an optimizer training op."""
     global_step = tf.compat.v1.train.get_or_create_global_step()
 
@@ -65,7 +67,7 @@ def create_optimizer(loss, init_lr, num_train_steps, num_warmup_steps, use_tpu):
         exclude_from_weight_decay=["LayerNorm", "layer_norm", "bias"])
 
     if use_tpu:
-        optimizer = tf.compat.v1.tpu.CrossShardOptimizer(optimizer)
+        optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)
 
     tvars = tf.compat.v1.trainable_variables()
     grads = tf.gradients(loss, tvars)
