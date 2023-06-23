@@ -405,8 +405,7 @@ def main(_):
 
     # If TPU is not available, this will fall back to normal Estimator on CPU
     # or GPU.
-    print(FLAGS.use_tpu)
-    raise Exception
+    FLAGS.use_tpu = False
     estimator = tf.compat.v1.estimator.tpu.TPUEstimator(
         use_tpu=FLAGS.use_tpu,
         model_fn=model_fn,
