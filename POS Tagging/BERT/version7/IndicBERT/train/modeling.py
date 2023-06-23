@@ -666,7 +666,7 @@ def attention_layer(from_tensor,
     query_layer = tf.keras.layers.Dense(
                     from_tensor_2d,
                     num_attention_heads * size_per_head,
-                    activation='relu',
+                    activation=query_act,
                     name="query",
                     kernel_initializer=create_initializer(initializer_range))
 
@@ -674,7 +674,7 @@ def attention_layer(from_tensor,
     key_layer = tf.layers.dense(
                     to_tensor_2d,
                     num_attention_heads * size_per_head,
-                    activation='relu',
+                    activation=key_act,
                     name="key",
                     kernel_initializer=create_initializer(initializer_range))
 
