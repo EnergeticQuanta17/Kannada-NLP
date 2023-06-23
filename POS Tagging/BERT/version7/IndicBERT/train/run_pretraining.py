@@ -237,7 +237,7 @@ def get_masked_lm_output(bert_config, input_tensor, output_weights, positions,
 
         # The output weights are the same as the input embeddings, but there is
         # an output-only bias for each token.
-        output_bias = tf.get_variable(
+        output_bias = tf.compat.v1.get_variable(
             "output_bias",
             shape=[bert_config.vocab_size],
             initializer=tf.zeros_initializer())
