@@ -27,10 +27,10 @@ python IndicBERT/train/run_pretraining.py \
 --train_batch_size 32 \
 --max_seq_length 512 \
 --max_predictions_per_seq 50 \
---num_train_steps 100 \
+--num_train_steps 1000 \
 --num_warmup_steps 10 \
---learning_rate 0.001 \
---save_checkpoints_steps 10 \
+--learning_rate 0.0005 \
+--save_checkpoints_steps 1 \
 --use_tpu False
 
 

@@ -420,10 +420,9 @@ def main(_):
             max_seq_length=FLAGS.max_seq_length,
             max_predictions_per_seq=FLAGS.max_predictions_per_seq,
             is_training=True)
-        try:
-            estimator.train(input_fn=train_input_fn, max_steps=FLAGS.num_train_steps)
-        except:
-            print("----------------------Sometjing happened----------------------")
+        
+        estimator.train(input_fn=train_input_fn, max_steps=FLAGS.num_train_steps)
+
 
     if FLAGS.do_eval:
         tf.compat.v1.logging.info("******************** Running evaluation ********************")
