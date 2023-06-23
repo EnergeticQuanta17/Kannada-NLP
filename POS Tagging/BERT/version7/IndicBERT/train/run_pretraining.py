@@ -173,7 +173,7 @@ def model_fn_builder(bert_config, init_checkpoint, learning_rate,
             train_op = optimization.create_optimizer(
                 total_loss, learning_rate, num_train_steps, num_warmup_steps, use_tpu)
 
-            output_spec = tf.compat.v1.tpu.TPUEstimatorSpec(
+            output_spec = tf.compat.v1.estimator.tpu.TPUEstimatorSpec(
                 mode=mode,
                 loss=total_loss,
                 train_op=train_op,
@@ -206,7 +206,7 @@ def model_fn_builder(bert_config, init_checkpoint, learning_rate,
                 masked_lm_example_loss, masked_lm_log_probs, masked_lm_ids,
                 masked_lm_weights
             ])
-            output_spec = tf.compat.v1.tpu.TPUEstimatorSpec(
+            output_spec = tf.compat.v1.estimator.tpu.TPUEstimatorSpec(
                 mode=mode,
                 loss=total_loss,
                 eval_metrics=eval_metrics,
