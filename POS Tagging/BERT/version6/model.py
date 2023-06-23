@@ -585,7 +585,7 @@ def runner():
                 print()
                 print("Element in that positon: ", logits[0][agmax])
                 print()
-                print("Loss for first index:", criterion(logits[0], y))
+                # print("Loss for first index:", criterion(logits[0], y))
                 print()
                 probs = torch.exp(logits) / torch.exp(logits).sum()
                 print("Probs vector", probs)                
