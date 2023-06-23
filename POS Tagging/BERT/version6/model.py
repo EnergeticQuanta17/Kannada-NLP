@@ -558,6 +558,8 @@ def runner():
             for i, batch in enumerate(iterator):
                 words, x, is_heads, tags, y, seqlens = batch
                 _y = y
+                print(f"Shape of x: {x.shape}")
+                print(f"Shape of y: {y.shape}")
                 optimizer.zero_grad()
                 logits, y, _ = model(x, y)
 
