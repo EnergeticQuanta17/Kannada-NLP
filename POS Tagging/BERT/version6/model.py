@@ -575,6 +575,8 @@ def runner():
                 print(y)
                 print()
                 print(logits.shape, y.shape)
+                print()
+                print(logits[0])
                 loss = criterion(logits, y)
 
                 raise Exception
