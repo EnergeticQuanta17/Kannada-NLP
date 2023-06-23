@@ -24,7 +24,7 @@ import modeling
 import optimization
 import tensorflow as tf
 
-flags = tf.flags
+flags = tf.compat.v1.flags
 
 FLAGS = flags.FLAGS
 
