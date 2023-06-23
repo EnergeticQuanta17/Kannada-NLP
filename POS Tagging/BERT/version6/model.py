@@ -561,7 +561,8 @@ def runner():
                 print(f"Shape of x: {x.shape}")
                 print(f"Shape of y: {y.shape}")
                 optimizer.zero_grad()
-                logits, y, _ = model(x, y)
+                logits, y, dk = model(x, y)
+                print("After going to model:", f"Logits: {logits.shape}", f"y: {y.shape}", f"DK: {dk.shape}")
 
                 logits = logits.view(-1, logits.shape[-1])
                 y = y.view(-1)
