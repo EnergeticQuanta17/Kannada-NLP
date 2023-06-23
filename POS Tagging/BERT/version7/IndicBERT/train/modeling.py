@@ -225,11 +225,10 @@ class BertModel(object):
                 # We "pool" the model by simply taking the hidden state corresponding
                 # to the first token. We assume that this has been pre-trained
                 first_token_tensor = tf.squeeze(self.sequence_output[:, 0:1, :], axis=1)
-                self.pooled_output = tf.layers.dense(
-                                first_token_tensor,
+                self.pooled_output = tf.keras.layers.Dense(
                                 config.hidden_size,
                                 activation=tf.tanh,
-                                kernel_initializer=create_initializer(config.initializer_range))
+                                kernel_initializer=create_initializer(config.initializer_range))(first_token_tensor)
 
     def get_pooled_output(self):
         return self.pooled_output
@@ -854,7 +853,6 @@ def transformer_model(input_tensor,
                 # with `layer_input`.
                 with tf.compat.v1.variable_scope("output"):
                     attention_output = tf.keras.layers.Dense(
-                                    
                                     hidden_size,
                                     kernel_initializer=create_initializer(initializer_range))(attention_output)
                     attention_output = dropout(attention_output, hidden_dropout_prob)
@@ -862,18 +860,16 @@ def transformer_model(input_tensor,
 
             # The activation is only applied to the "intermediate" hidden layer.
             with tf.compat.v1.variable_scope("intermediate"):
-                intermediate_output = tf.layers.dense(
-                                attention_output,
+                intermediate_output = tf.keras.layers.Dense(
                                 intermediate_size,
                                 activation=intermediate_act_fn,
-                                kernel_initializer=create_initializer(initializer_range))
+                                kernel_initializer=create_initializer(initializer_range))(attention_output)
 
             # Down-project back to `hidden_size` then add the residual.
             with tf.compat.v1.variable_scope("output"):
-                layer_output = tf.layers.dense(
-                                intermediate_output,
+                layer_output = tf.keras.layers.Dense(
                                 hidden_size,
-                                kernel_initializer=create_initializer(initializer_range))
+                                kernel_initializer=create_initializer(initializer_range))(intermediate_output)
                 layer_output = dropout(layer_output, hidden_dropout_prob)
                 layer_output = layer_norm(layer_output + attention_output)
                 prev_output = layer_output
