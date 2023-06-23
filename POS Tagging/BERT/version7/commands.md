@@ -22,7 +22,7 @@ python IndicBERT/process_data/create_mlm_data.py \
 python IndicBERT/train/run_pretraining.py \
 --input_file kn_10k.txt \
 --output_dir PRETRAINING_OUTPUT \
---do_train=True \
+--do_train True \
 --bert_config_file config.json \
 --train_batch_size 32 \
 --max_seq_length 512 \
@@ -31,4 +31,4 @@ python IndicBERT/train/run_pretraining.py \
 --num_warmup_steps 10 \
 --learning_rate 0.001 \
 --save_checkpoints_steps 10 \
---use_tpu=False
+--use_tpu False
