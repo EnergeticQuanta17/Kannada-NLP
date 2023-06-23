@@ -143,7 +143,7 @@ def model_fn_builder(bert_config, init_checkpoint, learning_rate,
 
         total_loss = masked_lm_loss
 
-        tvars = tf.trainable_variables()
+        tvars = tf.compat.v1.trainable_variables()
 
         initialized_variable_names = {}
         scaffold_fn = None
