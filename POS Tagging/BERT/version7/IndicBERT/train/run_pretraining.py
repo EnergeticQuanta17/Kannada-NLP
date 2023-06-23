@@ -368,7 +368,7 @@ def main(_):
 
     bert_config = modeling.BertConfig.from_json_file(FLAGS.bert_config_file)
 
-    tf.io.gfile.MakeDirs(FLAGS.output_dir)
+    tf.io.gfile.makedirs(FLAGS.output_dir)
 
     input_files = []
     for input_pattern in FLAGS.input_file.split(","):
