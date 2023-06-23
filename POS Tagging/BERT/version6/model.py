@@ -17,6 +17,8 @@ os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 os.environ['TORCH_USE_CUDA_DSA'] = '1'
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:32"
 
+torch.manual_seed(42)
+
 NUM_OF_EPOCHS = 1000
 BATCH_SIZE = 1
 NUM_EPOCHS_TO_STAGNATE = 100
