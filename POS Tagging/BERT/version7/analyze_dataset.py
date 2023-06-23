@@ -19,10 +19,6 @@ with open('kn.txt', 'r') as f:
 
                 words[-1] = temp1
                 words.append(temp2)
-                print(temp2)
-
-                if(i==100):
-                    input()
         except:
             if(len(words)!=0):
                 print(words[-1])
