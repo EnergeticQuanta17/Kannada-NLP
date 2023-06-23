@@ -21,13 +21,11 @@ with open('kn.txt', 'r') as f:
 
                 words[-1] = temp1
                 words.append(temp2)
-
-                if(i==100):
-                    input()
         except:
             if(len(words)!=0 and words[-1]!=''):
                 print(words)
                 print(words[-1], ord(words[-1]))
+                input()
         words_set.update(words)
 
 print("Count of unique words: ", len(words_set))
