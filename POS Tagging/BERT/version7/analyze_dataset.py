@@ -13,7 +13,7 @@ with open('kn.txt', 'r') as f:
 
         words = line.strip().split(' ')
         try:
-            print(words[-1])
+            # print(words[-1])
             temp1 = words[-1][:-1]
             temp2 = words[-1][-1]
 
