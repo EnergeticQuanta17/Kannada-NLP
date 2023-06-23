@@ -111,7 +111,7 @@ def model_fn_builder(bert_config, init_checkpoint, learning_rate,
                      num_train_steps, num_warmup_steps, use_tpu,
                      use_one_hot_embeddings):
     """Returns `model_fn` closure for TPUEstimator."""
-
+    use_tpu = False
     def model_fn(features, labels, mode, params):  # pylint: disable=unused-argument
         """The `model_fn` for TPUEstimator."""
 
@@ -150,7 +150,7 @@ def model_fn_builder(bert_config, init_checkpoint, learning_rate,
         if init_checkpoint:
             (assignment_map, initialized_variable_names
             ) = modeling.get_assignment_map_from_checkpoint(tvars, init_checkpoint)
-            if use_tpu:
+            if(False):
 
                 def tpu_scaffold():
                     tf.train.init_from_checkpoint(init_checkpoint, assignment_map)
@@ -171,7 +171,7 @@ def model_fn_builder(bert_config, init_checkpoint, learning_rate,
         output_spec = None
         if mode == tf.estimator.ModeKeys.TRAIN:
             train_op = optimization.create_optimizer(
-                total_loss, learning_rate, num_train_steps, num_warmup_steps, use_tpu)
+                total_loss, learning_rate, num_train_steps, num_warmup_steps, False)
 
             output_spec = tf.compat.v1.estimator.tpu.TPUEstimatorSpec(
                 mode=mode,
@@ -378,7 +378,7 @@ def main(_):
         tf.compat.v1.logging.info("  %s" % input_file)
 
     tpu_cluster_resolver = None
-    if FLAGS.use_tpu and FLAGS.tpu_name:
+    if False and FLAGS.tpu_name:
         tpu_cluster_resolver = tf.contrib.cluster_resolver.TPUClusterResolver(
             FLAGS.tpu_name, zone=FLAGS.tpu_zone, project=FLAGS.gcp_project)
 
@@ -399,14 +399,14 @@ def main(_):
         learning_rate=FLAGS.learning_rate,
         num_train_steps=FLAGS.num_train_steps,
         num_warmup_steps=FLAGS.num_warmup_steps,
-        use_tpu=FLAGS.use_tpu,
-        use_one_hot_embeddings=FLAGS.use_tpu)
+        use_tpu=False,
+        use_one_hot_embeddings=False)
 
     # If TPU is not available, this will fall back to normal Estimator on CPU
     # or GPU.
     FLAGS.use_tpu = False
     estimator = tf.compat.v1.estimator.tpu.TPUEstimator(
-        use_tpu=FLAGS.use_tpu,
+        use_tpu=False,
         model_fn=model_fn,
         config=run_config,
         train_batch_size=FLAGS.train_batch_size,
