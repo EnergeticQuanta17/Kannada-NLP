@@ -189,6 +189,8 @@ for sentence in tagged_sentences:
     words, tags = zip(*sentence)
     
     tags = [tag2index[tag] for tag in tags]
+    tags = torch.tensor(tags)
+    print("Shape of tags: --> ", tags.shape)
     
     tokens = tokenizer.tokenize(" ".join(words))
     input_ids = tokenizer.convert_tokens_to_ids(tokens)
