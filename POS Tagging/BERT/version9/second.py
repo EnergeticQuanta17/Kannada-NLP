@@ -28,4 +28,6 @@ outputs = model(input_ids=input_ids, attention_mask=attention_mask, token_type_i
 # print()
 print(type(outputs.last_hidden_state ))
 print()
-print(outputs.print(type(outputs.last_hidden_state )))
+print(outputs.last_hidden_state)
+print()
+print(outputs.last_hidden_state.shape)
