@@ -127,7 +127,7 @@ class POSNet(nn.Module):
         super().__init__()
         self.bert = model
         self.dropout = nn.Dropout(0.05)
-        self.fc1 = nn.Linear(300, 256)
+        self.fc1 = nn.Linear(768, 256)
         self.fc2 = nn.Linear(256, vocab_size)
         self.device = device
     
@@ -148,11 +148,11 @@ class POSNet(nn.Module):
             encoder_output = self.bert(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
             encoder_output = encoder_output.last_hidden_state
             
-            print(encoder_output.shape)
+            # print(encoder_output.shape)
             
             enc = encoder_output[-1]
             
-            print(enc.shape)
+            # print(enc.shape)
         else:
             self.bert.eval()
             with torch.no_grad():
