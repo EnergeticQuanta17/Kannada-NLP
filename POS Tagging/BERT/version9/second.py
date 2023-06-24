@@ -194,7 +194,7 @@ for sentence in tagged_sentences:
     input_ids = tokenizer.convert_tokens_to_ids(tokens)
     input_ids = torch.tensor([input_ids])
     
-    logits, y, dk = model(input_ids, tags)
+    logits, y, dk = pos_model(input_ids, tags)
     
     loss = criterion(logits, y)
     loss.backward()
