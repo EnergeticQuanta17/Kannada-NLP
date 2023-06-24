@@ -142,6 +142,7 @@ class POSNet(nn.Module):
             self.bert.train()
             
             attention_mask = torch.ones_like(input_ids)
+            print(type(attention_mask))
             token_type_ids = torch.zeros_like(input_ids)
             
             attention_mask = attention_mask.to(device)
