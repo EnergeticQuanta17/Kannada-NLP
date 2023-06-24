@@ -134,9 +134,6 @@ class POSNet(nn.Module):
     def forward(self, input_ids, y):
         input_ids = input_ids.to(self.device)
         y = y.to(self.device)
-
-        # print(x)
-        # print(x.shape)
         
         if self.training:
             self.bert.train()
@@ -150,8 +147,12 @@ class POSNet(nn.Module):
             
             encoder_output = self.bert(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
             encoder_output = encoder_output.last_hidden_state
-
-            enc = encoded_layers[-1]
+            
+            print(encoder_output.shape)
+            
+            enc = encoder_output[-1]
+            
+            print(enc.shape)
         else:
             self.bert.eval()
             with torch.no_grad():
