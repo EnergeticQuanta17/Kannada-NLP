@@ -192,7 +192,7 @@ for sentence in tagged_sentences:
     tokens = tokenizer.tokenize(" ".join(words))
     input_ids = tokenizer.convert_tokens_to_ids(tokens)
     
-    logits, y, dk = model(input_ids, y)
+    logits, y, dk = model(input_ids, tags)
     
     loss = criterion(logits, y)
     loss.backward()
