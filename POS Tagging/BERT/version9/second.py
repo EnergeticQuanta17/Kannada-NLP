@@ -169,12 +169,30 @@ print(input_ids)
 
 input_ids = torch.tensor([input_ids])
 
+# convert all of them to input_ids and then send to pos_model
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-input_ids = input_ids.to(device)
-attention_mask = attention_mask.to(device)
-token_type_ids = token_type_ids.to(device)
+pos_model = POSNet(vocab_size=len(tag2index))
+pos_model.to(device)
+model = nn.DataParallel(model)
 
+optimizer = torch.optim.Adam(model.parameters(), lr = 0.01)
+scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
 
-model.to(device)
-outputs = model(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+criterion = nn.CrossEntropyLoss(ignore_index=0)
+
+print(tagged_sentences[0])
+
+for i in all:
+    optimizer.zero_grad()
+    logits, y, dk = model(x, y)
+    
+    loss = criterion(logits, y)
+    loss.backward()
+    
+    optimizer.step()
+    scheduler.step()
+    
+    
+
+# outputs = model(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+
