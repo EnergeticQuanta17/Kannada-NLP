@@ -167,7 +167,7 @@ tokens = tokenizer.tokenize(text)
 input_ids = tokenizer.convert_tokens_to_ids(tokens)
 print(input_ids)
 
-input_ids = torch.tensor([input_ids])
+
 
 # convert all of them to input_ids and then send to pos_model
 
@@ -191,6 +191,7 @@ for sentence in tagged_sentences:
     
     tokens = tokenizer.tokenize(" ".join(words))
     input_ids = tokenizer.convert_tokens_to_ids(tokens)
+    input_ids = torch.tensor([input_ids])
     
     logits, y, dk = model(input_ids, tags)
     
