@@ -1,4 +1,4 @@
-Number of lines in the IndicCORP-v2 Kannada: 67_265_080
+Number of lines in the IndicCORP-v2 Kannada: 67_265_080 / 2
 
 Number of words in the IndicCORP-v2 Kannada: 981_451_584
 
@@ -6,3 +6,7 @@ Number of unique words in the IndicCORP-v2 Kannada: 22_794_170
 Ratio of repeat: 0.02322%
 
 Unique characters count: 
+
+To preprocess --> 100k = 8s
+To preprocess --> 67M  = 90min
+
