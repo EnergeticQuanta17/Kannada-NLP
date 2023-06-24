@@ -149,6 +149,8 @@ class POSNet(nn.Module):
             token_type_ids = token_type_ids.to(device)
             
             encoded_layers, _ = self.bert(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+            print(type(encoded_layers), type(input_ids), type(attention_mask), type(token_type_ids))
+            encoded_layers, _ = self.bert(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
 
             enc = encoded_layers[-1]
         else:
