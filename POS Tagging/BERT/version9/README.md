@@ -1,0 +1,1 @@
+https://huggingface.co/l3cube-pune/kannada-bert/tree/main
