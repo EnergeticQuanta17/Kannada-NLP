@@ -182,9 +182,17 @@ criterion = nn.CrossEntropyLoss(ignore_index=0)
 
 print(tagged_sentences[0])
 
-for i in all:
+for sentence in tagged_sentences:
     optimizer.zero_grad()
-    logits, y, dk = model(x, y)
+    
+    words, tags = zip(*sentence)
+    
+    tags = [tag2index[tag] for tag in tags]
+    
+    tokens = tokenizer.tokenize(" ".join(words))
+    input_ids = tokenizer.convert_tokens_to_ids(tokens)
+    
+    logits, y, dk = model(input_ids, y)
     
     loss = criterion(logits, y)
     loss.backward()
@@ -192,6 +200,8 @@ for i in all:
     optimizer.step()
     scheduler.step()
     
+    print(loss)
+    break
     
 
 # outputs = model(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
