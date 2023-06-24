@@ -148,8 +148,8 @@ class POSNet(nn.Module):
             attention_mask = attention_mask.to(device)
             token_type_ids = token_type_ids.to(device)
             
-            encoded_layers, _ = self.bert(input_ids=input_ids, )
-            enc = encoded_layers
+            encoded_layers, _ = self.bert(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+
             enc = encoded_layers[-1]
         else:
             self.bert.eval()
@@ -190,11 +190,14 @@ for sentence in tagged_sentences:
     
     tags = [tag2index[tag] for tag in tags]
     tags = torch.tensor([tags])
-    print("Shape of tags: --> ", tags.shape)
+    
     
     tokens = tokenizer.tokenize(" ".join(words))
     input_ids = tokenizer.convert_tokens_to_ids(tokens)
     input_ids = torch.tensor([input_ids])
+    
+    print("Shape of input_ids: --> ", input_ids.shape)
+    print("Shape of tags: --> ", tags.shape)
     
     logits, y, dk = pos_model(input_ids, tags)
     
