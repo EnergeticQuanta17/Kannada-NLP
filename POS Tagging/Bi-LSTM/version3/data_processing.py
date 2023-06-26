@@ -33,6 +33,21 @@ for sentence in retrieved_sentences:
     X_train.append(tempX)
     Y_train.append(tempY)
 
+lengths = []
+for sentence in retrieved_sentences:
+    temp = 0
+    for chunk in sentence.list_of_chunks:
+        temp += len(chunk.list_of_words)
+    
+    lengths.append(temp)
+
+import statistics
+print("Mean:", statistics.mean(lengths))
+print("Median:", statistics.median(lengths))
+print("Mode:", statistics.mode(lengths))
+print("stdev:", statistics.stdev(lengths))
+
+
 
 # for ele in X_train:
 #   print(ele)

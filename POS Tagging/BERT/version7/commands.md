@@ -6,7 +6,7 @@ python IndicBERT/tokenization/build_tokenizer.py \
     --vocab_size 23000000
 
 python IndicBERT/process_data/create_mlm_data.py \
-    --input_file kn_10k.txt \
+    --input_file kn.txt \
     --output_file PREPROCESS_OUTPUT \
     --input_file_type monolingual \
     --tokenizer TOKENIZER_OUTPUT/config.json \
