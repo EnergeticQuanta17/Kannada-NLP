@@ -17,6 +17,8 @@ os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 os.environ['TORCH_USE_CUDA_DSA'] = '1'
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:32"
 
+torch.manual_seed(42)
+
 NUM_OF_EPOCHS = 1000
 BATCH_SIZE = 1
 NUM_EPOCHS_TO_STAGNATE = 100
@@ -434,7 +436,7 @@ config = {
     "vocab_size": 20_000,
     "hidden_size": 300,
     "num_hidden_layers": 1,
-    "num_attention_heads": 12,
+    "num_attention_heads": 2,
     "intermediate_size": 3072,
     "hidden_act": "gelu",
     "hidden_dropout_prob": 0.1,
@@ -536,7 +538,8 @@ def runner():
         if not param.requires_grad:
             print("DOES NOT REQUIRE --> ", name)
         else:
-            print("REQUIRES --> ", name)
+            # print("REQUIRES --> ", name)
+            pass
 
     from torchvision import models
     from torchsummary import summary
@@ -558,13 +561,41 @@ def runner():
             for i, batch in enumerate(iterator):
                 words, x, is_heads, tags, y, seqlens = batch
                 _y = y
+                print(f"Shape of x: {x.shape}")
+                print(f"Shape of y: {y.shape}")
                 optimizer.zero_grad()
-                logits, y, _ = model(x, y)
-
+                logits, y, dk = model(x, y)
+                print("After going to model:", f"Logits: {logits.shape}", f"y: {y.shape}", f"DK: {dk.shape}")
+                print(f"Shape of logits of logits.shape[-1]: {logits.shape[-1]}")
                 logits = logits.view(-1, logits.shape[-1])
+                print("Shape of logits after transforming: ", logits.shape)
+
                 y = y.view(-1)
 
+                print(logits)
+                print()
+                print(y)
+                print()
+                print(logits.shape, y.shape)
+                print()
+                print(logits[0])
+                print()
+                print("Argmax for first: ", y[0])
+                print()
+                agmax = torch.argmax(logits[0]).item()
+                print("Argmax in logits index: ", torch.argmax(logits[0]).item())
+                print()
+                print("Element in that positon: ", logits[0][agmax])
+                print()
+                # print("Loss for first index:", criterion(logits[0], y))
+                print()
+                probs = torch.exp(logits) / torch.exp(logits).sum()
+                print("Probs vector", probs)                
+                lossi = -torch.sum(torch.log(probs) * y)
+                print("Loss on sinde index from scratch", lossi)
                 loss = criterion(logits, y)
+
+                raise Exception
                 
                 before_update = {}
                 for name, param in model.named_parameters():
@@ -693,17 +724,17 @@ open('result', 'r').read().splitlines()[:100]
 
 
 
-file_path = "/home/preetham/Results/BERT/version6/results.json"
-if not os.path.exists("/home/preetham/Results/BERT/version6"):
-    os.makedirs("path/to/demo_folder")
+# file_path = "/home/preetham/Results/BERT/version6/results.json"
+# if not os.path.exists("/home/preetham/Results/BERT/version6"):
+#     os.makedirs("path/to/demo_folder")
 
-if os.path.exists(file_path):
-    with open(file_path, "r") as file:
-        json_data = json.load(file)
-else:
-    json_data = []
+# if os.path.exists(file_path):
+#     with open(file_path, "r") as file:
+#         json_data = json.load(file)
+# else:
+#     json_data = []
 
-json_data.append(data)
+# json_data.append(data)
 
-with open(file_path, "w") as file:
-    json.dump(json_data, file, indent=4)
+# with open(file_path, "w") as file:
+#     json.dump(json_data, file, indent=4)
