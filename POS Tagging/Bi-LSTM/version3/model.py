@@ -159,7 +159,8 @@ model = Model(sequence_input, preds)
 #               optimizer='rmsprop',
 #               metrics=['acc'])
 
-model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['acc'])
+optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)
+model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['acc'])
 
 
 print("model fitting - Bidirectional LSTM")
