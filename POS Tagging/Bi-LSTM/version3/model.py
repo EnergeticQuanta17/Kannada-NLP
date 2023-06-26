@@ -24,8 +24,8 @@ IDEA_NUMBER = 3
 NO_OF_EMBEDDINGS = 10000
 MAX_SEQUENCE_LENGTH = 140
 EMBEDDING_DIM = 300
-TEST_SPLIT = 0.1
-VALIDATION_SPLIT = 0.1
+TEST_SPLIT = 0.05
+VALIDATION_SPLIT = 0.05
 BATCH_SIZE = 64
 UNITS_IN_LSTM_LAYER = 64
 EPOCHS = 10
@@ -43,7 +43,7 @@ print("Printing the len of int2tag after:", len(int2tag))
 # print("Shape of X: ", X.shape)
 # print("Shape of Y: ", y.shape)
 
-
+# Batch Processing
 def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
     num_samples = len(all_X)
 
@@ -56,7 +56,6 @@ def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
 
             y = to_categorical(y, num_classes=n_classes)
 
-
             yield shuffle(X, y)
 
 
@@ -67,8 +66,8 @@ y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 
 # y = to_categorical(y, num_classes=len(tag2int) + 1)
 
-print('TOTAL TAGS', len(tag2int))
-print('TOTAL WORDS', len(word2int))
+print('TOTAL TAGS ', len(tag2int))
+print('TOTAL WORDS ', len(word2int))
 
 # shuffle the data
 X, y = shuffle(X, y)
@@ -83,15 +82,13 @@ n_train_samples = X_train.shape[0]
 n_val_samples = X_val.shape[0]
 n_test_samples = X_test.shape[0]
 
-print('We have %d TRAINING samples' % n_train_samples)
-print('We have %d VALIDATION samples' % n_val_samples)
-print('We have %d TEST samples' % n_test_samples)
+print('TRAINING samples ', n_train_samples)
+print('VALIDATION samples ', n_val_samples)
+print('TEST samples ', n_test_samples)
 
 # make generators for training and validation
 train_generator = generator(all_X=X_train, all_y=y_train, n_classes=n_tags)
 validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags)
-
-print('Ntags : ', n_tags)
 
 with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
 	embeddings_index = pickle.load(f)
@@ -101,11 +98,16 @@ print('Total %s word vectors.' % len(embeddings_index))
 # + 1 to include the unkown word
 embedding_matrix = np.random.random((len(word2int) + 1, EMBEDDING_DIM))
 
+word_not_in_embedding = 0
+
 for word, i in word2int.items():
     embedding_vector = embeddings_index.get(word)
     if embedding_vector is not None:
+        word_not_in_embedding += 1
         # words not found in embeddings_index will remain unchanged and thus will be random.
         embedding_matrix[i] = embedding_vector
+
+print('Word not in Embedding : ', word_not_in_embedding)
 
 print('Embedding matrix shape', embedding_matrix.shape)
 print('X_train shape', X_train.shape)
@@ -118,7 +120,9 @@ embedding_layer = Embedding(len(word2int)+1,
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
 
+# BiLSTM Layers
 l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
+l2_lstm = Bidirectional(LSTM())
 preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
 
@@ -201,10 +205,8 @@ print('Y_pred shape ' , y_pred.shape)
 y_pred = y_pred.reshape(-1, 77)
 y_test = y_test.reshape(-1, 77)
 
-# print('-------------------Xtest--------------')
-# print(X_test)
 
-print('Y_pred shape ' , y_pred.shape)
+# print('Y_pred shape ' , y_pred.shape)
 
 print()
 print()
@@ -276,48 +278,46 @@ print("Total count including zeros:", tcount_zeros)
 ACCURACY = 100* non_zero_count/tcount
 print("Accuracy: ", ACCURACY)
 
-# for i, j in zip(y_pred[10], y_test[10]):
-#     print(i, '\t', j)
 
 
 
-# LOADING TO JSON
+# LOADING TO JSON (NOT ACCURATE)
 
-data = {
-    "Idea Number": IDEA_NUMBER,
-    "Epochs": EPOCHS,
-    "Number of Embeddings used": NO_OF_EMBEDDINGS,
-    "Max Sequence Length": MAX_SEQUENCE_LENGTH,
-    "Embedding Dimension": EMBEDDING_DIM,
-    "Test split": TEST_SPLIT,
-    "Validation split": VALIDATION_SPLIT,
-    "Number of train samples": n_train_samples,
-    "Number of validation samples": n_val_samples,
-    "Number of test samples": n_test_samples,
-    "Batch Size": BATCH_SIZE,
-    "Number of units in LSTM Layer": UNITS_IN_LSTM_LAYER,
-    "Embeddings File" : "Embeddings/embeddings_dict_10_000.pickle",
-    "Test Loss": test_results[0],
-    "Test Accuracy": test_results[1],
-    "Inflated Training Accuracy": training_accuracy,
-    "Inflated Train Loss":history.history['loss'],
-    "Inflated Validation Accuracy": history.history['val_acc'],
-    "Inflated Validation Loss":history.history['val_loss'],
-    "Number of parametrs": int(input("Enter the number of parameters in this model:")),
-    'Accuracy': ACCURACY
-}
+# data = {
+#     "Idea Number": IDEA_NUMBER,
+#     "Epochs": EPOCHS,
+#     "Number of Embeddings used": NO_OF_EMBEDDINGS,
+#     "Max Sequence Length": MAX_SEQUENCE_LENGTH,
+#     "Embedding Dimension": EMBEDDING_DIM,
+#     "Test split": TEST_SPLIT,
+#     "Validation split": VALIDATION_SPLIT,
+#     "Number of train samples": n_train_samples,
+#     "Number of validation samples": n_val_samples,
+#     "Number of test samples": n_test_samples,
+#     "Batch Size": BATCH_SIZE,
+#     "Number of units in LSTM Layer": UNITS_IN_LSTM_LAYER,
+#     "Embeddings File" : "Embeddings/embeddings_dict_10_000.pickle",
+#     "Test Loss": test_results[0],
+#     "Test Accuracy": test_results[1],
+#     "Inflated Training Accuracy": training_accuracy,
+#     "Inflated Train Loss":history.history['loss'],
+#     "Inflated Validation Accuracy": history.history['val_acc'],
+#     "Inflated Validation Loss":history.history['val_loss'],
+#     "Number of parametrs": int(input("Enter the number of parameters in this model:")),
+#     'Accuracy': ACCURACY
+# }
 
-file_path = "results.json" 
+# file_path = "results.json" 
 
-if os.path.exists(file_path):
-    with open(file_path, "r") as file:
-        json_data = json.load(file)
-else:
-    json_data = []
+# if os.path.exists(file_path):
+#     with open(file_path, "r") as file:
+#         json_data = json.load(file)
+# else:
+#     json_data = []
 
-model.save(f'Models/model{len(json_data)}.h5')
+# model.save(f'Models/model{len(json_data)}.h5')
 
-json_data.append(data)
+# json_data.append(data)
 
 # with open(file_path, "w") as file:
 #     json.dump(json_data, file, indent=4)

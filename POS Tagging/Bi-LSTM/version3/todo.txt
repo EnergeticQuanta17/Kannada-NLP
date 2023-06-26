@@ -1,5 +1,5 @@
-1. UNITS_IN_LSTM_LAYER
-    See the number of parameters used for each UNITS_IN_LSTM_LAYER
+1. NUMBER OF HIDDEN LAYERS + UNITS_IN_LSTM_LAYER
+    Number of parameters used for each UNITS_IN_LSTM_LAYER
 
 2. Attention mechanism after to extract features from concatenated hidden states
 

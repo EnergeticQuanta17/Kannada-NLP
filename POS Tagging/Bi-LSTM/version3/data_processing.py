@@ -9,7 +9,7 @@ Y_train = []
 words = []
 tags = []
 
-sys.path.append('../../../Parsing/')
+sys.path.append('../../../Parsing/AnnotatedDatasetParsing/')
 from language_elements import Sentence, Chunk, Word
 
 with open('../../../Parsing/full_dataset_131.pickle', 'rb') as file:
