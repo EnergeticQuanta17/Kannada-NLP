@@ -24,14 +24,16 @@ tf.get_logger().setLevel('ERROR')
 class DebuggingTillHereException(Exception):
     pass
 
+tf.random.set_seed(42)
+
 IDEA_NUMBER = 3
 NO_OF_EMBEDDINGS = 10000
-MAX_SEQUENCE_LENGTH = 30
+MAX_SEQUENCE_LENGTH = 16
 EMBEDDING_DIM = 300
-TEST_SPLIT = 0.1
+TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.1
 BATCH_SIZE = 64
-UNITS_IN_LSTM_LAYER = 32
+UNITS_IN_LSTM_LAYER = 64
 EPOCHS = 50
 
 with open('all_data.pkl', 'rb') as f:
