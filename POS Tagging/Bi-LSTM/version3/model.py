@@ -28,68 +28,81 @@ TEST_SPLIT = 0.05
 VALIDATION_SPLIT = 0.05
 BATCH_SIZE = 64
 UNITS_IN_LSTM_LAYER = 64
-EPOCHS = 25
+EPOCHS = 15
 
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
 
-print("Printing the len of int2tag before:", len(int2tag))
 
+# Tag 0 for the PAD
 int2tag[0] = '<PAD>'
 tag2int['<PAD>'] = 0
+n_tags = len(tag2int)
 
-print("Printing the len of int2tag after:", len(int2tag))
+# Data Size
+print('\n\n')
+print("Shape of X : ", X.shape)
+print("Shape of Y : ", y.shape)
+print("Shape of word2int :", len(word2int))
+print("Shape of int2word :", len(int2word))
+print("Shape of tag2int :", len(tag2int))
+print("Shape of int2tag :", len(int2tag))
+print('\n\n')
 
-# print("Shape of X: ", X.shape)
-# print("Shape of Y: ", y.shape)
 
-# Batch Processing
+# Data Samples
+print("X : ", X[:5])
+print("Y : ", y[:5])
+print("word2int :", word2int[:5])
+print("int2word :", int2word[:5])
+print("tag2int :", tag2int[:5])
+print("int2tag :", int2tag[:5])
+print('\n\n')
+
+
+# Generator for Batch Processing
 def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
     num_samples = len(all_X)
-
     while True:
-
         for offset in range(0, num_samples, batch_size):
-            
             X = all_X[offset:offset+batch_size]
             y = all_y[offset:offset+batch_size]
-
             y = to_categorical(y, num_classes=n_classes)
-
             yield shuffle(X, y)
 
-
-n_tags = len(tag2int)
 
 X = pad_sequences(X, maxlen=MAX_SEQUENCE_LENGTH)
 y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 
-# y = to_categorical(y, num_classes=len(tag2int) + 1)
 
+# Total TAGS & WORDS
 print('TOTAL TAGS ', len(tag2int))
 print('TOTAL WORDS ', len(word2int))
+
 
 # shuffle the data
 X, y = shuffle(X, y)
 
-# split data into train and test
+# Test Split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=TEST_SPLIT,random_state=42)
 
-# split training data into train and validation
+# Validation Split
 X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=VALIDATION_SPLIT, random_state=1)
 
 n_train_samples = X_train.shape[0]
 n_val_samples = X_val.shape[0]
 n_test_samples = X_test.shape[0]
-
 print('TRAINING samples ', n_train_samples)
 print('VALIDATION samples ', n_val_samples)
 print('TEST samples ', n_test_samples)
 
-# make generators for training and validation
+
+# Generators for training and validation
 train_generator = generator(all_X=X_train, all_y=y_train, n_classes=n_tags)
 validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags)
 
+
+# Embeddings
 with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
 	embeddings_index = pickle.load(f)
 
@@ -108,7 +121,6 @@ for word, i in word2int.items():
         embedding_matrix[i] = embedding_vector
 
 print('Word not in Embedding : ', word_not_in_embedding)
-
 print('Embedding matrix shape', embedding_matrix.shape)
 print('X_train shape', X_train.shape)
 
@@ -120,36 +132,11 @@ embedding_layer = Embedding(len(word2int)+1,
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
 
-# BiLSTM Layers
+# BiLSTM NN Layers
 l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
 preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
 
-def custom_loss(y_true, y_pred):
-    mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
-    loss = tf.keras.losses.categorical_crossentropy(y_true, y_pred)
-    masked_loss = loss * mask
-    return tf.reduce_mean(masked_loss)
-
-def custom_accuracy(y_true, y_pred):
-    # y_true_np = np.array(y_true)
-    # y_pred_np = np.array(y_pred)
-
-    # print("y_true:")
-    # # print(y_true_np)
-    # print(y_true.numpy())
-    # print()
-    
-    # print("y_pred:")
-    # # print(y_pred_np)
-    # print(y_pred.numpy())
-    # print()
-    
-    # raise DebuggingTillHereException
-    mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
-    accuracy = tf.keras.metrics.categorical_accuracy(y_true, y_pred)
-    masked_accuracy = accuracy * mask
-    return tf.reduce_mean(masked_accuracy)
 
 model.compile(loss='categorical_crossentropy',
               optimizer='rmsprop',
