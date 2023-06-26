@@ -122,36 +122,36 @@ l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedde
 preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
 
-def custom_loss(y_true, y_pred):
-    mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
-    loss = tf.keras.losses.categorical_crossentropy(y_true, y_pred)
-    masked_loss = loss * mask
-    return tf.reduce_mean(masked_loss)
+# def custom_loss(y_true, y_pred):
+#     mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
+#     loss = tf.keras.losses.categorical_crossentropy(y_true, y_pred)
+#     masked_loss = loss * mask
+#     return tf.reduce_mean(masked_loss)
 
-def custom_accuracy(y_true, y_pred):
-    y_true_np = np.array(y_true)
-    y_pred_np = np.array(y_pred)
+# def custom_accuracy(y_true, y_pred):
+#     y_true_np = np.array(y_true)
+#     y_pred_np = np.array(y_pred)
     
-    print("y_true:")
-    print(y_true_np)
-    print()
+#     print("y_true:")
+#     print(y_true_np)
+#     print()
     
-    print("y_pred:")
-    print(y_pred_np)
-    print()
+#     print("y_pred:")
+#     print(y_pred_np)
+#     print()
     
-    raise DebuggingTillHereException
-    raise DebuggingTillHereException
-    mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
-    accuracy = tf.keras.metrics.categorical_accuracy(y_true, y_pred)
-    masked_accuracy = accuracy * mask
-    return tf.reduce_mean(masked_accuracy)
+#     raise DebuggingTillHereException
+#     raise DebuggingTillHereException
+#     mask = tf.cast(tf.math.not_equal(tf.reduce_sum(y_true, axis=-1), 0), dtype=tf.float32)
+#     accuracy = tf.keras.metrics.categorical_accuracy(y_true, y_pred)
+#     masked_accuracy = accuracy * mask
+#     return tf.reduce_mean(masked_accuracy)
 
-model.compile(loss='categorical_crossentropy',
-              optimizer='rmsprop',
-              metrics=['acc'])
+# model.compile(loss='categorical_crossentropy',
+#               optimizer='rmsprop',
+#               metrics=['acc'])
 
-# model.compile(optimizer='rmsprop', loss=custom_loss, metrics=[custom_accuracy])
+model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['acc'])
 
 
 print("model fitting - Bidirectional LSTM")
