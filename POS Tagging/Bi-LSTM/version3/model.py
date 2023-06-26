@@ -2,6 +2,10 @@ import json
 import numpy as np
 import pickle, sys, os
 
+import wandb
+from wandb.keras import WandbCallback
+wandb.init(project='bi lstm')
+
 from keras_preprocessing.sequence import pad_sequences
 from keras.utils.np_utils import to_categorical
 
@@ -162,6 +166,7 @@ history  = model.fit_generator(train_generator,
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
                      epochs=EPOCHS,
+                     callbacks = [WandbCallback()]
                      verbose=1,)
 
 training_accuracy = history.history['acc']
