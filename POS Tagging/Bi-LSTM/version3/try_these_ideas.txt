@@ -24,8 +24,21 @@
 
     Check in which cases it explodes VS which cases it underflows and becomes 0
 
-9. 
+9. How much change in each of the weights?
 
+10. Drop all sentences with length more than 35 ig 
+    See percentage and decide
+
+11. Some bigger task model must have a hidden sandhi splitter inside it
+    Or else how is that high accuracy model achieving high accuracy
+
+12. Agreement between the different tags in output sequence
+
+13. Why is validation loss increasing rapidly when the learning rate is very low
+
+14. See the confidence level of each of the output
+
+15. 
 
 
 *** Check how to print correct validation and test accuracy
