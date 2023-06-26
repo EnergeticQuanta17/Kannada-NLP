@@ -166,7 +166,7 @@ history  = model.fit_generator(train_generator,
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
                      epochs=EPOCHS,
-                     callbacks = [WandbCallback()]
+                     callbacks = [WandbCallback()],
                      verbose=1,)
 
 training_accuracy = history.history['acc']
