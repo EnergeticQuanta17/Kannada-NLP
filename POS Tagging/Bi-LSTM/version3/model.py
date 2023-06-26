@@ -31,8 +31,8 @@ EMBEDDING_DIM = 300
 TEST_SPLIT = 0.1
 VALIDATION_SPLIT = 0.1
 BATCH_SIZE = 64
-UNITS_IN_LSTM_LAYER = 256
-EPOCHS = 15
+UNITS_IN_LSTM_LAYER = 32
+EPOCHS = 50
 
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
