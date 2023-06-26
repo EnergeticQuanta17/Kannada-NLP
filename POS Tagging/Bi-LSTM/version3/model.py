@@ -33,7 +33,7 @@ EMBEDDING_DIM = 300
 TEST_SPLIT = 0.1
 VALIDATION_SPLIT = 0.1
 BATCH_SIZE = 32
-UNITS_IN_LSTM_LAYER = 1024
+UNITS_IN_LSTM_LAYER = 64
 EPOCHS = 50
 
 with open('all_data.pkl', 'rb') as f:
@@ -125,8 +125,8 @@ sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
 
 l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
-dense_layer1 = TimeDistributed(Dense(256, activation='relu'))(l_lstm)
-dense_layer2 = TimeDistributed(Dense(128, activation='relu'))(dense_layer1)
+# dense_layer1 = TimeDistributed(Dense(256, activation='relu'))(l_lstm)
+dense_layer2 = TimeDistributed(Dense(128, activation='relu'))(l_lstm)
 preds = TimeDistributed(Dense(n_tags, activation='softmax'))(dense_layer2)
 model = Model(sequence_input, preds)
 
