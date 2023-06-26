@@ -45,6 +45,7 @@ import statistics
 print("Mean:", statistics.mean(lengths))
 print("Median:", statistics.median(lengths))
 print("Mode:", statistics.mode(lengths))
+print("\tThe number of elements in mode:", lengths.count(statistics.mode(lengths)))
 print("stdev:", statistics.stdev(lengths))
 
 
