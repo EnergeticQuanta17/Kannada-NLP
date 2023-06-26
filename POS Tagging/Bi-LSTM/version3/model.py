@@ -122,7 +122,6 @@ embedded_sequences = embedding_layer(sequence_input)
 
 # BiLSTM Layers
 l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
-l2_lstm = Bidirectional(LSTM())
 preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
 
