@@ -28,7 +28,7 @@ TEST_SPLIT = 0.05
 VALIDATION_SPLIT = 0.05
 BATCH_SIZE = 64
 UNITS_IN_LSTM_LAYER = 64
-EPOCHS = 10
+EPOCHS = 25
 
 with open('all_data.pkl', 'rb') as f:
     X, y, word2int, int2word, tag2int, int2tag = pickle.load(f)
@@ -161,7 +161,7 @@ model.compile(loss='categorical_crossentropy',
 print("model fitting - Bidirectional LSTM")
 model.summary()
 
-history  = model.fit_generator(train_generator, 
+history  = model.fit(train_generator, 
                      steps_per_epoch=n_train_samples//BATCH_SIZE,
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
