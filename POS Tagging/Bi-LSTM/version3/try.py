@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parameters (replace with your actual mean and standard deviation)
-mean = 10
-stddev = 2
+mean = 16
+stddev = 12
 
 # Generate x values for the plot
 x = np.linspace(mean - 4 * stddev, mean + 4 * stddev, 100)
