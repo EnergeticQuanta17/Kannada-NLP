@@ -121,6 +121,7 @@ tokenizer = BertTokenizer.from_pretrained("l3cube-pune/kannada-bert")
 
 model_name = "l3cube-pune/kannada-bert"
 model = BertModel.from_pretrained(model_name)
+print(model)
 
 class POSNet(nn.Module):
     def __init__(self, vocab_size=None):
