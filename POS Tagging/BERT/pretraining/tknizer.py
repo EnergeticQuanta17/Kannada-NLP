@@ -1,4 +1,5 @@
 from tokenizers import ByteLevelBPETokenizer
+import codecs
 
 input_files = ["kn_1k.txt"]
 
@@ -14,7 +15,8 @@ sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
 tokens = tokenizer.encode(sentence)
 
 for token in tokens.tokens:
-    print(len(token))
-    print(ord(token[0]), chr(ord(token[0])))
+    print(codecs.escape_decode(token))
+    print()
+    print(codecs.escape_decode(token)[0].decode('utf-8'))
     
     break
