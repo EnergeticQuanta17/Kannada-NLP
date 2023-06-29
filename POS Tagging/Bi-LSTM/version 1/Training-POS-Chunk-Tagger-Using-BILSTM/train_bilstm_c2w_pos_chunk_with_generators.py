@@ -160,10 +160,6 @@ def trainModelUsingBiLSTM(maxWordLen, maxSentLen, trainGen, valGen, steps, valSt
                                          save_best_only=True, save_weights_only=False, mode='auto', save_freq='epoch')
     finalModel = Model(
             inputs=[charSeq, wordSeq], outputs=[activationForPOS, activationForChunk])
-    
-    printModelSummary(finalModel)
-    raise Exception
-    
     finalModel.compile(optimizer='adam',
                        loss=dictLosses,
                        metrics=['accuracy'])
