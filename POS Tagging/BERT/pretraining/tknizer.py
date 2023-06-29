@@ -1,4 +1,4 @@
-from transformers import ByteLevelBPETokenizer
+from tokenizers import ByteLevelBPETokenizer
 
 input_files = ["kn_1k.txt"]
 
