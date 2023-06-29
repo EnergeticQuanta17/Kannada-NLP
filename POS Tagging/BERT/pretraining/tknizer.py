@@ -16,8 +16,8 @@ print(type(tokens.tokens))
 
 all_tokens = " ".join(tokens.tokens)
 print(all_tokens)
-print(all_tokens.encode('utf-8'))
-print(all_tokens.decode('utf-8'))
+utf8 = all_tokens.encode('utf-8')
+print(utf8.decode('utf-8'))
 
 # for i in tokens.tokens:
 #     print(i.encode('utf-8').decode('unicode_escape'))
