@@ -12,6 +12,7 @@ from keras.layers import TimeDistributed
 from keras.layers import LSTM, Bidirectional
 from keras.models import Model
 from keras.callbacks import ModelCheckpoint
+from keras.optimizers.legacy import Adam
 
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
@@ -142,7 +143,7 @@ checkpointCallback = ModelCheckpoint(weightFile, monitor='val_loss', verbose=0,
 model = Model(sequence_input, preds)
 
 model.compile(loss='SparseCategoricalCrossentropy',
-              optimizer='adam',
+              optimizer=Adam(),
               metrics=['accuracy'])
 
 
@@ -151,12 +152,13 @@ model.summary()
 
 history  = model.fit(train_generator, 
                      steps_per_epoch=n_train_samples//BATCH_SIZE,
+                     callbacks=[checkpointCallback],
                      validation_data=validation_generator,
                      validation_steps=n_val_samples//BATCH_SIZE,
                      epochs=EPOCHS,
                      verbose=1,)
 
-training_accuracy = history.history['acc']
+training_accuracy = history.history['accuracy']
 print("Training Accuracy:", training_accuracy)
 
 if not os.path.exists('Models/'):
