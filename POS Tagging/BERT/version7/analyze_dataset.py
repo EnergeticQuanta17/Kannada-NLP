@@ -14,7 +14,7 @@ with open('kn.txt', 'r') as f:
     total_lines = 67_265_080
 
 
-    for i, line in tqdm(enumerate(f), total=total_lines):
+    for i, line in enumerate(f):
         count_lines+=1
 
         words = line.strip().split(' ')
