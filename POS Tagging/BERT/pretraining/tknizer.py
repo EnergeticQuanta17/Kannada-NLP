@@ -7,8 +7,10 @@ tokenizer = ByteLevelBPETokenizer()
 
 # tokenizer.save_model("kannada_tokenizer")
 
-print(dir(tokenizer))
+# print(dir(tokenizer))
 
 sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
 tokens = tokenizer.encode(sentence)
-print(tokens.tokens[-1])
+
+for i in tokens.tokens:
+    print(i)
