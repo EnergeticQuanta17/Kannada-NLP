@@ -14,7 +14,7 @@ def printModelSummary(model):
     print(model.inputs)
     print(model.outputs)
 
-def trainModelUsingBiLSTM(maxWordLen=140, maxSentLen=5400, totalChars=150, totalPOS=80, totalChunks=12345, epochs=1):
+def trainModelUsingBiLSTM(maxWordLen=140, maxSentLen=300, totalChars=150, totalPOS=80, totalChunks=100, epochs=1):
     """Train a model using BILSTM C2W."""
     embeddingLayer = Embedding(
         totalChars + 2, 50, input_length=maxWordLen, trainable=True)
