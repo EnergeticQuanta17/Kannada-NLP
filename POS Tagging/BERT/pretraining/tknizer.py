@@ -10,7 +10,7 @@ tokenizer.save_model("kannada_tokenizer")
 # print(dir(tokenizer))
 
 sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
-print(sentence, sentence.encode('utf-8'))
+print(sentence, sentence.encode('utf-8').decode('utf-8'))
 tokens = tokenizer.encode(sentence)
 print(tokens.tokens)
 
