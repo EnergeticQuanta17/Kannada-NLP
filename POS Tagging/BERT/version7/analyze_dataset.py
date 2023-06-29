@@ -42,6 +42,8 @@ with open('kn.txt', 'r') as f:
                 char_set.add(char)
         if(len(char_set.difference(initial_char_set)) != 0):
             print(i, char_set.difference(initial_char_set))
+            print(words, end='\n\n\n')
+            time.sleep(2)
         # print(words)
         # time.sleep(0.2)
 
