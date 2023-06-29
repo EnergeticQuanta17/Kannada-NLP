@@ -10,11 +10,13 @@ tokenizer.save_model("kannada_tokenizer")
 # print(dir(tokenizer))
 
 sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
-# sentence = "ಡ"
-# print(chr(ord(sentence)))
-print(sentence, sentence.encode('utf-8').decode('utf-8'))
+
 tokens = tokenizer.encode(sentence)
-print(type(tokens.tokens))
 
 for token in tokens.tokens:
-    print(type(token))
+    print(bytes(token, 'utf-8'))
+    print(bytes(token, 'utf-8').decode('unicode-escape'))
+    print(bytes(token, 'utf-8').decode('unicode-escape').encode('latin-1'))
+    print(bytes(token, 'utf-8').decode('unicode-escape').encode('latin-1').decode('utf-8'))
+    
+    break
