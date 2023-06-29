@@ -12,14 +12,10 @@ tokenizer.save_model("kannada_tokenizer")
 # print(dir(tokenizer))
 
 sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
+sentence = sentence.encode('utf-8')
 print(sentence.encode('utf-8'))
 
 tokens = tokenizer.encode(sentence)
 
 for token in tokens.tokens:
-    print(codecs.escape_decode(token))
-    print()
-    print(codecs.escape_decode(token)[0].decode('utf-8'))
-    print()
-    print(chardet.detect(bytes(token, 'utf-8')))
-    break
+    print(token)
