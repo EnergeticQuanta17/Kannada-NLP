@@ -1,5 +1,6 @@
 from tokenizers import ByteLevelBPETokenizer
 import codecs
+import chardet
 
 input_files = ["kn_1k.txt"]
 
@@ -18,5 +19,6 @@ for token in tokens.tokens:
     print(codecs.escape_decode(token))
     print()
     print(codecs.escape_decode(token)[0].decode('utf-8'))
-    
+    print()
+    print(chardet.detect(token))
     break
