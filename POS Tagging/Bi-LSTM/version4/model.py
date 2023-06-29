@@ -1,20 +1,21 @@
 import json
 import numpy as np
 import pickle, sys, os
+import tensorflow as tf
 
 from keras_preprocessing.sequence import pad_sequences
-from tensorflow.keras.utils import to_categorical
+from tf.keras.utils import to_categorical
 
-from keras.layers import Embedding
-from keras.layers import Dense, Input
-from keras.layers import TimeDistributed
-from keras.layers import LSTM, Bidirectional
-from keras.models import Model
+from tf.keras.layers import Embedding
+from tf.keras.layers import Dense, Input
+from tf.keras.layers import TimeDistributed
+from tf.keras.layers import LSTM, Bidirectional
+from tf.keras.models import Model
+from tf.keras.callback import ModelCheckpoint
 
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 
-import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
 
 class DebuggingTillHereException(Exception):
@@ -125,7 +126,7 @@ print('Embedding matrix shape', embedding_matrix.shape)
 print('X_train shape', X_train.shape)
 
 
-# Embedding Layer
+# Embedding + BiLSTM Layer
 embedding_layer = Embedding(len(word2int)+1,
                             EMBEDDING_DIM,
                             weights=[embedding_matrix],
@@ -133,20 +134,18 @@ embedding_layer = Embedding(len(word2int)+1,
                             trainable=True)
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
-
-# BiLSTM Layer
-l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
+l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True), merge_mode='sum')(embedded_sequences)
 preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
+
+weightFile = 'weightFile' + '-{epoch:d}-{loss:.2f}.wts'
+checkpointCallback = ModelCheckpoint(weightFile, monitor='val_loss', verbose=0,
+                                    save_best_only=True, save_weights_only=False, mode='auto', save_freq='epoch')
+
 model = Model(sequence_input, preds)
 
-# Add layers for character, words
-
-
-
-model.compile(loss='categorical_crossentropy',
-              optimizer='rmsprop',
-              metrics=['acc'])
-# model.compile(optimizer='rmsprop', loss=custom_loss, metrics=[custom_accuracy])
+model.compile(loss='SparseCategoricalCrossentropy',
+              optimizer='adam',
+              metrics=['accuracy'])
 
 
 print("model fitting - Bidirectional LSTM")
