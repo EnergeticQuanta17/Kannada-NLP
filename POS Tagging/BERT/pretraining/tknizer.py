@@ -18,5 +18,4 @@ print(type(tokens.tokens))
 
 all_tokens = " ".join(tokens.tokens)
 
-for char in all_tokens:
-    print(chr(ord(char)))
+print(all_tokens)
