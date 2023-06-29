@@ -15,6 +15,18 @@ from re import S
 # set a random seed
 np.random.seed(1337)
 
+def printModelSummary(model):
+    """Prints a summary of the model."""
+    model.summary()
+
+    # Print the layer details.
+    for layer in model.layers:
+        print(layer.name, layer.get_config())
+
+    # Print the model inputs and outputs.
+    print(model.inputs)
+    print(model.outputs)
+
 
 def readLinesFromFile(filePath):
     """Read lines from a file."""
@@ -148,6 +160,10 @@ def trainModelUsingBiLSTM(maxWordLen, maxSentLen, trainGen, valGen, steps, valSt
                                          save_best_only=True, save_weights_only=False, mode='auto', save_freq='epoch')
     finalModel = Model(
             inputs=[charSeq, wordSeq], outputs=[activationForPOS, activationForChunk])
+    
+    printModelSummary(finalModel)
+    raise Exception
+    
     finalModel.compile(optimizer='adam',
                        loss=dictLosses,
                        metrics=['accuracy'])
