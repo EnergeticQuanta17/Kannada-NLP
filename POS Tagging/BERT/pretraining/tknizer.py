@@ -15,6 +15,6 @@ tokens = tokenizer.encode(sentence)
 
 for token in tokens.tokens:
     print(len(token))
-    print(ord(token[0]))
+    print(ord(token[0]), chr(ord(token[0])))
     
     break
