@@ -37,3 +37,5 @@ def trainModelUsingBiLSTM(maxWordLen=100, maxSentLen=10, totalChars=50, totalPOS
             inputs=[charSeq, wordSeq], outputs=[activationForPOS, activationForChunk])
     
     printModelSummary(finalModel)
+    
+trainModelUsingBiLSTM()
