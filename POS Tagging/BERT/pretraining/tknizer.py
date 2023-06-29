@@ -17,4 +17,4 @@ tokens = tokenizer.encode(sentence)
 print(type(tokens.tokens))
 
 for token in tokens.tokens:
-    print(token)
+    print(type(token))
