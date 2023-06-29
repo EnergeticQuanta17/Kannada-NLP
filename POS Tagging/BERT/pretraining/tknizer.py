@@ -14,5 +14,8 @@ print(sentence, sentence.encode('utf-8').decode('utf-8'))
 tokens = tokenizer.encode(sentence)
 print(type(tokens.tokens))
 
+all_tokens = " ".join(tokens.tokens)
+print(all_tokens, all_tokens.encode('utf-8'), all_tokens.decode('utf-8'))
+
 # for i in tokens.tokens:
 #     print(i.encode('utf-8').decode('unicode_escape'))
