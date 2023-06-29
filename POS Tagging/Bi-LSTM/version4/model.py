@@ -11,7 +11,7 @@ from keras.layers import Dense, Input
 from keras.layers import TimeDistributed
 from keras.layers import LSTM, Bidirectional
 from keras.models import Model
-from keras.callback import ModelCheckpoint
+from keras.callbacks import ModelCheckpoint
 
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
