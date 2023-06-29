@@ -36,10 +36,11 @@ with open('kn.txt', 'r') as f:
         words_set.update(words)
         list_words.extend(words)
         
+        initial_char_set = char_set.copy()
         for word in words:
             for char in word:
                 char_set.add(char)
-        
+        print(i, char_set.difference(initial_char_set))
         # print(words)
         # time.sleep(0.2)
 
