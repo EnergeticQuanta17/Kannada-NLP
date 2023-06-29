@@ -4,14 +4,14 @@ import pickle, sys, os
 import tensorflow as tf
 
 from keras_preprocessing.sequence import pad_sequences
-from tf.keras.utils import to_categorical
+from keras.utils import to_categorical
 
-from tf.keras.layers import Embedding
-from tf.keras.layers import Dense, Input
-from tf.keras.layers import TimeDistributed
-from tf.keras.layers import LSTM, Bidirectional
-from tf.keras.models import Model
-from tf.keras.callback import ModelCheckpoint
+from keras.layers import Embedding
+from keras.layers import Dense, Input
+from keras.layers import TimeDistributed
+from keras.layers import LSTM, Bidirectional
+from keras.models import Model
+from keras.callback import ModelCheckpoint
 
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
