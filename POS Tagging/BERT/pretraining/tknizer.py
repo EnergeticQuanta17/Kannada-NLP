@@ -16,4 +16,4 @@ print(tokens.tokens)
 print(tokens.tokens)
 
 for i in tokens.tokens:
-    print(i.decode('utf-8'))
+    print(i.encode('utf-8'))
