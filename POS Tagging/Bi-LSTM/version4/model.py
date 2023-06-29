@@ -12,7 +12,7 @@ from keras.layers import TimeDistributed
 from keras.layers import LSTM, Bidirectional
 from keras.models import Model
 from keras.callbacks import ModelCheckpoint
-from keras.optimizers.legacy import Adam
+from keras.optimizers import Adam
 
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
