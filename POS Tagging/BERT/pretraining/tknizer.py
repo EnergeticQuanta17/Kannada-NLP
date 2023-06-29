@@ -11,4 +11,4 @@ print(dir(tokenizer))
 
 sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
 tokens = tokenizer.encode(sentence)
-print(tokens)
+print(tokens.tokens[-1])
