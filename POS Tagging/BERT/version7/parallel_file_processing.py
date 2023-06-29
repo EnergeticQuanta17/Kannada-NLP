@@ -5,7 +5,7 @@ def process_line(line):
     pass
 
 def main():
-    with open('kn_1m.txt', 'r') as f:
+    with open('kn_1k.txt', 'r') as f:
         lines = f.readlines()
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
