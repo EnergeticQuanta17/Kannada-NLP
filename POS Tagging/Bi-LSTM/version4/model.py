@@ -41,8 +41,8 @@ n_tags = len(tag2int)
 
 # Data Size
 print('\n\n')
-print("Shape of X : ", X.shape)
-print("Shape of Y : ", y.shape)
+print("Shape of X : ", len(X))
+print("Shape of Y : ", len(y))
 print("Shape of word2int :", len(word2int))
 print("Shape of int2word :", len(int2word))
 print("Shape of tag2int :", len(tag2int))
@@ -124,6 +124,8 @@ print('Word not in Embedding : ', word_not_in_embedding)
 print('Embedding matrix shape', embedding_matrix.shape)
 print('X_train shape', X_train.shape)
 
+
+# Embedding Layer
 embedding_layer = Embedding(len(word2int)+1,
                             EMBEDDING_DIM,
                             weights=[embedding_matrix],
@@ -132,16 +134,18 @@ embedding_layer = Embedding(len(word2int)+1,
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
 
-# BiLSTM NN Layers
+# BiLSTM Layer
 l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
 preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
+
+# Add layers for character, words
+
 
 
 model.compile(loss='categorical_crossentropy',
               optimizer='rmsprop',
               metrics=['acc'])
-
 # model.compile(optimizer='rmsprop', loss=custom_loss, metrics=[custom_accuracy])
 
 
@@ -155,7 +159,7 @@ history  = model.fit(train_generator,
                      epochs=EPOCHS,
                      verbose=1,)
 
-training_accuracy = history.history[custom_accuracy]
+training_accuracy = history.history['acc']
 print("Training Accuracy:", training_accuracy)
 
 if not os.path.exists('Models/'):
