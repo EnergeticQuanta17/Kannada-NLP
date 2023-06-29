@@ -8,12 +8,8 @@ def main():
         lines = f.readlines()
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
-        futures = []
         for line in lines:
-            futures.append(executor.submit(process_line, line))
-
-    for future in futures:
-        print(future.result())
+            executor.submit(process_line, line)
 
 if __name__ == '__main__':
     main()
