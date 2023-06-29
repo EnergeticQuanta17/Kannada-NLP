@@ -20,5 +20,5 @@ for token in tokens.tokens:
     print()
     print(codecs.escape_decode(token)[0].decode('utf-8'))
     print()
-    print(chardet.detect(bytes(token)))
+    print(chardet.detect(bytes(token, 'utf-8')))
     break
