@@ -12,6 +12,8 @@ words_set = set()
 char_set = set()
 
 list_words = []
+
+count = 0
 with open('kn.txt', 'r') as f:
     total_lines = 67_265_080
 
@@ -40,13 +42,12 @@ with open('kn.txt', 'r') as f:
         for word in words:
             for char in word:
                 char_set.add(char)
-        if(len(char_set.difference(initial_char_set)) >3 ):
-            print(i, char_set.difference(initial_char_set))
-            print(words, end='\n\n\n')
-            time.sleep(0.1)
+        if(len(char_set.difference(initial_char_set)) > 3 ):
+            count += 1
         # print(words)
         # time.sleep(0.2)
 
+print(count)
 # counter = Counter(list_words)
 # most_common = sorted(counter.items(), key=lambda x:x[1], reverse=True)
 
