@@ -13,7 +13,7 @@ sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
 tokens = tokenizer.encode(sentence)
 print(tokens.tokens)
 
-print(tokens.tokens[1])
+print(tokens.tokens)
 
 for i in tokens.tokens:
-    print(i)
+    print(i.decode('utf-8'))
