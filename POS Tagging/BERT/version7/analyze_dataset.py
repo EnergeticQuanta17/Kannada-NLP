@@ -40,7 +40,8 @@ with open('kn.txt', 'r') as f:
         for word in words:
             for char in word:
                 char_set.add(char)
-        print(i, char_set.difference(initial_char_set))
+        if(len(char_set.difference(initial_char_set)) != 0):
+            print(i, char_set.difference(initial_char_set))
         # print(words)
         # time.sleep(0.2)
 
