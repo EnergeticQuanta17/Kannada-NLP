@@ -12,7 +12,7 @@ from keras.layers import TimeDistributed
 from keras.layers import LSTM, Bidirectional
 from keras.models import Model
 from keras.callbacks import ModelCheckpoint
-from keras.optimizers import Adam
+# from keras.optimizers import Adam
 
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
@@ -142,8 +142,8 @@ checkpointCallback = ModelCheckpoint(weightFile, monitor='val_loss', verbose=0,
 
 model = Model(sequence_input, preds)
 
-model.compile(loss='SparseCategoricalCrossentropy',
-              optimizer=Adam(),
+model.compile(loss='CategoricalCrossentropy',
+              optimizer='adam',
               metrics=['accuracy'])
 
 
