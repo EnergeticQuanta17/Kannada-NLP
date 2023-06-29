@@ -9,12 +9,14 @@ count_lines = 0
 empty_lines = 0
 
 words_set = set()
+char_set = set()
+
 list_words = []
 with open('kn.txt', 'r') as f:
     total_lines = 67_265_080
 
 
-    for i, line in enumerate(f):
+    for i, line in tqdm(enumerate(f), total=total_lines):
         count_lines+=1
 
         words = line.strip().split(' ')
@@ -34,18 +36,30 @@ with open('kn.txt', 'r') as f:
         words_set.update(words)
         list_words.extend(words)
         
-        print(words)
-        time.sleep(0.2)
+        for word in words:
+            for char in word:
+                char_set.add(char)
+        
+        # print(words)
+        # time.sleep(0.2)
 
-counter = Counter(list_words)
-most_common = sorted(counter.items(), key=lambda x:x[1], reverse=True)
+# counter = Counter(list_words)
+# most_common = sorted(counter.items(), key=lambda x:x[1], reverse=True)
 
-print("Count of unique words: ", len(words_set))
-print("Most frequent words: ")
+# print("Count of unique words: ", len(words_set))
+# print("Most frequent words: ")
 
-# most_common = counter.most_common(20)
-# for element, count in most_common:
-#     print(element, count)
+# # most_common = counter.most_common(20)
+# # for element, count in most_common:
+# #     print(element, count)
 
-with open('most_frequent_words.json', 'w') as file:
-    json.dump(most_common, file)
+# with open('most_frequent_words.json', 'w') as file:
+#     json.dump(most_common, file)
+
+
+# Unique characters to find out how to tokenize
+print("-----------------------------------------------------------")
+for char in char_set:
+    print(char)
+
+print("-----------------------------------------------------------")
