@@ -13,7 +13,6 @@ tokenizer.save_model("kannada_tokenizer")
 
 sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
 sentence = sentence.encode('utf-8')
-print(sentence.encode('utf-8'))
 
 tokens = tokenizer.encode(sentence)
 
