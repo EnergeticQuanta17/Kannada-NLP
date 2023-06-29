@@ -16,6 +16,5 @@ print(sentence, sentence.encode('utf-8').decode('utf-8'))
 tokens = tokenizer.encode(sentence)
 print(type(tokens.tokens))
 
-all_tokens = " ".join(tokens.tokens)
-
-print(all_tokens)
+for token in tokens.tokens:
+    print(token)
