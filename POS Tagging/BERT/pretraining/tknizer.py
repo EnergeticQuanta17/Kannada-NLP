@@ -12,7 +12,7 @@ tokenizer.save_model("kannada_tokenizer")
 sentence = "ನಮಸ್ತೆ ಕನ್ನಡ"
 print(sentence, sentence.encode('utf-8').decode('utf-8'))
 tokens = tokenizer.encode(sentence)
-print(tokens.tokens)
+print(type(tokens.tokens))
 
-for i in tokens.tokens:
-    print(i.encode('utf-8').decode('unicode_escape'))
+# for i in tokens.tokens:
+#     print(i.encode('utf-8').decode('unicode_escape'))
