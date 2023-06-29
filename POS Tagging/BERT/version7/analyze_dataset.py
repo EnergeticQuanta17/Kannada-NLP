@@ -43,7 +43,7 @@ with open('kn.txt', 'r') as f:
         if(len(char_set.difference(initial_char_set)) >3 ):
             print(i, char_set.difference(initial_char_set))
             print(words, end='\n\n\n')
-            time.sleep(2)
+            time.sleep(0.1)
         # print(words)
         # time.sleep(0.2)
 
