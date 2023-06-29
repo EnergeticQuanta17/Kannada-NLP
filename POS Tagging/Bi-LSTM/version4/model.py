@@ -54,10 +54,10 @@ print('\n\n')
 # Data Samples
 print("X : ", X[:5])
 print("Y : ", y[:5])
-print("word2int :", word2int[:5])
-print("int2word :", int2word[:5])
-print("tag2int :", tag2int[:5])
-print("int2tag :", int2tag[:5])
+# print("word2int :", word2int[:5])
+# print("int2word :", int2word[:5])
+# print("tag2int :", tag2int[:5])
+# print("int2tag :", int2tag[:5])
 print('\n\n')
 
 
@@ -106,14 +106,11 @@ validation_generator = generator(all_X=X_val, all_y=y_val, n_classes=n_tags)
 # Embeddings
 with open('../../../Parsing/Embeddings/embeddings_dict_10_000.pickle', 'rb') as f:
 	embeddings_index = pickle.load(f)
-
 print('Total %s word vectors.' % len(embeddings_index))
 
 # + 1 to include the unkown word
 embedding_matrix = np.random.random((len(word2int) + 1, EMBEDDING_DIM))
-
 word_not_in_embedding = 0
-
 for word, i in word2int.items():
     embedding_vector = embeddings_index.get(word)
     if embedding_vector is not None:
@@ -124,6 +121,7 @@ for word, i in word2int.items():
 print('Word not in Embedding : ', word_not_in_embedding)
 print('Embedding matrix shape', embedding_matrix.shape)
 print('X_train shape', X_train.shape)
+
 
 
 # Embedding + BiLSTM Layer
