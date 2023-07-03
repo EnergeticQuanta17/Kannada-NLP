@@ -63,5 +63,8 @@ padded_words = pad_sequences([encoded_words], maxlen=MAX_SEQUENCE_LENGTH)
 print(padded_words)
 print()
 
+print(model)
+print()
+
 y_pred = model.predict(padded_words)
 print(y_pred)
