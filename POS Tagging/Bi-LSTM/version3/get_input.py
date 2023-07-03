@@ -1,11 +1,13 @@
 import pickle
+import sys
 
 with open('../../../Parsing/AnnotatedDatasetParsing/full_dataset_131.pickle', 'rb') as file:
     retrieved_sentences = pickle.load(file)
 
 print("Number of sentences retrieved: ", len(retrieved_sentences))
 
-SENTENCE_INDEX = int(input("Enter sentence index: "))
+# SENTENCE_INDEX = int(input("Enter sentence index: "))
+SENTENCE_INDEX = int(sys.argv[1])
 
 words = []
 tags = []
