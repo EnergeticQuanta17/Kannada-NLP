@@ -8,6 +8,8 @@ print("Number of sentences retrieved: ", len(retrieved_sentences))
 
 # SENTENCE_INDEX = int(input("Enter sentence index: "))
 SENTENCE_INDEX = int(sys.argv[1])
+print(sys.argv[1])
+raise Exception
 
 words = []
 tags = []
