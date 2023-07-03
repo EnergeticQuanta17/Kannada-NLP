@@ -51,7 +51,7 @@ print(X.shape, y.shape)
 
 for i in X[1]:
     if(i!=0):
-        print(int2word[i], end='-')
+        print(int2word[i])
 
 
 # print(len(word2int))
