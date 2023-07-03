@@ -15,6 +15,5 @@ for chunk in sentence.list_of_chunks:
     for word in chunk.list_of_words:
         words.append(word.kannada_word)
         tags.append(word.pos)
-    break
 
 print(words, tags)
