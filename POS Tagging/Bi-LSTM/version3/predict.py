@@ -50,5 +50,5 @@ with open('input.txt') as f:
         line = line.strip()
         words.append(line)
 
-padded_words = pad_sequences(words, maxlen=MAX_SEQUENCE_LENGTH)
+padded_words = pad_sequences([words], maxlen=MAX_SEQUENCE_LENGTH)
 print(padded_words)
