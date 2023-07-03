@@ -1,23 +1,18 @@
-import numpy as np
-import matplotlib.pyplot as plt
+import pickle
 
-# Parameters (replace with your actual mean and standard deviation)
-mean = 16
-stddev = 12
+with open('../../../Parsing/AnnotatedDatasetParsing/full_dataset_131.pickle', 'rb') as file:
+    retrieved_sentences = pickle.load(file)
 
-# Generate x values for the plot
-x = np.linspace(mean - 4 * stddev, mean + 4 * stddev, 100)
+print("Number of sentences retrieved: ", len(retrieved_sentences))
 
-# Calculate the corresponding y values using the normal distribution PDF formula
-y = (1 / (stddev * np.sqrt(2 * np.pi))) * np.exp(-(x - mean)**2 / (2 * stddev**2))
+words = []
+tags = []
 
-# Plot the PDF
-plt.plot(x, y)
+for sentence in retrieved_sentences:
+    for chunk in sentence.list_of_chunks:
+        for word in chunk.list_of_words:
+            words.append(word.kannada_word)
+            tags.append(word.pos)
+    break
 
-# Set labels and title
-plt.xlabel('Values')
-plt.ylabel('Probability Density')
-plt.title('Probability Density Function')
-
-# Show the plot
-plt.show()
+print(words, tags)

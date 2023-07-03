@@ -50,6 +50,9 @@ y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 
 print(X.shape, y.shape)
 
+
+##########################################################
+
 words, encoded_words = [], []
 with open('input.txt', 'r') as f:
     for line in f:
