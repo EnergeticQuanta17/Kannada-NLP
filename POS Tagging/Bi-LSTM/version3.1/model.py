@@ -120,14 +120,12 @@ embedding_layer = Embedding(len(word2int)+1,
                             EMBEDDING_DIM,
                             weights=[embedding_matrix],
                             input_length=MAX_SEQUENCE_LENGTH,
-                            trainable=True)
+                            trainable=False)
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
 
 l_lstm = Bidirectional(LSTM(UNITS_IN_LSTM_LAYER, return_sequences=True))(embedded_sequences)
-dense_layer1 = TimeDistributed(Dense(256, activation='relu'))(l_lstm)
-dense_layer2 = TimeDistributed(Dense(128, activation='relu'))(dense_layer1)
-preds = TimeDistributed(Dense(n_tags, activation='softmax'))(dense_layer2)
+preds = TimeDistributed(Dense(n_tags, activation='softmax'))(l_lstm)
 model = Model(sequence_input, preds)
 
 # def custom_loss(y_true, y_pred):
@@ -159,7 +157,7 @@ model = Model(sequence_input, preds)
 #               optimizer='rmsprop',
 #               metrics=['acc'])
 
-optimizer = tf.keras.optimizers.Adam(learning_rate=0.00001)
+# optimizer = tf.keras.optimizers.Adam(learning_rate=0.00001)
 # model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['acc'])
 
 model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['acc'])
