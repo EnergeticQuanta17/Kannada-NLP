@@ -1,3 +1,4 @@
+import numpy as np
 import pickle
 
 from keras_preprocessing.sequence import pad_sequences
@@ -71,5 +72,7 @@ y_pred = model.predict(padded_words)
 pred_0 = y_pred[0]
 
 for index, ele in enumerate(pred_0):
-    print(words[index], ele.index(max(ele)), int2tag[ele.index(max(ele))])
+    print(words[index], np.argmax(ele))
+    print()
+    print(ele)
     break
