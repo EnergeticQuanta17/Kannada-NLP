@@ -88,3 +88,6 @@ for index, ele in enumerate(pred_0[-1 * len(words):]):
         raise Exception
     else:
         print(f"{words[index]:20s} {int2tag[np.argmax(ele)]:10s} {actual_tags[index]:10s}", end='   ')
+
+print()
+print()
