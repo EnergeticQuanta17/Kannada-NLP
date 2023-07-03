@@ -80,4 +80,4 @@ with open('input_tags.txt', 'r') as f:
         actual_tags.append(line.strip())
 
 for index, ele in enumerate(pred_0[-1 * len(words):]):
-    print(words[index], np.argmax(ele), int2tag[np.argmax(ele)], f"Actual Index:{actual_tags[index]}")
+    print(f"{words[index]:20s} {int2tag[np.argmax(ele)]:10s} {actual_tags[index]:10s}")

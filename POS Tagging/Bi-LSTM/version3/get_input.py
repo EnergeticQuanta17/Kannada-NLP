@@ -5,7 +5,7 @@ with open('../../../Parsing/AnnotatedDatasetParsing/full_dataset_131.pickle', 'r
 
 print("Number of sentences retrieved: ", len(retrieved_sentences))
 
-SENTENCE_INDEX = 1
+SENTENCE_INDEX = int(input("Enter sentence index: "))
 
 words = []
 tags = []
