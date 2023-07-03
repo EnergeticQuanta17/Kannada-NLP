@@ -16,6 +16,7 @@ with open('all_data.pkl', 'rb') as f:
 
 print("Printing the len of int2tag before:", len(int2tag))
 
+int2word[0] = '<PAD>'
 int2tag[0] = '<PAD>'
 tag2int['<PAD>'] = 0
 
