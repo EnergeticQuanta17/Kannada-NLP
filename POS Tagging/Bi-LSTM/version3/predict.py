@@ -67,4 +67,6 @@ print(model.summary())
 print()
 
 y_pred = model.predict(padded_words)
-print(y_pred)
+print(len(y_pred))
+print(len(y_pred[0]))
+print(len(y_pred[0][0]))
