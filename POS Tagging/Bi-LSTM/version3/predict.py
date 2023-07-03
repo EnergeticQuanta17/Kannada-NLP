@@ -49,28 +49,14 @@ y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 
 print(X.shape, y.shape)
 
-# with open('input.txt', 'w') as f:
-#     for i in X[1]:
-#         if(i!=0):
-#             f.write(int2word[i] + '\n')
+words, encoded_words = [], []
+with open('input.txt', 'r') as f:
+    for line in f:
+        line = line.strip()
+        words.append(line)
+        encoded_words.append(word2int[line])
 
-for i in X[1]:
-    if(i!=0):
-        print(i)
-        for j in int2word[i]:
-            print(j, end = '-')
-        print("---------------")
-
-
-# print(len(word2int))
-
-# words = []
-# with open('input.txt') as f:
-#     for line in f:
-#         line = line.strip()
-#         words.append(word2int[line])
-
-# print(words)
-
+print(words)
+print(encoded_words)
 # padded_words = pad_sequences([words], maxlen=MAX_SEQUENCE_LENGTH)
 # print(padded_words)
