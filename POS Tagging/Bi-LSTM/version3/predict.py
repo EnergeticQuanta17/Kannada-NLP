@@ -48,7 +48,9 @@ words = []
 with open('input.txt') as f:
     for line in f:
         line = line.strip()
-        words.append(line)
+        words.append(word2int[line])
+
+print(words)
 
 padded_words = pad_sequences([words], maxlen=MAX_SEQUENCE_LENGTH)
 print(padded_words)
