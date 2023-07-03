@@ -21,8 +21,8 @@ tag2int['<PAD>'] = 0
 
 print("Printing the len of int2tag after:", len(int2tag))
 
-print("Shape of X: ", X.shape)
-print("Shape of Y: ", y.shape)
+print("Shape of X: ", len(X))
+print("Shape of Y: ", len(y))
 
 
 def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
