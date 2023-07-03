@@ -48,4 +48,5 @@ y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 
 print(X.shape, y.shape)
 
-print(X[1])
+for i in X[1]:
+    print(int2word(i), end='-')
