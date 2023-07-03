@@ -27,23 +27,6 @@ print("Printing the len of int2tag after:", len(int2tag))
 print("Shape of X: ", len(X))
 print("Shape of Y: ", len(y))
 
-
-def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
-    num_samples = len(all_X)
-
-    while True:
-
-        for offset in range(0, num_samples, batch_size):
-            
-            X = all_X[offset:offset+batch_size]
-            y = all_y[offset:offset+batch_size]
-
-            y = to_categorical(y, num_classes=n_classes)
-
-
-            yield shuffle(X, y)
-
-
 n_tags = len(tag2int)
 
 X = pad_sequences(X, maxlen=MAX_SEQUENCE_LENGTH)
@@ -52,7 +35,7 @@ y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 print(X.shape, y.shape)
 
 
-##########################################################
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 words, encoded_words = [], []
 with open('input_words.txt', 'r') as f:
