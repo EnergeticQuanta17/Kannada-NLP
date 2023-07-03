@@ -56,6 +56,7 @@ print(X.shape, y.shape)
 
 for i in X[1]:
     if(i!=0):
+        print(i)
         for j in int2word[i]:
             print(j, end = '-')
         print("---------------")
