@@ -49,9 +49,10 @@ y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 
 print(X.shape, y.shape)
 
-for i in X[1]:
-    if(i!=0):
-        print(int2word[i])
+with open('input.txt', 'w') as f:
+    for i in X[1]:
+        if(i!=0):
+            f.write(int2word[i] + '\n')
 
 
 # print(len(word2int))
