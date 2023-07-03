@@ -1,5 +1,6 @@
 import numpy as np
 import pickle
+import time
 
 from keras_preprocessing.sequence import pad_sequences
 from keras.models import load_model
@@ -85,9 +86,11 @@ for index, ele in enumerate(pred_0[-1 * len(words):]):
     if(int2tag[np.argmax(ele)] != actual_tags[index]):
         print(f"{words[index]:20s} {int2tag[np.argmax(ele)]:10s} {actual_tags[index]:10s}", end='   ')
         print("(x)")
+        time.sleep(15)
         raise Exception
     else:
         print(f"{words[index]:20s} {int2tag[np.argmax(ele)]:10s} {actual_tags[index]:10s}", end='   ')
 
 print()
 print()
+time.sleep(5)
