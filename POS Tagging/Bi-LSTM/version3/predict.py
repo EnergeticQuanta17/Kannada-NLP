@@ -54,7 +54,7 @@ print(X.shape, y.shape)
 ##########################################################
 
 words, encoded_words = [], []
-with open('input.txt', 'r') as f:
+with open('input_words.txt', 'r') as f:
     for line in f:
         line = line.strip()
         words.append(line)
@@ -73,5 +73,11 @@ print()
 y_pred = model.predict(padded_words)
 pred_0 = y_pred[0]
 
+
+actual_tags = []
+with open('input_tags.txt', 'r') as f:
+    for line in f:
+        actual_tags.append(line.strip())
+
 for index, ele in enumerate(pred_0[-1 * len(words):]):
-    print(words[index], np.argmax(ele), int2tag[np.argmax(ele)])
+    print(words[index], np.argmax(ele), int2tag[np.argmax(ele)], f"Actual Index:{actual_tags[index]}")

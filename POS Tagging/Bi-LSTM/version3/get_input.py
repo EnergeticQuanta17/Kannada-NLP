@@ -17,3 +17,12 @@ for chunk in sentence.list_of_chunks:
         tags.append(word.pos)
 
 print(words, tags)
+
+with open('input_words.txt', 'w') as f:
+    for word in words:
+        f.write(word + '\n')
+
+
+with open('input_tags.txt', 'w') as f:
+    for tag in tags:
+        f.write(tag + '\n')
