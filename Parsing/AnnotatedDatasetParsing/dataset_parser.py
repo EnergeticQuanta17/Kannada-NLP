@@ -10,16 +10,16 @@ chunk_attributes = vars(Chunk)['__annotations__']
 sentence_attributes = vars(Sentence)['__annotations__']
 
 
-def extract_list_of_sentences(filename):
+def extract_list_of_sentences(filename=""):
     list_of_sentences = []
     s = None
     c = None
     w = None
 
-    # if(filename==""):
-    #     filename = r"../Dataset/DL-DL MT/DL-DL MT/Set1_governance_translated_part1_00001-00050.txt"
-    # else:
-    filename = r"../Dataset/dataset_6318/DL-DL MT/DL-DL MT/" + filename
+    if(filename==""):
+        filename = r"../../Dataset/Annotated Dataset/dataset_5418/DL-DL MT/DL-DL MT/Set1_governance_translated_part1_00001-00050.txt"
+    else:
+        filename = r"../Dataset/dataset_6318/DL-DL MT/DL-DL MT/" + filename
     with open(filename, mode='r',  encoding='utf-8') as f:
         for line_number, line in enumerate(f):
             # print(line)
