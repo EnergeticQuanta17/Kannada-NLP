@@ -68,9 +68,7 @@ print(model.summary())
 print()
 
 y_pred = model.predict(padded_words)
-
 pred_0 = y_pred[0]
-print("Length of pred_0: ", len(pred_0))
 
-for index, ele in enumerate(pred_0):
+for index, ele in enumerate(pred_0[-1 * len(words):]):
     print(words[index], np.argmax(ele), int2tag[np.argmax(ele)])
