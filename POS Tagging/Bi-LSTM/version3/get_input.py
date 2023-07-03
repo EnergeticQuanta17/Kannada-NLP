@@ -7,10 +7,8 @@ with open('../../../Parsing/AnnotatedDatasetParsing/full_dataset_131.pickle', 'r
 print("Number of sentences retrieved: ", len(retrieved_sentences))
 
 # SENTENCE_INDEX = int(input("Enter sentence index: "))
-print(sys.argv[1])
-SENTENCE_INDEX = int(sys.argv[1])
 
-raise Exception
+SENTENCE_INDEX = int(sys.argv[1])
 
 words = []
 tags = []
