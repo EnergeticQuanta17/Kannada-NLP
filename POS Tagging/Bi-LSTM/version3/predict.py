@@ -44,15 +44,25 @@ def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
 
 n_tags = len(tag2int)
 
-print(len(word2int))
+X = pad_sequences(X, maxlen=MAX_SEQUENCE_LENGTH)
+y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 
-words = []
-with open('input.txt') as f:
-    for line in f:
-        line = line.strip()
-        words.append(word2int[line])
+print(X.shape, y.shape)
 
-print(words)
+for i in X[1]:
+    if(i!=0):
+        print(int2word[i], end='-')
 
-padded_words = pad_sequences([words], maxlen=MAX_SEQUENCE_LENGTH)
-print(padded_words)
+
+# print(len(word2int))
+
+# words = []
+# with open('input.txt') as f:
+#     for line in f:
+#         line = line.strip()
+#         words.append(word2int[line])
+
+# print(words)
+
+# padded_words = pad_sequences([words], maxlen=MAX_SEQUENCE_LENGTH)
+# print(padded_words)
