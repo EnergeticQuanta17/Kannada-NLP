@@ -47,3 +47,5 @@ X = pad_sequences(X, maxlen=MAX_SEQUENCE_LENGTH)
 y = pad_sequences(y, maxlen=MAX_SEQUENCE_LENGTH)
 
 print(X.shape, y.shape)
+
+print(X[1])
