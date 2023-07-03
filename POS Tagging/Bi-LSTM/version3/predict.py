@@ -72,7 +72,4 @@ y_pred = model.predict(padded_words)
 pred_0 = y_pred[0]
 
 for index, ele in enumerate(pred_0):
-    print(words[index], np.argmax(ele))
-    print()
-    print(ele)
-    break
+    print(words[index], np.argmax(ele), int2tag[np.argmax(ele)])
