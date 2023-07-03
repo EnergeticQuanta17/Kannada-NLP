@@ -59,5 +59,5 @@ with open('input.txt', 'r') as f:
 print(words)
 print(encoded_words)
 
-padded_words = pad_sequences(encoded_words, maxlen=MAX_SEQUENCE_LENGTH)
+padded_words = pad_sequences([encoded_words], maxlen=MAX_SEQUENCE_LENGTH)
 print(padded_words)
