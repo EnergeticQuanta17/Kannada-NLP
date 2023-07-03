@@ -44,6 +44,8 @@ def generator(all_X, all_y, n_classes, batch_size=BATCH_SIZE):
 
 n_tags = len(tag2int)
 
+print(len(word2int))
+
 words = []
 with open('input.txt') as f:
     for line in f:
