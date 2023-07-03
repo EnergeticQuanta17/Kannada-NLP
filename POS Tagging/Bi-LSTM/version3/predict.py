@@ -60,15 +60,15 @@ with open('input_words.txt', 'r') as f:
         words.append(line)
         encoded_words.append(word2int[line])
 
-print(words)
-print(encoded_words)
+# print(words)
+# print(encoded_words)
 
 padded_words = pad_sequences([encoded_words], maxlen=MAX_SEQUENCE_LENGTH)
-print(padded_words)
-print()
+# print(padded_words)
+# print()
 
-print(model.summary())
-print()
+# print(model.summary())
+# print()
 
 y_pred = model.predict(padded_words)
 pred_0 = y_pred[0]
@@ -80,4 +80,9 @@ with open('input_tags.txt', 'r') as f:
         actual_tags.append(line.strip())
 
 for index, ele in enumerate(pred_0[-1 * len(words):]):
-    print(f"{words[index]:20s} {int2tag[np.argmax(ele)]:10s} {actual_tags[index]:10s}")
+    print(f"{words[index]:20s} {int2tag[np.argmax(ele)]:10s} {actual_tags[index]:10s}", end='   ')
+
+    if(int2tag[np.argmax(ele)] != actual_tags[index]):
+        print("(x)")
+    else:
+        print()
