@@ -160,7 +160,7 @@ model = Model(sequence_input, preds)
 #               metrics=['acc'])
 
 optimizer = tf.keras.optimizers.Adam(learning_rate=0.00001)
-model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['acc'])
+# model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['acc'])
 
 model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['acc'])
 
