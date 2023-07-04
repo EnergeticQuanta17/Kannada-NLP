@@ -1,0 +1,1506 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='921'>
+1	((	NP	<fs name='NP' drel='k2:VGNF'>
+1.1	ಪಡನ್ನ	N__NNP	<fs af='ಪಡನ್ನ,n,,sg,3,d,0,0' name='ಪಡನ್ನ'>
+1.2	ಕ್ಷೇತ್ರವನ್ನು	N__NN	<fs af='ಕ್ಷೇತ್ರ,n,,sg,3,o,ಅವ್+ಅ+ಅನ್ನು,av+a+annu' name='ಕ್ಷೇತ್ರವನ್ನು'>
+	))
+2	((	NP	<fs name='NP2' drel='rt:VGNF'>
+2.1	ಕೆರೆ	N__NN	<fs af='ಕೆರೆ,n,,sg,3,d,0,0' name='ಕೆರೆ'>
+2.2	ಪ್ರವಾಸೋದ್ಯಮಕ್ಕಾಗಿ	N__NN	<fs af='ಪ್ರವಾಸೋದ್ಯಮ,n,,sg,3,o,ಅಕ್ಕೆ+ಆ+ಆಗು+ಇ,akkeV+A+Agu+i' name='ಪ್ರವಾಸೋದ್ಯಮಕ್ಕಾಗಿ'>
+	))
+3	((	NP	<fs name='NP3' drel='pof:VGNF'>
+3.1	ಅನುಕೂಲ	N__NN	<fs af='ಅನುಕೂಲ,n,,,,d,0,0' name='ಅನುಕೂಲ'>
+	))
+4	((	VGNF	<fs af=',,,,,,,' name='VGNF' drel='nmod:NP4'>
+4.1	ಆಗಿಸುವ	V__VM__VNF	<fs af='ಆಗಿಸು,v,,,,,ಉವ್+ಅ,uv+a' name='ಆಗಿಸುವ'>
+	))
+5	((	NP	<fs name='NP4' drel='ccof:CCP'>
+5.1	ಘಟಕ	N__NN	<fs af='ಘಟಕ,n,,sg,3,d,0,0' name='ಘಟಕ'>
+	))
+6	((	CCP	<fs af=',,,,,,,' name='CCP' drel='rs:NP5'>
+6.1	ಎಂದರೆ	CC__CCD	<fs af='ಎಂದು,avy,,,,o,ಅ+ಅರ್+ಎ,a+ar+eV' name='ಎಂದರೆ'>
+	))
+7	((	NP	<fs name='NP5' drel='k1:VGNF2'>
+7.1	ವಲಿಯಪರಂಬುಝೀಲ್	N__NNP	<fs af='ವಲಿಯಪರಂಬುಝೀಲ್,n,,sg,3,d,0,0' name='ವಲಿಯಪರಂಬುಝೀಲ್'>
+7.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,' name=','>
+	))
+8	((	NP	<fs name='NP6' drel='adv:VGNF2'>
+8.1	ಹಸಿರಿನಿಂದ	N__NN	<fs af='ಹಸಿರು,n,,,,o,ಇ+ಇನ್+ಇ+ಇಂದ,i+in+i+iMxa' name='ಹಸಿರಿನಿಂದ'>
+	))
+9	((	VGNF	<fs name='VGNF2' drel='nmod:NP7'>
+9.1	ಆವರಿಸಲ್ಪಟ್ಟ	V__VM__VNF	<fs af='ಆವರಿಸು,v,,sg,3,,ಅ+ಅಲ್+ಪ+ಪಡು+ಟ್ಟ್+ಉ,a+al+pa+padu+tt+u' name='ಆವರಿಸಲ್ಪಟ್ಟ'>
+	))
+10	((	NP	<fs name='NP7' drel='ccof:NULL__CCP'>
+10.1	ದ್ವೀಪ	N__NN	<fs af='ದ್ವೀಪ,n,,sg,3,d,0,0' name='ದ್ವೀಪ'>
+10.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,' name=',2'>
+	))
+11	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP' drel='k1:NULL__VGF'>
+11.1	NULL	CC__CCD	<fs af=',,,,,,,' name='NULL'>
+	))
+12	((	NP	<fs name='NP8' drel='ccof:NULL__CCP'>
+12.1	ಕಣಿವೆ	N__NN	<fs af='ಕಣಿವೆ,n,,sg,3,d,0,0' name='ಕಣಿವೆ'>
+12.2	ಇತ್ಯಾದಿ	RP__RPD	<fs af='ಇತ್ಯಾದಿ,avy,,,,d,0,0' name='ಇತ್ಯಾದಿ'>
+	))
+13	((	NULL__VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='NULL__VGF'>
+13.1	NULL	V__VM__VF	<fs af=',,,,,,,' troot='' mtype='non-gap' name='NULL2'>
+	))
+14	((	BLK	<fs name='BLK' drel='RSYM_EOS:NULL__VGF'>
+14.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='922'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಮುತ್ತಿನ	N__NNP	<fs af='ಮುತ್ತು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಮುತ್ತಿನ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ಕೃಷಿಯು	N__NN	<fs af='ಕೃಷಿ,n,,sg,3,o,ಇಯ್+ಉ,iy+u' name='ಕೃಷಿಯು'>
+	))
+3	((	NP	<fs name='NP3' drel='r6:NP4'>
+3.1	ಪ್ರಪಂಚದ	N__NN	<fs af='ಪ್ರಪಂಚ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಪ್ರಪಂಚದ'>
+	))
+4	((	NP	<fs name='NP4' drel='k2:VGF'>
+4.1	ಧ್ಯಾನವನ್ನು	N__NN	<fs af='ಧ್ಯಾನ,n,,sg,3,o,ಅವ್+ಅ+ಅನ್ನು,av+a+annu' name='ಧ್ಯಾನವನ್ನು'>
+	))
+5	((	NP	<fs name='NP5' drel='rd:VGF'>
+5.1	ಈ	DM__DMD	<fs af='ಈ,pn,,,,d,0,0' name='ಈ'>
+5.2	ಕಡೆಗೆ	N__NN	<fs af='ಕಡೆಗೆ,n,,,,d,0,0' name='ಕಡೆಗೆ'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+6.1	ಹೊರಳಿಸಿವೆ	V__VM__VF	<fs af='ಹೊರಳಿಸು,v,,pl,3,,ಇ+ಇರು+ವ್+ಎ,i+iru+v+eV' name='ಹೊರಳಿಸಿವೆ'>
+	))
+7	((	BLK	<fs name='BLK' drel='RSYM_EOS:VGF'>
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='923'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಇದರ	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಅರ್+ಅ,ar+a' name='ಇದರ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ರೈತ	N__NN	<fs af='ರೈತ,n,m,sg,3,d,0,0' name='ರೈತ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1s:VGF'>
+3.1	ಗುಲ್ಮುಹಮ್ಮದ್	N__NNP	<fs af='ಗುಲ್ಮುಹಮ್ಮದ್,n,,sg,3,d,0,0' name='ಗುಲ್ಮುಹಮ್ಮದ್'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	ಆಗಿದ್ದಾನೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ದ್ದ್+ಆ+ಆನ್+ಎ,i+iru+xx+A+An+eV' name='ಆಗಿದ್ದಾನೆ'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='RSYM_EOS:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='924'>
+1	((	NP	<fs name='NP' drel='k1:VGNF'>
+1.1	ಗುಲ್ಮುಹಮ್ಮದ್	N__NNP	<fs af='ಗುಲ್ಮುಹಮ್ಮದ್,n,,sg,3,d,0,0' name='ಗುಲ್ಮುಹಮ್ಮದ್'>
+1.2	ನು	PSP	<fs af='ನು,psp,,,,,,' name='ನು'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	ಮುತ್ತಿನ	N__NN	<fs af='ಮುತ್ತು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಮುತ್ತಿನ'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGNF'>
+3.1	ಕೃಷಿಯನ್ನು	N__NN	<fs af='ಕೃಷಿ,n,,sg,3,o,ಇಯ್+ಅ+ಅನ್ನು,iy+a+annu' name='ಕೃಷಿಯನ್ನು'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='r6:NP5'>
+4.1	ಪ್ರವಾಸೋದ್ಯಮದ	N__NN	<fs af='ಪ್ರವಾಸೋದ್ಯಮ,n,,sg,3,o,ಅದ್+ಅ,ax+a+annu' name='ಪ್ರವಾಸೋದ್ಯಮದ'>
+	))
+5	((	NP	<fs name='NP5' drel='k2s:VGNF'>
+5.1	ಅಂಗವನ್ನಾಗಿ	N__NN	<fs af='ಅಂಗ,n,,sg,3,o,ಅವ್+ಅ+ಅನ್ನು+ಆ+ಆಗು+ಇ,av+a+annu+A+Agu+i' name='ಅಂಗವನ್ನಾಗಿ'>
+	))
+6	((	VGNF	<fs name='VGNF' drel='vmod:VGNF2'>
+6.1	ಮಾಡಿ	V__VM__VNF	<fs af='ಮಾಡು,v,,sg,3,,ಇ,i' name='ಮಾಡಿ'>
+	))
+7	((	NP	<fs name='NP6' drel='r6:NP7'>
+7.1	ತನ್ನ	PR__PRP	<fs af='ತಾನು,pn,,sg,2,o,ನ್ನ್+ಅ,nn+a' name='ತನ್ನ'>
+	))
+8	((	NP	<fs name='NP7' drel='r6:NP8'>
+8.1	ಕಲ್ಪನಾಶಕ್ತಿಯ	N__NN	<fs af='ಕಲ್ಪನಾಶಕ್ತಿ,n,,sg,3,o,ಇಯ್+ಅ,iy+a' name='ಕಲ್ಪನಾಶಕ್ತಿಯ'>
+	))
+9	((	NP	<fs name='NP8' drel='k2:VGNF2'>
+9.1	ಪರಿಚಯವನ್ನು	N__NN	<fs af='ಪರಿಚಯ,n,,sg,3,o,ಅವ್+ಅ+ಅನ್ನು,av+a+annu' name='ಪರಿಚಯವನ್ನು'>
+9.2	ಮಾತ್ರ	RP__RPD	<fs af='ಮಾತ್ರ,avy,,,,d,0,0' name='ಮಾತ್ರ'>
+	))
+10	((	VGNF	<fs name='VGNF2' drel='vmod:VGF'>
+10.1	ಕೊಟ್ಟದ್ದಲ್ಲದೆ	V__VM__VNF	<fs af='ಕೊಡು,v,,sg,3,,ಟ್ಟ್+ಅ+ಅದ್+ಅ+ಅಲ್ಲ+ಅದ್+ಎ,tt+a+ax+a+alla+ax+eV' name='ಕೊಟ್ಟದ್ದಲ್ಲದೆ'>
+	))
+11	((	NP	<fs name='NP9' drel='k2:VGF'>
+11.1	ಇಡೀ	JJ	<fs af='ಇಡೀ,adj,,,,d,0,0' name='ಇಡೀ'>
+11.2	ಹಳ್ಳಿಯನ್ನೇ	N__NN	<fs af='ಹಳ್ಳಿ,n,,sg,3,o,ಇಯ್+ಅ+ಅನ್ನೇ,iy+a+anne' name='ಹಳ್ಳಿಯನ್ನೇ'>
+	))
+12	((	NP	<fs name='NP10' drel='rd:VGF'>
+12.1	ಪ್ರಗತಿ	N__NN	<fs af='ಪ್ರಗತಿ,n,,sg,3,d,0,0' name='ಪ್ರಗತಿ'>
+12.2	ಪಥದತ್ತ	N__NN	<fs af='ಪಥ,n,,sg,3,o,ಅದ್+ಅ+ಅತ್ತ,ax+a+awwa' name='ಪಥದತ್ತ'>
+	))
+13	((	VGF	<fs name='VGF'>
+13.1	ಕೊಂಡೊಯ್ದನು	V__VM__VF	<fs af='ಕೊಳ್ಳು,v,,,,,ಂಡ್+ಒ+ಒಯ್ಯು+ದ್+ಅ+ಅನ್+ಉ,Md+oV+oVyyu+x+a+an+u' name='ಕೊಂಡೊಯ್ದನು'>
+	))
+14	((	BLK	<fs name='BLK' drel='RSYM_EOS:VGF'>
+14.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='925'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGNF'>
+1.1	ಗುಲ್ಮುಹಮ್ಮದ್	N__NNP	<fs af='ಗುಲ್ಮುಹಮ್ಮದ್,n,,sg,3,d,0,0' name='ಗುಲ್ಮುಹಮ್ಮದ್'>
+1.2	ನು	PSP	<fs af='ನು,psp,,,,,,' name='ನು'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='r6:NP3'>
+2.1	ತನ್ನ	PR__PRF	<fs af='ತಾನು,pn,,sg,2,o,ನ್ನ್+ಅ,nn+a' name='ತನ್ನ'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k4:VGNF'>
+3.1	ಹಳ್ಳಿಯವರಿಗೆ	N__NN	<fs af='ಹಳ್ಳಿಯವ,n,,pl,3,o,ಅರ್+ಇ+ಇಗೆ,ar+i+igeV' name='ಹಳ್ಳಿಯವರಿಗೆ'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='k2:VGNF'>
+4.1	ಇದನ್ನು	PR__PRP	<fs af='ಇದು,pn,,sg,3,o,ಅ+ಅನ್ನು,a+annu' name='ಇದನ್ನು'>
+	))
+5	((	VGNF	<fs name='VGNF' drel='ccof:CCP'>
+5.1	ಕಲಿಸಿದನು	V__VM__VNF	<fs af='ಕಲಿಸು,v,,sg,3,,ಇ+ಇರು+ದ್+ಅ+ಅನ್+ಉ,i+iru+x+a+an+u' name='ಕಲಿಸಿದನು'>
+	))
+6	((	CCP	<fs af=',,,,,,,' name='CCP' drel='rs:NP5'>
+6.1	ಏನೆಂದರೆ	CC__CCS	<fs af='ಏನೆಂದರೆ,avy,,,,d,0,0' name='ಏನೆಂದರೆ'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP5' drel='k1:VGF'>
+7.1	ಅವರು	PR__PRP	<fs af='ಅವರು,pn,,pl,3,d,0,0' name='ಅವರು'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP6' drel='r6:NP7'>
+8.1	ಜೀವನ	N__NN	<fs af='ಜೀವನ,n,,sg,3,d,0,0' name='ಜೀವನ'>
+8.2	ಪರಿಶೀಲನೆಯ	N__NN	<fs af='ಪರಿಶೀಲನೆ,n,,sg,3,o,ಎಯ್+ಅ,eVy+a' name='ಪರಿಶೀಲನೆಯ'>
+	))
+9	((	NP	<fs name='NP7' drel='r6:NP8'>
+9.1	ಸಾಂಪ್ರದಾಯಿಕ	N__NN	<fs af='ಸಾಂಪ್ರದಾಯಿಕ,n,,sg,3,d,0,0' name='ಸಾಂಪ್ರದಾಯಿಕ'>
+9.2	ಮಾರ್ಗದ	N__NN	<fs af='ಮಾರ್ಗ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಮಾರ್ಗದ'>
+	))
+10	((	NP	<fs af=',,,,,,,' name='NP8' drel='k1:VGNF2'>
+10.1	ನಿರ್ಲಕ್ಷ್ಯ	N__NN	<fs af='ನಿರ್ಲಕ್ಷ್ಯ,n,,sg,3,d,0,0' name='ನಿರ್ಲಕ್ಷ್ಯ'>
+	))
+11	((	VGNF	<fs af=',,,,,,,' name='VGNF2' drel='vmod:VGF'>
+11.1	ಇಲ್ಲದೆ	V__VM__VNF	<fs af='ಇಲ್ಲ,v,,,,,ಅದ್+ಎ,ax+eV' name='ಇಲ್ಲದೆ'>
+	))
+12	((	NP	<fs af=',,,,,,,' name='NP9' drel='adv:VGF'>
+12.1	ಹೇಗೆ	PR__PRQ	<fs af='ಹೇಗೆ,pn,,sg,3,d,0,0' name='ಹೇಗೆ'>
+	))
+13	((	NP	<fs af=',,,,,,,' name='NP10' drel='r6:NP11'>
+13.1	ಪ್ರವಾಸೋದ್ಯಮ	N__NN	<fs af='ಪ್ರವಾಸೋದ್ಯಮ,n,,sg,3,d,0,0' name='ಪ್ರವಾಸೋದ್ಯಮ'>
+13.2	ಉದ್ಯೋಗದ	N__NN	<fs af='ಉದ್ಯೋಗ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಉದ್ಯೋಗದ'>
+	))
+14	((	NP	<fs af=',,,,,,,' name='NP11' drel='k2:VGF'>
+14.1	ಲಾಭ	N__NN	<fs af='ಲಾಭ,n,,sg,3,d,0,0' name='ಲಾಭ'>
+	))
+15	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+15.1	ಪಡೆಯಬಹುದಾಗಿದೆ	V__VM__VF	<fs af='ಪಡೆ,v,,sg,3,o,ಎಯ್+ಅ+ಬಹುದು+ಆ+ಆಗು+ಇ+ಇರು+ದ್+ಎ,ey+a+bahuxu+A+Agu+i+iru+x+eV' name='ಪಡೆಯಬಹುದಾಗಿದೆ'>
+	))
+16	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym-eos:VGF'>
+16.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='926'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಆಯ್ಸ್ಟರ್	N__NNP	<fs af='ಆಯ್ಸ್ಟರ್,n,,sg,3,d,0,0' name='ಆಯ್ಸ್ಟರ್'>
+1.2	ಓಪಾರ	N__NNP	<fs af='ಓಪಾರ,n,,sg,3,d,0,0' name='ಓಪಾರ'>
+1.3	ಹೆಸರಿನ	N__NN	<fs af='ಹೆಸರು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಹೆಸರಿನ'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGNF'>
+2.1	ಅಬಿಯಾನವನ್ನು	N__NN	<fs af='ಅಬಿಯಾನ,n,,sg,3,o,ಅವ್+ಅ+ಅನ್ನು,av+a+annu' name='ಅಬಿಯಾನವನ್ನು'>
+	))
+3	((	VGNF	<fs af=',,,,,,,' name='VGNF' drel='vmod:VGF'>
+3.1	ನಡೆಸುತ್ತಾ	V__VM__VNF	<fs af='ನಡೆಸು,v,,sg,3,,ಉತ್ತ್+ಆ,uww+A' name='ನಡೆಸುತ್ತಾ'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:VGF'>
+4.1	ಗುಲ್ಮುಹಮ್ಮದ್	N__NNP	<fs af='ಗುಲ್ಮುಹಮ್ಮದ್,n,m,sg,3,d,0,0' name='ಗುಲ್ಮುಹಮ್ಮದ್'>
+4.2	ನು	PSP	<fs af='ನು,psp,,,,,,' name='ನು'>
+	))
+5	((	NP	<fs name='NP4' drel='r6:NP5'>
+5.1	ತನ್ನ	PR__PRF	<fs af='ತಾನು,pn,,sg,2,o,ನ್ನ್+ಅ,nn+a' name='ತನ್ನ'>
+	))
+6	((	NP	<fs name='NP5' drel='k2:VGF'>
+6.1	ಪ್ರವಾಸೋದ್ಯಮ	N__NN	<fs af='ಪ್ರವಾಸೋದ್ಯಮ,n,,sg,3,d,0,0' name='ಪ್ರವಾಸೋದ್ಯಮ'>
+6.2	ಸಿದ್ಧಾಂತ	N__NN	<fs af='ಸಿದ್ಧಾಂತ,n,,sg,3,d,0,0' name='ಸಿದ್ಧಾಂತ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' name='VGF' voicetype='active' stype='declarative'>
+7.1	ಮಂಡಿಸಿದರು	V__VM__VF	<fs af='ಮಂಡಿಸು,v,,pl,3,o,ಇ+ಇದ್+ಅ+ಅರ್+ಉ,i+ix+a+ar+u' name='ಮಂಡಿಸಿದರು'>
+	))
+8	((	BLK	<fs name='BLK' drel='RSYM_EOS:VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='927'>
+1	((	NP	<fs name='NP' drel='k1:VGNF'>
+1.1	ಪಡನ್ನ	N__NNP	<fs af='ಪಡನ್ನ,n,,sg,3,d,0,0' name='ಪಡನ್ನ'>
+	))
+2	((	VGNF	<fs name='VGNF' drel='rh:VGF'>
+2.1	ಬರುವುದರಿಂದ	V__VM__VNF	<fs af='ಬರು,v,,,,,ಉವ್+ಉ+ಉದ್+ಅ+ಅರ್+ಇ+ಇಂದ,uv+u+ux+a+ar+i+iMxa' name='ಬರುವುದರಿಂದ'>
+	))
+3	((	NP	<fs name='NP2' drel='r6:NP3'>
+3.1	ರೈತರ	N__NN	<fs af='ರೈತ,n,any,pl,3,o,ಅರ್+ಅ,ar+a' name='ರೈತರ'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGNF2'>
+4.1	ಜೀವನವನ್ನು	N__NN	<fs af='ಜೀವನ,n,,sg,3,o,ಅವ್+ಅ+ಅನ್ನು,av+a+annu' name='ಜೀವನವನ್ನು'>
+	))
+5	((	NP	<fs name='NP4' drel='adv:VGNF2'>
+5.1	ಹತ್ತಿರದಿಂದ	N__NN	<fs af='ಹತ್ತಿರ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ಹತ್ತಿರದಿಂದ'>
+	))
+6	((	VGNF	<fs af=',,,,,,,' name='VGNF2' drel='k2:VGF'>
+6.1	ನೋಡಿ	V__VM__VNF	<fs af='ನೋಡು,v,,sg,3,,ಇ,i' name='ನೋಡಿ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+7.1	ಅರ್ಥಮಾಡಿಕೊಳ್ಳಬಹುದು	V__VM__VF	<fs af='ಅರ್ಥಮಾಡು,v,,sg,3,,ಇ+ಕೊಳ್ಳು+ಅ+ಬಹುದು,i+koVlYlYu+a+bahuxu' name='ಅರ್ಥಮಾಡಿಕೊಳ್ಳಬಹುದು'>
+	))
+8	((	BLK	<fs name='BLK' drel='RSYM_EOS:VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='928'>
+1	((	NP	<fs name='NP' drel='k7:VGNF'>
+1.1	ಆಯ್ಸ್ಟರ್	N__NNP	<fs af='ಆಯ್ಸ್ಟರ್,n,,sg,3,d,0,0' name='ಆಯ್ಸ್ಟರ್'>
+1.2	ಒಪೇರಾದಲ್ಲಿ	N__NNP	<fs af='ಒಪೇರಾ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ಒಪೇರಾದಲ್ಲಿ'>
+	))
+2	((	NP	<fs name='NP2' drel='adv:VGNF'>
+2.1	ಸ್ವಚ್ಚತೆಯಿಂದ	N__NN	<fs af='ಸ್ವಚ್ಚತೆ,n,,sg,3,o,ಎಯ್+ಇ+ಇಂದ,eVy+i+iMxa' name='ಸ್ವಚ್ಚತೆಯಿಂದ'>
+	))
+3	((	VGNF	<fs name='VGNF' drel='nmod:NP3'>
+3.1	ಕೂಡಿದ	V__VM__VNF	<fs af='ಕೂಡು,v,,sg,3,,ಇ+ಇರು+ದ್+ಅ,i+iru+x+a' name='ಕೂಡಿದ'>
+	))
+4	((	NP	<fs name='NP3' drel='ccof:CCP'>
+4.1	ವಾತಾವರಣ	N__NN	<fs af='ವಾತಾವರಣ,n,,sg,3,d,0,0' name='ವಾತಾವರಣ'>
+	))
+5	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k1:VGF'>
+5.1	ಹಾಗೂ	CC__CCD	<fs af='ಹಾಗೂ,avy,,,,d,0,0' name='ಹಾಗೂ'>
+	))
+6	((	NP	<fs name='NP4' drel='r6:NP5'>
+6.1	ಉತ್ತಮ	JJ	<fs af='ಉತ್ತಮ,adj,,,,d,0,0' name='ಉತ್ತಮ'>
+6.2	ಸೌಕರ್ಯಗಳ	N__NN	<fs af='ಸೌಕರ್ಯ,n,,pl,3,o,ಗಳು+ಅ,galYu+a' name='ಸೌಕರ್ಯಗಳ'>
+	))
+7	((	NP	<fs name='NP5' drel='ccof:CCP'>
+7.1	ಸೌಲಭ್ಯ	N__NN	<fs af='ಸೌಲಭ್ಯ,n,,sg,3,d,0,0' name='ಸೌಲಭ್ಯ'>
+	))
+8	((	VGF	<fs af=',,,,,,,' name='VGF' voicetype='active' stype='declarative'>
+8.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+9	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='929'>
+1	((	NP	<fs name='NP' drel='k7p:VGNF'>
+1.1	ಪಡನ್ನದಲ್ಲಿ	N__NNP	<fs af='ಪಡನ್ನ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ಪಡನ್ನದಲ್ಲಿ'>
+	))
+2	((	VGNF	<fs name='VGNF' drel='vmod:VGF'>
+2.1	ನೆಲೆಸಿ	V__VM__VNF	<fs af='ನೆಲೆಸು,v,,sg,3,,ಇ,i' name='ನೆಲೆಸಿ'>
+	))
+3	((	NP	<fs name='NP2' drel='r6:NP3'>
+3.1	ಸಾಮೂಹಿಕ	JJ	<fs af='ಸಾಮೂಹಿಕ,adj,,,,d,0,0' name='ಸಾಮೂಹಿಕ'>
+3.2	ಪ್ರವಾಸೋದ್ಯಮದ	N__NN	<fs af='ಪ್ರವಾಸೋದ್ಯಮ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಪ್ರವಾಸೋದ್ಯಮದ'>
+	))
+4	((	NP	<fs name='NP3' drel='r6:NP4'>
+4.1	ಅನುಭೂತಿಯ	N__NN	<fs af='ಅನುಭೂತಿ,n,,sg,3,o,ಇಯ್+ಅ,iy+a' name='ಅನುಭೂತಿಯ'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF'>
+5.1	ಅನುಭವ	N__NN	<fs af='ಅನುಭವ,n,,sg,3,d,0,0' name='ಅನುಭವ'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+6.1	ಮಾಡಬಹುದಾಗಿದೆ	V__VM__VF	<fs af='ಮಾಡು,v,,sg,3,,ಅ+ಬಹುದು+ಆ+ಆಗು+ಇ+ಇರು+ದ್+ಎ,a+bahuxu+A+Agu+i+iru+x+eV' name='ಮಾಡಬಹುದಾಗಿದೆ'>
+	))
+7	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='930'>
+1	((	NP	<fs name='NP' drel='rd:VGF'>
+1.1	ಪಡನ್ನದ	N__NNP	<fs af='ಪಡನ್ನ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಪಡನ್ನದ'>
+1.2	ಹತ್ತಿರ	N__NST	<fs af='ಹತ್ತಿರ,nst,,,,d,0,0' name='ಹತ್ತಿರ'>
+	))
+2	((	NP	<fs name='NP2' drel='rsp:VGF'>
+2.1	ದ್ವೀಪದವರೆಗೆ	N__NN	<fs af='ದ್ವೀಪ,n,,sg,3,o,ಅದ್+ಅ+ವರೆಗೆ,ax+a+vareVgeV' name='ದ್ವೀಪದವರೆಗೆ'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGF'>
+3.1	ದೋಣಿ	N__NN	<fs af='ದೋಣಿ,n,,sg,3,d,0,0' name='ದೋಣಿ'>
+3.2	ವಿಹಾರ	N__NN	<fs af='ವಿಹಾರ,n,,sg,3,d,0,0' name='ವಿಹಾರ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	ಮಾಡಬಹುದಾಗಿದೆ	V__VM__VF	<fs af='ಮಾಡು,v,,sg,3,,ಅ+ಬಹುದು+ಆ+ಆಗು+ಇ+ಇರು+ದ್+ಎ,a+bahuxu+A+Agu+i+iru+x+eV' name='ಮಾಡಬಹುದಾಗಿದೆ'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='931'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಪಡನ್ನ	N__NNP	<fs af='ಪಡನ್ನ,n,,sg,3,d,0,0' name='ಪಡನ್ನ'>
+1.2	ಪ್ರದೇಶದ	N__NN	<fs af='ಪ್ರದೇಶ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಪ್ರದೇಶದ'>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:CCP'>
+2.1	ವಿಶೇಷತೆ	N__NN	<fs af='ವಿಶೇಷತೆ,n,,sg,3,d,0,0' name='ವಿಶೇಷತೆ'>
+	))
+3	((	CCP	<fs af=',,,,,,,' name='CCP' drel='rs:NP3'>
+3.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದು,avy,,,,o,ಅ+ಅರ್+ಎ,a+ar+eV' name='ಎಂದರೆ'>
+3.2	-	RD__SYM	<fs af='-,punc,,,,,,' name='-'>
+	))
+4	((	NP	<fs name='NP3' drel='ccof:CCP2'>
+4.1	ವಿಶಾಲ	JJ	<fs af='ವಿಶಾಲ,adj,,,,d,0,0' name='ವಿಶಾಲ'>
+4.2	ಸಮುದ್ರ	N__NN	<fs af='ವಿಶಾಲ,n,,sg,3,d,0,0' name='ಸಮುದ್ರ'>
+4.3	ದಡ	N__NN	<fs af='ದಡ,n,,sg,3,d,0,0' name='ದಡ'>
+	))
+5	((	CCP	<fs name='CCP2' drel='k1:NULL__VGF'>
+5.1	ಯಾನೆ	CC__CCD	<fs af='ಯಾನೆ,avy,,,,d,0,0' name='ಯಾನೆ'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='ccof:CCP2'>
+6.1	ಸಾಗರತೀರ	N__NN	<fs af='ಸಾಗರತೀರ,n,,sg,3,d,0,0' name='ಸಾಗರತೀರ'>
+	))
+7	((	NULL__VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='NULL__VGF'>
+7.1	NULL	V__VM__VF	<fs af=',,,,,,,' troot='' mtype='non-gap' name='NULL'>
+	))
+8	((	BLK	<fs name='BLK' drel='rsym_eos:NULL__VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='932'>
+1	((	NP	<fs name='NP' drel='rd:NP2'>
+1.1	ಹತ್ತಿರದ	N__NST	<fs af='ಹತ್ತಿರ,nst,,,,o,ಅದ್+ಅ,ax+a' name='ಹತ್ತಿರದ'>
+	))
+2	((	NP	<fs name='NP2' drel='k5:VGNF'>
+2.1	ತೇಜಸ್ವಿನಿ	N__NNP	<fs af='ತೇಜಸ್ವಿನಿ,n,,sg,3,d,0,0' name='ತೇಜಸ್ವಿನಿ'>
+2.2	ನದಿಯಿಂದ	N__NN	<fs af='ನದಿ,n,,sg,3,o,ಇಯ್+ಇ+ಇಂದ,iy+i+iMxa' name='ನದಿಯಿಂದ'>
+	))
+3	((	VGNF	<fs name='VGNF' drel='nmod:NP3'>
+3.1	ಪ್ರಯಾಣಿಸುವ	V__VM__VNF	<fs af='ಪ್ರಯಾಣ,v,,sg,3,,ಇಸ್+ಉ,is+u' droot1='ಪ್ರಯಾಣಿಸು' dcat1='v' dcm1='ಉವ್+ಅ' dsuff1='uv+a' droot2='ಪ್ರಯಾಣಿಸುವ' dcat2='v' dcm2='0' dsuff2='0' name='ಪ್ರಯಾಣಿಸುವ'>
+	))
+4	((	NP	<fs name='NP3' drel='k2:VGF'>
+4.1	ಅವಕಾಶ	N__NN	<fs af='ಅವಕಾಶ,n,,sg,3,d,0,0' name='ಅವಕಾಶ'>
+4.2	ಕೂಡ	RP__RPD	<fs af='ಕೂಡ,avy,,,,d,0,0' name='ಕೂಡ'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF'>
+5.1	ಆಯ್ಸ್ಟರ್	N__NNP	<fs af='ಆಯ್ಸ್ಟರ್,n,,sg,3,d,0,0' name='ಆಯ್ಸ್ಟರ್'>
+5.2	ಒಪೆರಾ	N__NNP	<fs af='ಒಪೆರಾ,n,,sg,3,d,0,0' name='ಒಪೆರಾ'>
+	))
+6	((	VGF	<fs af=',,,,,,,' name='VGF'>
+6.1	ಒದಗಿಸಿ	V__VM__VNF	<fs af='ಒದಗಿಸು,v,,sg,3,d,ಉವ್+ಅ,uv+a' name='ಒದಗಿಸಿ'>
+6.2	ಕೊಡುತ್ತದೆ	V__VM__VF	<fs af='ಕೊಡು,v,,sg,3,,ಉತ್ತ್+ಅ+ಅದ್+ಎ,uww+a+ax+eV' name='ಕೊಡುತ್ತದೆ'>
+	))
+7	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='933'>
+1	((	NP	<fs name='NP' drel='ccof:NULL__CCP'>
+1.1	ಪ್ರಶ್ಶಿನಿಕ್ಕಡವು	N__NNP	<fs af='ಪ್ರಶ್ಶಿನಿಕ್ಕಡವು,n,,sg,3,d,0,0' name='ಪ್ರಶ್ಶಿನಿಕ್ಕಡವು'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,' name=','>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:NULL__CCP'>
+2.1	ಬೇಕಲ್	N__NNP	<fs af='ಬೇಕಲ್,n,,sg,3,d,0,0' name='ಬೇಕಲ್'>
+2.2	ಕೋಟೆ	N__NN	<fs af='ಕೋಟೆ,n,,sg,3,d,0,0' name='ಕೋಟೆ'>
+	))
+3	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP' drel='k1:VGF'>
+3.1	NULL	CC__CCD	<fs af=',,,,,,,' troot='' mtype='non-gap' name='NULL'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP3' drel='ccof:NULL__CCP'>
+4.1	ಇತ್ಯಾದಿ	RP__RPD	<fs af='ಇತ್ಯಾದಿ,avy,,,,d,0,0' name='ಇತ್ಯಾದಿ'>
+4.2	ಸ್ಥಳ	N__NN	<fs af='ಸ್ಥಳ,n,,sg,3,d,0,0' name='ಸ್ಥಳ'>
+	))
+5	((	NP	<fs name='NP4' drel='r6:NP5'>
+5.1	ಇದರ	PR__PRP	<fs af='ಇದು,pn,,pl,3,o,ಅರ್+ಅ,ar+a' name='ಇದರ'>
+	))
+6	((	NP	<fs name='NP5' drel='rd:VGF'>
+6.1	ಹತ್ತಿರ	N__NST	<fs af='ಹತ್ತಿರ,nst,,,,d,0,0' name='ಹತ್ತಿರ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+7.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+8	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='934'>
+1	((	NP	<fs name='NP' drel='rsp:NP2'>
+1.1	ಪಡನ್ನನಿಂದ	N__NNP	<fs af='ಪಡನ್ನ,n,,sg,3,,ಅನ್ನ್+ಇ+ಇಂದ,ann+i+iMxa' name='ಪಡನ್ನನಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='rd:NP3'>
+2.1	ಹತ್ತಿರದ	N__NST	<fs af='ಹತ್ತಿರ,nst,,,,o,ಅದ್+ಅ,ax+a' name='ಹತ್ತಿರದ'>
+	))
+3	((	NP	<fs name='NP3' drel='ccof:CCP'>
+3.1	ಬಸ್ಸ್	N__NN	<fs af='ಬಸ್ಸ್,n,,sg,3,d,0,0' name='ಬಸ್ಸ್'>
+3.2	ನಿಲ್ದಾಣ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,d,0,0' name='ನಿಲ್ದಾಣ'>
+	))
+4	((	CCP	<fs name='CCP' drel='k1:VGF'>
+4.1	ಹಾಗೂ	CC__CCD	<fs af='ಹಾಗೂ,avy,,,,d,0,0' name='ಹಾಗೂ'>
+	))
+5	((	NP	<fs name='NP4' drel='ccof:CCP'>
+5.1	ರೈಲ್ವೆ	N__NN	<fs af='ರೈಲ್ವೆ,n,,sg,3,d,0,0' name='ರೈಲ್ವೆ'>
+5.2	ನಿಲ್ದಾಣ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,d,0,0' name='ನಿಲ್ದಾಣ2'>
+	))
+6	((	NP	<fs name='NP5' drel='k7p:VGF'>
+6.1	9	QT__QTC	<fs af='9,num,,pl,,d,0,0' name='9'>
+6.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮೀ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.'>
+6.3	ದೂರದಲ್ಲಿ	N__NN	<fs af='ದೂರ,n,,sg,3,,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ದೂರದಲ್ಲಿ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+7.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+8	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='935'>
+1	((	NP	<fs name='NP' drel='rsp:NP2'>
+1.1	ಪಡನ್ನದಿಂದ	N__NNP	<fs af='ಪಡನ್ನ,n,,sg,3,,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ಪಡನ್ನದಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='rd:NP3'>
+2.1	ಹತ್ತಿರದ	N__NST	<fs af='ಹತ್ತಿರ,nst,,,,o,ಅದ್+ಅ,ax+a' name='ಹತ್ತಿರದ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	ವಿಮಾನ	N__NN	<fs af='ವಿಮಾನ,n,,sg,3,d,0,0' name='ವಿಮಾನ'>
+3.2	ನಿಲ್ದಾಣ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,d,0,0' name='ನಿಲ್ದಾಣ'>
+3.3	-	RD__SYM	<fs af='-,punc,,,,,,' name='-'>
+	))
+4	((	NP	<fs name='NP4' drel='rsp:NP5'>
+4.1	ಮಂಗಳೂರು	N__NNP	<fs af='ಮಂಗಳೂರು,n,,sg,3,d,0,0' name='ಮಂಗಳೂರು'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP5' drel='ccof:CCP'>
+5.1	120	QT__QTC	<fs af='120,num,,pl,,d,0,0' name='120'>
+5.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮೀ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.'>
+5.3	,	RD__PUNC	<fs af='COMMA,punc,,,,,,' name=','>
+	))
+6	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k7p:VGF'>
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0' name='ಮತ್ತು'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP6' drel='rsp:NP7'>
+7.1	ಕರಿಪುರ	N__NNP	<fs af='ಕರಿಪುರ,n,,sg,3,d,0,0' name='ಕರಿಪುರ'>
+7.2	ಅಂತರಾಷ್ಟ್ರೀಯ	N__NN	<fs af='ಅಂತರಾಷ್ಟ್ರೀಯ,n,,sg,3,d,0,0' name='ಅಂತರಾಷ್ಟ್ರೀಯ'>
+7.3	ವಿಮಾನ	N__NN	<fs af='ವಿಮಾನ,n,,sg,3,d,0,0' name='ವಿಮಾನ2'>
+7.4	ನಿಲ್ದಾಣ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,d,0,0' name='ನಿಲ್ದಾಣ2'>
+7.5	,	RD__PUNC	<fs af='COMMA,punc,,,,,,' name=',2'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP7' drel='ccof:CCP'>
+8.1	180	QT__QTC	<fs af='180,num,,pl,,d,0,0' name='180'>
+8.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮೀ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.2'>
+8.3	ದೂರದಲ್ಲಿ	N__NN	<fs af='ದೂರ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ದೂರದಲ್ಲಿ'>
+	))
+9	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+9.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym_eos:VGF'>
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='936'>
+1	((	NP	<fs name='NP' drel='rsp:NP2'>
+1.1	ಸಮುದ್ರ	N__NN	<fs af='ಸಮುದ್ರ,n,,sg,3,d,0,0' name='ಸಮುದ್ರ'>
+1.2	ಮಟ್ಟದಿಂದ	N__NN	<fs af='ಮಟ್ಟ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ಮಟ್ಟದಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	1890	QT__QTC	<fs af='1890,num,,pl,,d,0,0' name='1890'>
+2.2	ಮೀಟರಿನ	N__NN	<fs af='ಮೀಟರು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಮೀಟರಿನ'>
+	))
+3	((	NP	<fs name='NP3' drel='k7p:VGF'>
+3.1	ಎತ್ತರದಲ್ಲಿ	N__NN	<fs af='ಎತ್ತರ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ಎತ್ತರದಲ್ಲಿ'>
+	))
+4	((	NP	<fs name='NP4' drel='r6:NP5'>
+4.1	ಸಹ್ಯಾದ್ರಿಯ	N__NNP	<fs af='ಸಹ್ಯಾದ್ರಿ,n,,sg,3,o,ಇಯ್+ಅ,iy+a' name='ಸಹ್ಯಾದ್ರಿಯ'>
+	))
+5	((	NP	<fs name='NP5' drel='k1:VGF'>
+5.1	ಆಗಸ್ತ್ಯಾರ್ಕು	N__NNP	<fs af='ಆಗಸ್ತ್ಯಾರ್ಕು,n,,sg,3,d,0,0' name='ಆಗಸ್ತ್ಯಾರ್ಕು'>
+5.2	ಡಾಮ್	N__NN	<fs af='ಡಾಮ್,n,,sg,3,d,0,0' name='ಡಾಮ್'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+6.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+7	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='937'>
+1	((	NP	<fs name='NP' drel='k7a:VGF'>
+1.1	ದಂತಕತೆಯ	N__NN	<fs af='ದಂತಕತೆ,n,,sg,3,o,ಎಯ್+ಅ,eVy+a' name='ದಂತಕತೆಯ'>
+1.2	ಪ್ರಕಾರ	RP__RPD	<fs af='ಪ್ರಕಾರ,avy,,,,d,0,0' name='ಪ್ರಕಾರ'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	ಅಗಸ್ತ್ಯ	N__NNP	<fs af='ಅಗಸ್ತ್ಯ,n,,sg,3,d,0,0' name='ಅಗಸ್ತ್ಯ'>
+2.2	ಅರಣ್ಯ	N__NN	<fs af='ಅರಣ್ಯ,n,,sg,3,d,0,0' name='ಅರಣ್ಯ'>
+2.3	ಪ್ರದೇಶ	N__NN	<fs af='ಪ್ರದೇಶ,n,,sg,3,d,0,0' name='ಪ್ರದೇಶ'>
+2.4	ಮಹರ್ಷಿ	N__NN	<fs af='ಮಹರ್ಷಿ,n,,sg,3,d,0,0' name='ಮಹರ್ಷಿ'>
+2.5	ಅಗಸ್ತ್ಯನ	N__NNP	<fs af='ಅಗಸ್ತ್ಯ,n,,sg,3,o,ಅನ್+ಅ,an+a' name='ಅಗಸ್ತ್ಯನ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	ವಾಸ	N__NN	<fs af='ವಾಸ,n,,sg,3,d,0,0' name='ವಾಸ'>
+3.2	ಸ್ಥಳ	N__NN	<fs af='ಸ್ಥಳ,n,,sg,3,d,0,0' name='ಸ್ಥಳ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+4.1	ಆಗಿತ್ತು	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ತ್ತ್+ಉ,i+iru+ww+u' name='ಆಗಿತ್ತು'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='938'>
+1	((	NP	<fs name='NP' drel='rd:VGNF'>
+1.1	ತುದಿ	N__NN	<fs af='ತುದಿ,n,,sg,3,d,0,0' name='ತುದಿ'>
+1.2	ಮೇಲೆ	N__NST	<fs af='ಮೇಲೆ,nst,,,,d,0,0' name='ಮೇಲೆ'>
+	))
+2	((	VGNF	<fs name='VGNF' drel='rt:VGF'>
+2.1	ತಲುಪಲು	V__VM__VNF	<fs af='ತಲುಪು,v,,sg,3,,ಅ+ಅಲ್+ಉ,a+al+u' name='ತಲುಪಲು'>
+	))
+3	((	NP	<fs name='NP2' drel='r6:NP3'>
+3.1	ಕಡಿದಾದ	JJ	<fs af='ಕಡಿದಾದ,adj,,,,d,0,0' name='ಕಡಿದಾದ'>
+3.2	ಅರಣ್ಯದ	N__NN	<fs af='ಅರಣ್ಯ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಅರಣ್ಯದ'>
+	))
+4	((	NP	<fs name='NP3' drel='k2:VGF'>
+4.1	ದುಸ್ತರ	JJ	<fs af='ದುಸ್ತರ,adj,,,,d,0,0' name='ದುಸ್ತರ'>
+4.2	ಮಾರ್ಗವನ್ನು	N__NN	<fs af='ಮಾರ್ಗ,n,,sg,3,o,ಅವ್+ಅ+ಅನ್ನು,av+a+annu' name='ಮಾರ್ಗವನ್ನು'>
+	))
+5	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+5.1	ದಾಟಬೇಕಾಗುತ್ತದೆ	V__VM__VF	<fs af='ದಾಟು,v,,sg,3,,ಅ+ಬೇಕು+ಆ+ಆಗು+ಉತ್ತ್+ಅ+ಅದ್+ಎ,a+beku+A+Agu+uww+a+ax+eV' name='ದಾಟಬೇಕಾಗುತ್ತದೆ'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='939'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ಅಗಸ್ತ್ಯ	N__NNP	<fs af='ಅಗಸ್ತ್ಯ,n,,sg,3,d,0,0' name='ಅಗಸ್ತ್ಯ'>
+1.2	ಪರ್ವತ	N__NN	<fs af='ಪರ್ವತ,n,,sg,3,d,0,0' name='ಪರ್ವತ'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	ಅಪರೂಪ	JJ	<fs af='ಅಪರೂಪ,adj,,,,d,0,0' name='ಅಪರೂಪ'>
+2.2	ಗಿಡ	N__NN	<fs af='ಗಿಡ,n,,sg,3,d,0,0' name='ಗಿಡ'>
+2.3	-	RD__SYM	<fs name='-'>
+2.4	ಮೂಲಿಕೆಗಳ	N__NN	<fs af='ಮೂಲಿಕೆ,n,,pl,3,o,ಗಳು+ಅ,galYu+a' name='ಮೂಲಿಕೆಗಳ'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='rt:VGF'>
+3.1	ಉದ್ಯಾನಕ್ಕೆ	N__NN	<fs af='ಉದ್ಯಾನ,n,,sg,3,o,ಕ್ಕೆ,kkeV' name='ಉದ್ಯಾನಕ್ಕೆ'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='adv:VGF'>
+4.1	ಮಹತ್ವಪೂರ್ಣ	N__NN	<fs af='ಮಹತ್ವಪೂರ್ಣ,n,,sg,3,d,0,0' name='ಮಹತ್ವಪೂರ್ಣ'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+5.1	ಆಗುತ್ತದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಉತ್ತ್+ಅ+ಅದ್+ಎ,uww+a+ax+eV' name='ಆಗುತ್ತದೆ'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='940'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಅದಿವಾಸಿ	N__NN	<fs af='ಅದಿವಾಸಿ,n,,sg,3,d,0,0' name='ಅದಿವಾಸಿ'>
+1.2	ಜನರ	N__NN	<fs af='ಜನ,n,any,pl,3,,ಅರ್+ಅ,ar+a' name='ಜನರ'>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:CCP'>
+2.1	ವಿಶ್ವಾಸ	N__NN	<fs af='ವಿಶ್ವಾಸ,n,,sg,3,d,0,0' name='ವಿಶ್ವಾಸ'>
+	))
+3	((	CCP	<fs af=',,,,,,,' name='CCP' drel='rs:NP3'>
+3.1	ಎಂದರೆ	CC__CCS	<fs af='ಎಂದು,avy,,,,o,ಅ+ಅರ್+ಎ,a+ar+eV' name='ಎಂದರೆ'>
+	))
+4	((	NP	<fs name='NP3' drel='k7p:VGF'>
+4.1	ಇಲ್ಲಿ	PR__PRP	<fs af='ಇಲ್ಲಿ,pn,,sg,3,d,0,0' name='ಇಲ್ಲಿ'>
+	))
+5	((	NP	<fs name='NP4' drel='k1:VGF'>
+5.1	ಬ್ರಹ್ಮಾಚಾರಿ	N__NN	<fs af='ಬ್ರಹ್ಮಾಚಾರಿ,n,,sg,3,d,0,0' name='ಬ್ರಹ್ಮಾಚಾರಿ'>
+5.2	ಮಹರ್ಷಿ	N__NN	<fs af='ಮಹರ್ಷಿ,n,m,sg,3,d,0,0' name='ಮಹರ್ಷಿ'>
+5.3	ಅಗಸ್ತ್ಯ	N__NNP	<fs af='ಅಗಸ್ತ್ಯ,n,m,sg,3,d,0,0' name='ಅಗಸ್ತ್ಯ'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+6.1	ವಾಸಿಸುತ್ತಿದ್ದರು	V__VM__VF	<fs af='ವಾಸು,v,,pl,3,,ಇಸ್+ಉ+ಉತ್ತ್+ಇ+ಇರು+ದ್ದ್+ಅ+ಅರ್+ಉ,is+u+uww+i+iru+xx+a+ar+u' name='ವಾಸಿಸುತ್ತಿದ್ದರು'>
+	))
+7	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+7.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='941'>
+1	((	CCP	<fs name='CCP' drel='ccof:VGINF'>
+1.1	ಆದ್ದರಿಂದ	CC__CCS	<fs af='ಆದ್ದರಿಂದ,avy,,,,d,0,0' name='ಆದ್ದರಿಂದ'>
+	))
+2	((	NP	<fs name='NP' drel='nmod:NP2'>
+2.1	ಯಾವುದೇ	PR__PRP	<fs af='ಯಾವುದು,pn,,pl,3,o,ಏ,e' name='ಯಾವುದೇ'>
+	))
+3	((	NP	<fs name='NP2' drel='k7t:VGINF'>
+3.1	ಸಮಯದಲ್ಲಿ	N__NN	<fs af='ಸಮಯ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ಸಮಯದಲ್ಲಿ'>
+	))
+4	((	NP	<fs name='NP3' drel='k2:VGINF'>
+4.1	ಮಹಿಳೆಯರಿಗೆ	N__NN	<fs af='ಮಹಿಳೆ,n,f,pl,3,o,ಎಯ್+ಅ+ಅರ್+ಇ+ಇಗೆ,eVy+a+ar+igeV' name='ಮಹಿಳೆಯರಿಗೆ'>
+	))
+5	((	NP	<fs name='NP4' drel='k7p:VGINF'>
+5.1	ಅಲ್ಲಿಗೆ	PR__PRP	<fs af='ಅಲ್ಲಿ,pn,,sg,3,o,ಗೆ,geV' name='ಅಲ್ಲಿಗೆ'>
+	))
+6	((	VGINF	<fs af=',,,,,,,' name='VGINF' drel='rt:VGF'>
+6.1	ಹೋಗಲು	V__VM__VINF	<fs af='ಹೋಗು,v,,sg,3,o,ಅ+ಅಲ್+ಉ,a+al+u' name='ಹೋಗಲು'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP5' drel='k1:VGF'>
+7.1	ಅನುಮತಿ	N__NN	<fs af='ಅನುಮತಿ,n,,sg,3,d,0,0' name='ಅನುಮತಿ'>
+	))
+8	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+8.1	ಇರಲಿಲ್ಲ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ಅ+ಅಲ್+ಇ+ಇಲ್ಲ,a+al+i+i+illa' name='ಇರಲಿಲ್ಲ'>
+	))
+9	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='942'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0' name='ಈ'>
+1.2	ಸ್ಥಳ	N__NN	<fs af='ಸ್ಥಳ,n,,sg,3,d,0,0' name='ಸ್ಥಳ'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='r6:NP3'>
+2.1	ಡಿಸಂಬರಿನ	N__NNP	<fs af='ಡಿಸಂಬರ್,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಡಿಸಂಬರಿನ'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='rsp:NP4'>
+3.1	ಎರಡನೇ	QT__QTO	<fs af='ಎರಡನೇ,num,,pl,,d,0,0' name='ಎರಡನೇ'>
+3.2	ವಾರದಿಂದ	N__NN	<fs af='ವಾರ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ವಾರದಿಂದ'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='k7t:VGF'>
+4.1	ಫೆಬ್ರವರಿವರೆಗೆ	N__NNP	<fs af='ಫೆಬ್ರವರಿ,n,,sg,3,,ಇಯ್+ಅ+ಅವರೆಗೆ,iy+a+avaregeV' name='ಫೆಬ್ರವರಿವರೆಗೆ'>
+	))
+5	((	NP	<fs name='NP5' drel='rt:VGF'>
+5.1	ಪ್ರವಾಸಿಗರಿಗಾಗಿ	N__NN	<fs af='ಪ್ರವಾಸಿಗರು,n,,pl,3,o,ಇಗೆ+ಆಗು+ಇ,igeV+Agu+i' name='ಪ್ರವಾಸಿಗರಿಗಾಗಿ'>
+	))
+6	((	NP	<fs name='NP6' drel='r6:NP7'>
+6.1	ಆಕರ್ಷಣೆಯ	N__NN	<fs af='ಆಕರ್ಷಣೆ,n,,sg,3,o,ಎಯ್+ಅ,eVy+a' name='ಆಕರ್ಷಣೆಯ'>
+	))
+7	((	NP	<fs name='NP7' drel='k1s:VGF'>
+7.1	ಕೇಂದ್ರ	N__NN	<fs af='ಕೇಂದ್ರ,n,,sg,3,d,0,0' name='ಕೇಂದ್ರ'>
+	))
+8	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+8.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಆಗಿದೆ'>
+	))
+9	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym_eos:VGF'>
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='943'>
+1	((	NP	<fs name='NP' drel='k7p:VGINF'>
+1.1	ಇಲ್ಲಿ	PR__PRP	<fs af='ಇಲ್ಲಿ,pn,,sg,3,d,0,0' name='ಇಲ್ಲಿ'>
+	))
+2	((	VGINF	<fs af=',,,,,,,' name='VGINF' drel='rt:VGNF'>
+2.1	ಹೋಗಲಿಕ್ಕಾಗಿ	V__VM__VINF	<fs af='ಹೋಗು,v,,sg,3,,ಅ+ಅಲ್+ಇ+ಇಕ್ಕೆ+ಆ+ಆಗು+ಇ,a+al+i+ikkeV+A+Agu+i' name='ಹೋಗಲಿಕ್ಕಾಗಿ'>
+	))
+3	((	NP	<fs name='NP2' drel='r6:NP3'>
+3.1	ತಿರುವನಂತಪುರಂನ	N__NNP	<fs af='ತಿರುವನಂತಪುರಂ,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ತಿರುವನಂತಪುರಂನ'>
+	))
+4	((	NP	<fs name='NP3' drel='k7p:VGNF'>
+4.1	ಪಿ.ಟಿ.ಪಿ.	N__NNP	<fs af='ಪಿ.ಟಿ.ಪಿ.,n,,sg,3,d,0,0' name='ಪಿ.ಟಿ.ಪಿ.'>
+4.2	ನಗರದಲ್ಲಿ	N__NN	<fs af='ನಗರ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ನಗರದಲ್ಲಿ'>
+	))
+5	((	VGNF	<fs name='VGNF' drel='nmod:NP4'>
+5.1	ಇರುವ	V__VM__VNF	<fs af='ಇರು,v,,sg,3,,ಉವ್+ಅ,uv+a' name='ಇರುವ'>
+	))
+6	((	NP	<fs name='NP4' drel='k1:VGNF2'>
+6.1	ವೈಲ್ಡ್	N__NN	<fs af='ವೈಲ್ಡ್,n,,sg,3,d,0,0' name='ವೈಲ್ಡ್'>
+6.2	ಅನುಮತಿ	N__NN	<fs af='ಅನುಮತಿ,n,,sg,3,d,0,0' name='ಅನುಮತಿ'>
+6.3	ಪತ್ರ	N__NN	<fs af='ಪತ್ರ,n,,sg,3,d,0,0' name='ಪತ್ರ'>
+	))
+7	((	VGNF	<fs name='VGNF2' drel='nmod:NP5'>
+7.1	ತೆಗೆದುಕೊಳ್ಳುವ	V__VM__VNF	<fs af='ತೆಗೆ,v,,,,,ಎದ್+ಉ+ಕೊಳ್ಳು+ಉವ್+ಅ,eVx+u+koVlYlYu+uv+a' name='ತೆಗೆದುಕೊಳ್ಳುವ'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP5' drel='k1:VGF'>
+8.1	ಅಗತ್ಯ	N__NN	<fs af='ಅಗತ್ಯ,n,,sg,3,,0,0' name='ಅಗತ್ಯ'>
+	))
+9	((	VGF	<fs af=',,,,,,,' name='VGF' voicetype='active' stype='declarative'>
+9.1	ಇದೆ	V__VM__VF	<fs af='ಇದೆ,v,,sg,3,,0,0' name='ಇದೆ'>
+	))
+10	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='944'>
+1	((	NP	<fs name='NP' drel='k5:VGF'>
+1.1	ತಿರುವನಂತಪುರಂ	N__NNP	<fs af='ತಿರುವನಂತಪುರಂ,n,,sg,3,d,0,0' name='ತಿರುವನಂತಪುರಂ'>
+1.2	ರೈಲ್ವೆ	N__NN	<fs af='ರೈಲ್ವೆ,n,,sg,3,d,0,0' name='ರೈಲ್ವೆ'>
+1.3	ನಿಲ್ದಾಣದಿಂದ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ನಿಲ್ದಾಣದಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='rsp:NP3'>
+2.1	ಆಗಸ್ತ್ಯಾರ್ಕು	N__NNP	<fs af='ಆಗಸ್ತ್ಯಾರ್ಕು,n,,sg,3,d,0,0' name='ಆಗಸ್ತ್ಯಾರ್ಕು'>
+2.2	ಡಾಮ್	N__NN	<fs af='ಡಾಮ್,n,,sg,3,d,0,0' name='ಡಾಮ್'>
+2.3	ವರೆಗಿನ	PSP	<fs af='ವರೆಗಿನ,psp,,,,,,' name='ವರೆಗಿನ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	ದೂರ	N__NN	<fs af='ದೂರ,n,,sg,3,d,0,0' name='ದೂರ'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1s:VGF'>
+4.1	61	QT__QTC	<fs af='61,num,,pl,,d,0,0' name='61'>
+4.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮೀ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.'>
+	))
+5	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+5.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಆಗಿದೆ'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='945'>
+1	((	NP	<fs name='NP' drel='rsp:NP2'>
+1.1	ತಿರುವನಂತಪುರಂ	N__NNP	<fs af='ತಿರುವನಂತಪುರಂ,n,,sg,3,d,0,0' name='ತಿರುವನಂತಪುರಂ'>
+1.2	ಅಂತಾರಾಷ್ಟ್ರೀಯ	N__NN	<fs af='ಅಂತಾರಾಷ್ಟ್ರೀಯ,n,,sg,3,d,0,0' name='ಅಂತಾರಾಷ್ಟ್ರೀಯ'>
+1.3	ವಿಮಾನ	N__NN	<fs af='ವಿಮಾನ,n,,sg,3,d,0,0' name='ವಿಮಾನ'>
+1.4	ಕೇಂದ್ರದಿಂದ	N__NN	<fs af='ಕೇಂದ್ರ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ಕೇಂದ್ರದಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	ಬೋಣಕ್ಕಾಡ್	N__NNP	<fs af='ಬೋಣಕ್ಕಾಡ್,n,,sg,3,d,0,0' name='ಬೋಣಕ್ಕಾಡ್'>
+2.2	ವರೆಗಿನ	PSP	<fs af='ವರೆಗಿನ,psp,,,,,,' name='ವರೆಗಿನ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	ದೂರ	N__NN	<fs af='ದೂರ,n,,sg,3,d,0,0' name='ದೂರ'>
+	))
+4	((	NP	<fs name='NP4' drel='k1s:VGF'>
+4.1	69	QT__QTC	<fs af='69,num,,pl,3,d,0,0' name='69'>
+4.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮೀ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.'>
+4.3	ದೂರ	N__NN	<fs af='ದೂರ,n,,sg,3,d,0,0' name='ದೂರ2'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+5.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='946'>
+1	((	NP	<fs name='NP' drel='k5:VGNF'>
+1.1	ತಿರುವನಂತಪುರಂನಿಂದ	N__NNP	<fs af='ತಿರುವನಂತಪುರಂ,n,,sg,3,,ಇ+ಇನ್+ಇ+ಇಂದ,i+in+i+iMxa' name='ತಿರುವನಂತಪುರಂನಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='k7p:VGNF'>
+2.1	36	QT__QTC	<fs af='36,num,,pl,3,d,0,0' name='36'>
+2.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮೀ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.'>
+2.3	ಉತ್ತರದಲ್ಲಿ	N__NNP	<fs af='ಉತ್ತರ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ಉತ್ತರದಲ್ಲಿ'>
+	))
+3	((	VGNF	<fs name='VGNF' drel='nmod:NP3'>
+3.1	ಇರುವ	V__VM__VNF	<fs af='ಇರು,v,,sg,3,,ಉವ್+ಅ,uv+a' name='ಇರುವ'>
+	))
+4	((	NP	<fs name='NP3' drel='r6:NP4'>
+4.1	ಪ್ರಸಿದ್ಧ	JJ	<fs af='ಪ್ರಸಿದ್ಧ,adj,,,,d,0,0' name='ಪ್ರಸಿದ್ಧ'>
+4.2	ವರ್ಕಲ	N__NNP	<fs af='ವರ್ಕಲ,n,,sg,3,d,0,0' name='ವರ್ಕಲ'>
+4.3	ಬೀಚಿನ	N__NN	<fs af='ಬೀಚ್,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಬೀಚಿನ'>
+	))
+5	((	NP	<fs name='NP4' drel='r6:NP5'>
+5.1	ಹತ್ತಿರದ	N__NST	<fs af='ಹತ್ತಿರ,nst,,,,o,ಅದ್+ಅ,ax+a' name='ಹತ್ತಿರದ'>
+	))
+6	((	NP	<fs name='NP5' drel='r6:NP6'>
+6.1	ಅಂಚುತೆಂಗು	N__NNP	<fs af='ಅಂಚುತೆಂಗು,n,,sg,3,d,0,0' name='ಅಂಚುತೆಂಗು'>
+6.2	ಹೆಸರಿನ	N__NN	<fs af='ಹೆಸರು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಹೆಸರಿನ'>
+	))
+7	((	NP	<fs name='NP6' drel='r6:VGNF2'>
+7.1	ಐತಿಹಾಸಿಕ	JJ	<fs af='ಐತಿಹಾಸಿಕ,adj,,,,d,0,0' name='ಐತಿಹಾಸಿಕ'>
+7.2	ಮಹತ್ವ	N__NN	<fs af='ಮಹತ್ವ,n,,,,d,0,0' name='ಮಹತ್ವ'>
+	))
+8	((	VGNF	<fs name='VGNF2' drel='nmod:NP7'>
+8.1	ಹೊಂದಿದ	V__VM__VNF	<fs af='ಹೊಂದು,v,,sg,3,,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಹೊಂದಿದ'>
+	))
+9	((	NP	<fs name='NP7' drel='k1:VGF'>
+9.1	ಕರಾವಳಿ	N__NN	<fs af='ಕರಾವಳಿ,n,,sg,3,d,0,0' name='ಕರಾವಳಿ'>
+9.2	ಪ್ರದೇಶ	N__NN	<fs af='ಪ್ರದೇಶ,n,,sg,3,d,0,0' name='ಪ್ರದೇಶ'>
+	))
+10	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+10.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+11	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='947'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಅಂಚುತೆಂಗಿನ	N__NNP	<fs af='ಅಂಚುತೆಂಗು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಅಂಚುತೆಂಗಿನ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ನೈಸರ್ಗಿಕ	JJ	<fs af='ನೈಸರ್ಗಿಕ,adj,,,,d,0,0' name='ನೈಸರ್ಗಿಕ'>
+2.2	ಸೌಂದರ್ಯ	N__NN	<fs af='ಸೌಂದರ್ಯ,n,,sg,3,d,0,0' name='ಸೌಂದರ್ಯ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1s:VGF'>
+3.1	ಅದ್ಭುತ	N__NN	<fs af='ಅದ್ಭುತ,n,,sg,3,d,0,0' name='ಅದ್ಭುತ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಆಗಿದೆ'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='948'>
+1	((	NP	<fs name='NP' drel='k7p:VGF'>
+1.1	ಭಾರತದಲ್ಲಿ	N__NNP	<fs af='ಭಾರತ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ಭಾರತದಲ್ಲಿ'>
+	))
+2	((	NP	<fs name='NP2' drel='k7t:VGF'>
+2.1	ಯುರೋಪಿಯನ್	N__NNP	<fs af='ಯುರೋಪಿಯನ್,n,,sg,3,d,0,0' name='ಯುರೋಪಿಯನ್'>
+2.2	ವಸಾಹತು	N__NN	<fs af='ವಸಾಹತು,n,,sg,3,d,0,0' name='ವಸಾಹತು'>
+2.3	ಆಳ್ವಿಕೆ	N__NN	<fs af='ಸಂಬಂಧ,n,,sg,3,d,0,0' name='ಆಳ್ವಿಕೆ'>
+2.4	ಕಾಲದಿಂದ	N__NN	<fs af='ಕಾಲ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ಕಾಲದಿಂದ'>
+	))
+3	((	NP	<fs name='NP3' drel='r6:NP4'>
+3.1	ಅಂಚುತೆಂಗಿನ	N__NNP	<fs af='ಅಂಚುತೆಂಗು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಅಂಚುತೆಂಗಿನ'>
+	))
+4	((	NP	<fs name='NP4' drel='k1:VGF'>
+4.1	ಸಂಬಂಧ	N__NN	<fs af='ಸಂಬಂಧ,n,,sg,3,d,0,0' name='ಸಂಬಂಧ'>
+	))
+5	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+5.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='949'>
+1	((	NP	<fs name='NP' drel='ccof:CCP'>
+1.1	ಪೋರ್ಚುಗೀಸರು	N__NNP	<fs af='ಪೋರ್ಚುಗೀಸ,n,,pl,3,o,ಅ+ಅರ್+ಉ,a+ar+u' name='ಪೋರ್ಚುಗೀಸರು'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,'>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:CCP'>
+2.1	ಡಚ್ಚರು	N__NNP	<fs af='ಡಚ್ಚ,n,,pl,3,o,ಅ+ಅರ್+ಉ,a+ar+u' name='ಡಚ್ಚರು'>
+	))
+3	((	CCP	<fs name='CCP' drel='k1:VGF'>
+3.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0' name='ಮತ್ತು'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP3' drel='ccof:CCP'>
+4.1	ಬ್ರಿಟಿಷ್	N__NN	<fs af='ಬ್ರಿಟಿಷ್,n,,pl,3,d,0,0' name='ಬ್ರಿಟಿಷ್'>
+4.2	ರಾಜರು	N__NN	<fs af='ರಾಜ,n,,pl,3,,ಅ+ಅರ್+ಉ,a+ar+u' name='ರಾಜರು'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP4' drel='k7p:VGF'>
+5.1	ಇಲ್ಲಿ	PR__PRP	<fs af='ಇಲ್ಲಿ,pn,,sg,3,d,0,0' name='ಇಲ್ಲಿ'>
+	))
+6	((	NP	<fs name='NP5' drel='k2:VGF'>
+6.1	ಆಳ್ವಿಕೆ	N__NN	<fs af='ಆಳ್ವಿಕೆ,n,,sg,3,d,0,0' name='ಆಳ್ವಿಕೆ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+7.1	ಮಾಡಿದ್ದರು	V__VM__VF	<fs af='ಮಾಡು,v,,pl,,,ಇ+ಇರು+ದ್ದ್+ಅ+ಅರ್+ಉ,i+iru+xx+a+ar+u' name='ಮಾಡಿದ್ದರು'>
+	))
+8	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='950'>
+1	((	JJP	<fs name='JJP' drel='k7t:VGF'>
+1.1	1684ರಲ್ಲಿ	QT__QTC	<fs af='1684,num,,pl,3,,ಅ+ಅರ್+ಅ+ಅಲ್ಲಿ,a+ar+a+alli' name='1684ರಲ್ಲಿ'>
+	))
+2	((	NP	<fs name='NP' drel='k1:VGF'>
+2.1	ಬ್ರಿಟಿಷ್	N__NNP	<fs af='ಬ್ರಿಟಿಷ್,n,,sg,3,d,0,0' name='ಬ್ರಿಟಿಷ್'>
+2.2	ಈಸ್ಟ್	N__NN	<fs af='ಈಸ್ಟ್,n,,sg,3,d,0,0' name='ಈಸ್ಟ್'>
+2.3	ಇಂಡಿಯಾ	N__NNP	<fs af='ಇಂಡಿಯಾ,n,,sg,3,d,0,0' name='ಇಂಡಿಯಾ'>
+2.4	ಕಂಪನಿಯು	N__NN	<fs af='ಕಂಪನಿ,n,,sg,3,o,ಇಯ್+ಉ,iy+a' name='ಕಂಪನಿಯು'>
+	))
+3	((	NP	<fs name='NP2' drel='k7p:VGF'>
+3.1	ಕೇರಳದಲ್ಲಿ	N__NNP	<fs af='ಕೇರಳ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ಕೇರಳದಲ್ಲಿ'>
+	))
+4	((	NP	<fs name='NP3' drel='r6:NP4'>
+4.1	ತಮ್ಮ	PR__PRF	<fs af='ತಾನು,pn,,sg,2,o,ಮ್ಮ್+ಅ,mm+a' name='ತಮ್ಮ'>
+	))
+5	((	NP	<fs name='NP4' drel='k2:VGF'>
+5.1	ಮೊದಲ	QT__QTC	<fs af='ಮೊದಲ,num,,sg,3,d,0,0' name='ಮೊದಲ'>
+5.2	ವ್ಯಾಪಾರ	N__NN	<fs af='ವ್ಯಾಪಾರ,n,,sg,3,d,0,0' name='ವ್ಯಾಪಾರ'>
+5.3	ಕೇಂದ್ರ	N__NN	<fs af='ಕೇಂದ್ರ,n,,sg,3,d,0,0' name='ಕೇಂದ್ರ'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP5' drel='k7p:VGF'>
+6.1	ಅಂಚುತೆಂಗುವಿನಲ್ಲಿಯೇ	N__NNP	<fs af='ಅಂಚುತೆಂಗು,n,,sg,3,o,ಉವ್+ಇ+ಇನ್+ಅ+ಅಲ್ಲಿಯೆ,uv+i+in+a+alliye' name='ಅಂಚುತೆಂಗುವಿನಲ್ಲಿಯೇ'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP6' drel='pof:VGF'>
+7.1	ಸ್ಥಾಪನೆ	N__NN	<fs af='ಸ್ಥಾಪನೆ,n,,sg,3,d,0,0' name='ಸ್ಥಾಪನೆ'>
+	))
+8	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+8.1	ಮಾಡಿದ್ದರು	V__VM__VF	<fs af='ಮಾಡು,v,,pl,3,,ಇ+ಇರು+ದ್ದ್+ಅ+ಅರ್+ಉ,i+iru+xx+a+ar+u' name='ಮಾಡಿದ್ದರು'>
+	))
+9	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='951'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ಅಟ್ಟಿಂಗಲ್	N__NNP	<fs af='ಅಟ್ಟಿಂಗಲ್,n,,sg,3,d,0,0' name='ಅಟ್ಟಿಂಗಲ್'>
+1.2	ರಾಣಿಯು	N__NN	<fs af='ರಾಣಿ,n,,sg,3,d,ಇಯ್+ಉ,iy+u' name='ರಾಣಿಯು'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGF'>
+2.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,d,0,0' name='ಒಂದು'>
+2.2	ಇಲಾಖೆಯನ್ನು	N__NN	<fs af='ಇಲಾಖೆ,n,,sg,3,o,ಎಯ್+ಅ+ಅನ್ನು,eVy+a+annu' name='ಇಲಾಖೆಯನ್ನು'>
+	))
+3	((	NP	<fs name='NP3' drel='k4:VGF'>
+3.1	ಬ್ರಿಟಿಷ್	N__NN	<fs af='ಬ್ರಿಟಿಷ್,n,,sg,3,d,0,0' name='ಬ್ರಿಟಿಷ್'>
+3.2	ಕಂಪೆನಿಗೆ	N__NN	<fs af='ಕಂಪೆನಿ,n,,sg,3,o,ಗೆ,geV' name='ಕಂಪೆನಿಗೆ'>
+	))
+4	((	NP	<fs name='NP4' drel='rt:VGF'>
+4.1	ತೆರಿಗೆಗಾಗಿ	N__NN	<fs af='ತೆರಿಗೆ,n,,sg,3,o,ಎಗ್+ಎ+ಆಗು+ಇ,eVg+eV+Agu+i' name='ತೆರಿಗೆಗಾಗಿ'>
+	))
+5	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+5.1	ಕೊಟ್ಟಿದ್ದರು	V__VM__VF	<fs af='ಕೊಡು,v,,pl,3,,ಟ್ಟ್+ಇ+ಇರು+ದ್ದ್+ಅ+ಅರ್+ಉ,tt+i+iru+xx+a+ar+u' name='ಕೊಟ್ಟಿದ್ದರು'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='952'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ತೆಂಗಿನ	N__NNP	<fs af='ತೆಂಗು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ತೆಂಗಿನ'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGNF'>
+2.1	ಐದು	QT__QTC	<fs af='ಐದು,num,,pl,3,d,0,0' name='ಐದು'>
+2.2	ಮರಗಳನ್ನು	N__NN	<fs af='ಮರ,n,,pl,3,o,ಗಳು+ಅ+ಅನ್ನು,galYu+a+annu' name='ಮರಗಳನ್ನು'>
+	))
+3	((	VGNF	<fs name='VGNF' drel='rh:VGF'>
+3.1	ಹೊಂದಿದ್ದರಿಂದ	V__VM__VNF	<fs af='ಹೊಂದು,v,,sg,3,,ಇ+ಇರು+ದ್ದ್+ಅ+ಅರ್+ಇ+ಇಂದ,i+iru+xx+a+ar+i+iMxa' name='ಹೊಂದಿದ್ದರಿಂದ'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:VGF'>
+4.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0' name='ಈ'>
+4.2	ಭೂಭಾಗ	N__NN	<fs af='ಭೂಭಾಗ,n,,sg,3,d,0,0' name='ಭೂಭಾಗ'>
+	))
+5	((	NP	<fs name='NP4' drel='k1s:VGF'>
+5.1	'	RD__PUNC	<fs af=',punc,,,,,,' name='>'>
+5.2	ಅಂಚುತೆಂಗೂ	N__NNP	<fs af='ಅಂಚುತೆಂಗೂ,n,,sg,3,d,0,0' name='ಅಂಚುತೆಂಗೂ'>
+5.3	'	RD__PUNC	<fs af=',punc,,,,,,' name='2'>
+5.4	ಹೆಸರಿನಿಂದ	N__NN	<fs af='ಹೆಸರು,n,,sg,3,o,ಇ+ಇನ್+ಇ+ಇಂದ,i+in+i+iMxa' name='ಹೆಸರಿನಿಂದ'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP5' drel='pof:VGF'>
+6.1	ಪ್ರಸಿದ್ಧ	N__NN	<fs af='ಪ್ರಸಿದ್ಧ,n,,sg,3,d,0,0' name='ಪ್ರಸಿದ್ಧ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+7.1	ಆಯಿತು	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇಯ್+ತ್+ಉ,iy+w+u' name='ಆಯಿತು'>
+	))
+8	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='953'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಅಂಚುತೆಂಗಿನ	N__NNP	<fs af='ಅಂಚುತೆಂಗು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಅಂಚುತೆಂಗಿನ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ಪ್ರಮುಖ	JJ	<fs af='ಪ್ರಮುಖ,adj,,,,d,0,0' name='ಪ್ರಮುಖ'>
+2.2	ಐತಿಹಾಸಿಕ	JJ	<fs af='ಐತಿಹಾಸಿಕ,adj,,,,d,0,0' name='ಐತಿಹಾಸಿಕ'>
+2.3	ಸ್ಮಾರಕ	N__NN	<fs af='ಸ್ಮಾರಕ,n,,sg,3,d,0,0' name='ಸ್ಮಾರಕ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1s:VGF'>
+3.1	'	RD__PUNC	<fs af='-,punc,,,,,,' name='>'>
+3.2	ಇಂಗ್ಲೀಷ್	N__NN	<fs af='ಇಂಗ್ಲೀಷ್,n,,sg,3,d,0,0' name='ಇಂಗ್ಲೀಷ್'>
+3.3	ಕೋಟೆ	N__NN	<fs af='ಕೋಟೆ,n,,sg,3,d,0,0' name='ಕೋಟೆ'>
+3.4	'	RD__PUNC	<fs af='-,punc,,,,,,' name='2'>
+	))
+4	((	VGF	<fs af=',,,,,,,' name='VGF' stype='declarative' voicetype='active' dmrel='ccof:NULL__CCP'>
+4.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,o,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಆಗಿದೆ'>
+	))
+5	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP'>
+5.1	NULL	CC__CCD	<fs af=',,,,,,,' troot='' mtype='non-gap' name='NULL'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF3'>
+6.1	ಅದು	PR__PRP	<fs af='ಅದು,pn,,sg,3,d,0,0' name='ಅದು'>
+	))
+7	((	VGF	<fs name='VGF2' drel='k1s:VGF3'>
+7.1	ಸುರಕ್ಷಿತ	N__NN	<fs af='ಸುರಕ್ಷಿತ,n,,sg,3,d,0,0' name='ಸುರಕ್ಷಿತ'>
+	))
+8	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF3' dmrel='ccof:NULL__CCP'>
+8.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಆಗಿದೆ2'>
+	))
+9	((	BLK	<fs name='BLK' drel='rsym_eos:VGF3'>
+9.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='954'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಕೋಟೆಯ	N__NN	<fs af='ಕೋಟೆ,n,,sg,3,o,ಎಯ್+ಅ,eVy+a' name='ಕೋಟೆಯ'>
+	))
+2	((	NP	<fs name='NP2' drel='rd:VGF'>
+2.1	ಒಳಗೆ	N__NST	<fs af='ಒಳಗೆ,nst,,,,d,0,0' name='ಒಳಗೆ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,pl,,d,0,0' name='ಒಂದು'>
+3.2	ಸ್ಮಶಾನ	N__NN	<fs af='ಸ್ಮಶಾನ,n,,sg,3,d,0,0' name='ಸ್ಮಶಾನ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' name='VGF' dmrel='ccof:NULL__CCP'>
+4.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+5	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP'>
+5.1	NULL	CC__CCD	<fs af=',,,,,,,' name='NULL' troot='' mtype='non-gap'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='k7:VGF2'>
+6.1	ಅದರಲ್ಲಿ	PR__PRP	<fs af='ಅದು,pn,,sg,3,o,ಅರ್+ಅ+ಅಲ್ಲಿ,ar+a+alli' name='ಅದರಲ್ಲಿ'>
+	))
+7	((	NP	<fs name='NP5' drel='r6:NP6'>
+7.1	ಸರಿಸುಮಾರು	QT__QTF	<fs af='ಸರಿಸುಮಾರು,adj,,,,d,0,0' name='ಸರಿಸುಮಾರು'>
+7.2	ಕ್ರಿಸ್ತಶಕ	N__NN	<fs af='ಕ್ರಿಸ್ತಶಕ,n,,sg,3,d,0,0' name='ಕ್ರಿಸ್ತಶಕ'>
+7.3	1704ರ	N__NN	<fs af='1704,n,,pl,3,d,0,0' name='1704ರ'>
+	))
+8	((	NP	<fs name='NP6' drel='r6:NP7'>
+8.1	ಕಾಲದ	N__NN	<fs af='ಕಾಲ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಕಾಲದ'>
+	))
+9	((	NP	<fs name='NP7' drel='k1:VGF2'>
+9.1	ಗೋರಿಗಳು	N__NN	<fs af='ಗೋರಿ,n,,pl,3,o,ಗಳು,galYu' name='ಗೋರಿಗಳು'>
+	))
+10	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF2' dmrel='ccof:NULL__CCP'>
+10.1	ಇವೆ	V__VM__VF	<fs af='ಇರು,v,,pl,3,,ದ್+ಎ,x+eV' name='ಇವೆ'>
+	))
+11	((	BLK	<fs name='BLK' drel='rsym_eos:VGF2'>
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='955'>
+1	((	NP	<fs name='NP' drel='ccof:CCP'>
+1.1	ಕೆರೆ	N__NN	<fs af='ಕೆರೆ,n,,sg,3,d,0,0' name='ಕೆರೆ'>
+1.2	,	RD__PUNC	<fs af='COMMA,punc,,,,,,' name=','>
+	))
+2	((	NP	<fs name='NP2' drel='adv:VGNF'>
+2.1	ಸಾಲಾಗಿ	N__NN	<fs af='ಸಾಲು,n,,sg,3,o,ಆ+ಆಗು+ಇ,A+Agu+i' name='ಸಾಲಾಗಿ'>
+	))
+3	((	VGNF	<fs name='VGNF' drel='nmod:NP3'>
+3.1	ನಿಂತ	V__VM__VNF	<fs af='ನಿಲ್ಲು,v,,sg,3,,ಂತ್+ಅ,Mw+a' name='ನಿಂತ'>
+	))
+4	((	NP	<fs name='NP3' drel='r6:NP4'>
+4.1	ತೆಂಗಿನ	N__NN	<fs af='ತೆಂಗು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ತೆಂಗಿನ'>
+	))
+5	((	NP	<fs name='NP4' drel='ccof:CCP'>
+5.1	ಮರಗಳು	N__NN	<fs af='ಮರ,n,,pl,3,o,ಗಳು,galYu' name='ಮರಗಳು'>
+	))
+6	((	CCP	<fs name='CCP' drel='k1:VGF'>
+6.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0' name='ಮತ್ತು'>
+	))
+7	((	NP	<fs name='NP5' drel='ccof:CCP'>
+7.1	ಕಣಿವೆಗಳು	N__NN	<fs af='ಕಣಿವೆ,n,,pl,3,d,ಗಳು,galYu' name='ಕಣಿವೆಗಳು'>
+	))
+8	((	NP	<fs name='NP6' drel='r6:NP7'>
+8.1	ಅಂಚುತೆಂಗಿನ	N__NNP	<fs af='ಅಂಚುತೆಂಗು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಅಂಚುತೆಂಗಿನ'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP7' drel='k2:VGF'>
+9.1	ಶೋಭೆಯನ್ನು	N__NN	<fs af='ಶೋಭೆ,n,,sg,3,o,ಎಯ್+ಅ+ಅನ್ನು,eVy+a+annu' name='ಶೋಭೆಯನ್ನು'>
+	))
+10	((	RBP	<fs af=',,,,,,,' name='RBP' drel='adv:VGF'>
+10.1	ಮನೋಹರ	RB	<fs af='ಮನೋಹರ,adv,,,,,0,0' name='ಮನೋಹರ'>
+	))
+11	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+11.1	ಆಗಿಸಿವೆ	V__VM__VF	<fs af='ಆಗು,v,,,,,ಇ+ಇಸ್+ಇ+ಇರು+ಉವ್+ಎ,i+is+i+iru+uv+eV' name='ಆಗಿಸಿವೆ'>
+	))
+12	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym_eos:VGF'>
+12.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='956'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ಅಂಚುತೆಂಗಿನ	N__NNP	<fs af='ಅಂಚುತೆಂಗು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಅಂಚುತೆಂಗಿನ'>
+1.2	ಸಮುದ್ರತೀರ	N__NN	<fs af='ಸಮುದ್ರತೀರ,n,,sg,3,d,0,0' name='ಸಮುದ್ರತೀರ'>
+1.3	ಕೂಡ	RP__RPD	<fs af='ಕೂಡ,avy,,,,d,0,0' name='ಕೂಡ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1s:VGF'>
+2.1	ಅತ್ಯಂತ	JJ	<fs af='ಅತ್ಯಂತ,adj,,,,,0,0' name='ಅತ್ಯಂತ'>
+2.2	ಸುಂದರ	N__NN	<fs af='ಸುಂದರ,n,,sg,3,d,0,0' name='ಸುಂದರ'>
+	))
+3	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+3.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಆಗಿದೆ'>
+	))
+4	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='957'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಅಂಚುತೆಂಗೂ	N__NNP	<fs af='ಅಂಚುತೆಂಗೂ,n,,sg,3,d,0,0' name='ಅಂಚುತೆಂಗೂ'>
+1.2	ಮೀನುಗಾರರ	N__NN	<fs af='ಮೀನುಗಾರ,n,,sg,3,o,ಅರ್+ಅ,ar+a' name='ಮೀನುಗಾರರ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ಪ್ರಮುಖ	JJ	<fs af='ಪ್ರಮುಖ,adj,,,,d,0,0' name='ಪ್ರಮುಖ'>
+2.2	ಕೇಂದ್ರವು	N__NN	<fs af='ಕೇಂದ್ರ,n,,sg,3,o,ಅವ್+ಉ,av+u' name='ಕೇಂದ್ರವು'>
+2.3	ಸಹ	RP__RPD	<fs af='ಸಹ,avy,,,,d,0,0' name='ಸಹ'>
+	))
+3	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+3.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಆಗಿದೆ'>
+	))
+4	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+4.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='958'>
+1	((	NP	<fs name='NP' drel='rsp:NP2'>
+1.1	ಅಂಚುತೆಂಗಿನಿಂದ	N__NNP	<fs af='ಅಂಚುತೆಂಗು,n,,sg,3,o,ಇ+ಇನ್+ಇ+ಇಂದ,i+in+i+iMxa' name='ಅಂಚುತೆಂಗಿನಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='rd:NP3'>
+2.1	ಹತ್ತಿರದ	N__NST	<fs af='ಹತ್ತಿರ,nst,,,,o,ಅದ್+ಅ,ax+a' name='ಹತ್ತಿರದ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	ರೈಲ್ವೆ	N__NN	<fs af='ರೈಲ್ವೆ,n,,sg,3,d,0,0' name='ರೈಲ್ವೆ'>
+3.2	ನಿಲ್ದಾಣ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,d,0,0' name='ನಿಲ್ದಾಣ'>
+3.3	ವರ್ಕಲಾ	N__NNP	<fs af='ವರ್ಕಲಾ,n,,sg,3,d,0,0' name='ವರ್ಕಲಾ'>
+3.4	,	RD__PUNC	<fs af='COMMA,punc,,,,,,' name=','>
+	))
+4	((	NP	<fs name='NP4' drel='k7t:VGF'>
+4.1	8	QT__QTC	<fs af='8,num,,pl,,d,0,0' voicetype='active' stype='declarative' name='8'>
+4.2	ಕಿ.ಮಿ.	N__NNP	<fs af='ಕಿ.ಮಿ.,n,,sg,3,d,0,0' name='ಕಿ.ಮಿ.'>
+4.3	ದೂರದಲ್ಲಿ	N__NN	<fs af='ದೂರ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ದೂರದಲ್ಲಿ'>
+	))
+5	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+5.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='959'>
+1	((	NP	<fs name='NP' drel='rsp:NP2'>
+1.1	ತಿರುವನಂತಪುರಂ	N__NNP	<fs af='ತಿರುವನಂತಪುರಂ,n,,sg,3,d,0,0' name='ತಿರುವನಂತಪುರಂ'>
+1.2	ಅಂತಾರಾಷ್ಟ್ರೀಯ	N__NN	<fs af='ಅಂತಾರಾಷ್ಟ್ರೀಯ,n,,sg,3,d,0,0' name='ಅಂತಾರಾಷ್ಟ್ರೀಯ'>
+1.3	ವಿಮಾನ	N__NN	<fs af='ವಿಮಾನ,n,,sg,3,d,0,0' name='ವಿಮಾನ'>
+1.4	ನಿಲ್ದಾಣದಿಂದ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ನಿಲ್ದಾಣದಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='k4:VGF'>
+2.1	ಅಂಚುತೆಂಗೂ	N__NNP	<fs af='ಅಂಚುತೆಂಗೂ,n,,sg,3,d,0,0' name='ಅಂಚುತೆಂಗೂ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	46	QT__QTC	<fs af='46,num,,pl,3,d,0,0' name='46'>
+3.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮಿ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.'>
+	))
+4	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+4.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' voicetype='active' stype='declarative' name='ಇದೆ'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='960'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ಅಕ್ಕುಲ್ಮ್	N__NNP	<fs af='ಅಕ್ಕುಲ್ಮ್,n,,sg,3,d,0,0' name='ಅಕ್ಕುಲ್ಮ್'>
+1.2	ಸರೋವರ	N__NN	<fs af='ಸರೋವರ,n,,sg,3,d,0,0' name='ಸರೋವರ'>
+	))
+2	((	NP	<fs name='NP2' drel='adv:VGF'>
+2.1	ನೌಕಾಯಾನ	N__NN	<fs af='ನೌಕಾಯಾನ,n,,sg,3,d,0,0' name='ನೌಕಾಯಾನ'>
+2.2	ದೃಷ್ಟಿಯಿಂದ	N__NN	<fs af='ದೃಷ್ಟಿ,n,,sg,3,o,ಇಯ್+ಇ+ಇಂದ,iy+i+iMxa' name='ದೃಷ್ಟಿಯಿಂದ'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1s:VGF'>
+3.1	ಮಹತ್ವಪೂರ್ಣ	N__NN	<fs af='ಮಹತ್ವಪೂರ್ಣ,n,,sg,3,d,0,0' name='ಮಹತ್ವಪೂರ್ಣ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+4.1	ಆದುದು	V__VM__VF	<fs af='ಆಗು,v,,,,,ದ್+ಉ+ಉದ್+ಉ,x+u+ux+u' name='ಆದುದು'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='961'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಅಕ್ಕುಲ್ಮ್	N__NNP	<fs af='ಅಕ್ಕುಲ್ಮ್,n,,sg,3,d,0,0' name='ಅಕ್ಕುಲ್ಮ್'>
+1.2	ಸರೋವರದ	N__NN	<fs af='ಸರೋವರ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಸರೋವರದ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ಪಿಕ್ನಿಕ್	N__NN	<fs af='ಪಿಕ್ನಿಕ್,n,,pl,3,d,0,0' name='ಪಿಕ್ನಿಕ್'>
+2.2	ತಾಣಗಳು	N__NN	<fs af='ತಾಣ,n,,pl,3,o,ಗಳು,galYu' name='ತಾಣಗಳು'>
+	))
+3	((	NP	<fs name='NP3' drel='rsp:NP4'>
+3.1	ಬೆಳಿಗ್ಗೆ	N__NN	<fs af='ಬೆಳಿಗ್ಗೆ,n,,sg,3,d,0,0' name='ಬೆಳಿಗ್ಗೆ'>
+3.2	10	QT__QTC	<fs af='10,num,,pl,,d,0,0' name='10'>
+3.3	ಗಂಟೆಯಿಂದ	N__NN	<fs af='ಗಂಟೆ,n,,sg,3,o,ಎಯ್+ಇ+ಇಂದ,eVy+i+iMxa' name='ಗಂಟೆಯಿಂದ'>
+	))
+4	((	NP	<fs name='NP4' drel='k7t:VGF'>
+4.1	ತಡರಾತ್ರಿಯ	N__NN	<fs af='ತಡರಾತ್ರಿ,n,,sg,3,o,ಇಯ್+ಅ,iy+a' name='ತಡರಾತ್ರಿಯ'>
+4.2	ವರೆಗೆ	PSP	<fs af='ವರೆಗೆ,psp,,,,,,' name='ವರೆಗೆ'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+5.1	ತೆರೆದಿರುತ್ತದೆ	V__VM__VF	<fs af='ತೆರೆ,v,,sg,3,,ಎದ್+ಇ+ಇರು+ಉತ್ತ್+ಅ+ಅದ್+ಎ,eVx+i+iru+uww+a+ax+eV' name='ತೆರೆದಿರುತ್ತದೆ'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='962'>
+1	((	NP	<fs name='NP' drel='ccof:CCP'>
+1.1	ಬೋಟಿಂಗ್	N__NN	<fs af='ಬೋಟಿಂಗ್,n,,sg,3,d,0,0' name='ಬೋಟಿಂಗ್'>
+	))
+2	((	CCP	<fs name='CCP' drel='rs:NP3'>
+2.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0' name='ಮತ್ತು'>
+	))
+3	((	NP	<fs name='NP2' drel='ccof:CCP'>
+3.1	ಮಕ್ಕಳ	N__NN	<fs af='ಮಕ್ಕಳು,n,,sg,3,o,ಅ,a' name='ಮಕ್ಕಳ'>
+3.2	ಪಾರ್ಕ್	N__NN	<fs af='ಪಾರ್ಕ್,n,,sg,3,d,0,0' name='ಪಾರ್ಕ್'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1:VGF'>
+4.1	ಎರಡೂ	N__NN	<fs af='ಎರಡೂ,n,,pl,3,d,0,0' name='ಎರಡೂ'>
+	))
+5	((	NP	<fs name='NP4' drel='k4:VGF'>
+5.1	ಮಕ್ಕಳಿಗೂ	N__NN	<fs af='ಮಕ್ಕಳು,n,any,pl,3,o,ಇ+ಇಗ್+ಊ,i+ig+U' name='ಮಕ್ಕಳಿಗೂ'>
+5.2	ಕೂಡ	RP__RPD	<fs af='ಕೂಡ,avy,,,,d,0,0' name='ಕೂಡ'>
+	))
+6	((	NP	<fs name='NP5' drel='k1s:VGF'>
+6.1	ಮೆಚ್ಚುಗೆ	N__NN	<fs af='ಮೆಚ್ಚುಗೆ,n,,sg,3,d,0,0' name='ಮೆಚ್ಚುಗೆ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+7.1	ಆಗುತ್ತವೆ	V__VM__VF	<fs af='ಆಗು,v,,pl,3,,ಉತ್ತ್+ಅ+ಅವ್+ಎ,uww+a+av+eV' name='ಆಗುತ್ತವೆ'>
+	))
+8	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='963'>
+1	((	NP	<fs name='NP' drel='rsp:NP2'>
+1.1	ತಿರುವನಂತಪುರಂ	N__NNP	<fs af='ತಿರುವನಂತಪುರಂ,n,,sg,3,d,0,0' name='ತಿರುವನಂತಪುರಂ'>
+1.2	ರೈಲು	N__NN	<fs af='ರೈಲು,n,,sg,3,d,0,0' name='ರೈಲು'>
+1.3	ನಿಲ್ದಾಣದಿಂದ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ನಿಲ್ದಾಣದಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ಅಕ್ಕುಲ್ಮ್	N__NNP	<fs af='ಅಕ್ಕುಲ್ಮ್,n,,sg,3,d,0,0' name='ಅಕ್ಕುಲ್ಮ್'>
+	))
+3	((	NP	<fs name='NP3' drel='k7p:VGF'>
+3.1	10	QT__QTC	<fs af='10,num,,pl,3,d,0,0' name='10'>
+3.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮೀ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.'>
+3.3	ದೂರದಲ್ಲಿ	N__NN	<fs af='ದೂರ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ದೂರದಲ್ಲಿ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='964'>
+1	((	NP	<fs name='NP' drel='rsp:NP2'>
+1.1	ತಿರುವನಂತಪುರಂ	N__NNP	<fs af='ತಿರುವನಂತಪುರಂ,n,,sg,3,d,0,0' name='ತಿರುವನಂತಪುರಂ'>
+1.2	ಅಂತರರಾಷ್ಟ್ರೀಯ	N__NN	<fs af='ಅಂತರರಾಷ್ಟ್ರೀಯ,n,,sg,3,d,0,0' name='ಅಂತರರಾಷ್ಟ್ರೀಯ'>
+1.3	ವಿಮಾನ	N__NN	<fs af='ವಿಮಾನ,n,,sg,3,d,0,0' name='ವಿಮಾನ'>
+1.4	ನಿಲ್ದಾಣದಿಂದ	N__NN	<fs af='ನಿಲ್ದಾಣ,n,,sg,3,o,ಅದ್+ಇ+ಇಂದ,ax+i+iMxa' name='ನಿಲ್ದಾಣದಿಂದ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ಅಕ್ಕುಲ್ಮ್	N__NNP	<fs af='ಅಕ್ಕುಲ್ಮ್,n,,sg,3,d,0,0' name='ಅಕ್ಕುಲ್ಮ್'>
+	))
+3	((	NP	<fs name='NP3' drel='rd:VGF'>
+3.1	7	QT__QTC	<fs af='7,num,,pl,3,d,0,0' name='7'>
+3.2	ಕಿ.ಮೀ.	N__NN	<fs af='ಕಿ.ಮಿ.,n,,sg,3,d,0,0' name='ಕಿ.ಮೀ.'>
+3.3	ದೂರ	N__NN	<fs af='ದೂರ,n,,sg,3,d,0,0' name='ದೂರ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='965'>
+1	((	NP	<fs name='NP' drel='k7t:VGNF'>
+1.1	1983ರಲ್ಲಿ	N__NN	<fs af='1983,n,,sg,3,d,ಅಲ್ಲಿ,alli' name='1983ರಲ್ಲಿ'>
+	))
+2	((	VGNF	<fs name='VGNF' drel='nmod:NP2'>
+2.1	ಸ್ಥಾಪಿಸಲಾದ	V__VM__VNF	<fs af='ಸ್ಥಾಪನೆ,v,,,,,ಇಸ್+ಉ,is+u' droot1='ಸ್ಥಾಪಿಸು' dcat1='v' dcase1='o' dcm1='ಅ+ಅಲ್+ಆ+ಆಗು+ದ್+ಅ' dsuff1='a+al+A+Agu+x+a' droot2='ಸ್ಥಾಪಿಸಲಾದ' dcat2='v' dcase2='d' dcm2='0' dsuff2='0' name='ಸ್ಥಾಪಿಸಲಾದ'>
+	))
+3	((	NP	<fs name='NP2' drel='r6:NP3'>
+3.1	ಇಂಡಿಯನ್	N__NNP	<fs af='ಇಂಡಿಯನ್,n,,sg,3,d,0,0' name='ಇಂಡಿಯನ್'>
+3.2	ಸ್ಕೂಲ್	N__NN	<fs af='ಸ್ಕೂಲ್,n,,sg,3,d,0,0' name='ಸ್ಕೂಲ್'>
+3.3	ಆಫ್	N__NN	<fs af='ಆಫ್,n,,sg,3,d,0,0' name='ಆಫ್'>
+3.4	ಮಾರ್ಷಲ್	N__NN	<fs af='ಮಾರ್ಷಲ್,n,,sg,3,d,0,0' name='ಮಾರ್ಷಲ್'>
+3.5	ಆರ್ಟ್ಸ್	N__NN	<fs af='ಆರ್ಟ್ಸ್,n,,sg,3,d,0,0' name='ಆರ್ಟ್ಸ್'>
+3.6	(	RD__SYM	<fs af='(,punc,,,,,,' name='('>
+3.7	SYMISMA	N__NN	<fs af='SYMISMA,n,,sg,3,d,0,0'name='SYMISMA'>
+3.8	)	RD__SYM	<fs af='),punc,,,,,,' name=')'>
+3.9	ನ	PSP	<fs af='ನ,psp,,,,,,' name='ನ'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:VGF'>
+4.1	ಸಂಸ್ಥಾಪಕ	N__NN	<fs af='ಸಂಸ್ಥಾಪಕ,n,,sg,3,d,0,0' name='ಸಂಸ್ಥಾಪಕ'>
+4.2	ಶ್ರೀಬಾಲಚಂದ್ರನ್	N__NNP	<fs af='ಶ್ರೀಬಾಲಚಂದ್ರನ್,n,,sg,3,d,0,0' name='ಶ್ರೀಬಾಲಚಂದ್ರನ್'>
+4.3	ನಾಯರ್	N__NN	<fs af='ನಾಯರ್,n,,sg,3,d,0,0' name='ನಾಯರ್'>
+	))
+5	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+5.1	ಆಗಿದ್ದಾರೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,,ಇ+ಇರು+ದ್ದ್+ಅ+ಅರ್+ಉ,i+iru+xx+a+ar+u' name='ಆಗಿದ್ದಾರೆ'>
+	))
+6	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+6.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='966'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='ccof:CCP'>
+1.1	ಭಾರತ	N__NNP	<fs af='ಭಾರತ,n,,sg,3,d,0,0' name='ಭಾರತ'>
+1.2	ಸರಕಾರ	N__NN	<fs af='ಸರಕಾರ,n,,sg,3,d,0,0' name='ಸರಕಾರ'>
+	))
+2	((	CCP	<fs name='CCP' drel='k3:VGNF'>
+2.1	ಹಾಗೂ	CC__CCD	<fs af='ಹಾಗೂ,avy,,,,d,0,0' name='ಹಾಗೂ'>
+	))
+3	((	NP	<fs name='NP2' drel='ccof:CCP'>
+3.1	ಕೇರಳ	N__NNP	<fs af='ಕೇರಳ,n,,sg,3,d,0,0' name='ಕೇರಳ'>
+3.2	ಸ್ಪೋರ್ಟ್ಸ್	N__NN	<fs af='ಸ್ಪೋರ್ಟ್ಸ್,n,,sg,3,d,0,0' name='ಸ್ಪೋರ್ಟ್ಸ್'>
+3.3	ಕೌನ್ಸಿಲ್	N__NN	<fs af='ಕೌನ್ಸಿಲ್,n,,sg,3,d,0,0' name='ಕೌನ್ಸಿಲ್'>
+3.4	ಮೂಲಕ	RP__RPD	<fs af='ಮೂಲಕ,avy,,,,d,0,0' name='ಮೂಲಕ'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:VGNF'>
+4.1	ಮಾನ್ಯತೆ	N__NN	<fs af='ಮಾನ್ಯತೆ,n,,sg,3,d,0,0' name='ಮಾನ್ಯತೆ'>
+	))
+5	((	VGNF	<fs af=',,,,,,,' name='VGNF' drel='nmod:NP4'>
+5.1	ಸಿಕ್ಕಿದ	V__VM__VNF	<fs af='ಸಿಗು,v,,,,,ಕ್ಕ್+ಇ+ಇರು+ದ್+ಎ,kk+i+iru+x+eV' name='ಸಿಕ್ಕಿದ'>
+	))
+6	((	NP	<fs name='NP4' drel='k1:VGF'>
+6.1	ಈ	DM__DMD	<fs af='ಈ,pn,,sg,3,d,0,0' name='ಈ'>
+6.2	ಸಂಸ್ಥೆ	N__NN	<fs af='ಸಂಸ್ಥೆ,n,,sg,3,d,0,0' name='ಸಂಸ್ಥೆ'>
+	))
+7	((	NP	<fs name='NP5' drel='r6:NP6'>
+7.1	ಕಳರಿಪಯಟ್ಟು	N__NNP	<fs af='ಕಳರಿಪಯಟ್ಟು,n,,sg,3,d,0,0' name='ಕಳರಿಪಯಟ್ಟು'>
+7.2	ಹೆಸರಿನ	N__NN	<fs af='ಹೆಸರು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಹೆಸರಿನ'>
+	))
+8	((	NP	<fs name='NP6' drel='r6:NP7'>
+8.1	ಆರಂಭಕಾಲದ	N__NN	<fs af='ಆರಂಭಕಾಲ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಆರಂಭಕಾಲದ'>
+	))
+9	((	NP	<fs name='NP7' drel='k1s:VGF'>
+9.1	ಪ್ರಶಿಕ್ಷಣಾಲಯ	N__NN	<fs af='ಪ್ರಶಿಕ್ಷಣಾಲಯ,n,,sg,3,d,0,0' name='ಪ್ರಶಿಕ್ಷಣಾಲಯ'>
+	))
+10	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+10.1	ಆಗಿದೆ	V__VM__VF	<fs af='ಆಗು,v,,sg,3,o,ಇ+ಇರು+ದ್+ಎ,i+iru+x+eV' name='ಆಗಿದೆ'>
+	))
+11	((	BLK	<fs name='BLK' drel='rsym_ros:VGF'>
+11.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='967'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	ಇಂಡಿಯನ್	N__NNP	<fs af='ಇಂಡಿಯನ್,n,,sg,3,d,0,0' name='ಇಂಡಿಯನ್'>
+1.2	ಸ್ಕೂಲ್	N__NN	<fs af='ಸ್ಕೂಲ್,n,,sg,3,d,0,0' name='ಸ್ಕೂಲ್'>
+1.3	ಆಫ್	N__NN	<fs af='ಆಫ್,n,,sg,3,d,0,0' name='ಆಫ್'>
+1.4	ಮಾರ್ಷಲ್	N__NN	<fs af='ಮಾರ್ಷಲ್,n,,sg,3,d,0,0' name='ಮಾರ್ಷಲ್'>
+1.5	ಆರ್ಟ್ಸ್	N__NN	<fs af='ಆರ್ಟ್ಸ್,n,,sg,3,d,0,0' name='ಆರ್ಟ್ಸ್'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	ಒಂದು	QT__QTC	<fs af='ಒಂದು,num,,sg,3,d,0,0' name='ಒಂದು'>
+2.2	ಮೂರು	QT__QTC	<fs af='ಮೂರು,num,,pl,3,d,0,0' name='ಮೂರು'>
+2.3	ಅಂತಸ್ತಿನ	N__NN	<fs af='ಅಂತಸ್ತು,n,,sg,3,o,ಇ+ಇನ್+ಅ,i+in+a' name='ಅಂತಸ್ತಿನ'>
+	))
+3	((	NP	<fs name='NP3' drel='k7p:VGF'>
+3.1	ಕಟ್ಟಡದಲ್ಲಿ	N__NN	<fs af='ಕಟ್ಟಡ,n,,sg,3,o,ಅದ್+ಅ+ಅಲ್ಲಿ,ax+a+alli' name='ಕಟ್ಟಡದಲ್ಲಿ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,o,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='968'>
+1	((	NP	<fs name='NP' drel='k7p:VGF'>
+1.1	ಇಂಡಿಯನ್	N__NNP	<fs af='ಇಂಡಿಯನ್,n,,sg,3,d,0,0' name='ಇಂಡಿಯನ್'>
+1.2	ಸ್ಕೂಲ್	N__NN	<fs af='ಸ್ಕೂಲ್,n,,sg,3,d,0,0' name='ಸ್ಕೂಲ್'>
+1.3	ಆಫ್	N__NN	<fs af='ಆಫ್,n,,sg,3,d,0,0' name='ಆಫ್'>
+1.4	ಮಾರ್ಷಲ್	N__NN	<fs af='ಮಾರ್ಷಲ್,n,,sg,3,d,0,0' name='ಮಾರ್ಷಲ್'>
+1.5	ಆರ್ಟ್ಸ್	N__NN	<fs af='ಆರ್ಟ್ಸ್,n,,sg,3,d,0,0' name='ಆರ್ಟ್ಸ್'>
+1.6	ನಲ್ಲಿ	PSP	<fs af='ನಲ್ಲಿ,n,,sg,3,d,0,0' name='ನಲ್ಲಿ'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	ಕಲರಿ	N__NN	<fs af='ಕಲರಿ,n,,sg,3,d,0,0' name='ಕಲರಿ'>
+2.2	ಚಿಕಿತ್ಸೆ	N__NN	<fs af='ಚಿಕಿತ್ಸೆ,n,,sg,3,d,0,0' name='ಚಿಕಿತ್ಸೆ'>
+2.3	ಕೂಡ	PSP	<fs af='ಕೂಡ,psp,,,,,,' name='ಕೂಡ'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='adv:VGF'>
+3.1	ಲಭ್ಯ	N__NN	<fs af='ಲಭ್ಯ,n,,sg,3,d,0,0' name='ಲಭ್ಯ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	ಇದೆ	V__VM__VF	<fs af='ಇರು,v,,sg,3,o,ದ್+ಎ,x+eV' name='ಇದೆ'>
+	))
+5	((	BLK	<fs name='BLK' drel='rsym_eos:VGF'>
+5.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='969'>
+1	((	NP	<fs name='NP' drel='k7p:VGNF'>
+1.1	ಇಂಡಿಯನ್	N__NNP	<fs af='ಇಂಡಿಯನ್,n,,sg,3,d,0,0' name='ಇಂಡಿಯನ್'>
+1.2	ಸ್ಕೂಲ್	N__NN	<fs af='ಸ್ಕೂಲ್,n,,sg,3,d,0,0' name='ಸ್ಕೂಲ್'>
+1.3	ಆಫ್	N__NN	<fs af='ಆಫ್,n,,sg,3,d,0,0' name='ಆಫ್'>
+1.4	ಮಾರ್ಷಲ್	N__NN	<fs af='ಮಾರ್ಷಲ್,n,,sg,3,d,0,0' name='ಮಾರ್ಷಲ್'>
+1.5	ಆರ್ಟ್ಸ್	N__NN	<fs af='ಆರ್ಟ್ಸ್,n,,sg,3,d,0,0' name='ಆರ್ಟ್ಸ್'>
+1.6	ನಲ್ಲಿ	PSP	<fs af='ನಲ್ಲಿ,psp,,,,,,' name='ನಲ್ಲಿ'>
+	))
+2	((	NP	<fs name='NP2' drel='rt:VGNF'>
+2.1	ಉಷಿಚ್ಚಿಲ್ಲ	N__NN	<fs af='ಉಷಿಚ್ಚಿಲ್ಲ,n,,sg,3,d,0,0' name='ಉಷಿಚ್ಚಿಲ್ಲ'>
+2.2	(	RD__SYM	<fs af='(,punc,,,,,,' name='('>
+2.3	ಮಸಾಜ್	N__NN	<fs af='ಮಸಾಜ್,n,,sg,3,d,0,0' name='ಮಸಾಜ್'>
+2.4	)	RD__SYM	<fs af='),punc,,,,,,' name=')'>
+2.5	ಗಾಗಿ	PSP	<fs af='ಗಾಗಿ,psp,,,,,,' name='ಗಾಗಿ'>
+	))
+3	((	VGNF	<fs name='VGNF' drel='nmod:NP3'>
+3.1	ಉಪಯೋಗಿಸುವ	V__VM__VNF	<fs af='ಉಪಯೋಗ,v,,sg,3,,ಇ+ಇಸ್+ಉ+ಉವ್+ಅ,i+is+uv+a' name='ಉಪಯೋಗವಾಗಿವ'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:NULL__VGF'>
+4.1	'	RD__SYM	<fs name='>'>
+4.2	ಎನ್ನತೊಣಿ	N__NN	<fs af='ಎನ್ನತೊಣಿ,n,,sg,3,d,0,0' name='ಎನ್ನತೊಣಿ'>
+4.3	'	RD__PUNC	<fs af=',punc,,,,,,' name='2'>
+4.4	(	RD__SYM	<fs af='(,punc,,,,,,' name='(2'>
+4.5	ಟೇಬಲ್	N__NN	<fs af='ಟೇಬಲ್,n,,sg,3,d,0,0' name='ಟೇಬಲ್'>
+4.6	ಮಸಾಜ್	N__NN	<fs af='ಮಸಾಜ್,n,,,,d,0,0' name='ಮಸಾಜ್2'>
+4.7	)	RD__SYM	<fs af='),punc,,,,,,' name=')2'>
+	))
+5	((	NP	<fs name='NP4' drel='nmod:NP5'>
+5.1	600	QT__QTC	<fs af='600,num,,pl,,d,0,0' name='600'>
+5.2	ವರ್ಷ	N__NN	<fs af='ವರ್ಷ,n,,sg,3,d,0,0' name='ವರ್ಷ'>
+	))
+6	((	NP	<fs name='NP5' drel='k1s:NULL__VGF'>
+6.1	ಹಳೆಯದು	N__NN	<fs af='ಹಳೆಯದು,n,,,,,0,0' name='ಹಳೆಯದು'>
+	))
+7	((	NULL__VGF	<fs af=',,,,,,,' name='NULL__VGF' voicetype='active' stype='declarative'>
+7.1	NULL	V__VM__VF	<fs af=',,,,,,,' name='NULL' voicetype='active' stype='declarative'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym_eos:NULL__VGF'>
+8.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='970'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ಇಸ್ಮ	N__NNP	<fs af='ಇಸ್ಮ,n,,sg,3,d,0,0' name='ಇಸ್ಮ'>
+1.2	(	RD__SYM	<fs af='(,punc,,,,,,' name='('>
+1.3	SYMISMA	N__NNP	<fs af='SYMISMA,n,,,,,0,0' name='SYMISMA'>
+1.4	)	RD__SYM	<fs af='),punc,,,,,,' name=')'>
+1.5	ವಿನ	PSP	<fs af='ವಿನ,psp,,,,,,' name='ವಿನ'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k1:NULL__VGF'>
+2.1	ಇತರ	RP__RPD	<fs af='ಇತರ,avy,,,,d,0,0' name='ಇತರ'>
+2.2	ವಿಶೇಷತೆಗಳು	N__NN	<fs af='ವಿಶೇಷತೆ,n,,sg,3,d,ಗಳು,galYu' name='ವಿಶೇಷತೆಗಳು'>
+	))
+3	((	NP	<fs name='NP3' drel='r6:NP4'>
+3.1	ಧ್ಯಾನದ	N__NN	<fs af='ಧ್ಯಾನ,n,,sg,3,o,ಅದ್+ಅ,ax+a' name='ಧ್ಯಾನದ'>
+	))
+4	((	NP	<fs name='NP4' drel='ccof:CCP'>
+4.1	ಕೋಣೆ	N__NN	<fs af='ಕೋಣೆ,n,,sg,3,d,0,0' name='ಕೋಣೆ'>
+	))
+5	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k1s:NULL__VGF'>
+5.1	ಮತ್ತು	CC__CCD	<fs af='ಮತ್ತು,avy,,,,d,0,0' name='ಮತ್ತು'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP5' drel='r6:NP6'>
+6.1	ಔಷಧೀಯ	N__NN	<fs af='ಔಷಧೀಯ,n,,sg,3,d,0,0' name='ಔಷಧೀಯ'>
+	))
+7	((	NP	<fs name='NP6' drel='r6:NP7'>
+7.1	ಗಿಡಮೂಲಿಕೆಗಳ	N__NN	<fs af='ಗಿಡಮೂಲಿಕೆ,n,,pl,3,o,ಗಳು+ಅ,galYu+a' name='ಗಿಡಮೂಲಿಕೆಗಳ'>
+	))
+8	((	NP	<fs name='NP7' drel='ccof:CCP'>
+8.1	ರೂಫ್	N__NN	<fs af='ರೂಫ್,n,,,,,0,0' name='ರೂಫ್'>
+8.2	ಗಾರ್ಡನ್	N__NN	<fs af='ಗಾರ್ಡನ್,n,,sg,3,d,0,0' name='ಗಾರ್ಡನ್'>
+	))
+9	((	NULL__VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='NULL__VGF'>
+9.1	NULL	V__VM__VF	<fs af=',,,,,,,' name='NULL' troot='' mtype='non-gap'>
+	))
+10	((	BLK	<fs name='BLK' drel='rsym_eos:NULL__VGF'>
+10.1	.	RD__PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+</document>
