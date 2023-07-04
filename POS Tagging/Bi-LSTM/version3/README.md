@@ -6,5 +6,6 @@ git clone https://github.com/EnergeticQuanta17/Kannada-NLP.git
 cd Kannada-NLP/
 pip install -r requirements.txt
 
-python -m streamlit run '.\POS Tagging\Bi-LSTM\version3\app.py' 
+cd '.\POS Tagging\Bi-LSTM\version3'
+python -m streamlit run app.py
 ```
