@@ -120,7 +120,7 @@ embedding_layer = Embedding(len(word2int)+1,
                             EMBEDDING_DIM,
                             weights=[embedding_matrix],
                             input_length=MAX_SEQUENCE_LENGTH,
-                            trainable=True)
+                            trainable=False)
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 embedded_sequences = embedding_layer(sequence_input)
 
@@ -194,7 +194,7 @@ if not os.path.exists('Models/'):
 train = True
 
 if train:
-    model.save('Models/model.h5')
+    model.save('Models/model_embeddings_trainable_false.h5')
     print('MODEL SAVED in Models/ as model.h5')
 else:
     from keras.models import load_model
