@@ -1,18 +1,20 @@
 import concurrent.futures
-import time
 
 def process_line(line):
-    pass
+    
+    return line
 
 def main():
-    with open('kn_10k.txt', 'r') as f:
+    with open('myfile.txt', 'r') as f:
         lines = f.readlines()
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
         for line in lines:
-            executor.submit(process_line, line)
+            futures.append(executor.submit(process_line, line))
+
+    for future in futures:
+        print(future.result())
 
 if __name__ == '__main__':
-    start = time.perf_counter()
     main()
-    print("Done", time.perf_counter() - start)
