@@ -1,8 +1,10 @@
+
+import random
 import os
 import streamlit as st
 from predict_app import tagger
 
-st.set_page_config(page_title="HMM Viterbi PoS-Tagging", layout="centered")
+st.set_page_config(page_title="Bi-LSTM PoS-Tagging", layout="centered")
 
 
 @st.cache_resource
@@ -11,26 +13,11 @@ def get_pretty_resource():
     TPL_ENTS = '<div class="entities" style="line-height: 2.5; direction: ltr">{}</div>'
     WRAPPER = '<div style="overflow-x: auto; border: 1px solid #e6e9ef; border-radius: 0.25rem; padding: 1rem; margin-bottom: 2.5rem">{}</div>'
     style = "<style>mark.entity { display: inline-block }</style>"
-    colors = [
-        "#7aecec",
-        "#bfeeb7",
-        "#feca74",
-        "#ff9561",
-        "#aa9cfc",
-        "#c887fb",
-        "#9cc9cc",
-        "#ffeb80",
-        "#ff8197",
-        "#ff8197",
-        "#f0d0ff",
-        "#bfe1d9",
-        "#bfe1d9",
-        "#e4e7d2",
-        "#e4e7d2",
-        "#e4e7d2",
-        "#e4e7d2",
-        "#e4e7d2",
-    ]
+
+    unique_colors = set()
+    while len(unique_colors) < 80:
+        unique_colors.add("#%06x" % random.randint(0, 0xFFFFFF))
+    colors =  list(unique_colors)
 
     return {
         "TPL_ENT": TPL_ENT,
@@ -42,8 +29,6 @@ def get_pretty_resource():
 
 
 def prettify(tagged_text: list[tuple[str, str]], tagset):
-    """Convert HTML so it can be rendered."""
-
     pretty_resource = get_pretty_resource()
 
     html = ""
@@ -54,8 +39,6 @@ def prettify(tagged_text: list[tuple[str, str]], tagset):
         html += pretty_resource["TPL_ENT"].format(text=text, tag=tag, bg=color)
 
     html = pretty_resource["TPL_ENTS"].format(html)
-
-    # Newlines seem to mess with the rendering
     html = html.replace("\n", " ")
 
     return f'{pretty_resource["style"]}{pretty_resource["WRAPPER"].format(html)}'
@@ -72,7 +55,7 @@ def main():
 
     if clicked and len(text.strip()) > 0:
         text, Y_hat, tagset = tagger('input.txt')
-        print(text, Y_hat, tagset)
+        # print(text, Y_hat, tagset)
         st.write(prettify(zip(text, Y_hat), tagset), unsafe_allow_html=True)
 
     st.markdown("---")
