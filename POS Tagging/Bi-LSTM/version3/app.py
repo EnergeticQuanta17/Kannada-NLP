@@ -60,24 +60,6 @@ def prettify(tagged_text: list[tuple[str, str]], tagset):
 
     return f'{pretty_resource["style"]}{pretty_resource["WRAPPER"].format(html)}'
 
-
-@st.cache_resource
-def get_cached_matrices(language):
-    if language == "Portuguese":
-        train_filepath = os.path.join("data", "macmorpho", "macmorpho-train.txt")
-    elif language == "English":
-        train_filepath = os.path.join("data", "WSJ", "WSJ_02-21.txt")
-    else:
-        raise ValueError("Language not defined.")
-
-    dataset = load_dataset(train_filepath)
-    transition_matrix, emission_matrix, tagset, vocab_idx, lower_vocab = get_matrices(
-        dataset
-    )
-
-    return transition_matrix, emission_matrix, tagset, vocab_idx, lower_vocab
-
-
 def main():
     st.title("Bi-LSTM POS Tagging")
 
