@@ -1,0 +1,14 @@
+model.h5
+    Epochs = 10
+    Embeddings Trainable = True
+    MSL = 30
+    Split = 0.8, 0.1, 0.1
+    LSTM = 64
+
+model_embeddings_trainable_false.h5
+    Epochs = 10
+    Embeddings Trainable = False
+    MSL = 30
+    Split = 0.8, 0.1, 0.1
+    LSTM = 64
+
