@@ -16,6 +16,7 @@
 6. Confusion matrix
 
 7. How to connect to tensorboard
+    Use WeightsAndBias Website
 
 8. Check how much vanishing gradients happen for long seequences of sentences compared to shorter seqeuence of sentences.
     Check how low the gradients are for long sequence inputs
@@ -28,6 +29,7 @@
 
 10. Drop all sentences with length more than 35 ig 
     See percentage and decide
+    See the 90% cutoff
 
 11. Some bigger task model must have a hidden sandhi splitter inside it
     Or else how is that high accuracy model achieving high accuracy
@@ -40,7 +42,38 @@
 
 15. How well does it do for broader categories of POS?
 
-16. 
+16. For multiple runs see where it tags wrongly for different sets of test sets
+
+17. Compare this dataset with IIIT-H dataset
+
+18. A way to use the other infomration in the annotated dataset
+
+19. Teacher Forcing
+
+20. Check how the words are being interpreted by the network in the initial stage
+
+21. Calculate F1 score for each label separately
+
+22. Find common error patterns
+
+23. Do n-Fold split and collect data for particular folds
+
+24. Find an encoder for Kananda specifically
+    Eg. seq2seq
+
+25. trainable=False
+
+26. 
+
+27. 
+
+28. 
+
+29. 
+
+30. 
+
+
 
 
 *** Check how to print correct validation and test accuracy
